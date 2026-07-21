@@ -56,7 +56,7 @@ The judging deployment must remain unaffected by later work in
 - The judging hostname returns `200` over HTTPS and is marked `noindex`.
 - Home, Community, Create, About, and representative story routes load from the
   frozen `dist/client` path.
-- `/api/v2/health` and required creation endpoints are served by port `4309`.
+- `/health` and required creation endpoints are served by port `4309`.
 - The frozen service remains healthy after the active Story Scrolls service is
   restarted.
 - Rebuilding or modifying `storyscrolls-next` does not change hashes in the
