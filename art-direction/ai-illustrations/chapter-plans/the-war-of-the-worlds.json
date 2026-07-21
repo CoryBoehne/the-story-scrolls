@@ -1,0 +1,1488 @@
+{
+  "schemaVersion": 1,
+  "storySlug": "the-war-of-the-worlds",
+  "title": "The War of the Worlds",
+  "author": "H. G. Wells",
+  "generation": {
+    "provider": "OpenAI",
+    "model": "gpt-image-2",
+    "quality": "low",
+    "format": "webp"
+  },
+  "artDirection": {
+    "style": "Expressionist stone lithograph with scraped ink and oxidized color; smoke black, toxic copper, alarm red and ashen beige; canted horizons and colossal geometric tripods.",
+    "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+    "referenceStatus": "planned"
+  },
+  "quota": {
+    "unit": "inline-illustrations-per-chapter",
+    "formula": "min(4, max(1, ceil(narrativeWords / 3000), ceil(textBlocks / 100)))",
+    "narrativeBlockTypes": [
+      "paragraph",
+      "verse"
+    ],
+    "heroesAreAdditionalToInlineQuota": true
+  },
+  "referenceJob": {
+    "id": "the-war-of-the-worlds-reference-sheet",
+    "role": "reference-sheet",
+    "operation": "image-edit",
+    "width": 816,
+    "height": 816,
+    "sourceImage": "output/imagegen/singles/the-war-of-the-worlds/scene.webp",
+    "output": "output/imagegen/references/the-war-of-the-worlds.webp",
+    "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/the-war-of-the-worlds-reference-sheet.txt",
+    "promptSha256": "b4ebe5d50eb69b767be5e65d8c2fba636772019eace2bb6ac97201f746c54d5a"
+  },
+  "summary": {
+    "chapters": 27,
+    "desiredInline": 34,
+    "retainedInline": 1,
+    "plannedInline": 33,
+    "plannedHeroes": 27
+  },
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "number": 1,
+      "title": "THE EVE OF THE WAR.",
+      "metrics": {
+        "narrativeWords": 2225,
+        "textBlocks": 20,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-001-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.129888,
+        "minimumInlineSeparation": 0.392809,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "70851b3386b37ed2dec9b779532f9e6cee004798963cfb93b0bd9f216a46ffe1",
+        "passageExcerpt": "…n Mars, perhaps inferior to themselves and ready to welcome a missionary enterprise. Yet across the gulf of space, minds that are to our minds as ours are to those of the beasts that perish, intellects vast and cool and unsympathetic, regarded this earth with envious eyes, and slowly and surely drew their plans against us. And early in the twentieth century came the great disillusionment. The planet Mars, I scarcely need remind the reader, revolves about the sun at a mean distance of 140,000,000 miles, and the light and heat it receives from the sun is barely half of that received by this world. It must be, if the nebular hypothesis has any truth, older than our world; and long before this earth ceased to be molten, life upon its surface must have begun its course. The fact that it is scarcely one seventh of the volume of the earth must have accelerated its cooling to the temperature at which life could begin. It has air and water and all that is necessary for the support of animated existence. Yet so vain is man, and so blinded by his vanity, that no writer, up to the very end of the nineteenth century, expressed any idea that intelligent life might have developed there far, or indeed at all, beyond its earthly level. Nor was it generally understood that since Mars is older than our earth, with scarcely a quarter of the superficial area and remoter from the sun, it necessarily…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-001-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-001-hero.txt",
+        "promptSha256": "cac979273ad2fae6d14c0c48a6cbef67d6ee8bf5f0ce09d919b3e4e53c3585a1"
+      },
+      "inline": [
+        {
+          "id": "chapter-001-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 9,
+          "anchorSha256": "cea813defdd0760ce59fcf19aa1f0a8a6f263d983d38ec5fe045488c0308cbf9",
+          "align": "right",
+          "passageExcerpt": "…of incandescent gas upon the planet. It had occurred towards midnight of the twelfth; and the spectroscope, to which he had at once resorted, indicated a mass of flaming gas, chiefly hydrogen, moving with an enormous velocity towards this earth. This jet of fire had become invisible about a quarter past twelve. He compared it to a colossal puff of flame suddenly and violently squirted out of the planet, “as flaming gases rushed out of a gun.” A singularly appropriate phrase it proved. Yet the next day there was nothing of this in the papers except a little note in the Daily Telegraph , and the world went in ignorance of one of the gravest dangers that ever threatened the human race. I might not have heard of the eruption at all had I not met Ogilvy, the well-known astronomer, at Ottershaw. He was immensely excited at the news, and in the excess of his feelings invited me up to take a turn with him that night in a scrutiny of the red planet. In spite of all that has happened since, I still remember that vigil very distinctly: the black and silent observatory, the shadowed lantern throwing a feeble glow upon the floor in the corner, the steady ticking of the clockwork of the telescope, the little slit in the roof—an oblong profundity with the stardust streaked across it. Ogilvy moved about, invisible but audible. Looking through the telescope, one saw a circle of deep blue and th…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-001-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-001-inline-01.txt",
+          "promptSha256": "4fa4c27076656242ebd79b68fab43d8c8cab4cc5d46dd738ce2d93e6e7ee46bd"
+        }
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "number": 2,
+      "title": "THE FALLING STAR.",
+      "metrics": {
+        "narrativeWords": 1336,
+        "textBlocks": 22,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-002-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.11976,
+        "minimumInlineSeparation": 0.361901,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "133d7a5fad49ad821f2ae34a666afc0cca27467f759bf0f2bc80560d972f0a64",
+        "passageExcerpt": "…t have seen it, and taken it for an ordinary falling star. Albin described it as leaving a greenish streak behind it that glowed for some seconds. Denning, our greatest authority on meteorites, stated that the height of its first appearance was about ninety or one hundred miles. It seemed to him that it fell to earth about one hundred miles east of him. I was at home at that hour and writing in my study; and although my French windows face towards Ottershaw and the blind was up (for I loved in those days to look up at the night sky), I saw nothing of it. Yet this strangest of all things that ever came to earth from outer space must have fallen while I was sitting there, visible to me had I only looked up as it passed. Some of those who saw its flight say it travelled with a hissing sound. I myself heard nothing of that. Many people in Berkshire, Surrey, and Middlesex must have seen the fall of it, and, at most, have thought that another meteorite had descended. No one seems to have troubled to look for the fallen mass that night. But very early in the morning poor Ogilvy, who had seen the shooting star and who was persuaded that a meteorite lay somewhere on the common between Horsell, Ottershaw, and Woking, rose early with the idea of finding it. Find it he did, soon after dawn, and not far from the sand-pits. An enormous hole had been made by the impact of the projectile, and…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-002-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-002-hero.txt",
+        "promptSha256": "9e7d48b61f6d8de1088dc6c0aeaca68822f6f5573be7c448da9f3ec19ecebc75"
+      },
+      "inline": [
+        {
+          "id": "chapter-002-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 6,
+          "anchorSha256": "8a81bb5db858b60e02c9d971c1da19d3c50434b00931d8df731420d94e643abf",
+          "align": "right",
+          "passageExcerpt": "Then suddenly he noticed with a start that some of the grey clinker, the ashy incrustation that covered the meteorite, was falling off the circular edge of the end. It was dropping off in flakes and raining down upon the sand. A large piece suddenly came off and fell with a sharp noise that brought his heart into his mouth. For a minute he scarcely realised what this meant, and, although the heat was excessive, he clambered down into the pit close to the bulk to see the Thing more clearly. He fancied even then that the cooling of the body might account for this, but what disturbed that idea was the fact that the ash was falling only from the end of the cylinder. And then he perceived that, very slowly, the circular top of the cylinder was rotating on its body. It was such a gradual movement that he discovered it only through noticing that a black mark that had been near him five minutes ago was now at the other side of the circumference. Even then he scarcely understood what this indicated, until he heard a muffled grating sound and saw the black mark jerk forward an inch or so. Then the thing came upon him in a flash. The cylinder was artificial—hollow—with an end that screwed out! Something within the cylinder was unscrewing the top!",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-002-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-002-inline-01.txt",
+          "promptSha256": "05706a4e412f58e387b833788f3f189b7a422c94233467d2d509aac088033d69"
+        }
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "number": 3,
+      "title": "ON HORSELL COMMON.",
+      "metrics": {
+        "narrativeWords": 1011,
+        "textBlocks": 15,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-003-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.108803,
+        "minimumInlineSeparation": 0.40999,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "6f20d1f18d001111a651f90dc7b42fab6e6308811a5a3db387030d02537fbef9",
+        "passageExcerpt": "I found a little crowd of perhaps twenty people surrounding the huge hole in which the cylinder lay. I have already described the appearance of that colossal bulk, embedded in the ground. The turf and gravel about it seemed charred as if by a sudden explosion. No doubt its impact had caused a flash of fire. Henderson and Ogilvy were not there. I think they perceived that nothing was to be done for the present, and had gone away to breakfast at Henderson’s house. There were four or five boys sitting on the edge of the Pit, with their feet dangling, and amusing themselves—until I stopped them—by throwing stones at the giant mass. After I had spoken to them about it, they began playing at “touch” in and out of the group of bystanders. Among these were a couple of cyclists, a jobbing gardener I employed sometimes, a girl carrying a baby, Gregg the butcher and his little boy, and two or three loafers and golf caddies who were accustomed to hang about the railway station. There was very little talking. Few of the common people in England had anything but the vaguest astronomical ideas in those days. Most of them were staring quietly at the big table like end of the cylinder, which was still as Ogilvy and Henderson had left it. I fancy the popular expectation of a heap of charred corpses was disappointed at this inanimate bulk. Some went away while I was there, and other people came.…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-003-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-003-hero.txt",
+        "promptSha256": "fd0f9f8e6f9a6533fc0a2d9d87717e9a035631ad26c1509dd5cf285b12460bbf"
+      },
+      "inline": [
+        {
+          "id": "chapter-003-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 5,
+          "anchorSha256": "ae898e6351284c1e96472a34f1222eb98a97c616fd5f8f5c4705977297ca744f",
+          "align": "right",
+          "passageExcerpt": "At that time it was quite clear in my own mind that the Thing had come from the planet Mars, but I judged it improbable that it contained any living creature. I thought the unscrewing might be automatic. In spite of Ogilvy, I still believed that there were men in Mars. My mind ran fancifully on the possibilities of its containing manuscript, on the difficulties in translation that might arise, whether we should find coins and models in it, and so forth. Yet it was a little too large for assurance on this idea. I felt an impatience to see it opened. About eleven, as nothing seemed happening, I walked back, full of such thought, to my home in Maybury. But I found it difficult to get to work upon my abstract investigations. In the afternoon the appearance of the common had altered very much. The early editions of the evening papers had startled London with enormous headlines: “A MESSAGE RECEIVED FROM MARS.”",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-003-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-003-inline-01.txt",
+          "promptSha256": "f468af579ebadda5efff83f7e41ec86ce907a3f6dd7d35902661c4044448fcb3"
+        }
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "number": 4,
+      "title": "THE CYLINDER OPENS.",
+      "metrics": {
+        "narrativeWords": 1116,
+        "textBlocks": 20,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-004-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.091398,
+        "minimumInlineSeparation": 0.400986,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "a5ead86061c4c4a87383ae0724fd83f153dc6261eb302d9dbce7686050152d18",
+        "passageExcerpt": "A boy came running towards me. “It’s a-movin’,” he said to me as he passed; “a-screwin’ and a-screwin’ out. I don’t like it. I’m a-goin’ ’ome, I am.” I went on to the crowd. There were really, I should think, two or three hundred people elbowing and jostling one another, the one or two ladies there being by no means the least active.",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-004-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-004-hero.txt",
+        "promptSha256": "5d1534ce7b44d386338e51b2133c7df0281c89d0ba6aa5f03703640a6b1c879b"
+      },
+      "inline": [
+        {
+          "id": "chapter-004-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 14,
+          "anchorSha256": "6da1caab49a1ddcace94672cc0413a7248f1a58bef8287e3f03a09ff77b5428d",
+          "align": "right",
+          "passageExcerpt": "A sudden chill came over me. There was a loud shriek from a woman behind. I half turned, keeping my eyes fixed upon the cylinder still, from which other tentacles were now projecting, and began pushing my way back from the edge of the pit. I saw astonishment giving place to horror on the faces of the people about me. I heard inarticulate exclamations on all sides. There was a general movement backwards. I saw the shopman struggling still on the edge of the pit. I found myself alone, and saw the people on the other side of the pit running off, Stent among them. I looked again at the cylinder, and ungovernable terror gripped me. I stood petrified and staring. A big greyish rounded bulk, the size, perhaps, of a bear, was rising slowly and painfully out of the cylinder. As it bulged up and caught the light, it glistened like wet leather. Two large dark-coloured eyes were regarding me steadfastly. The mass that framed them, the head of the thing, was rounded, and had, one might say, a face. There was a mouth under the eyes, the lipless brim of which quivered and panted, and dropped saliva. The whole creature heaved and pulsated convulsively. A lank tentacular appendage gripped the edge of the cylinder, another swayed in the air.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-004-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-004-inline-01.txt",
+          "promptSha256": "567e29d6f25e4b4e9a3e3d0d290ed00e3bc4929d57fab6025b8ddb1e4877da82"
+        }
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "number": 5,
+      "title": "THE HEAT-RAY.",
+      "metrics": {
+        "narrativeWords": 1479,
+        "textBlocks": 24,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-005-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.12407,
+        "minimumInlineSeparation": 0.352265,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "7643d42ad5dc5c390eea7ef9852a3746da59bd94a153f15471b8e6cb9e6dd938",
+        "passageExcerpt": "I did not dare to go back towards the pit, but I felt a passionate longing to peer into it. I began walking, therefore, in a big curve, seeking some point of vantage and continually looking at the sand-heaps that hid these new-comers to our earth. Once a leash of thin black whips, like the arms of an octopus, flashed across the sunset and was immediately withdrawn, and afterwards a thin rod rose up, joint by joint, bearing at its apex a circular disk that spun with a wobbling motion. What could be going on there? Most of the spectators had gathered in one or two groups—one a little crowd towards Woking, the other a knot of people in the direction of Chobham. Evidently they shared my mental conflict. There were few near me. One man I approached—he was, I perceived, a neighbour of mine, though I did not know his name—and accosted. But it was scarcely a time for articulate conversation. “What ugly brutes !” he said. “Good God! What ugly brutes!” He repeated this over and over again.",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-005-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-005-hero.txt",
+        "promptSha256": "0a80b840bff7c0703d393b9fe6fcefd15f7d03ed7f03ec41d2af87742f28e900"
+      },
+      "inline": [
+        {
+          "id": "chapter-005-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 11,
+          "anchorSha256": "e0d28abf9d7867f5f08d471dae3401becdda4ee8cd7653b45b44e9823905d83e",
+          "align": "right",
+          "passageExcerpt": "Suddenly there was a flash of light, and a quantity of luminous greenish smoke came out of the pit in three distinct puffs, which drove up, one after the other, straight into the still air. This smoke (or flame, perhaps, would be the better word for it) was so bright that the deep blue sky overhead and the hazy stretches of brown common towards Chertsey, set with black pine trees, seemed to darken abruptly as these puffs arose, and to remain the darker after their dispersal. At the same time a faint hissing sound became audible. Beyond the pit stood the little wedge of people with the white flag at its apex, arrested by these phenomena, a little knot of small vertical black shapes upon the black ground. As the green smoke arose, their faces flashed out pallid green, and faded again as it vanished. Then slowly the hissing passed into a humming, into a long, loud, droning noise. Slowly a humped shape rose out of the pit, and the ghost of a beam of light seemed to flicker out from it.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-005-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-005-inline-01.txt",
+          "promptSha256": "4e5a7a5e97ace15963d1c517db696053236bffa06729046d7b0991c6b5f82757"
+        }
+      ]
+    },
+    {
+      "id": "chapter-006",
+      "number": 6,
+      "title": "THE HEAT-RAY IN THE CHOBHAM ROAD.",
+      "metrics": {
+        "narrativeWords": 828,
+        "textBlocks": 10,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-006-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.085749,
+        "minimumInlineSeparation": 0.40942,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "bee27962ca991289b0d99b11cb58647bf8cf4cd2ef5046dd3727136c8d942fc4",
+        "passageExcerpt": "It is still a matter of wonder how the Martians are able to slay men so swiftly and so silently. Many think that in some way they are able to generate an intense heat in a chamber of practically absolute non-conductivity. This intense heat they project in a parallel beam against any object they choose, by means of a polished parabolic mirror of unknown composition, much as the parabolic mirror of a lighthouse projects a beam of light. But no one has absolutely proved these details. However it is done, it is certain that a beam of heat is the essence of the matter. Heat, and invisible, instead of visible, light. Whatever is combustible flashes into flame at its touch, lead runs like water, it softens iron, cracks and melts glass, and when it falls upon water, incontinently that explodes into steam. That night nearly forty people lay under the starlight about the pit, charred and distorted beyond recognition, and all night long the common from Horsell to Maybury was deserted and brightly ablaze.",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-006-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-006-hero.txt",
+        "promptSha256": "a9755e50bbc34bc1ba41be56f7ade5f512191ed4064a99a35ad03b77b5c838ae"
+      },
+      "inline": [
+        {
+          "id": "chapter-006-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 5,
+          "anchorSha256": "4128053cbb77fd3b7d685b8253037948aba91d91c1a0509f9f9ca2817bd03ba7",
+          "align": "right",
+          "passageExcerpt": "As these folks came out by twos and threes upon the open, they found little knots of people talking excitedly and peering at the spinning mirror over the sand-pits, and the newcomers were, no doubt, soon infected by the excitement of the occasion. By half past eight, when the Deputation was destroyed, there may have been a crowd of three hundred people or more at this place, besides those who had left the road to approach the Martians nearer. There were three policemen too, one of whom was mounted, doing their best, under instructions from Stent, to keep the people back and deter them from approaching the cylinder. There was some booing from those more thoughtless and excitable souls to whom a crowd is always an occasion for noise and horse-play. Stent and Ogilvy, anticipating some possibilities of a collision, had telegraphed from Horsell to the barracks as soon as the Martians emerged, for the help of a company of soldiers to protect these strange creatures from violence. After that they returned to lead that ill-fated advance. The description of their death, as it was seen by the crowd, tallies very closely with my own impressions: the three puffs of green smoke, the deep humming note, and the flashes of flame.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-006-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-006-inline-01.txt",
+          "promptSha256": "1bc35646cac2d6773987638849e27afa526c72af5e084971ede6989dea193fe9"
+        }
+      ]
+    },
+    {
+      "id": "chapter-007",
+      "number": 7,
+      "title": "HOW I REACHED HOME.",
+      "metrics": {
+        "narrativeWords": 1315,
+        "textBlocks": 34,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-007-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.090114,
+        "minimumInlineSeparation": 0.408365,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "a27feca5e22cc5a15d26d0552d2a3e3f167b9fd0660d05a4534c7b30e0386a7e",
+        "passageExcerpt": "At last I could go no further; I was exhausted with the violence of my emotion and of my flight, and I staggered and fell by the wayside. That was near the bridge that crosses the canal by the gasworks. I fell and lay still. I must have remained there some time. I sat up, strangely perplexed. For a moment, perhaps, I could not clearly understand how I came there. My terror had fallen from me like a garment. My hat had gone, and my collar had burst away from its fastener. A few minutes before, there had only been three real things before me—the immensity of the night and space and nature, my own feebleness and anguish, and the near approach of death. Now it was as if something turned over, and the point of view altered abruptly. There was no sensible transition from one state of mind to the other. I was immediately the self of every day again—a decent, ordinary citizen. The silent common, the impulse of my flight, the starting flames, were as if they had been in a dream. I asked myself had these latter things indeed happened? I could not credit it.",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-007-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-007-hero.txt",
+        "promptSha256": "077bbda547361e94f058aa3627248654f158ea4bace500c7cfd32593f0a2c383"
+      },
+      "inline": [
+        {
+          "id": "chapter-007-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 16,
+          "anchorSha256": "0d67f383ccbad0771960dfea92132edea353c84e66f5925d8f041e0ae50c7c24",
+          "align": "right",
+          "passageExcerpt": "“Quite enough,” said the woman over the gate. “Thenks;” and all three of them laughed. I felt foolish and angry. I tried and found I could not tell them what I had seen. They laughed again at my broken sentences. “You’ll hear more yet,” I said, and went on to my home.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-007-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-007-inline-01.txt",
+          "promptSha256": "51dfcf71e7c18d7639f2efb2bd0aea1bcdf3a49e5d975cea2366df233668db71"
+        }
+      ]
+    },
+    {
+      "id": "chapter-008",
+      "number": 8,
+      "title": "FRIDAY NIGHT.",
+      "metrics": {
+        "narrativeWords": 971,
+        "textBlocks": 10,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-008-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.076725,
+        "minimumInlineSeparation": 0.378476,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "0a162e8c382caced9b0d2585d815ae7f56e397b5c5e9dbf4edade23fd1d92910",
+        "passageExcerpt": "The most extraordinary thing to my mind, of all the strange and wonderful things that happened upon that Friday, was the dovetailing of the commonplace habits of our social order with the first beginnings of the series of events that was to topple that social order headlong. If on Friday night you had taken a pair of compasses and drawn a circle with a radius of five miles round the Woking sand-pits, I doubt if you would have had one human being outside it, unless it were some relation of Stent or of the three or four cyclists or London people lying dead on the common, whose emotions or habits were at all affected by the new-comers. Many people had heard of the cylinder, of course, and talked about it in their leisure, but it certainly did not make the sensation that an ultimatum to Germany would have done. In London that night poor Henderson’s telegram describing the gradual unscrewing of the shot was judged to be a canard, and his evening paper, after wiring for authentication from him and receiving no reply—the man was killed—decided not to print a special edition.",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-008-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-008-hero.txt",
+        "promptSha256": "b6ba59160e896e25e02c657e2685feca53286cfd57655e96c24dd2053a3061e4"
+      },
+      "inline": [
+        {
+          "id": "chapter-008-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 4,
+          "anchorSha256": "59ca0d521f0e72b77d6b044c926b62618c21877badb1cced6c2835f437e800b8",
+          "align": "right",
+          "passageExcerpt": "…for countless years—as though no planet Mars existed in the sky. Even at Woking station and Horsell and Chobham that was the case. In Woking junction, until a late hour, trains were stopping and going on, others were shunting on the sidings, passengers were alighting and waiting, and everything was proceeding in the most ordinary way. A boy from the town, trenching on Smith’s monopoly, was selling papers with the afternoon’s news. The ringing impact of trucks, the sharp whistle of the engines from the junction, mingled with their shouts of “Men from Mars!” Excited men came into the station about nine o’clock with incredible tidings, and caused no more disturbance than drunkards might have done. People rattling Londonwards peered into the darkness outside the carriage windows, and saw only a rare, flickering, vanishing spark dance up from the direction of Horsell, a red glow and a thin veil of smoke driving across the stars, and thought that nothing more serious than a heath fire was happening. It was only round the edge of the common that any disturbance was perceptible. There were half a dozen villas burning on the Woking border. There were lights in all the houses on the common side of the three villages, and the people there kept awake till dawn. A curious crowd lingered restlessly, people coming and going but the crowd remaining, both on the Chobham and Horsell bridges. One…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-008-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-008-inline-01.txt",
+          "promptSha256": "4d804c4f8b942b2cf4fec7257e68de6be18d68761ebaa627c1b8c6656e993629"
+        }
+      ]
+    },
+    {
+      "id": "chapter-009",
+      "number": 9,
+      "title": "THE FIGHTING BEGINS.",
+      "metrics": {
+        "narrativeWords": 2121,
+        "textBlocks": 43,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-009-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 5,
+        "sourceFraction": 0.107732,
+        "minimumInlineSeparation": 0.405233,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "8270b282397800eb7462d24031adf81feebe96ccbb127a486c619830a084ce36",
+        "passageExcerpt": "“It’s a pity they make themselves so unapproachable,” he said. “It would be curious to know how they live on another planet; we might learn a thing or two.” He came up to the fence and extended a handful of strawberries, for his gardening was as generous as it was enthusiastic. At the same time he told me of the burning of the pine woods about the Byfleet Golf Links. “They say,” said he, “that there’s another of those blessed things fallen there—number two. But one’s enough, surely. This lot’ll cost the insurance people a pretty penny before everything’s settled.” He laughed with an air of the greatest good humour as he said this. The woods, he said, were still burning, and pointed out a haze of smoke to me. “They will be hot under foot for days, on account of the thick soil of pine needles and turf,” he said, and then grew serious over “poor Ogilvy.”",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-009-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-009-hero.txt",
+        "promptSha256": "862bab825e721f7e4c96bdcc6876147087abd86554705d965a109cc3e8bf3cea"
+      },
+      "inline": [
+        {
+          "id": "chapter-009-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 21,
+          "anchorSha256": "af57758cf5b2e4af334d3b5f31e9123fe42be9c158e141a90759172017a82e4b",
+          "align": "right",
+          "passageExcerpt": "I must confess the sight of all this armament, all this preparation, greatly excited me. My imagination became belligerent, and defeated the invaders in a dozen striking ways; something of my schoolboy dreams of battle and heroism came back. It hardly seemed a fair fight to me at that time. They seemed very helpless in that pit of theirs. About three o’clock there began the thud of a gun at measured intervals from Chertsey or Addlestone. I learned that the smouldering pine wood into which the second cylinder had fallen was being shelled, in the hope of destroying that object before it opened. It was only about five, however, that a field gun reached Chobham for use against the first body of Martians. About six in the evening, as I sat at tea with my wife in the summerhouse talking vigorously about the battle that was lowering upon us, I heard a muffled detonation from the common, and immediately after a gust of firing. Close on the heels of that came a violent rattling crash, quite close to us, that shook the ground; and, starting out upon the lawn, I saw the tops of the trees about the Oriental College burst into smoky red flame, and the tower of the little church beside it slide down into ruin. The pinnacle of the mosque had vanished, and the roof line of the college itself looked as if a hundred-ton gun had been at work upon it. One of our chimneys cracked as if a shot had h…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-009-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-009-inline-01.txt",
+          "promptSha256": "7488b0c6e1d05f0edd09c2ac0dcf1b36005d513d55f017958cceadf92c6bafc2"
+        }
+      ]
+    },
+    {
+      "id": "chapter-010",
+      "number": 10,
+      "title": "IN THE STORM.",
+      "metrics": {
+        "narrativeWords": 2252,
+        "textBlocks": 29,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-010-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.099689,
+        "minimumInlineSeparation": 0.405417,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "82ad7e495d232322601d320ef93ffcd7fb66b4f747970d51568c5c0206dee370",
+        "passageExcerpt": "…wife was curiously silent throughout the drive, and seemed oppressed with forebodings of evil. I talked to her reassuringly, pointing out that the Martians were tied to the pit by sheer heaviness, and at the utmost could but crawl a little out of it; but she answered only in monosyllables. Had it not been for my promise to the innkeeper, she would, I think, have urged me to stay in Leatherhead that night. Would that I had! Her face, I remember, was very white as we parted. For my own part, I had been feverishly excited all day. Something very like the war fever that occasionally runs through a civilised community had got into my blood, and in my heart I was not so very sorry that I had to return to Maybury that night. I was even afraid that that last fusillade I had heard might mean the extermination of our invaders from Mars. I can best express my state of mind by saying that I wanted to be in at the death. It was nearly eleven when I started to return. The night was unexpectedly dark; to me, walking out of the lighted passage of my cousins’ house, it seemed indeed black, and it was as hot and close as the day. Overhead the clouds were driving fast, albeit not a breath stirred the shrubs about us. My cousins’ man lit both lamps. Happily, I knew the road intimately. My wife stood in the light of the doorway, and watched me until I jumped up into the dog cart. Then abruptly she…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-010-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-010-hero.txt",
+        "promptSha256": "09c12be0f8e3fc6473a5d0e216a7282ad58818f60fd5b59d28270a2967c42621"
+      },
+      "inline": [
+        {
+          "id": "chapter-010-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 12,
+          "anchorSha256": "e9180e13aad1d74d1bc6f807264ae63896f0a1c5ebf0858146097ae6043ade77",
+          "align": "right",
+          "passageExcerpt": "…riot of the thunder. A flash, and it came out vividly, heeling over one way with two feet in the air, to vanish and reappear almost instantly as it seemed, with the next flash, a hundred yards nearer. Can you imagine a milking stool tilted and bowled violently along the ground? That was the impression those instant flashes gave. But instead of a milking stool imagine it a great body of machinery on a tripod stand. Then suddenly the trees in the pine wood ahead of me were parted, as brittle reeds are parted by a man thrusting through them; they were snapped off and driven headlong, and a second huge tripod appeared, rushing, as it seemed, headlong towards me. And I was galloping hard to meet it! At the sight of the second monster my nerve went altogether. Not stopping to look again, I wrenched the horse’s head hard round to the right and in another moment the dog cart had heeled over upon the horse; the shafts smashed noisily, and I was flung sideways and fell heavily into a shallow pool of water. I crawled out almost immediately, and crouched, my feet still in the water, under a clump of furze. The horse lay motionless (his neck was broken, poor brute!) and by the lightning flashes I saw the black bulk of the overturned dog cart and the silhouette of the wheel still spinning slowly. In another moment the colossal mechanism went striding by me, and passed uphill towards Pyrford.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-010-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-010-inline-01.txt",
+          "promptSha256": "a2a3eae1dc4a9a4f912e013474ed86913854b2e8285b05ebed77186d1eb25c62"
+        }
+      ]
+    },
+    {
+      "id": "chapter-011",
+      "number": 11,
+      "title": "AT THE WINDOW.",
+      "metrics": {
+        "narrativeWords": 2025,
+        "textBlocks": 36,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-011-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.120494,
+        "minimumInlineSeparation": 0.427901,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "78d95ed81141c8c1ef84cdf2606d89ac9cdb90a4b27fc84ee166369db437b820",
+        "passageExcerpt": "The thunderstorm had passed. The towers of the Oriental College and the pine trees about it had gone, and very far away, lit by a vivid red glare, the common about the sand-pits was visible. Across the light huge black shapes, grotesque and strange, moved busily to and fro. It seemed indeed as if the whole country in that direction was on fire—a broad hillside set with minute tongues of flame, swaying and writhing with the gusts of the dying storm, and throwing a red reflection upon the cloud scud above. Every now and then a haze of smoke from some nearer conflagration drove across the window and hid the Martian shapes. I could not see what they were doing, nor the clear form of them, nor recognise the black objects they were busied upon. Neither could I see the nearer fire, though the reflections of it danced on the wall and ceiling of the study. A sharp, resinous tang of burning was in the air. I closed the door noiselessly and crept towards the window. As I did so, the view opened out until, on the one hand, it reached to the houses about Woking station, and on the other to the charred and blackened pine woods of Byfleet. There was a light down below the hill, on the railway, near the arch, and several of the houses along the Maybury road and the streets near the station were glowing ruins. The light upon the railway puzzled me at first; there were a black heap and a vivid g…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-011-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-011-hero.txt",
+        "promptSha256": "8ed93f146eae62a9cfe90072bf43435f1c7c1ed6908911023e736b6cf3a8d546"
+      },
+      "inline": [
+        {
+          "id": "tripod-rises",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 26,
+          "anchorSha256": "6e53e8a35c4566505b5cbac4932e3118c73e677f83cce0fa50ef84f3b61f53ff",
+          "align": "plate",
+          "source": "output/imagegen/singles/the-war-of-the-worlds/scene.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/the-war-of-the-worlds/scene.txt",
+          "caption": "The fighting-machine rises"
+        }
+      ]
+    },
+    {
+      "id": "chapter-012",
+      "number": 12,
+      "title": "WHAT I SAW OF THE DESTRUCTION OF WEYBRIDGE AND SHEPPERTON.",
+      "metrics": {
+        "narrativeWords": 3833,
+        "textBlocks": 69,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-012-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.104357,
+        "minimumInlineSeparation": 0.236368,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "d0ab08dedd1a3d8299562f38314808e19fa479230d359526594aed0262dfe767",
+        "passageExcerpt": "…f meat. Then we crept out of the house, and ran as quickly as we could down the ill-made road by which I had come overnight. The houses seemed deserted. In the road lay a group of three charred bodies close together, struck dead by the Heat-Ray; and here and there were things that people had dropped—a clock, a slipper, a silver spoon, and the like poor valuables. At the corner turning up towards the post office a little cart, filled with boxes and furniture, and horseless, heeled over on a broken wheel. A cash box had been hastily smashed open and thrown under the debris. Except the lodge at the Orphanage, which was still on fire, none of the houses had suffered very greatly here. The Heat-Ray had shaved the chimney tops and passed. Yet, save ourselves, there did not seem to be a living soul on Maybury Hill. The majority of the inhabitants had escaped, I suppose, by way of the Old Woking road—the road I had taken when I drove to Leatherhead—or they had hidden. We went down the lane, by the body of the man in black, sodden now from the overnight hail, and broke into the woods at the foot of the hill. We pushed through these towards the railway without meeting a soul. The woods across the line were but the scarred and blackened ruins of woods; for the most part the trees had fallen, but a certain proportion still stood, dismal grey stems, with dark brown foliage instead of green.",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-012-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-012-hero.txt",
+        "promptSha256": "a3aa9c50e2a07a2d65ac5768899449004d2f8fbda249517ae4ba9c88ee669d67"
+      },
+      "inline": [
+        {
+          "id": "chapter-012-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 31,
+          "anchorSha256": "47cf1ecd7f2517d2e3b437d6ff7562f20dd3b3c7677a5ffa55235582ad24928d",
+          "align": "right",
+          "passageExcerpt": "The officers who were not actively engaged stood and stared over the treetops southwestward, and the men digging would stop every now and again to stare in the same direction. Byfleet was in a tumult; people packing, and a score of hussars, some of them dismounted, some on horseback, were hunting them about. Three or four black government waggons, with crosses in white circles, and an old omnibus, among other vehicles, were being loaded in the village street. There were scores of people, most of them sufficiently sabbatical to have assumed their best clothes. The soldiers were having the greatest difficulty in making them realise the gravity of their position. We saw one shrivelled old fellow with a huge box and a score or more of flower pots containing orchids, angrily expostulating with the corporal who would leave them behind. I stopped and gripped his arm. “Do you know what’s over there?” I said, pointing at the pine tops that hid the Martians.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-012-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-012-inline-01.txt",
+          "promptSha256": "2fc7053402440346970a0047a9f425ebcd37b69054b2012383d8115ce2e79251"
+        },
+        {
+          "id": "chapter-012-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 51,
+          "anchorSha256": "e5e309cf76e05db82583a80d4593b61c1a6fdae4361de7c75785cab898992fd6",
+          "align": "left",
+          "passageExcerpt": "“Get under water!” I shouted, unheeded. I faced about again, and rushed towards the approaching Martian, rushed right down the gravelly beach and headlong into the water. Others did the same. A boatload of people putting back came leaping out as I rushed past. The stones under my feet were muddy and slippery, and the river was so low that I ran perhaps twenty feet scarcely waist-deep. Then, as the Martian towered overhead scarcely a couple of hundred yards away, I flung myself forward under the surface. The splashes of the people in the boats leaping into the river sounded like thunderclaps in my ears. People were landing hastily on both sides of the river. But the Martian machine took no more notice for the moment of the people running this way and that than a man would of the confusion of ants in a nest against which his foot has kicked. When, half suffocated, I raised my head above water, the Martian’s hood pointed at the batteries that were still firing across the river, and as it advanced it swung loose what must have been the generator of the Heat-Ray. In another moment it was on the bank, and in a stride wading halfway across. The knees of its foremost legs bent at the farther bank, and in another moment it had raised itself to its full height again, close to the village of Shepperton. Forthwith the six guns which, unknown to anyone on the right bank, had been hidden beh…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-012-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-012-inline-02.txt",
+          "promptSha256": "75e35b8a5e57a43d8b64fb86f4295e5624620eae66ea489cce6f061818d9404a"
+        }
+      ]
+    },
+    {
+      "id": "chapter-013",
+      "number": 13,
+      "title": "HOW I FELL IN WITH THE CURATE.",
+      "metrics": {
+        "narrativeWords": 1771,
+        "textBlocks": 50,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-013-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.106719,
+        "minimumInlineSeparation": 0.404574,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "540f82707dfbf7ebdce132f6fb423573dbf6c2233dc4d64ca669e37a28cfeaa3",
+        "passageExcerpt": "…the capital in advance of the tidings of their approach; as sudden, dreadful, and destructive their advent would have been as the earthquake that destroyed Lisbon a century ago. But they were in no hurry. Cylinder followed cylinder on its interplanetary flight; every twenty-four hours brought them reinforcement. And meanwhile the military and naval authorities, now fully alive to the tremendous power of their antagonists, worked with furious energy. Every minute a fresh gun came into position until, before twilight, every copse, every row of suburban villas on the hilly slopes about Kingston and Richmond, masked an expectant black muzzle. And through the charred and desolated area—perhaps twenty square miles altogether—that encircled the Martian encampment on Horsell Common, through charred and ruined villages among the green trees, through the blackened and smoking arcades that had been but a day ago pine spinneys, crawled the devoted scouts with the heliographs that were presently to warn the gunners of the Martian approach. But the Martians now understood our command of artillery and the danger of human proximity, and not a man ventured within a mile of either cylinder, save at the price of his life. It would seem that these giants spent the earlier part of the afternoon in going to and fro, transferring everything from the second and third cylinders—the second in Addlestone…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-013-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-013-hero.txt",
+        "promptSha256": "ade8d10fbaef57698a6f6d726724100e06adacb63f6e60515a066115e80caa39"
+      },
+      "inline": [
+        {
+          "id": "chapter-013-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 8,
+          "anchorSha256": "df0200fdbedcd2c6fd3d6cf8e981600d5e18f1c70b624f2c35dcb68ab1cf96ee",
+          "align": "right",
+          "passageExcerpt": "I do not clearly remember the arrival of the curate, so that probably I dozed. I became aware of him as a seated figure in soot-smudged shirt sleeves, and with his upturned, clean-shaven face staring at a faint flickering that danced over the sky. The sky was what is called a mackerel sky—rows and rows of faint down-plumes of cloud, just tinted with the midsummer sunset. I sat up, and at the rustle of my motion he looked at me quickly. “Have you any water?” I asked abruptly.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-013-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-013-inline-01.txt",
+          "promptSha256": "62dc7ee8d624b210e9293dab3fa45dd3442f1626bea4bad2ed5972ca695754c0"
+        }
+      ]
+    },
+    {
+      "id": "chapter-014",
+      "number": 14,
+      "title": "IN LONDON.",
+      "metrics": {
+        "narrativeWords": 3727,
+        "textBlocks": 53,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-014-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.112289,
+        "minimumInlineSeparation": 0.223638,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "cfdcd7cd20451a4cd12b8aa1dcefddb3289ba853629c9d6b0aa3e93b9e04b886",
+        "passageExcerpt": "…ght to me, in order, as he says, to see the Things before they were killed. He dispatched a telegram, which never reached me, about four o’clock, and spent the evening at a music hall. In London, also, on Saturday night there was a thunderstorm, and my brother reached Waterloo in a cab. On the platform from which the midnight train usually starts he learned, after some waiting, that an accident prevented trains from reaching Woking that night. The nature of the accident he could not ascertain; indeed, the railway authorities did not clearly know at that time. There was very little excitement in the station, as the officials, failing to realise that anything further than a breakdown between Byfleet and Woking junction had occurred, were running the theatre trains which usually passed through Woking round by Virginia Water or Guildford. They were busy making the necessary arrangements to alter the route of the Southampton and Portsmouth Sunday League excursions. A nocturnal newspaper reporter, mistaking my brother for the traffic manager, to whom he bears a slight resemblance, waylaid and tried to interview him. Few people, excepting the railway officials, connected the breakdown with the Martians. I have read, in another account of these events, that on Sunday morning “all London was electrified by the news from Woking.” As a matter of fact, there was nothing to justify that ver…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-014-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-014-hero.txt",
+        "promptSha256": "a8346749ea96c3e7e97a2a5cf97da25e138ace1e9de1c84b8247bb6a0121d5a3"
+      },
+      "inline": [
+        {
+          "id": "chapter-014-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 14,
+          "anchorSha256": "785b38ccd16d4f7f05d74f67f0c516282eebc2c5fa26d1210ca61730f336e311",
+          "align": "right",
+          "passageExcerpt": "My brother could not tell him. Afterwards he found that the vague feeling of alarm had spread to the clients of the underground railway, and that the Sunday excursionists began to return from all over the South-Western “lung”—Barnes, Wimbledon, Richmond Park, Kew, and so forth—at unnaturally early hours; but not a soul had anything more than vague hearsay to tell of. Everyone connected with the terminus seemed ill-tempered. About five o’clock the gathering crowd in the station was immensely excited by the opening of the line of communication, which is almost invariably closed, between the South-Eastern and the South-Western stations, and the passage of carriage trucks bearing huge guns and carriages crammed with soldiers. These were the guns that were brought up from Woolwich and Chatham to cover Kingston. There was an exchange of pleasantries: “You’ll get eaten!” “We’re the beast-tamers!” and so forth. A little while after that a squad of police came into the station and began to clear the public off the platforms, and my brother went out into the street again.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-014-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-014-inline-01.txt",
+          "promptSha256": "455f99e095ce526ca29fa19fee4fa30226d9be5aacec00463361af6ffb744e9a"
+        },
+        {
+          "id": "chapter-014-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 30,
+          "anchorSha256": "3613bdb65ed6b668d81ac789424c63fb4fd5203bf343717d9aaee3f2ee73de85",
+          "align": "left",
+          "passageExcerpt": "None of them could tell him any news of Woking except one man, who assured him that Woking had been entirely destroyed on the previous night. “I come from Byfleet,” he said; “a man on a bicycle came through the place in the early morning, and ran from door to door warning us to come away. Then came soldiers. We went out to look, and there were clouds of smoke to the south—nothing but smoke, and not a soul coming that way. Then we heard the guns at Chertsey, and folks coming from Weybridge. So I’ve locked up my house and come on.” At that time there was a strong feeling in the streets that the authorities were to blame for their incapacity to dispose of the invaders without all this inconvenience.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-014-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-014-inline-02.txt",
+          "promptSha256": "2fd86aadf65ebfcca14d34dcf8bcc846d9fd328b235c288517e9950d48a51888"
+        }
+      ]
+    },
+    {
+      "id": "chapter-015",
+      "number": 15,
+      "title": "WHAT HAD HAPPENED IN SURREY.",
+      "metrics": {
+        "narrativeWords": 2807,
+        "textBlocks": 34,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-015-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.100107,
+        "minimumInlineSeparation": 0.402031,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ab2739c50845747664fd9a06f7708a87d785a98c84d3edd7de74b06b5391e557",
+        "passageExcerpt": "It was this howling and firing of the guns at Ripley and St. George’s Hill that we had heard at Upper Halliford. The Ripley gunners, unseasoned artillery volunteers who ought never to have been placed in such a position, fired one wild, premature, ineffectual volley, and bolted on horse and foot through the deserted village, while the Martian, without using his Heat-Ray, walked serenely over their guns, stepped gingerly among them, passed in front of them, and so came unexpectedly upon the guns in Painshill Park, which he destroyed. The St. George’s Hill men, however, were better led or of a better mettle. Hidden by a pine wood as they were, they seem to have been quite unsuspected by the Martian nearest to them. They laid their guns as deliberately as if they had been on parade, and fired at about a thousand yards’ range. The shells flashed all round him, and he was seen to advance a few paces, stagger, and go down. Everybody yelled together, and the guns were reloaded in frantic haste. The overthrown Martian set up a prolonged ululation, and immediately a second glittering giant, answering him, appeared over the trees to the south. It would seem that a leg of the tripod had been smashed by one of the shells. The whole of the second volley flew wide of the Martian on the ground, and, simultaneously, both his companions brought their Heat-Rays to bear on the battery. The ammuni…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-015-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-015-hero.txt",
+        "promptSha256": "324308dcfdefdc389d1e2fc72bfd3c2426ea9cb327f0df1458e3eb6d742fe8ca"
+      },
+      "inline": [
+        {
+          "id": "chapter-015-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 19,
+          "anchorSha256": "e5dc40a40e75c2fe37a4101ad02e564564f67612ca13013b0da2844a8846d819",
+          "align": "right",
+          "passageExcerpt": "A bat flickered by and vanished. A distant tumult of shouting began and ceased. I looked again at the Martian, and saw he was now moving eastward along the riverbank, with a swift, rolling motion. Every moment I expected the fire of some hidden battery to spring upon him; but the evening calm was unbroken. The figure of the Martian grew smaller as he receded, and presently the mist and the gathering night had swallowed him up. By a common impulse we clambered higher. Towards Sunbury was a dark appearance, as though a conical hill had suddenly come into being there, hiding our view of the farther country; and then, remoter across the river, over Walton, we saw another such summit. These hill-like forms grew lower and broader even as we stared. Moved by a sudden thought, I looked northward, and there I perceived a third of these cloudy black kopjes had risen.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-015-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-015-inline-01.txt",
+          "promptSha256": "f30b36a59d0cdfeb2562ae9ade29ce3551a2ea4734e0b00738d5cd6a6e30faec"
+        }
+      ]
+    },
+    {
+      "id": "chapter-016",
+      "number": 16,
+      "title": "THE EXODUS FROM LONDON.",
+      "metrics": {
+        "narrativeWords": 4385,
+        "textBlocks": 81,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-016-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.107982,
+        "minimumInlineSeparation": 0.221665,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "bb31ca3cf19538e5349a8db1c492b37ee7ea3d3b942fc17a5a26c9e7ce4b6247",
+        "passageExcerpt": "…driver against his furnace—my brother emerged upon the Chalk Farm road, dodged across through a hurrying swarm of vehicles, and had the luck to be foremost in the sack of a cycle shop. The front tire of the machine he got was punctured in dragging it through the window, but he got up and off, notwithstanding, with no further injury than a cut wrist. The steep foot of Haverstock Hill was impassable owing to several overturned horses, and my brother struck into Belsize Road. So he got out of the fury of the panic, and, skirting the Edgware Road, reached Edgware about seven, fasting and wearied, but well ahead of the crowd. Along the road people were standing in the roadway, curious, wondering. He was passed by a number of cyclists, some horsemen, and two motor cars. A mile from Edgware the rim of the wheel broke, and the machine became unridable. He left it by the roadside and trudged through the village. There were shops half opened in the main street of the place, and people crowded on the pavement and in the doorways and windows, staring astonished at this extraordinary procession of fugitives that was beginning. He succeeded in getting some food at an inn. For a time he remained in Edgware not knowing what next to do. The flying people increased in number. Many of them, like my brother, seemed inclined to loiter in the place. There was no fresh news of the invaders from Mars.",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-016-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-016-hero.txt",
+        "promptSha256": "3022dbca99bf1ab0e7c9d64281f7afad56607a279b3c4c79556a7c10cf1e9ea0"
+      },
+      "inline": [
+        {
+          "id": "chapter-016-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 21,
+          "anchorSha256": "88c5df160df0d154a8241f65f53033c361b9b34c27ae1b427a9b0943a302fe45",
+          "align": "right",
+          "passageExcerpt": "…ad hurried home, roused the women—their servant had left them two days before—packed some provisions, put his revolver under the seat—luckily for my brother—and told them to drive on to Edgware, with the idea of getting a train there. He stopped behind to tell the neighbours. He would overtake them, he said, at about half past four in the morning, and now it was nearly nine and they had seen nothing of him. They could not stop in Edgware because of the growing traffic through the place, and so they had come into this side lane. That was the story they told my brother in fragments when presently they stopped again, nearer to New Barnet. He promised to stay with them, at least until they could determine what to do, or until the missing man arrived, and professed to be an expert shot with the revolver—a weapon strange to him—in order to give them confidence. They made a sort of encampment by the wayside, and the pony became happy in the hedge. He told them of his own escape out of London, and all that he knew of these Martians and their ways. The sun crept higher in the sky, and after a time their talk died out and gave place to an uneasy state of anticipation. Several wayfarers came along the lane, and of these my brother gathered such news as he could. Every broken answer he had deepened his impression of the great disaster that had come on humanity, deepened his persuasion of t…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-016-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-016-inline-01.txt",
+          "promptSha256": "989685ed7d5e60d5a10c0b8e44c6b440ec57d9f22dcb861ca2deb84c06dae49b"
+        },
+        {
+          "id": "chapter-016-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 51,
+          "anchorSha256": "e99f28df3e2760646d7c7436850158fcd5c3aa44805385461f954b8cbe19771f",
+          "align": "left",
+          "passageExcerpt": "But varied as its composition was, certain things all that host had in common. There were fear and pain on their faces, and fear behind them. A tumult up the road, a quarrel for a place in a waggon, sent the whole host of them quickening their pace; even a man so scared and broken that his knees bent under him was galvanised for a moment into renewed activity. The heat and dust had already been at work upon this multitude. Their skins were dry, their lips black and cracked. They were all thirsty, weary, and footsore. And amid the various cries one heard disputes, reproaches, groans of weariness and fatigue; the voices of most of them were hoarse and weak. Through it all ran a refrain: “Way! Way! The Martians are coming!” Few stopped and came aside from that flood. The lane opened slantingly into the main road with a narrow opening, and had a delusive appearance of coming from the direction of London. Yet a kind of eddy of people drove into its mouth; weaklings elbowed out of the stream, who for the most part rested but a moment before plunging into it again. A little way down the lane, with two friends bending over him, lay a man with a bare leg, wrapped about with bloody rags. He was a lucky man to have friends.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-016-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-016-inline-02.txt",
+          "promptSha256": "ac08d0dfa1def09d25921bb3a5ff61b50c1157caa27938fd3d3fe16a19cb5144"
+        }
+      ]
+    },
+    {
+      "id": "chapter-017",
+      "number": 17,
+      "title": "THE “THUNDER CHILD”.",
+      "metrics": {
+        "narrativeWords": 3276,
+        "textBlocks": 35,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-017-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.086538,
+        "minimumInlineSeparation": 0.235653,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "771785446c0f265714f968cd92475fe80d4787decfa1e05245f6fb2e743471db",
+        "passageExcerpt": "…and suffered together. The legendary hosts of Goths and Huns, the hugest armies Asia has ever seen, would have been but a drop in that current. And this was no disciplined march; it was a stampede—a stampede gigantic and terrible—without order and without a goal, six million people unarmed and unprovisioned, driving headlong. It was the beginning of the rout of civilisation, of the massacre of mankind. Directly below him the balloonist would have seen the network of streets far and wide, houses, churches, squares, crescents, gardens—already derelict—spread out like a huge map, and in the southward blotted . Over Ealing, Richmond, Wimbledon, it would have seemed as if some monstrous pen had flung ink upon the chart. Steadily, incessantly, each black splash grew and spread, shooting out ramifications this way and that, now banking itself against rising ground, now pouring swiftly over a crest into a new-found valley, exactly as a gout of ink would spread itself upon blotting paper. And beyond, over the blue hills that rise southward of the river, the glittering Martians went to and fro, calmly and methodically spreading their poison cloud over this patch of country and then over that, laying it again with their steam jets when it had served its purpose, and taking possession of the conquered country. They do not seem to have aimed at extermination so much as at complete demoralis…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-017-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-017-hero.txt",
+        "promptSha256": "9339653f855303c01956778288d14e833515b85bead9d165d557e05fac2b6391"
+      },
+      "inline": [
+        {
+          "id": "chapter-017-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 8,
+          "anchorSha256": "d47e4c5c926dadf746568bd296830dece775e261acc0b8d20b5f3e4bbfdbae49",
+          "align": "right",
+          "passageExcerpt": "…ributed among the starving people in the neighbourhood. But this intelligence did not deter him from the plan of escape he had formed, and the three pressed eastward all day, and heard no more of the bread distribution than this promise. Nor, as a matter of fact, did anyone else hear more of it. That night fell the seventh star, falling upon Primrose Hill. It fell while Miss Elphinstone was watching, for she took that duty alternately with my brother. She saw it. On Wednesday the three fugitives—they had passed the night in a field of unripe wheat—reached Chelmsford, and there a body of the inhabitants, calling itself the Committee of Public Supply, seized the pony as provisions, and would give nothing in exchange for it but the promise of a share in it the next day. Here there were rumours of Martians at Epping, and news of the destruction of Waltham Abbey Powder Mills in a vain attempt to blow up one of the invaders. People were watching for Martians here from the church towers. My brother, very luckily for him as it chanced, preferred to push on at once to the coast rather than wait for food, although all three of them were very hungry. By midday they passed through Tillingham, which, strangely enough, seemed to be quite silent and deserted, save for a few furtive plunderers hunting for food. Near Tillingham they suddenly came in sight of the sea, and the most amazing crowd…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-017-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-017-inline-01.txt",
+          "promptSha256": "628172343aa23592afe5c0bbd07555d574089c1a9cb581445f83f5a4fff85911"
+        },
+        {
+          "id": "chapter-017-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 21,
+          "anchorSha256": "d5c47a6d5a8bf266b14f62598736de176b01d325b4852f1e125837c28be76856",
+          "align": "left",
+          "passageExcerpt": "…rithing with the approaching terror; one ship passing behind another, another coming round from broadside to end on, steamships whistling and giving off volumes of steam, sails being let out, launches rushing hither and thither. He was so fascinated by this and by the creeping danger away to the left that he had no eyes for anything seaward. And then a swift movement of the steamboat (she had suddenly come round to avoid being run down) flung him headlong from the seat upon which he was standing. There was a shouting all about him, a trampling of feet, and a cheer that seemed to be answered faintly. The steamboat lurched and rolled him over upon his hands. He sprang to his feet and saw to starboard, and not a hundred yards from their heeling, pitching boat, a vast iron bulk like the blade of a plough tearing through the water, tossing it on either side in huge waves of foam that leaped towards the steamer, flinging her paddles helplessly in the air, and then sucking her deck down almost to the waterline. A douche of spray blinded my brother for a moment. When his eyes were clear again he saw the monster had passed and was rushing landward. Big iron upperworks rose out of this headlong structure, and from that twin funnels projected and spat a smoking blast shot with fire. It was the torpedo ram, Thunder Child , steaming headlong, coming to the rescue of the threatened shipping.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-017-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-017-inline-02.txt",
+          "promptSha256": "53adf01f0eb934c8b051fc8ac7a65b6a6d136c1fc73a656bba8de85990dcd396"
+        }
+      ]
+    },
+    {
+      "id": "chapter-018",
+      "number": 18,
+      "title": "UNDER FOOT.",
+      "metrics": {
+        "narrativeWords": 2597,
+        "textBlocks": 40,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-018-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.074124,
+        "minimumInlineSeparation": 0.427224,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "62e86080e93967213842fa5a9df52d2380914cc13bb280b1fad968b3961f9457",
+        "passageExcerpt": "…ext day—the day of the panic—in a little island of daylight, cut off by the Black Smoke from the rest of the world. We could do nothing but wait in aching inactivity during those two weary days. My mind was occupied by anxiety for my wife. I figured her at Leatherhead, terrified, in danger, mourning me already as a dead man. I paced the rooms and cried aloud when I thought of how I was cut off from her, of all that might happen to her in my absence. My cousin I knew was brave enough for any emergency, but he was not the sort of man to realise danger quickly, to rise promptly. What was needed now was not bravery, but circumspection. My only consolation was to believe that the Martians were moving Londonward and away from her. Such vague anxieties keep the mind sensitive and painful. I grew very weary and irritable with the curate’s perpetual ejaculations; I tired of the sight of his selfish despair. After some ineffectual remonstrance I kept away from him, staying in a room—evidently a children’s schoolroom—containing globes, forms, and copybooks. When he followed me thither, I went to a box room at the top of the house and, in order to be alone with my aching miseries, locked myself in. We were hopelessly hemmed in by the Black Smoke all that day and the morning of the next. There were signs of people in the next house on Sunday evening—a face at a window and moving lights, and…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-018-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-018-hero.txt",
+        "promptSha256": "a3792a325dda85eb711f520f34cac0be927654e02403fc450843d8b1312985c6"
+      },
+      "inline": [
+        {
+          "id": "chapter-018-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 13,
+          "anchorSha256": "98754ab9daba03e8c15bbb8eab83c0df92ce2c6bb47ea00e42c506f2c65351f0",
+          "align": "right",
+          "passageExcerpt": "…en before or another, far away across the meadows in the direction of Kew Lodge. Four or five little black figures hurried before it across the green-grey of the field, and in a moment it was evident this Martian pursued them. In three strides he was among them, and they ran radiating from his feet in all directions. He used no Heat-Ray to destroy them, but picked them up one by one. Apparently he tossed them into the great metallic carrier which projected behind him, much as a workman’s basket hangs over his shoulder. It was the first time I realised that the Martians might have any other purpose than destruction with defeated humanity. We stood for a moment petrified, then turned and fled through a gate behind us into a walled garden, fell into, rather than found, a fortunate ditch, and lay there, scarce daring to whisper to each other until the stars were out. I suppose it was nearly eleven o’clock before we gathered courage to start again, no longer venturing into the road, but sneaking along hedgerows and through plantations, and watching keenly through the darkness, he on the right and I on the left, for the Martians, who seemed to be all about us. In one place we blundered upon a scorched and blackened area, now cooling and ashen, and a number of scattered dead bodies of men, burned horribly about the heads and trunks but with their legs and boots mostly intact; and of d…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-018-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-018-inline-01.txt",
+          "promptSha256": "939d3d93ead4c841e3e96608ae3598a4647d92eb43678f1f5fb790ba6ec0890d"
+        }
+      ]
+    },
+    {
+      "id": "chapter-019",
+      "number": 19,
+      "title": "WHAT WE SAW FROM THE RUINED HOUSE.",
+      "metrics": {
+        "narrativeWords": 3293,
+        "textBlocks": 27,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-019-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.107956,
+        "minimumInlineSeparation": 0.217431,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "e54d41f25670c895f39fd677bbac4e58c6303af58c987a0cf8a88a79b326893c",
+        "passageExcerpt": "…ing myself cautiously across a beam I was able to see out of this gap into what had been overnight a quiet suburban roadway. Vast, indeed, was the change that we beheld. The fifth cylinder must have fallen right into the midst of the house we had first visited. The building had vanished, completely smashed, pulverised, and dispersed by the blow. The cylinder lay now far beneath the original foundations—deep in a hole, already vastly larger than the pit I had looked into at Woking. The earth all round it had splashed under that tremendous impact—“splashed” is the only word—and lay in heaped piles that hid the masses of the adjacent houses. It had behaved exactly like mud under the violent blow of a hammer. Our house had collapsed backward; the front portion, even on the ground floor, had been destroyed completely; by a chance the kitchen and scullery had escaped, and stood buried now under soil and ruins, closed in by tons of earth on every side save towards the cylinder. Over that aspect we hung now on the very edge of the great circular pit the Martians were engaged in making. The heavy beating sound was evidently just behind us, and ever and again a bright green vapour drove up like a veil across our peephole. The cylinder was already opened in the centre of the pit, and on the farther edge of the pit, amid the smashed and gravel-heaped shrubbery, one of the great fighting-ma…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-019-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-019-hero.txt",
+        "promptSha256": "45763599dbcb33351adde9840212e998e018cfb7f49792be4cbd8e630d3c1181"
+      },
+      "inline": [
+        {
+          "id": "chapter-019-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 9,
+          "anchorSha256": "4804e1ae5c61e379edaa8b097f2af53443f2070bdc79bf5308afa158ba283092",
+          "align": "right",
+          "passageExcerpt": "…sion of these, and the first nausea no longer obscured my observation. Moreover, I was concealed and motionless, and under no urgency of action. They were, I now saw, the most unearthly creatures it is possible to conceive. They were huge round bodies—or, rather, heads—about four feet in diameter, each body having in front of it a face. This face had no nostrils—indeed, the Martians do not seem to have had any sense of smell, but it had a pair of very large dark-coloured eyes, and just beneath this a kind of fleshy beak. In the back of this head or body—I scarcely know how to speak of it—was the single tight tympanic surface, since known to be anatomically an ear, though it must have been almost useless in our dense air. In a group round the mouth were sixteen slender, almost whiplike tentacles, arranged in two bunches of eight each. These bunches have since been named rather aptly, by that distinguished anatomist, Professor Howes, the hands . Even as I saw these Martians for the first time they seemed to be endeavouring to raise themselves on these hands, but of course, with the increased weight of terrestrial conditions, this was impossible. There is reason to suppose that on Mars they may have progressed upon them with some facility. The internal anatomy, I may remark here, as dissection has since shown, was almost equally simple. The greater part of the structure was the br…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-019-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-019-inline-01.txt",
+          "promptSha256": "2a282158c7f1e6d1c6a32d44ab5a45ae3b0374ae97dd16fa0ddc9ad70bf6a107"
+        },
+        {
+          "id": "chapter-019-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 22,
+          "anchorSha256": "646eed13a99cb17981b4eaac85e9d3bca45f4a377504693003b1176d8e63d5bf",
+          "align": "left",
+          "passageExcerpt": "…igence. To me it is quite credible that the Martians may be descended from beings not unlike ourselves, by a gradual development of brain and hands (the latter giving rise to the two bunches of delicate tentacles at last) at the expense of the rest of the body. Without the body the brain would, of course, become a mere selfish intelligence, without any of the emotional substratum of the human being. The last salient point in which the systems of these creatures differed from ours was in what one might have thought a very trivial particular. Micro-organisms, which cause so much disease and pain on earth, have either never appeared upon Mars or Martian sanitary science eliminated them ages ago. A hundred diseases, all the fevers and contagions of human life, consumption, cancers, tumours and such morbidities, never enter the scheme of their life. And speaking of the differences between the life on Mars and terrestrial life, I may allude here to the curious suggestions of the red weed. Apparently the vegetable kingdom in Mars, instead of having green for a dominant colour, is of a vivid blood-red tint. At any rate, the seeds which the Martians (intentionally or accidentally) brought with them gave rise in all cases to red-coloured growths. Only that known popularly as the red weed, however, gained any footing in competition with terrestrial forms. The red creeper was quite a trans…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-019-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-019-inline-02.txt",
+          "promptSha256": "581c9b05c2851ecf55844d73bf6c711e8471c4089e59f1178ba733977ab8cb91"
+        }
+      ]
+    },
+    {
+      "id": "chapter-020",
+      "number": 20,
+      "title": "THE DAYS OF IMPRISONMENT.",
+      "metrics": {
+        "narrativeWords": 1937,
+        "textBlocks": 14,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-020-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.137584,
+        "minimumInlineSeparation": 0.329892,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "62a42633cba5e13f59c9faa2b916115b5a7118c7a482d6ebee270f91140b9422",
+        "passageExcerpt": "…e across the kitchen in a grotesque way between eagerness and the dread of making a noise, and strike each other, and thrust and kick, within a few inches of exposure. The fact is that we had absolutely incompatible dispositions and habits of thought and action, and our danger and isolation only accentuated the incompatibility. At Halliford I had already come to hate the curate’s trick of helpless exclamation, his stupid rigidity of mind. His endless muttering monologue vitiated every effort I made to think out a line of action, and drove me at times, thus pent up and intensified, almost to the verge of craziness. He was as lacking in restraint as a silly woman. He would weep for hours together, and I verily believe that to the very end this spoiled child of life thought his weak tears in some way efficacious. And I would sit in the darkness unable to keep my mind off him by reason of his importunities. He ate more than I did, and it was in vain I pointed out that our only chance of life was to stop in the house until the Martians had done with their pit, that in that long patience a time might presently come when we should need food. He ate and drank impulsively in heavy meals at long intervals. He slept little. As the days wore on, his utter carelessness of any consideration so intensified our distress and danger that I had, much as I loathed doing it, to resort to threats, a…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-020-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-020-hero.txt",
+        "promptSha256": "b8239b63f5a90614df5ee942c43156faf39a5a65161013327cdd931893924240"
+      },
+      "inline": [
+        {
+          "id": "chapter-020-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 6,
+          "anchorSha256": "0681936284f95eaf73a1585b1a859a8ef3715d357932f148f6d12eba80bd1772",
+          "align": "right",
+          "passageExcerpt": "…hine, with a faint and musical clinking, extended, telescopic fashion, a tentacle that had been a moment before a mere blunt projection, until its end was hidden behind the mound of clay. In another second it had lifted a bar of white aluminium into sight, untarnished as yet, and shining dazzlingly, and deposited it in a growing stack of bars that stood at the side of the pit. Between sunset and starlight this dexterous machine must have made more than a hundred such bars out of the crude clay, and the mound of bluish dust rose steadily until it topped the side of the pit. The contrast between the swift and complex movements of these contrivances and the inert panting clumsiness of their masters was acute, and for days I had to tell myself repeatedly that these latter were indeed the living of the two things. The curate had possession of the slit when the first men were brought to the pit. I was sitting below, huddled up, listening with all my ears. He made a sudden movement backward, and I, fearful that we were observed, crouched in a spasm of terror. He came sliding down the rubbish and crept beside me in the darkness, inarticulate, gesticulating, and for a moment I shared his panic. His gesture suggested a resignation of the slit, and after a little while my curiosity gave me courage, and I rose up, stepped across him, and clambered up to it. At first I could see no reason f…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-020-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-020-inline-01.txt",
+          "promptSha256": "31cb83f7adad83dd4c8324d7275e7c4842f3b416d91b621e44481a04f30709f8"
+        }
+      ]
+    },
+    {
+      "id": "chapter-021",
+      "number": 21,
+      "title": "THE DEATH OF THE CURATE.",
+      "metrics": {
+        "narrativeWords": 1606,
+        "textBlocks": 29,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-021-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.093711,
+        "minimumInlineSeparation": 0.400062,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "f958872d9abee52d03465a5847b2640626d1c2f1bf690df99a27ae9aa35f2528",
+        "passageExcerpt": "…e, and presently found myself alone. Instead of keeping close to me and trying to oust me from the slit, the curate had gone back into the scullery. I was struck by a sudden thought. I went back quickly and quietly into the scullery. In the darkness I heard the curate drinking. I snatched in the darkness, and my fingers caught a bottle of burgundy. For a few minutes there was a tussle. The bottle struck the floor and broke, and I desisted and rose. We stood panting and threatening each other. In the end I planted myself between him and the food, and told him of my determination to begin a discipline. I divided the food in the pantry, into rations to last us ten days. I would not let him eat any more that day. In the afternoon he made a feeble effort to get at the food. I had been dozing, but in an instant I was awake. All day and all night we sat face to face, I weary but resolute, and he weeping and complaining of his immediate hunger. It was, I know, a night and a day, but to me it seemed—it seems now—an interminable length of time. And so our widened incompatibility ended at last in open conflict. For two vast days we struggled in undertones and wrestling contests. There were times when I beat and kicked him madly, times when I cajoled and persuaded him, and once I tried to bribe him with the last bottle of burgundy, for there was a rain-water pump from which I could get wat…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-021-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-021-hero.txt",
+        "promptSha256": "fbc29216aeaf25b0ad55936c389e41a9aa2b3b994072d5ab93aef8f5c9d51083"
+      },
+      "inline": [
+        {
+          "id": "chapter-021-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 13,
+          "anchorSha256": "cfeacec3e8043dbbd7a8044d50c99e68e1cf62c69c9a12bab7ce3816dd3a9299",
+          "align": "right",
+          "passageExcerpt": "In three strides he was at the door leading into the kitchen. “I must bear my witness! I go! It has already been too long delayed.” I put out my hand and felt the meat chopper hanging to the wall. In a flash I was after him. I was fierce with fear. Before he was halfway across the kitchen I had overtaken him. With one last touch of humanity I turned the blade back and struck him with the butt. He went headlong forward and lay stretched on the ground. I stumbled over him and stood panting. He lay still.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-021-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-021-inline-01.txt",
+          "promptSha256": "abbf45ad04c2f7057a3e72a1eb707821c11b677d653bcb5a472a506406b6ec6c"
+        }
+      ]
+    },
+    {
+      "id": "chapter-022",
+      "number": 22,
+      "title": "THE STILLNESS.",
+      "metrics": {
+        "narrativeWords": 958,
+        "textBlocks": 19,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-022-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.107516,
+        "minimumInlineSeparation": 0.393006,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "8a101c6b9a6270de986b03ba9c43a1dc7dfa5d6440ab250b76ac3073c8bed672",
+        "passageExcerpt": "My first act before I went into the pantry was to fasten the door between the kitchen and the scullery. But the pantry was empty; every scrap of food had gone. Apparently, the Martian had taken it all on the previous day. At that discovery I despaired for the first time. I took no food, or no drink either, on the eleventh or the twelfth day. At first my mouth and throat were parched, and my strength ebbed sensibly. I sat about in the darkness of the scullery, in a state of despondent wretchedness. My mind ran on eating. I thought I had become deaf, for the noises of movement I had been accustomed to hear from the pit had ceased absolutely. I did not feel strong enough to crawl noiselessly to the peephole, or I would have gone there. On the twelfth day my throat was so painful that, taking the chance of alarming the Martians, I attacked the creaking rain-water pump that stood by the sink, and got a couple of glassfuls of blackened and tainted rain water. I was greatly refreshed by this, and emboldened by the fact that no enquiring tentacle followed the noise of my pumping.",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-022-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-022-hero.txt",
+        "promptSha256": "f02dea5476653cda1eb947e4e623f27e3708d834f3001e72f44054807cc976f7"
+      },
+      "inline": [
+        {
+          "id": "chapter-022-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 9,
+          "anchorSha256": "ce04eb40d29f25daff4a27e76058c3bd2acc796a23b62becbf616ea4021817cc",
+          "align": "right",
+          "passageExcerpt": "I crept forward, saying “Good dog!” very softly; but he suddenly withdrew his head and disappeared. I listened—I was not deaf—but certainly the pit was still. I heard a sound like the flutter of a bird’s wings, and a hoarse croaking, but that was all. For a long while I lay close to the peephole, but not daring to move aside the red plants that obscured it. Once or twice I heard a faint pitter-patter like the feet of the dog going hither and thither on the sand far below me, and there were more birdlike sounds, but that was all. At length, encouraged by the silence, I looked out.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-022-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-022-inline-01.txt",
+          "promptSha256": "2e3be35cfeecf041d132cbe6327d9aa72fcd9d6d6473528ac629ad2624e45e68"
+        }
+      ]
+    },
+    {
+      "id": "chapter-023",
+      "number": 23,
+      "title": "THE WORK OF FIFTEEN DAYS.",
+      "metrics": {
+        "narrativeWords": 1247,
+        "textBlocks": 11,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-023-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.108661,
+        "minimumInlineSeparation": 0.407779,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "c4853675264ce84077ba92bdfbad2216dd119c90c1e3c26d6ac2980012da9896",
+        "passageExcerpt": "…on the mound regardless of my safety. Within that noisome den from which I had emerged I had thought with a narrow intensity only of our immediate security. I had not realised what had been happening to the world, had not anticipated this startling vision of unfamiliar things. I had expected to see Sheen in ruins—I found about me the landscape, weird and lurid, of another planet. For that moment I touched an emotion beyond the common range of men, yet one that the poor brutes we dominate know only too well. I felt as a rabbit might feel returning to his burrow and suddenly confronted by the work of a dozen busy navvies digging the foundations of a house. I felt the first inkling of a thing that presently grew quite clear in my mind, that oppressed me for many days, a sense of dethronement, a persuasion that I was no longer a master, but an animal among the animals, under the Martian heel. With us it would be as with them, to lurk and watch, to run and hide; the fear and empire of man had passed away. But so soon as this strangeness had been realised it passed, and my dominant motive became the hunger of my long and dismal fast. In the direction away from the pit I saw, beyond a red-covered wall, a patch of garden ground unburied. This gave me a hint, and I went knee-deep, and sometimes neck-deep, in the red weed. The density of the weed gave me a reassuring sense of hiding. Th…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-023-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-023-hero.txt",
+        "promptSha256": "bbb6abbb922daa21c15723c34162c9fe5e0be551d466176c7fce5201eaab031c"
+      },
+      "inline": [
+        {
+          "id": "chapter-023-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 5,
+          "anchorSha256": "a7139b556350dad02ae0e6e3c43a68faceffd67d357f9c853eb746dcae600061",
+          "align": "right",
+          "passageExcerpt": "…fterwards saw, the bridge was almost lost in a tangle of this weed, and at Richmond, too, the Thames water poured in a broad and shallow stream across the meadows of Hampton and Twickenham. As the water spread the weed followed them, until the ruined villas of the Thames valley were for a time lost in this red swamp, whose margin I explored, and much of the desolation the Martians had caused was concealed. In the end the red weed succumbed almost as quickly as it had spread. A cankering disease, due, it is believed, to the action of certain bacteria, presently seized upon it. Now by the action of natural selection, all terrestrial plants have acquired a resisting power against bacterial diseases—they never succumb without a severe struggle, but the red weed rotted like a thing already dead. The fronds became bleached, and then shrivelled and brittle. They broke off at the least touch, and the waters that had stimulated their early growth carried their last vestiges out to sea. My first act on coming to this water was, of course, to slake my thirst. I drank a great deal of it and, moved by an impulse, gnawed some fronds of red weed; but they were watery, and had a sickly, metallic taste. I found the water was sufficiently shallow for me to wade securely, although the red weed impeded my feet a little; but the flood evidently got deeper towards the river, and I turned back to Mor…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-023-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-023-inline-01.txt",
+          "promptSha256": "43012f3d39d113bf9ba572480b377b815a14b880540d14cf2207d141c14e1d52"
+        }
+      ]
+    },
+    {
+      "id": "chapter-024",
+      "number": 24,
+      "title": "THE MAN ON PUTNEY HILL.",
+      "metrics": {
+        "narrativeWords": 5565,
+        "textBlocks": 96,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-024-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.107817,
+        "minimumInlineSeparation": 0.227493,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ddeecf94639e7d80c318372c303536d471c670ce0369210da25529ca2daf1af9",
+        "passageExcerpt": "…ere no witnesses—all these things I might have concealed. But I set it down, and the reader must form his judgment as he will. And when, by an effort, I had set aside that picture of a prostrate body, I faced the problem of the Martians and the fate of my wife. For the former I had no data; I could imagine a hundred things, and so, unhappily, I could for the latter. And suddenly that night became terrible. I found myself sitting up in bed, staring at the dark. I found myself praying that the Heat-Ray might have suddenly and painlessly struck her out of being. Since the night of my return from Leatherhead I had not prayed. I had uttered prayers, fetish prayers, had prayed as heathens mutter charms when I was in extremity; but now I prayed indeed, pleading steadfastly and sanely, face to face with the darkness of God. Strange night! Strangest in this, that so soon as dawn had come, I, who had talked with God, crept out of the house like a rat leaving its hiding place—a creature scarcely larger, an inferior animal, a thing that for any passing whim of our masters might be hunted and killed. Perhaps they also prayed confidently to God. Surely, if we have learned nothing else, this war has taught us pity—pity for those witless souls that suffer our dominion. The morning was bright and fine, and the eastern sky glowed pink, and was fretted with little golden clouds. In the road that…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-024-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-024-hero.txt",
+        "promptSha256": "716abd35bd1e8ea99ccc69bb0ea486518c08003b0d4a11bc3cef76fa24c84009"
+      },
+      "inline": [
+        {
+          "id": "chapter-024-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 34,
+          "anchorSha256": "d2d887703f6df487b9416053ad6b7cf3de73ea3b55145f3dc2d6d53fdb07e6da",
+          "align": "right",
+          "passageExcerpt": "“After the tenth shot they fired no more—at least, until the first cylinder came.” “How do you know?” said the artilleryman. I explained. He thought. “Something wrong with the gun,” he said. “But what if there is? They’ll get it right again. And even if there’s a delay, how can it alter the end? It’s just men and ants. There’s the ants builds their cities, live their lives, have wars, revolutions, until the men want them out of the way, and then they go out of the way. That’s what we are now—just ants. Only——” “Yes,” I said.",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-024-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-024-inline-01.txt",
+          "promptSha256": "6dfc26ddb9d3e8427e9be4877a6b8a50291b9565ff1e6a6ac4c93477773d8b01"
+        },
+        {
+          "id": "chapter-024-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 72,
+          "anchorSha256": "b1976d20f46344bfc5529d9d18ccd3ec4d71f8c834a1c6d9eeb51f6cf4d7bf94",
+          "align": "left",
+          "passageExcerpt": "…“Those who stop obey orders. Able-bodied, clean-minded women we want also—mothers and teachers. No lackadaisical ladies—no blasted rolling eyes. We can’t have any weak or silly. Life is real again, and the useless and cumbersome and mischievous have to die. They ought to die. They ought to be willing to die. It’s a sort of disloyalty, after all, to live and taint the race. And they can’t be happy. Moreover, dying’s none so dreadful; it’s the funking makes it bad. And in all those places we shall gather. Our district will be London. And we may even be able to keep a watch, and run about in the open when the Martians keep away. Play cricket, perhaps. That’s how we shall save the race. Eh? It’s a possible thing? But saving the race is nothing in itself. As I say, that’s only being rats. It’s saving our knowledge and adding to it is the thing. There men like you come in. There’s books, there’s models. We must make great safe places down deep, and get all the books we can; not novels and poetry swipes, but ideas, science books. That’s where men like you come in. We must go to the British Museum and pick all those books through. Especially we must keep up our science—learn more. We must watch these Martians. Some of us must go as spies. When it’s all working, perhaps I will. Get caught, I mean. And the great thing is, we must leave the Martians alone. We mustn’t even steal. If we get…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-024-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-024-inline-02.txt",
+          "promptSha256": "245f310fc63a6303aa9d817a6c836e8093f7cd63a381019ad669b7f19558c6fb"
+        }
+      ]
+    },
+    {
+      "id": "chapter-025",
+      "number": 25,
+      "title": "DEAD LONDON.",
+      "metrics": {
+        "narrativeWords": 3093,
+        "textBlocks": 31,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-025-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.103944,
+        "minimumInlineSeparation": 0.231329,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "097d2353c543e4b206c205b4735aac1e18278a5fb07a1eed0a5f1f2a85afed0b",
+        "passageExcerpt": "Here I came once more upon the black powder in the streets and upon dead bodies. I saw altogether about a dozen in the length of the Fulham Road. They had been dead many days, so that I hurried quickly past them. The black powder covered them over, and softened their outlines. One or two had been disturbed by dogs. Where there was no black powder, it was curiously like a Sunday in the City, with the closed shops, the houses locked up and the blinds drawn, the desertion, and the stillness. In some places plunderers had been at work, but rarely at other than the provision and wine shops. A jeweller’s window had been broken open in one place, but apparently the thief had been disturbed, and a number of gold chains and a watch lay scattered on the pavement. I did not trouble to touch them. Farther on was a tattered woman in a heap on a doorstep; the hand that hung over her knee was gashed and bled down her rusty brown dress, and a smashed magnum of champagne formed a pool across the pavement. She seemed asleep, but she was dead. The farther I penetrated into London, the profounder grew the stillness. But it was not so much the stillness of death—it was the stillness of suspense, of expectation. At any time the destruction that had already singed the northwestern borders of the metropolis, and had annihilated Ealing and Kilburn, might strike among these houses and leave them smoking…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-025-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-025-hero.txt",
+        "promptSha256": "b420f9d1b780c8dbf73007cb570f1efc384fba1c2a4f2d4c661145c8e9297b38"
+      },
+      "inline": [
+        {
+          "id": "chapter-025-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 11,
+          "anchorSha256": "e2be7c3335f25a4ba584825b3bb0590662fa2279a6f7d64b6199c9dec334f58e",
+          "align": "right",
+          "passageExcerpt": "…ominous smell from the gratings of the cellars of some of the houses. I grew very thirsty after the heat of my long walk. With infinite trouble I managed to break into a public-house and get food and drink. I was weary after eating, and went into the parlour behind the bar, and slept on a black horsehair sofa I found there. I awoke to find that dismal howling still in my ears, “Ulla, ulla, ulla, ulla.” It was now dusk, and after I had routed out some biscuits and a cheese in the bar—there was a meat safe, but it contained nothing but maggots—I wandered on through the silent residential squares to Baker Street—Portman Square is the only one I can name—and so came out at last upon Regent’s Park. And as I emerged from the top of Baker Street, I saw far away over the trees in the clearness of the sunset the hood of the Martian giant from which this howling proceeded. I was not terrified. I came upon him as if it were a matter of course. I watched him for some time, but he did not move. He appeared to be standing and yelling, for no reason that I could discover. I tried to formulate a plan of action. That perpetual sound of “Ulla, ulla, ulla, ulla,” confused my mind. Perhaps I was too tired to be very fearful. Certainly I was more curious to know the reason of this monotonous crying than afraid. I turned back away from the park and struck into Park Road, intending to skirt the park…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-025-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-025-inline-01.txt",
+          "promptSha256": "b09733baeaa19a73b5d8f696acd2ac7111f9b144aea0039aeabca06e5f0c4246"
+        },
+        {
+          "id": "chapter-025-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 21,
+          "anchorSha256": "ebd41c63bf793eb277687f913ef43a24f4b53b1f7b72f84c116fb15537a82c3d",
+          "align": "left",
+          "passageExcerpt": "…aps there rose a thin smoke against the sky. Against the sky line an eager dog ran and disappeared. The thought that had flashed into my mind grew real, grew credible. I felt no fear, only a wild, trembling exultation, as I ran up the hill towards the motionless monster. Out of the hood hung lank shreds of brown, at which the hungry birds pecked and tore. In another moment I had scrambled up the earthen rampart and stood upon its crest, and the interior of the redoubt was below me. A mighty space it was, with gigantic machines here and there within it, huge mounds of material and strange shelter places. And scattered about it, some in their overturned war-machines, some in the now rigid handling-machines, and a dozen of them stark and silent and laid in a row, were the Martians— dead! —slain by the putrefactive and disease bacteria against which their systems were unprepared; slain as the red weed was being slain; slain, after all man’s devices had failed, by the humblest things that God, in his wisdom, has put upon this earth. For so it had come about, as indeed I and many men might have foreseen had not terror and disaster blinded our minds. These germs of disease have taken toll of humanity since the beginning of things—taken toll of our prehuman ancestors since life began here. But by virtue of this natural selection of our kind we have developed resisting power; to no germ…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-025-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-025-inline-02.txt",
+          "promptSha256": "3f534664e1d0714696b8307c4724ed834f6eb3af5a71990c5fd9f50e79421d78"
+        }
+      ]
+    },
+    {
+      "id": "chapter-026",
+      "number": 26,
+      "title": "WRECKAGE.",
+      "metrics": {
+        "narrativeWords": 1837,
+        "textBlocks": 18,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-026-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.117039,
+        "minimumInlineSeparation": 0.395482,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "47a0ce1817f03ee4f7a6b41f0053034388d54ead78bf5f43e355c883e38fd1e5",
+        "passageExcerpt": "…Of the next three days I know nothing. I have learned since that, so far from my being the first discoverer of the Martian overthrow, several such wanderers as myself had already discovered this on the previous night. One man—the first—had gone to St. Martin’s-le-Grand, and, while I sheltered in the cabmen’s hut, had contrived to telegraph to Paris. Thence the joyful news had flashed all over the world; a thousand cities, chilled by ghastly apprehensions, suddenly flashed into frantic illuminations; they knew of it in Dublin, Edinburgh, Manchester, Birmingham, at the time when I stood upon the verge of the pit. Already men, weeping with joy, as I have heard, shouting and staying their work to shake hands and shout, were making up trains, even as near as Crewe, to descend upon London. The church bells that had ceased a fortnight since suddenly caught the news, until all England was bell-ringing. Men on cycles, lean-faced, unkempt, scorched along every country lane shouting of unhoped deliverance, shouting to gaunt, staring figures of despair. And for the food! Across the Channel, across the Irish Sea, across the Atlantic, corn, bread, and meat were tearing to our relief. All the shipping in the world seemed going Londonward in those days. But of all this I have no memory. I drifted—a demented man. I found myself in a house of kindly people, who had found me on the third day wand…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-026-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-026-hero.txt",
+        "promptSha256": "92c16258fc332a4d55aaaa7ad5eb449398a55bd9eeb4e421f60216c609e7199a"
+      },
+      "inline": [
+        {
+          "id": "chapter-026-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 6,
+          "anchorSha256": "e882802296479c1c1145d50fd83c5d4ee018a84f3df91b09a0f9093dfb1dc01a",
+          "align": "right",
+          "passageExcerpt": "…At the corner of the bridge, too, I saw one of the common contrasts of that grotesque time—a sheet of paper flaunting against a thicket of the red weed, transfixed by a stick that kept it in place. It was the placard of the first newspaper to resume publication—the Daily Mail . I bought a copy for a blackened shilling I found in my pocket. Most of it was in blank, but the solitary compositor who did the thing had amused himself by making a grotesque scheme of advertisement stereo on the back page. The matter he printed was emotional; the news organisation had not as yet found its way back. I learned nothing fresh except that already in one week the examination of the Martian mechanisms had yielded astonishing results. Among other things, the article assured me what I did not believe at the time, that the “Secret of Flying,” was discovered. At Waterloo I found the free trains that were taking people to their homes. The first rush was already over. There were few people in the train, and I was in no mood for casual conversation. I got a compartment to myself, and sat with folded arms, looking greyly at the sunlit devastation that flowed past the windows. And just outside the terminus the train jolted over temporary rails, and on either side of the railway the houses were blackened ruins. To Clapham Junction the face of London was grimy with powder of the Black Smoke, in spite of…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-026-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-026-inline-01.txt",
+          "promptSha256": "5c1ec0831a6efb9d194be1ffdf57f171687a5364e5a4f5c83d99d561ba39754a"
+        }
+      ]
+    },
+    {
+      "id": "chapter-027",
+      "number": 27,
+      "title": "THE EPILOGUE.",
+      "metrics": {
+        "narrativeWords": 1374,
+        "textBlocks": 13,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-027-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.09425,
+        "minimumInlineSeparation": 0.451965,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "c8412dc2a56dfa36e82277badeca9809f4d5703282a471f376be336631e67525",
+        "passageExcerpt": "…concluding my story, how little I am able to contribute to the discussion of the many debatable questions which are still unsettled. In one respect I shall certainly provoke criticism. My particular province is speculative philosophy. My knowledge of comparative physiology is confined to a book or two, but it seems to me that Carver’s suggestions as to the reason of the rapid death of the Martians is so probable as to be regarded almost as a proven conclusion. I have assumed that in the body of my narrative. At any rate, in all the bodies of the Martians that were examined after the war, no bacteria except those already known as terrestrial species were found. That they did not bury any of their dead, and the reckless slaughter they perpetrated, point also to an entire ignorance of the putrefactive process. But probable as this seems, it is by no means a proven conclusion. Neither is the composition of the Black Smoke known, which the Martians used with such deadly effect, and the generator of the Heat-Rays remains a puzzle. The terrible disasters at the Ealing and South Kensington laboratories have disinclined analysts for further investigations upon the latter. Spectrum analysis of the black powder points unmistakably to the presence of an unknown element with a brilliant group of three lines in the green, and it is possible that it combines with argon to form a compound whi…",
+        "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+        "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/heroes/chapter-027-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-027-hero.txt",
+        "promptSha256": "89e8cf43182a21119feb98782cdd29b3f5f0c08f252c7aeeebc7d8c5089e8abc"
+      },
+      "inline": [
+        {
+          "id": "chapter-027-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 8,
+          "anchorSha256": "5ba5476a38dbfc8240957b47f93dca8a3eb1fde5b77ca769d49a7c0248ce549d",
+          "align": "right",
+          "passageExcerpt": "…k. One needs to see the drawings of these appearances in order to appreciate fully their remarkable resemblance in character. At any rate, whether we expect another invasion or not, our views of the human future must be greatly modified by these events. We have learned now that we cannot regard this planet as being fenced in and a secure abiding place for Man; we can never anticipate the unseen good or evil that may come upon us suddenly out of space. It may be that in the larger design of the universe this invasion from Mars is not without its ultimate benefit for men; it has robbed us of that serene confidence in the future which is the most fruitful source of decadence, the gifts to human science it has brought are enormous, and it has done much to promote the conception of the commonweal of mankind. It may be that across the immensity of space the Martians have watched the fate of these pioneers of theirs and learned their lesson, and that on the planet Venus they have found a securer settlement. Be that as it may, for many years yet there will certainly be no relaxation of the eager scrutiny of the Martian disk, and those fiery darts of the sky, the shooting stars, will bring with them as they fall an unavoidable apprehension to all the sons of men. The broadening of men’s views that has resulted can scarcely be exaggerated. Before the cylinder fell there was a general per…",
+          "referenceImage": "output/imagegen/references/the-war-of-the-worlds.webp",
+          "output": "output/imagegen/chapter-scenes/the-war-of-the-worlds/inline/chapter-027-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-war-of-the-worlds/chapter-027-inline-01.txt",
+          "promptSha256": "c42ad85a9dfad2aab5c845640f3170b454c20f8dfc948a017a6f3e21701b9fa7"
+        }
+      ]
+    }
+  ]
+}

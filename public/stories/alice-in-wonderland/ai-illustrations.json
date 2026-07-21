@@ -1,0 +1,559 @@
+{
+  "schemaVersion": 2,
+  "storySlug": "alice-in-wonderland",
+  "generation": {
+    "provider": "OpenAI",
+    "model": "gpt-image-2",
+    "quality": "low",
+    "outputFormat": "webp",
+    "outputCompression": 86
+  },
+  "artDirection": {
+    "style": "Airy Victorian pen and ink with flat transparent watercolor; elastic scale, crisp eccentric silhouettes, playful negative space and dream-logic perspective.",
+    "continuityReferenceUsed": true,
+    "continuityReferenceSha256": "7e5d3d705bf4650c5adf2967ecc6b05ce6b5ad43c9308cc0e53c7413448d4619"
+  },
+  "assets": [
+    {
+      "id": "ai-chapter-01-hero",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-01-hero-d85689ff0fad.webp",
+      "alt": "AI chapter illustration for Down the Rabbit-Hole in Alice's Adventures in Wonderland.",
+      "caption": "Chapter 1: Down the Rabbit-Hole",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 242434,
+      "sha256": "d85689ff0fada783774747aee3e460207d7993096de6f3f74618c2eca0745223",
+      "promptSha256": "5825892f13b71a07fcddd36b95ac6459d7f5b0bee76b089ebc5862a6faea8b03"
+    },
+    {
+      "id": "ai-down-the-rabbit-hole",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/down-the-rabbit-hole-17435323df80.webp",
+      "alt": "AI illustration depicting a scene from Down the Rabbit-Hole in Alice's Adventures in Wonderland.",
+      "caption": "Down the rabbit hole",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 640,
+      "height": 1024,
+      "bytes": 286176,
+      "sha256": "17435323df8094b82ce6a4f3d45ced53ef8ae45b62fd6353ef855aa79c5e5ad6",
+      "promptSha256": "917f47977373a631048de994d68c7a342d4a806dba50d017c8945be24107554b"
+    },
+    {
+      "id": "ai-chapter-02-hero",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-02-hero-548e2bad64ea.webp",
+      "alt": "AI chapter illustration for The Pool of Tears in Alice's Adventures in Wonderland.",
+      "caption": "Chapter 2: The Pool of Tears",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 287124,
+      "sha256": "548e2bad64ea8930a91c6a83f64f75ce0d9a9c78c6a80ba5e60b69c04e36627e",
+      "promptSha256": "1b8ee5c49a251f3c8d3bcbb90633b95ca223a68e50142e22482fbcb5f95c3cae"
+    },
+    {
+      "id": "ai-chapter-02-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-02-inline-01-8d006634c300.webp",
+      "alt": "AI illustration depicting a scene from The Pool of Tears in Alice's Adventures in Wonderland.",
+      "caption": "The Pool of Tears — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 190494,
+      "sha256": "8d006634c3009a9b3b011bcbe5d4185e9408ccb91a37b390b1200f8cb279eead",
+      "promptSha256": "788b36d2816bb7e6ab3f6a3fb8ae79175fc35811bdcfe49521f0f8b2f2fb7eab"
+    },
+    {
+      "id": "ai-chapter-03-hero",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-03-hero-fe9fb27b381d.webp",
+      "alt": "AI chapter illustration for A Caucus-Race and a Long Tale in Alice's Adventures in Wonderland.",
+      "caption": "Chapter 3: A Caucus-Race and a Long Tale",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 278912,
+      "sha256": "fe9fb27b381da3f226a819d9fd0d5d6d7f84d28dec3aaf7683d039792f9dc4a6",
+      "promptSha256": "4abf1ae07bd55f3f91e9fb4d81bdccd62f985948505c76c4331ce27a98ee56e3"
+    },
+    {
+      "id": "ai-chapter-03-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-03-inline-01-054583d1610c.webp",
+      "alt": "AI illustration depicting a scene from A Caucus-Race and a Long Tale in Alice's Adventures in Wonderland.",
+      "caption": "A Caucus-Race and a Long Tale — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 197056,
+      "sha256": "054583d1610c59420caab1772c45ece9480509dd2e17e339707bdf3364ece9e4",
+      "promptSha256": "07e7b99dceac6f2600a0dfe318907d5af028de9db960a1b1aa34a39e9e269d4b"
+    },
+    {
+      "id": "ai-chapter-04-hero",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-04-hero-a46bb4ac7ac9.webp",
+      "alt": "AI chapter illustration for The Rabbit Sends in a Little Bill in Alice's Adventures in Wonderland.",
+      "caption": "Chapter 4: The Rabbit Sends in a Little Bill",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 303164,
+      "sha256": "a46bb4ac7ac90c2f8bae64afdaea64adbb17b84f325163ac5de5821d6da74fc2",
+      "promptSha256": "17e9a6ed187398a35b98d50f3b2022f4324d26bccb8f0ec5eeb3cf7bf63a7dfc"
+    },
+    {
+      "id": "ai-chapter-04-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-04-inline-01-a5ffbcfd5fca.webp",
+      "alt": "AI illustration depicting a scene from The Rabbit Sends in a Little Bill in Alice's Adventures in Wonderland.",
+      "caption": "The Rabbit Sends in a Little Bill — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 246878,
+      "sha256": "a5ffbcfd5fcac359446638d3710d3b3f6c7950ecd1d12edcdb4cf58553868bce",
+      "promptSha256": "9036b6b23f836a337fe3ad03f03dea600ebcf6cce99f723fd34766f027559f1a"
+    },
+    {
+      "id": "ai-chapter-05-hero",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-05-hero-b880dae0ed59.webp",
+      "alt": "AI chapter illustration for Advice from a Caterpillar in Alice's Adventures in Wonderland.",
+      "caption": "Chapter 5: Advice from a Caterpillar",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 266870,
+      "sha256": "b880dae0ed59bc9b51ab2bf17335f1445aac9b55020b15a3b1774033e3dd170b",
+      "promptSha256": "4d69e23c82f338c819df3797a6f94e22fcbac9e217e036d88d57144b94b67553"
+    },
+    {
+      "id": "ai-chapter-05-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-05-inline-01-cac6ec1b6222.webp",
+      "alt": "AI illustration depicting a scene from Advice from a Caterpillar in Alice's Adventures in Wonderland.",
+      "caption": "Advice from a Caterpillar — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 163610,
+      "sha256": "cac6ec1b6222b27df5349e259090f969dcc4a4204fbad2b3544d9bff9aa6af76",
+      "promptSha256": "67423c2fc4d4da3bd8ae36314c9b8530b8946a11b40e712a87ffd862612e90e9"
+    },
+    {
+      "id": "ai-chapter-06-hero",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-06-hero-28f389e5f44f.webp",
+      "alt": "AI chapter illustration for Pig and Pepper in Alice's Adventures in Wonderland.",
+      "caption": "Chapter 6: Pig and Pepper",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 307316,
+      "sha256": "28f389e5f44f6d9cca370bba5329fb6703e8d35be238d3001688000050c5c7f7",
+      "promptSha256": "8396259d1eb4751e698f8d69cd1ae35fd152f9a3911401bed77a324861267ac5"
+    },
+    {
+      "id": "ai-chapter-06-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-06-inline-01-30ba51b47419.webp",
+      "alt": "AI illustration depicting a scene from Pig and Pepper in Alice's Adventures in Wonderland.",
+      "caption": "Pig and Pepper — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 204620,
+      "sha256": "30ba51b47419ce07c2f94e7069085f4469dded3d01b5ac7b7aaa6112aeec5781",
+      "promptSha256": "9f93e99160255a4befe81a38a980534025cd1409f0afd4024b3329a0ad5d44a7"
+    },
+    {
+      "id": "ai-chapter-07-hero",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-07-hero-1d2e7ab75cec.webp",
+      "alt": "AI chapter illustration for A Mad Tea-Party in Alice's Adventures in Wonderland.",
+      "caption": "Chapter 7: A Mad Tea-Party",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 277984,
+      "sha256": "1d2e7ab75cec3bad44829643d025cf0fa5973b844092660875525e37adf4dc27",
+      "promptSha256": "8f87434367b446a00eeb3e90fb355cf715c1ed5d6ef15c39f78c83ecec7157d1"
+    },
+    {
+      "id": "ai-chapter-07-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-07-inline-01-3890b6a618f9.webp",
+      "alt": "AI illustration depicting a scene from A Mad Tea-Party in Alice's Adventures in Wonderland.",
+      "caption": "A Mad Tea-Party — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 242328,
+      "sha256": "3890b6a618f970d87a1f6e7540db0c3696da043436eab00efe75729480838abf",
+      "promptSha256": "d05792d7b58d187016e605bc497181cf311f24d7b63b5181371a5f5ad20e7c60"
+    },
+    {
+      "id": "ai-chapter-07-inline-02",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-07-inline-02-ac7d58e4c93c.webp",
+      "alt": "AI illustration depicting a scene from A Mad Tea-Party in Alice's Adventures in Wonderland.",
+      "caption": "A Mad Tea-Party — illustration 2",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 250446,
+      "sha256": "ac7d58e4c93ce3ec65e03dfe00ab085c8906b54076d5067814d6412fc0ae05a8",
+      "promptSha256": "be9593a9631268c6cdd9825acd2011d2b46d0d2fee7b540326a72fe36a542660"
+    },
+    {
+      "id": "ai-chapter-08-hero",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-08-hero-e14501325c20.webp",
+      "alt": "AI chapter illustration for The Queen's Croquet-Ground in Alice's Adventures in Wonderland.",
+      "caption": "Chapter 8: The Queen's Croquet-Ground",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 308750,
+      "sha256": "e14501325c20f5fd64530db6bab85012c1cab7bee259889b0b97912f42ac253b",
+      "promptSha256": "46f75e06cec9b1b91b4d50e4a1c8b2b248028f6703205983fac823d705feaa02"
+    },
+    {
+      "id": "ai-chapter-08-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-08-inline-01-20fb51e2f55f.webp",
+      "alt": "AI illustration depicting a scene from The Queen's Croquet-Ground in Alice's Adventures in Wonderland.",
+      "caption": "The Queen's Croquet-Ground — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 259028,
+      "sha256": "20fb51e2f55f8611678a1eda62c5c8b78bba03b2163d03d780729f8a167d81fe",
+      "promptSha256": "9cd71f6135e763cf9958a801e4cae29b29a57ba5c6b51e5b8a0c56dd7f31e00b"
+    },
+    {
+      "id": "ai-chapter-09-hero",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-09-hero-a4e9b22c09c3.webp",
+      "alt": "AI chapter illustration for The Mock Turtle's Story in Alice's Adventures in Wonderland.",
+      "caption": "Chapter 9: The Mock Turtle's Story",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 291794,
+      "sha256": "a4e9b22c09c3ab4e3f7a612b90daf6b4469bdcc5d308e543abb9454b84b0cf9b",
+      "promptSha256": "62754cc7e8f59b1fea43c3daf66e2435997de64965c1080bba085e0942002146"
+    },
+    {
+      "id": "ai-chapter-09-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-09-inline-01-cea22a48301a.webp",
+      "alt": "AI illustration depicting a scene from The Mock Turtle's Story in Alice's Adventures in Wonderland.",
+      "caption": "The Mock Turtle's Story — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 240920,
+      "sha256": "cea22a48301a44c36f29ad06481e1074370768eb046cd97623cb2e1e1bcb1db5",
+      "promptSha256": "d5621ad72ad2a4610cdc97894c7a066f387f6d2c3b4457f60f7c4abc464fbee6"
+    },
+    {
+      "id": "ai-chapter-10-hero",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-10-hero-2c8d4a5fa687.webp",
+      "alt": "AI chapter illustration for The Lobster Quadrille in Alice's Adventures in Wonderland.",
+      "caption": "Chapter 10: The Lobster Quadrille",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 292996,
+      "sha256": "2c8d4a5fa687da5f9d34ee6edbb14d5ef4e297a712048cf662e53a799eacd0a5",
+      "promptSha256": "a08ebc1c6d741ad8fee1937a8004a78b93010e55659ca6b77ecd8ba43f6b7362"
+    },
+    {
+      "id": "ai-chapter-10-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-10-inline-01-9093cbd0fa1c.webp",
+      "alt": "AI illustration depicting a scene from The Lobster Quadrille in Alice's Adventures in Wonderland.",
+      "caption": "The Lobster Quadrille — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 229270,
+      "sha256": "9093cbd0fa1c9ea1a95fae6ef1f309b55de717abbb64a5b3adfef514a84699d6",
+      "promptSha256": "d7632efb2dd8c34b0d5d13b0268cb51e5872adfc85216164531b32b6766f5694"
+    },
+    {
+      "id": "ai-chapter-11-hero",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-11-hero-c8a15a2467e7.webp",
+      "alt": "AI chapter illustration for Who Stole the Tarts? in Alice's Adventures in Wonderland.",
+      "caption": "Chapter 11: Who Stole the Tarts?",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 310674,
+      "sha256": "c8a15a2467e737266748215a075dc73aa7650f84daef6fca55d12b924dbf2dd6",
+      "promptSha256": "49f0add2e6e08e2edfcbbb314fc15958a055fd0e0284f37503d6b929884e7bd9"
+    },
+    {
+      "id": "ai-chapter-11-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-11-inline-01-d59affe7679a.webp",
+      "alt": "AI illustration depicting a scene from Who Stole the Tarts? in Alice's Adventures in Wonderland.",
+      "caption": "Who Stole the Tarts? — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 226360,
+      "sha256": "d59affe7679ab733ea6bf807ac5aa2fc52879ca920ab9943c737d701ebaffb22",
+      "promptSha256": "c2e79a609573fa2585d5b73077dbf23e3eb97675d26632454357544517da400b"
+    },
+    {
+      "id": "ai-chapter-12-hero",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-12-hero-360da3386fcc.webp",
+      "alt": "AI chapter illustration for Alice's Evidence in Alice's Adventures in Wonderland.",
+      "caption": "Chapter 12: Alice's Evidence",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 266468,
+      "sha256": "360da3386fcc69295c9bbccb69401db25fcc6d52e06f85c79fa5fe17d116d02c",
+      "promptSha256": "9398aca6f012b50c4c8df0b03eab7ae4c646259cb69b7c598edf7af98730cd0a"
+    },
+    {
+      "id": "ai-chapter-12-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/alice-in-wonderland/ai-images/chapter-12-inline-01-4bbdb7784834.webp",
+      "alt": "AI illustration depicting a scene from Alice's Evidence in Alice's Adventures in Wonderland.",
+      "caption": "Alice's Evidence — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 244108,
+      "sha256": "4bbdb7784834723aba8d98ffc368a84b4a637b79f2b8fe6a76c57a7ccb6e6723",
+      "promptSha256": "96a579a819d0af47d1707a69b3a5a34d4d1066f2a755bc740a6e5a41a6ca4035"
+    }
+  ],
+  "placements": [
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-01",
+      "chapterSha256": "5a1fd76264abe63bb9714a2a8d27f2ef0d4a270aa1a8d23dda642f4ae01b604e",
+      "assetId": "ai-chapter-01-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-01",
+      "afterBlockIndex": 3,
+      "anchorSha256": "0cef5146da6e79d12faf970f1f3ce9a55c2b8594ec6488aae6881e781f3f1519",
+      "assetId": "ai-down-the-rabbit-hole",
+      "placement": "inline",
+      "align": "left"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-02",
+      "chapterSha256": "6a5a2acf482f0f0da14c07a504be26a4d92628447ef357c75bf43995de4c65dd",
+      "assetId": "ai-chapter-02-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-02",
+      "afterBlockIndex": 13,
+      "anchorSha256": "e4f535ca25db1b116568d5f22c0640c44ad8164831b3a5af139f70976b64fb0d",
+      "assetId": "ai-chapter-02-inline-01",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-03",
+      "chapterSha256": "d2fde3ab96b8a404e3f1a7f925c4cac86343f099cf1a3447ff56535a954cad98",
+      "assetId": "ai-chapter-03-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-03",
+      "afterBlockIndex": 23,
+      "anchorSha256": "5cf55a755ec7d1df2872f4aca065dff84b5ca228966ade3faf1afd2b1eb4c888",
+      "assetId": "ai-chapter-03-inline-01",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-04",
+      "chapterSha256": "84167a504a7d15270a8417449f68f060b8b8e6da231c028cd16c8aec451a8a7a",
+      "assetId": "ai-chapter-04-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-04",
+      "afterBlockIndex": 24,
+      "anchorSha256": "2e115f926609da15b619b997b595ae7b11dc0bbf4889bb1c0da40d1f9f5f8b4b",
+      "assetId": "ai-chapter-04-inline-01",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-05",
+      "chapterSha256": "66658219c70806794353e85ef1b12094500132e7bd54f2dcde3c967fea732386",
+      "assetId": "ai-chapter-05-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-05",
+      "afterBlockIndex": 46,
+      "anchorSha256": "185f8ce362c9af3e63a446b1e85ae25ed71c6d261816879992aacf714d191b03",
+      "assetId": "ai-chapter-05-inline-01",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-06",
+      "chapterSha256": "6dacdf06dab7805b2027aa4a700f72ab4873b06b749381f414ecbea218bc3c9d",
+      "assetId": "ai-chapter-06-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-06",
+      "afterBlockIndex": 41,
+      "anchorSha256": "0f9e94f15e104dc3f699020ca8336b1b3ca299fee7dfcd4ad0730878b7133f52",
+      "assetId": "ai-chapter-06-inline-01",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-07",
+      "chapterSha256": "120e05d257051a19a1486ffa0e89006dd935d9c00d63af2d43b2353f944d3978",
+      "assetId": "ai-chapter-07-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-07",
+      "afterBlockIndex": 32,
+      "anchorSha256": "983244b61ce93f59804101506f9408da57d4a57e2a45bf3cd452cb2f30391cb2",
+      "assetId": "ai-chapter-07-inline-01",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-07",
+      "afterBlockIndex": 77,
+      "anchorSha256": "af5f8bfd71abdf3b5dac825b4a6682e4a840e1788514a7106cda4e102183d81d",
+      "assetId": "ai-chapter-07-inline-02",
+      "placement": "inline",
+      "align": "left"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-08",
+      "chapterSha256": "2372d0b0adf048f204639ba480b194c16a99690d938da4cbcf0d2df60aa9d2a2",
+      "assetId": "ai-chapter-08-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-08",
+      "afterBlockIndex": 42,
+      "anchorSha256": "e03c205d1b9c99016d66d0c8ca88f60d9d433cc678172d05e4b9e49c505b3009",
+      "assetId": "ai-chapter-08-inline-01",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-09",
+      "chapterSha256": "6366607973db0d1038ea4419d22fba2021bcc96d3ae54d92baa21d70a5813318",
+      "assetId": "ai-chapter-09-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-09",
+      "afterBlockIndex": 42,
+      "anchorSha256": "7ae7fc5d8e695439fd23fe3dbbebb87038f9749addc8ffe8e479d41047c60758",
+      "assetId": "ai-chapter-09-inline-01",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-10",
+      "chapterSha256": "6b34649d7f0959556c8040148e69d7ce21dec783787d958e32ba7a77ab672973",
+      "assetId": "ai-chapter-10-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-10",
+      "afterBlockIndex": 42,
+      "anchorSha256": "72d70cac271266674cd8221a13b2e569146375e6e0127a15b3efaceaaa448434",
+      "assetId": "ai-chapter-10-inline-01",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-11",
+      "chapterSha256": "62fb94cd1d211f8813a208bf2f6ee24dec27bccc1077121cf1b91ffb5e15ae75",
+      "assetId": "ai-chapter-11-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-11",
+      "afterBlockIndex": 29,
+      "anchorSha256": "c5bfdf11dea3556598d314c1f4fc113c808737cff4890514bf7eb5f926522f86",
+      "assetId": "ai-chapter-11-inline-01",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-12",
+      "chapterSha256": "bb075ca5cbe9a3a8c7224306f3d3b43e4988273bae2a0b8663c9a773d61cbb09",
+      "assetId": "ai-chapter-12-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-12",
+      "afterBlockIndex": 43,
+      "anchorSha256": "1cfc66e79be2a4a1ec13c6d6d4db5fb290dd5d596ac3c91c0391f4628d1b264e",
+      "assetId": "ai-chapter-12-inline-01",
+      "placement": "inline",
+      "align": "right"
+    }
+  ]
+}

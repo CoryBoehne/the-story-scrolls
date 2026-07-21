@@ -1,0 +1,9 @@
+Use case: illustration-story
+Asset type: interior book illustration, not a cover
+Primary request: young Arthur, still an unassuming squire, stands atop the marble block before the cathedral and effortlessly draws the sword from the iron anvil. He is a lean youth in a plain russet medieval tunic and hose, genuinely surprised as the blade slides free; the deserted tournament guard post and cathedral court make the miraculous act feel private. The weapon is bright but practical, with no readable runes.
+Scene/backdrop: legendary late-medieval English cathedral close on a cold festival morning, Gothic stone portal, banners and distant tournament tents, no crowd in the immediate courtyard.
+Style/medium: original illuminated-manuscript geometry combined with Pre-Raphaelite tempera depth, fine gold-leaf-like accents, lapis and vermilion, hand-worked parchment texture; dramatic perspective while remaining a coherent narrative scene.
+Composition/framing: vertical ceremonial composition, Arthur and sword forming a rising central line from marble block to cathedral arch, open courtyard emphasizing the unnoticed miracle; no decorative border.
+Lighting/mood: clear winter light touching the blade and Arthur's astonished face, destiny arriving with quiet simplicity.
+Color palette: lapis blue, vermilion, parchment cream, weathered stone, russet, restrained gold.
+Constraints: faithful to the book's scene and internally consistent medieval material culture; original interpretation; no text, lettering, caption, ornamental border, logo, watermark, or signature; no film, television, animation, or game adaptation likenesses; no modern fantasy armor; natural hands and anatomy.

@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "count": 24,
+  "assets": [
+    {
+      "slug": "alice-in-wonderland",
+      "file": "alice-in-wonderland.webp",
+      "path": "/assets/library-covers/alice-in-wonderland.webp",
+      "source": "/stories/alice-in-wonderland/images/alice02.webp",
+      "width": 320,
+      "height": 480,
+      "bytes": 41380
+    },
+    {
+      "slug": "the-wonderful-wizard-of-oz",
+      "file": "the-wonderful-wizard-of-oz.webp",
+      "path": "/assets/library-covers/the-wonderful-wizard-of-oz.webp",
+      "source": "/stories/the-wonderful-wizard-of-oz/images/i009_edit.webp",
+      "width": 600,
+      "height": 864,
+      "bytes": 51078
+    },
+    {
+      "slug": "treasure-island",
+      "file": "treasure-island.webp",
+      "path": "/assets/library-covers/treasure-island.webp",
+      "source": "/stories/treasure-island/images/art-001.webp",
+      "width": 640,
+      "height": 954,
+      "bytes": 112842
+    },
+    {
+      "slug": "the-secret-garden",
+      "file": "the-secret-garden.webp",
+      "path": "/assets/library-covers/the-secret-garden.webp",
+      "source": "/stories/the-secret-garden/images/art-001.webp",
+      "width": 640,
+      "height": 956,
+      "bytes": 121048
+    },
+    {
+      "slug": "the-adventures-of-huckleberry-finn",
+      "file": "the-adventures-of-huckleberry-finn.webp",
+      "path": "/assets/library-covers/the-adventures-of-huckleberry-finn.webp",
+      "source": "/stories/the-adventures-of-huckleberry-finn/images/art-001.webp",
+      "width": 640,
+      "height": 710,
+      "bytes": 119710
+    },
+    {
+      "slug": "anne-of-green-gables",
+      "file": "anne-of-green-gables.webp",
+      "path": "/assets/library-covers/anne-of-green-gables.webp",
+      "source": "/stories/anne-of-green-gables/images/art-001.webp",
+      "width": 640,
+      "height": 898,
+      "bytes": 68372
+    },
+    {
+      "slug": "winnie-the-pooh",
+      "file": "winnie-the-pooh.webp",
+      "path": "/assets/library-covers/winnie-the-pooh.webp",
+      "source": "/stories/winnie-the-pooh/images/art-001.webp",
+      "width": 406,
+      "height": 500,
+      "bytes": 28940
+    },
+    {
+      "slug": "black-beauty",
+      "file": "black-beauty.webp",
+      "path": "/assets/library-covers/black-beauty.webp",
+      "source": "/stories/black-beauty/images/art-001.webp",
+      "width": 640,
+      "height": 894,
+      "bytes": 79332
+    },
+    {
+      "slug": "the-swiss-family-robinson",
+      "file": "the-swiss-family-robinson.webp",
+      "path": "/assets/library-covers/the-swiss-family-robinson.webp",
+      "source": "/stories/the-swiss-family-robinson/images/art-001.webp",
+      "width": 482,
+      "height": 788,
+      "bytes": 54830
+    },
+    {
+      "slug": "the-wind-in-the-willows",
+      "file": "the-wind-in-the-willows.webp",
+      "path": "/assets/library-covers/the-wind-in-the-willows.webp",
+      "source": "/stories/the-wind-in-the-willows/images/art-001.webp",
+      "width": 400,
+      "height": 556,
+      "bytes": 54232
+    },
+    {
+      "slug": "the-princess-and-the-goblin",
+      "file": "the-princess-and-the-goblin.webp",
+      "path": "/assets/library-covers/the-princess-and-the-goblin.webp",
+      "source": "/stories/the-princess-and-the-goblin/images/art-001.webp",
+      "width": 392,
+      "height": 550,
+      "bytes": 69850
+    },
+    {
+      "slug": "the-story-of-king-arthur-and-his-knights",
+      "file": "the-story-of-king-arthur-and-his-knights.webp",
+      "path": "/assets/library-covers/the-story-of-king-arthur-and-his-knights.webp",
+      "source": "/stories/the-story-of-king-arthur-and-his-knights/images/art-001.webp",
+      "width": 382,
+      "height": 550,
+      "bytes": 38900
+    },
+    {
+      "slug": "five-children-and-it",
+      "file": "five-children-and-it.webp",
+      "path": "/assets/library-covers/five-children-and-it.webp",
+      "source": "/stories/five-children-and-it/images/art-001.webp",
+      "width": 81,
+      "height": 100,
+      "bytes": 3332
+    },
+    {
+      "slug": "a-christmas-carol",
+      "file": "a-christmas-carol.webp",
+      "path": "/assets/library-covers/a-christmas-carol.webp",
+      "source": "/stories/a-christmas-carol/images/art-001.webp",
+      "width": 448,
+      "height": 600,
+      "bytes": 46818
+    },
+    {
+      "slug": "pride-and-prejudice",
+      "file": "pride-and-prejudice.webp",
+      "path": "/assets/library-covers/pride-and-prejudice.webp",
+      "source": "/stories/pride-and-prejudice/images/art-001.webp",
+      "width": 640,
+      "height": 902,
+      "bytes": 190684
+    },
+    {
+      "slug": "the-adventures-of-sherlock-holmes",
+      "file": "the-adventures-of-sherlock-holmes.webp",
+      "path": "/assets/library-covers/the-adventures-of-sherlock-holmes.webp",
+      "source": "/stories/the-adventures-of-sherlock-holmes/images/art-001.webp",
+      "width": 504,
+      "height": 800,
+      "bytes": 165518
+    },
+    {
+      "slug": "dracula",
+      "file": "dracula.webp",
+      "path": "/assets/library-covers/dracula.webp",
+      "source": "/stories/dracula/images/art-001.webp",
+      "width": 633,
+      "height": 960,
+      "bytes": 148536
+    },
+    {
+      "slug": "frankenstein",
+      "file": "frankenstein.webp",
+      "path": "/assets/library-covers/frankenstein.webp",
+      "source": "/stories/frankenstein/images/art-001.webp",
+      "width": 320,
+      "height": 500,
+      "bytes": 13634
+    },
+    {
+      "slug": "the-count-of-monte-cristo",
+      "file": "the-count-of-monte-cristo.webp",
+      "path": "/assets/library-covers/the-count-of-monte-cristo.webp",
+      "source": "/stories/the-count-of-monte-cristo/images/art-001.webp",
+      "width": 640,
+      "height": 953,
+      "bytes": 19600
+    },
+    {
+      "slug": "the-call-of-the-wild",
+      "file": "the-call-of-the-wild.webp",
+      "path": "/assets/library-covers/the-call-of-the-wild.webp",
+      "source": "/stories/the-call-of-the-wild/images/art-001.webp",
+      "width": 463,
+      "height": 700,
+      "bytes": 98692
+    },
+    {
+      "slug": "the-lost-world",
+      "file": "the-lost-world.webp",
+      "path": "/assets/library-covers/the-lost-world.webp",
+      "source": "/stories/the-lost-world/images/art-001.webp",
+      "width": 625,
+      "height": 960,
+      "bytes": 224128
+    },
+    {
+      "slug": "journey-to-the-center-of-the-earth",
+      "file": "journey-to-the-center-of-the-earth.webp",
+      "path": "/assets/library-covers/journey-to-the-center-of-the-earth.webp",
+      "source": "/stories/journey-to-the-center-of-the-earth/images/art-001.webp",
+      "width": 488,
+      "height": 711,
+      "bytes": 110264
+    },
+    {
+      "slug": "white-fang",
+      "file": "white-fang.webp",
+      "path": "/assets/library-covers/white-fang.webp",
+      "source": "/stories/white-fang/images/art-001.webp",
+      "width": 619,
+      "height": 960,
+      "bytes": 76688
+    },
+    {
+      "slug": "the-war-of-the-worlds",
+      "file": "the-war-of-the-worlds.webp",
+      "path": "/assets/library-covers/the-war-of-the-worlds.webp",
+      "source": "/stories/the-war-of-the-worlds/images/art-001.webp",
+      "width": 551,
+      "height": 700,
+      "bytes": 62600
+    }
+  ]
+}

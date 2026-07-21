@@ -1,0 +1,410 @@
+{
+  "schemaVersion": 1,
+  "storySlug": "a-christmas-carol",
+  "title": "A Christmas Carol",
+  "author": "Charles Dickens",
+  "generation": {
+    "provider": "OpenAI",
+    "model": "gpt-image-2",
+    "quality": "low",
+    "format": "webp"
+  },
+  "artDirection": {
+    "style": "Hand-colored Victorian wood engraving with dense crosshatching and theatrical gaslight; soot-black, parchment, holly crimson and spectral mint; humane 1840s London caricature.",
+    "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+    "referenceStatus": "planned"
+  },
+  "quota": {
+    "unit": "inline-illustrations-per-chapter",
+    "formula": "min(4, max(1, ceil(narrativeWords / 3000), ceil(textBlocks / 100)))",
+    "narrativeBlockTypes": [
+      "paragraph",
+      "verse"
+    ],
+    "heroesAreAdditionalToInlineQuota": true
+  },
+  "referenceJob": {
+    "id": "a-christmas-carol-reference-sheet",
+    "role": "reference-sheet",
+    "operation": "image-edit",
+    "width": 816,
+    "height": 816,
+    "sourceImage": "output/imagegen/singles/a-christmas-carol/scene.webp",
+    "output": "output/imagegen/references/a-christmas-carol.webp",
+    "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/a-christmas-carol-reference-sheet.txt",
+    "promptSha256": "9812fbfc933d622b9b2bdb21476a45d37bef21932cd0e702a30693aa6d4caf0d"
+  },
+  "summary": {
+    "chapters": 5,
+    "desiredInline": 12,
+    "retainedInline": 1,
+    "plannedInline": 11,
+    "plannedHeroes": 5
+  },
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "number": 1,
+      "title": "MARLEY'S GHOST",
+      "metrics": {
+        "narrativeWords": 6443,
+        "textBlocks": 172,
+        "inlineQuota": 3
+      },
+      "hero": {
+        "id": "chapter-001-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 8,
+        "sourceFraction": 0.097703,
+        "minimumInlineSeparation": 0.151172,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ec0ca81551854e4749790dff8ef50d5ca62d4f6ae94865157aac8bd92f32f0bf",
+        "passageExcerpt": "External heat and cold had little influence on Scrooge. No warmth could warm, no wintry weather chill him. No wind that blew was bitterer than he, no falling snow was more intent upon its purpose, no pelting rain less open to entreaty. Foul weather didn't know where to have him. The heaviest rain, and snow, and hail, and sleet could boast of the advan tage over him in only one respect. They often 'came down' handsomely, and Scrooge never did. Nobody ever stopped him in the street to say, with gladsome looks, 'My dear Scrooge, how are you? When will you come to see me?' No beggars implored him to bestow a trifle, no children asked him what it was o'clock, no man or woman ever once in all his life inquired the way to such and such a place, of Scrooge. Even the blind men's dogs appeared to know him; and, when they saw him coming on, would tug their owners into doorways and up courts; and then would wag their tails as though they said, 'No eye at all is better than an evil eye, dark master!' But what did Scrooge care? It was the very thing he liked. To edge his way along the crowded paths of life, warning all human sympathy to keep its distance, was what the knowing ones call 'nuts' to Scrooge.",
+        "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+        "output": "output/imagegen/chapter-scenes/a-christmas-carol/heroes/chapter-001-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-001-hero.txt",
+        "promptSha256": "302b8a298dbea668d6f290b4600e0c7e087af3fffd2c1004a2250d41c1351b3a"
+      },
+      "inline": [
+        {
+          "id": "chapter-001-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.25,
+          "afterBlockIndex": 32,
+          "anchorSha256": "dcc1b93b79d34ee991502f55621c4c6ac992e48a265e922bdc6907d9ab476f52",
+          "align": "left",
+          "passageExcerpt": "'Why did you get married?' said Scrooge. 'Because I fell in love.' 'Because you fell in love!' growled Scrooge, as if that were the only one thing in the world more ridiculous than a merry Christmas. 'Good afternoon!'",
+          "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+          "output": "output/imagegen/chapter-scenes/a-christmas-carol/inline/chapter-001-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-001-inline-02.txt",
+          "promptSha256": "10a25faf0caaec74a46166d3f158a8bf534a3387cdd823b2d82a9877981431d3"
+        },
+        {
+          "id": "marley-at-the-door",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 83,
+          "anchorSha256": "c2761ed51c0ab7e7eef44d371afac52f063059e5dc486b129ac5c98bf309fd28",
+          "align": "right",
+          "source": "output/imagegen/singles/a-christmas-carol/scene.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/a-christmas-carol/scene.txt",
+          "caption": "Marley at the door"
+        },
+        {
+          "id": "chapter-001-inline-03",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 3,
+          "targetFraction": 0.75,
+          "afterBlockIndex": 122,
+          "anchorSha256": "b3ae86561f794cc0e4770d132c7b2d0f2c7bdf5025957e1681e4ba972b8ef8b6",
+          "align": "right",
+          "passageExcerpt": "To sit staring at those fixed, glazed eyes in silence, for a moment, would play, Scrooge felt, the very deuce with him. There was something very awful, too, in the spectre's being provided with an infernal atmosphere of his own. Scrooge could not feel it himself, but this was clearly the case; for though the Ghost sat perfectly motionless, its hair, and skirts, and tassels were still agitated as by the hot vapour from an oven. 'You see this toothpick?' said Scrooge, returning quickly to the charge, for the reason just assigned; and wishing, though it were only for a second, to divert the vision's stony gaze from himself. 'I do,' replied the Ghost.",
+          "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+          "output": "output/imagegen/chapter-scenes/a-christmas-carol/inline/chapter-001-inline-03.webp",
+          "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-001-inline-03.txt",
+          "promptSha256": "276d5a3534300f36a7f1b0b12f2fd600487741d0f1cd1ecb096ce5b2d8082f6e"
+        }
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "number": 2,
+      "title": "THE FIRST OF THE THREE SPIRITS",
+      "metrics": {
+        "narrativeWords": 6168,
+        "textBlocks": 151,
+        "inlineQuota": 3
+      },
+      "hero": {
+        "id": "chapter-002-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 19,
+        "sourceFraction": 0.096304,
+        "minimumInlineSeparation": 0.150454,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "b8598b0057dd40f369a40aaae165f1b4e2969c66a37215c601213d6155064ee4",
+        "passageExcerpt": "He spoke before the hour bell sounded, which it now did with a deep, dull, hollow, melancholy One . Light flashed up in the room upon the instant, and the curtains of his bed were drawn. The curtains of his bed were drawn aside, I tell you, by a hand. Not the curtains at his feet, nor the curtains at his back, but those to which his face was addressed. The curtains of his bed were drawn aside; and Scrooge, starting up into a half-recumbent attitude, found himself face to face with the unearthly visitor who drew them: as close to it as I am now to you, and I am standing in the spirit at your elbow. It was a strange figure—like a child; yet not so like a child as like an old man, viewed through some supernatural medium, which gave him the appearance of having receded from the view, and being diminished to a child's proportions. Its hair, which hung about its neck and down its back, was white, as if with age; and yet the face had not a wrinkle in it, and the tenderest bloom was on the skin. The arms were very long and muscular; the hands the same, as if its hold were of uncommon strength. Its legs and feet, most delicately formed, were, like those upper members, bare. It wore a tunic of the purest white; and round its waist was bound a lustrous belt, the sheen of which was beautiful. It held a branch of fresh green holly in its hand; and, in singular contradiction of that wintry e…",
+        "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+        "output": "output/imagegen/chapter-scenes/a-christmas-carol/heroes/chapter-002-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-002-hero.txt",
+        "promptSha256": "489440e16ff6720e9758e07f70ab4d41a986dab8fd94f786d5d9a9e789e4f83e"
+      },
+      "inline": [
+        {
+          "id": "chapter-002-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.25,
+          "afterBlockIndex": 47,
+          "anchorSha256": "efc601bc3f5c4b2010e4de35682acd158c0cc2f7d5e7ea35faad05d8f5424ab3",
+          "align": "right",
+          "passageExcerpt": "'Remember it!' cried Scrooge with fervour; 'I could walk it blindfold.' 'Strange to have forgotten it for so many years!' observed the Ghost. 'Let us go on.' They walked along the road, Scrooge recognising every gate, and post, and tree, until a little market-town appeared in the distance, with its bridge, its church, and winding river. Some shaggy ponies now were seen trotting towards them with boys upon their backs, who called to other boys in country gigs and carts, driven by farmers. All these boys were in great spirits, and shouted to each other, until the broad fields were so full of merry music, that the crisp air laughed to hear it.",
+          "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+          "output": "output/imagegen/chapter-scenes/a-christmas-carol/inline/chapter-002-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-002-inline-01.txt",
+          "promptSha256": "5d73ab1707fec0cc213e64c07475b8bf75229ec5408303b1322848e21cd5511b"
+        },
+        {
+          "id": "chapter-002-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 81,
+          "anchorSha256": "1ebdd03671ef9316e7ae34b799d2d4868c9cd0e5654c8388303fa26a270a0249",
+          "align": "left",
+          "passageExcerpt": "Scrooge seemed uneasy in his mind, and answered briefly, 'Yes.' Although they had but that moment left the school behind them, they were now in the busy thoroughfares of a city, where shadowy passengers passed and re-passed; where shadowy carts and coaches battled for the way, and all the strife and tumult of a real city were. It was made plain enough, by the dressing of the shops, that here, too, it was Christmas-time again; but it was evening, and the streets were lighted up. The Ghost stopped at a certain warehouse door, and asked Scrooge if he knew it.",
+          "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+          "output": "output/imagegen/chapter-scenes/a-christmas-carol/inline/chapter-002-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-002-inline-02.txt",
+          "promptSha256": "8a04302bcfcc007e2956f8555ed70e965f15bcced38e9938dfe0a05a08d56a53"
+        },
+        {
+          "id": "chapter-002-inline-03",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 3,
+          "targetFraction": 0.75,
+          "afterBlockIndex": 114,
+          "anchorSha256": "6c2a54d5365dd672b669355644799c00269533af71f84f266d9960241fe11f03",
+          "align": "right",
+          "passageExcerpt": "He was not alone, but sat by the side of a fair young girl in a mourning dress: in whose eyes there were tears, which sparkled in the light that shone out of the Ghost of Christmas Past. 'It matters little,' she said softly. 'To you, very little. Another idol has displaced me; and, if it can cheer and comfort you in time to come as I would have tried to do, I have no just cause to grieve.' 'What Idol has displaced you?' he rejoined.",
+          "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+          "output": "output/imagegen/chapter-scenes/a-christmas-carol/inline/chapter-002-inline-03.webp",
+          "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-002-inline-03.txt",
+          "promptSha256": "d82df873cc40ea7e061d9623863b35d449ecc0de4e69dbb87549bb58d3719825"
+        }
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "number": 3,
+      "title": "THE SECOND OF THE THREE SPIRITS",
+      "metrics": {
+        "narrativeWords": 8233,
+        "textBlocks": 148,
+        "inlineQuota": 3
+      },
+      "hero": {
+        "id": "chapter-003-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 9,
+        "sourceFraction": 0.098749,
+        "minimumInlineSeparation": 0.150735,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "79f6d3c45f429386ae104856742aa5a140cd447a39a0e29fd660c19d06ed3b63",
+        "passageExcerpt": "'I am the Ghost of Christmas Present,' said the Spirit. 'Look upon me!' Scrooge reverently did so. It was clothed in one simple deep green robe, or mantle, bordered with white fur. This garment hung so loosely on the figure, that its capacious breast was bare, as if disdaining to be warded or concealed by any artifice. Its feet, observable beneath the ample folds of the garment, were also bare; and on its head it wore no other covering than a holly wreath, set here and there with shining icicles. Its dark-brown curls were long and free; free as its genial face, its sparkling eye, its open hand, its cheery voice, its unconstrained demeanour, and its joyful air. Girded round its middle was an antique scabbard: but no sword was in it, and the ancient sheath was eaten up with rust. 'You have never seen the like of me before!' exclaimed the Spirit.",
+        "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+        "output": "output/imagegen/chapter-scenes/a-christmas-carol/heroes/chapter-003-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-003-hero.txt",
+        "promptSha256": "12f3b3a398747dd57a54348826ca23cfb9364891fc2bbe6d7a006a182836e238"
+      },
+      "inline": [
+        {
+          "id": "chapter-003-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.25,
+          "afterBlockIndex": 28,
+          "anchorSha256": "8aa618d3d7b6fb365ef47cf082310267ec3f95952d8e232fbbefe40e23ddf8d6",
+          "align": "right",
+          "passageExcerpt": "'Is there a peculiar flavour in what you sprinkle from your torch?' asked Scrooge. 'There is. My own.' 'Would it apply to any kind of dinner on this day?' asked Scrooge.",
+          "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+          "output": "output/imagegen/chapter-scenes/a-christmas-carol/inline/chapter-003-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-003-inline-01.txt",
+          "promptSha256": "ee36875e2f39929f65ff795753810b30e855c45e95d7fdf21481352f7a7468fb"
+        },
+        {
+          "id": "chapter-003-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 80,
+          "anchorSha256": "673c7651b8526a8ce521fc58aebd82fa19cf0607cb36cce498d50a0679a2a290",
+          "align": "left",
+          "passageExcerpt": "'Man,' said the Ghost, 'if man you be in heart, not adamant, forbear that wicked cant until you have discovered what the surplus is, and where it is. Will you decide what men shall live, what men shall die? It may be that, in the sight of Heaven, you are more worthless and less fit to live than millions like this poor man's child. O God! to hear the insect on the leaf pronouncing on the too much life among his hungry brothers in the dust!' Scrooge bent before the Ghost's rebuke, and, trembling, cast his eyes upon the ground. But he raised them speedily on hearing his own name. 'Mr. Scrooge!' said Bob. 'I'll give you Mr. Scrooge, the Founder of the Feast!'",
+          "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+          "output": "output/imagegen/chapter-scenes/a-christmas-carol/inline/chapter-003-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-003-inline-02.txt",
+          "promptSha256": "e5d1d36910bf9999771f25e253c5e915a942f6154901dcc0b6dddfcf61a876f1"
+        },
+        {
+          "id": "chapter-003-inline-03",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 3,
+          "targetFraction": 0.75,
+          "afterBlockIndex": 114,
+          "anchorSha256": "ed533393074661ae4dd6c068d785da11f451fa971094e97d0762f5caeb167bd2",
+          "align": "right",
+          "passageExcerpt": "'Indeed, I think he loses a very good dinner,' inter rupted Scrooge's niece. Everybody else said the same, and they must be allowed to have been competent judges, because they had just had dinner; and with the dessert upon the table, were clustered round the fire, by lamplight. 'Well! I am very glad to hear it,' said Scrooge's nephew, 'because I haven't any great faith in these young housekeepers. What do you say, Topper?' Topper had clearly got his eye upon one of Scrooge's niece's sisters, for he answered that a bachelor was a wretched outcast, who had no right to express an opinion on the subject. Whereat Scrooge's niece's sister—the plump one with the lace tucker: not the one with the roses—blushed.",
+          "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+          "output": "output/imagegen/chapter-scenes/a-christmas-carol/inline/chapter-003-inline-03.webp",
+          "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-003-inline-03.txt",
+          "promptSha256": "6167227f5f123ab4402e19da49c88ea482433a1a76a1b763cbaceb74ab6d9460"
+        }
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "number": 4,
+      "title": "THE LAST OF THE SPIRITS",
+      "metrics": {
+        "narrativeWords": 5358,
+        "textBlocks": 166,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-004-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 16,
+        "sourceFraction": 0.101624,
+        "minimumInlineSeparation": 0.232829,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "0774f39d6f765a55a9a131b4cd41227df424ad42d94f3c413ca7f3b09adbed4e",
+        "passageExcerpt": "The Spirit stopped beside one little knot of business men. Observing that the hand was pointed to them, Scrooge advanced to listen to their talk. 'No,' said a great fat man with a monstrous chin, 'I don't know much about it either way. I only know he's dead.' 'When did he die?' inquired another.",
+        "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+        "output": "output/imagegen/chapter-scenes/a-christmas-carol/heroes/chapter-004-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-004-hero.txt",
+        "promptSha256": "cf76f29225782568fb47d99b71fbfd5af735c35617e7e5d5b7e31402a01b7763"
+      },
+      "inline": [
+        {
+          "id": "chapter-004-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 50,
+          "anchorSha256": "a846230e1e98e36a2d0fc50f027752ec72f7b7688f6ebcaea9739ba2114fbc74",
+          "align": "right",
+          "passageExcerpt": "'What odds, then? What odds, Mrs. Dilber?' said the woman. 'Every person has a right to take care of themselves. He always did!' 'That's true, indeed!' said the laundress. 'No man more so.' 'Why, then, don't stand staring as if you was afraid, woman! Who's the wiser? We're not going to pick holes in each other's coats, I suppose?'",
+          "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+          "output": "output/imagegen/chapter-scenes/a-christmas-carol/inline/chapter-004-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-004-inline-01.txt",
+          "promptSha256": "2bfcb62e362a2b178312e7ab388a2eb13e2bcc0fed4bd634a95ea667392051ee"
+        },
+        {
+          "id": "chapter-004-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 105,
+          "anchorSha256": "32651cc9781003faafa0a1d61b401ac8f78686b395fa035e7c4503a995f3e7cc",
+          "align": "left",
+          "passageExcerpt": "'I don't know. But, before that time, we shall be ready with the money; and even though we were not, it would be bad fortune indeed to find so merciless a creditor in his successor. We may sleep to-night with light hearts, Caroline!' Yes. Soften it as they would, their hearts were lighter. The children's faces, hushed and clustered round to hear what they so little understood, were brighter; and it was a happier house for this man's death! The only emotion that the Ghost could show him, caused by the event, was one of pleasure. 'Let me see some tenderness connected with a death,' said Scrooge; 'or that dark chamber, Spirit, which we left just now, will be for ever present to me.'",
+          "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+          "output": "output/imagegen/chapter-scenes/a-christmas-carol/inline/chapter-004-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-004-inline-02.txt",
+          "promptSha256": "a3e5e2ab1c30b263661589613da680860c6fef035113d769040a0576149322fe"
+        }
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "number": 5,
+      "title": "THE END OF IT",
+      "metrics": {
+        "narrativeWords": 2299,
+        "textBlocks": 71,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-005-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 6,
+        "sourceFraction": 0.103306,
+        "minimumInlineSeparation": 0.411266,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "434fb58f4e92d982392854507a1d7caa4a55da4ccdeaa3defa979cdebefa2593",
+        "passageExcerpt": "His hands were busy with his garments all this time: turning them inside out, putting them on upside down, tearing them, mislaying them, making them parties to every kind of extravagance. 'I don't know what to do!' cried Scrooge, laughing and crying in the same breath, and making a perfect Laocoon of himself with his stockings. 'I am as light as a feather, I am as happy as an angel, I am as merry as a schoolboy, I am as giddy as a drunken man. A merry Christmas to everybody! A happy New Year to all the world! Hallo here! Whoop! Hallo!' He had frisked into the sitting-room, and was now standing there, perfectly winded.",
+        "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+        "output": "output/imagegen/chapter-scenes/a-christmas-carol/heroes/chapter-005-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-005-hero.txt",
+        "promptSha256": "d1e8115611f0ba2adb80eb6e6d874e62ee56cb0cb9e9f399c8e23dc77859f5c4"
+      },
+      "inline": [
+        {
+          "id": "chapter-005-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 38,
+          "anchorSha256": "a23b71266c7ffdf7d9baf18a809d0a342f6fe4563e33bf832b8aae5eb4f057ac",
+          "align": "right",
+          "passageExcerpt": "He dressed himself 'all in his best,' and at last got out into the streets. The people were by this time pouring forth, as he had seen them with the Ghost of Christmas Present; and, walking with his hands behind him, Scrooge regarded every one with a delighted smile. He looked so irresistibly pleasant, in a word, that three or four good-humoured fellows said, 'Good-morning, sir! A merry Christmas to you!' And Scrooge said often afterwards that, of all the blithe sounds he had ever heard, those were the blithest in his ears. He had not gone far when, coming on towards him, he beheld the portly gentleman who had walked into his counting-house the day before, and said, 'Scrooge and Marley's, I believe?' It sent a pang across his heart to think how this old gentleman would look upon him when they met; but he knew what path lay straight before him, and he took it. 'My dear sir,' said Scrooge, quickening his pace, and taking the old gentleman by both his hands, 'how do you do? I hope you succeeded yesterday. It was very kind of you. A merry Christmas to you, sir!'",
+          "referenceImage": "output/imagegen/references/a-christmas-carol.webp",
+          "output": "output/imagegen/chapter-scenes/a-christmas-carol/inline/chapter-005-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/a-christmas-carol/chapter-005-inline-01.txt",
+          "promptSha256": "04425daded5387a441a5334fbfebb50d5d5e56617d61231d663587c1fa1a8683"
+        }
+      ]
+    }
+  ]
+}

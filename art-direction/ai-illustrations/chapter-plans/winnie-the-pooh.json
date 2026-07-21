@@ -1,0 +1,650 @@
+{
+  "schemaVersion": 1,
+  "storySlug": "winnie-the-pooh",
+  "title": "Winnie-the-Pooh",
+  "author": "A. A. Milne",
+  "generation": {
+    "provider": "OpenAI",
+    "model": "gpt-image-2",
+    "quality": "low",
+    "format": "webp"
+  },
+  "artDirection": {
+    "style": "Gentle colored pencil with translucent watercolor on creamy paper; honey gold, moss, muted brick red and cornflower; loose handmade outlines, ample white space and tiny woodland scale.",
+    "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+    "referenceStatus": "planned"
+  },
+  "quota": {
+    "unit": "inline-illustrations-per-chapter",
+    "formula": "min(4, max(1, ceil(narrativeWords / 3000), ceil(textBlocks / 100)))",
+    "narrativeBlockTypes": [
+      "paragraph",
+      "verse"
+    ],
+    "heroesAreAdditionalToInlineQuota": true
+  },
+  "referenceJob": {
+    "id": "winnie-the-pooh-reference-sheet",
+    "role": "reference-sheet",
+    "operation": "image-edit",
+    "width": 816,
+    "height": 816,
+    "sourceImage": "output/imagegen/singles/winnie-the-pooh/scene.webp",
+    "output": "output/imagegen/references/winnie-the-pooh.webp",
+    "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/winnie-the-pooh-reference-sheet.txt",
+    "promptSha256": "7ed8da519bb5a83c5b9051694645c12986085ca2d84923a21423e9397fb12a68"
+  },
+  "summary": {
+    "chapters": 11,
+    "desiredInline": 15,
+    "retainedInline": 1,
+    "plannedInline": 14,
+    "plannedHeroes": 11
+  },
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "number": 1,
+      "title": "Introduction",
+      "metrics": {
+        "narrativeWords": 486,
+        "textBlocks": 6,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-001-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.117284,
+        "minimumInlineSeparation": 0.300412,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "c2a8531cc8656debaac073603484f76a5befdcd3ed21c43e6a6ad8bba1092acd",
+        "passageExcerpt": "If you happen to have read another book about Christopher Robin, you may remember that he once had a swan (or the swan had Christopher Robin, I don't know which) and that he used to call this swan Pooh. That was a long time ago, and when we said good-bye, we took the name with us, as we didn't think the swan would want it any more. Well, when Edward Bear said that he would like an exciting name all to himself, Christopher Robin said at once, without stopping to think, that he was Winnie-the-Pooh. And he was. So, as I have explained the Pooh part, I will now explain the rest of it. You can't be in London for long without going to the Zoo. There are some people who begin the Zoo at the beginning, called WAYIN, and walk as quickly as they can past every cage until they get to the one called WAYOUT, but the nicest people go straight to the animal they love the most, and stay there. So when Christopher Robin goes to the Zoo, he goes to where the Polar Bears are, and he whispers something to the third keeper from the left, and doors are unlocked, and we wander through dark passages and up steep stairs, until at last we come to the special cage, and the cage is opened, and out trots something brown and furry, and with a happy cry of \"Oh, Bear!\" Christopher Robin rushes into its arms. Now this bear's name is Winnie, which shows what a good name for bears it is, but the funny thing is t…",
+        "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+        "output": "output/imagegen/chapter-scenes/winnie-the-pooh/heroes/chapter-001-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-001-hero.txt",
+        "promptSha256": "8dcfa994f51115e6a30de3dd9cff36c179ddb5dba088d6beb2ecf5f3ec194dfc"
+      },
+      "inline": [
+        {
+          "id": "chapter-001-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 1,
+          "anchorSha256": "dd2b75fc6f76a25e17717375a6db597661555b94da77bb7e3881b988d5c06d4a",
+          "align": "right",
+          "passageExcerpt": "…said that he would like an exciting name all to himself, Christopher Robin said at once, without stopping to think, that he was Winnie-the-Pooh. And he was. So, as I have explained the Pooh part, I will now explain the rest of it. You can't be in London for long without going to the Zoo. There are some people who begin the Zoo at the beginning, called WAYIN, and walk as quickly as they can past every cage until they get to the one called WAYOUT, but the nicest people go straight to the animal they love the most, and stay there. So when Christopher Robin goes to the Zoo, he goes to where the Polar Bears are, and he whispers something to the third keeper from the left, and doors are unlocked, and we wander through dark passages and up steep stairs, until at last we come to the special cage, and the cage is opened, and out trots something brown and furry, and with a happy cry of \"Oh, Bear!\" Christopher Robin rushes into its arms. Now this bear's name is Winnie, which shows what a good name for bears it is, but the funny thing is that we can't remember whether Winnie is called after Pooh, or Pooh after Winnie. We did know once, but we have forgotten.... I had written as far as this when Piglet looked up and said in his squeaky voice, \"What about Me ?\" \"My dear Piglet,\" I said, \"the whole book is about you.\" \"So it is about Pooh,\" he squeaked. You see what it is. He is jealous beca…",
+          "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+          "output": "output/imagegen/chapter-scenes/winnie-the-pooh/inline/chapter-001-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-001-inline-01.txt",
+          "promptSha256": "430bc5866edace7ca3cda942aae5a45247d23630747feff0d41f4dadb2d0481b"
+        }
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "number": 2,
+      "title": "IN WHICH WE ARE INTRODUCED TO WINNIE-THE-POOH AND SOME BEES, AND THE STORIES BEGIN",
+      "metrics": {
+        "narrativeWords": 2083,
+        "textBlocks": 125,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-002-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 12,
+        "sourceFraction": 0.099616,
+        "minimumInlineSeparation": 0.233797,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "bc004f8a250b39fe297dfcc0a6afa726146484d68b1040cebed61bff238ef045",
+        "passageExcerpt": "\"Could you very sweetly tell Winnie-the-Pooh one?\" \"I suppose I could,\" I said. \"What sort of stories does he like?\" \"About himself. Because he's that sort of Bear.\"",
+        "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+        "output": "output/imagegen/chapter-scenes/winnie-the-pooh/heroes/chapter-002-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-002-hero.txt",
+        "promptSha256": "2199ba6cae13058b6a9d4e4ab743ea48c22f0bcec521a54a6370d433d36d8dc7"
+      },
+      "inline": [
+        {
+          "id": "chapter-002-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 42,
+          "anchorSha256": "99bd28085bdda801e639e4a80b90d0146c0de8294ac7debaa045e9baf1d91ee0",
+          "align": "left",
+          "passageExcerpt": "He crawled out of the gorse-bush, brushed the prickles from his nose, and began to think again. And the first person he thought of was Christopher Robin. ( \"Was that me?\" said Christopher Robin in an awed voice, hardly daring to believe it. \" That was you. \"",
+          "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+          "output": "output/imagegen/chapter-scenes/winnie-the-pooh/inline/chapter-002-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-002-inline-02.txt",
+          "promptSha256": "a86d6fb34dfdc2e01bbd3384e7145f93f1266317c7deedfc1b236d5934b403ec"
+        },
+        {
+          "id": "blue-balloon",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 64,
+          "anchorSha256": "461b5e5e9237934c7a14dab5a40419fa33207934796bd2ffd0830dbe52636ad3",
+          "align": "right",
+          "source": "output/imagegen/singles/winnie-the-pooh/scene.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/winnie-the-pooh/scene.txt",
+          "caption": "Pooh and the blue balloon"
+        }
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "number": 3,
+      "title": "IN WHICH POOH GOES VISITING AND GETS INTO A TIGHT PLACE",
+      "metrics": {
+        "narrativeWords": 1436,
+        "textBlocks": 78,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-003-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.112117,
+        "minimumInlineSeparation": 0.393454,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "78755358deb2c676ba4eded6cf86fb65cc0a24055af8467e25bccb0e4b2db139",
+        "passageExcerpt": "Well, he was humming this hum to himself, and walking along gaily, wondering what everybody else was doing, and what it felt like, being somebody else, when suddenly he came to a sandy bank, and in the bank was a large hole. \"Aha!\" said Pooh. ( Rum-tum-tiddle-um-tum. ) \"If I know anything about anything, that hole means Rabbit,\" he said, \"and Rabbit means Company,\" he said, \"and Company means Food and Listening-to-Me-Humming and such like. Rum-tum-tum-tiddle-um. \" So he bent down, put his head into the hole, and called out:",
+        "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+        "output": "output/imagegen/chapter-scenes/winnie-the-pooh/heroes/chapter-003-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-003-hero.txt",
+        "promptSha256": "46539bd155503db8bdbc16d4b36e115791e50b963452d4a8e0eb0b7b5b154079"
+      },
+      "inline": [
+        {
+          "id": "chapter-003-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 41,
+          "anchorSha256": "8e33071b29960a2cfd0acfec9eb18f798b3093b95f6d212243beb7ad9f87117f",
+          "align": "right",
+          "passageExcerpt": "So he started to climb out of the hole. He pulled with his front paws, and pushed with his back paws, and in a little while his nose was out in the open again ... and then his ears ... and then his front paws ... and then his shoulders ... and then—— \"Oh, help!\" said Pooh. \"I'd better go back.\" \"Oh, bother!\" said Pooh. \"I shall have to go on.\"",
+          "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+          "output": "output/imagegen/chapter-scenes/winnie-the-pooh/inline/chapter-003-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-003-inline-01.txt",
+          "promptSha256": "d61bb67eb0e593ae056a4aa23e6112c6e649e7ef48159b0cb2b34b437643b32c"
+        }
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "number": 4,
+      "title": "IN WHICH POOH AND PIGLET GO HUNTING AND NEARLY CATCH A WOOZLE",
+      "metrics": {
+        "narrativeWords": 1227,
+        "textBlocks": 47,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-004-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.107579,
+        "minimumInlineSeparation": 0.392828,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "605749efcfad0e1cece384bf662149bdcd44c74157431714d2c5f348d266e19d",
+        "passageExcerpt": "The Piglet lived in a very grand house in the middle of a beech-tree, and the beech-tree was in the middle of the forest, and the Piglet lived in the middle of the house. Next to his house was a piece of broken board which had: \"TRESPASSERS W\" on it. When Christopher Robin asked the Piglet what it meant, he said it was his grandfather's name, and had been in the family for a long time, Christopher Robin said you couldn't be called Trespassers W, and Piglet said yes, you could, because his grandfather was, and it was short for Trespassers Will, which was short for Trespassers William. And his grandfather had had two names in case he lost one—Trespassers after an uncle, and William after Trespassers. \"I've got two names,\" said Christopher Robin carelessly. \"Well, there you are, that proves it,\" said Piglet.",
+        "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+        "output": "output/imagegen/chapter-scenes/winnie-the-pooh/heroes/chapter-004-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-004-hero.txt",
+        "promptSha256": "594c12a8b60a8bf4c5739889aba1f621c428759f214384300e9e5e8c6a6663c8"
+      },
+      "inline": [
+        {
+          "id": "chapter-004-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 23,
+          "anchorSha256": "72a8dd48bdfbdbf2feee86d3290f2076eb335a213522072d3edaff38d72acf6e",
+          "align": "right",
+          "passageExcerpt": "Suddenly the small shaggy honey-brown teddy bear stopped, and pointed excitedly in front of him. \" Look! \" \" What? \" said the tiny pale-pink stuffed pig, with a jump. And then, to show that he hadn't been frightened, he jumped up and down once or twice more in an exercising sort of way. \"The tracks!\" said the small shaggy honey-brown teddy bear. \" A third animal has joined the other two! \"",
+          "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+          "output": "output/imagegen/chapter-scenes/winnie-the-pooh/inline/chapter-004-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-004-inline-01.txt",
+          "promptSha256": "75a2e540aaf4c32b251b193e907dc2382d62e4bd362cdbcdd6deb0ecab47fbf3"
+        }
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "number": 5,
+      "title": "IN WHICH EEYORE LOSES A TAIL AND POOH FINDS ONE",
+      "metrics": {
+        "narrativeWords": 1401,
+        "textBlocks": 63,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-005-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 6,
+        "sourceFraction": 0.104211,
+        "minimumInlineSeparation": 0.402926,
+        "selection": "safety-compatible-curated-override",
+        "sourceAnchorSha256": "a4f2994a02906eb4f61bfc22b02b93fb6af6480c7fc96e1c4ea9c8bf4b12c1da",
+        "passageExcerpt": "A quiet thistly corner of an English wood in fine spring morning light. In the foreground, a detached grey cloth tail with a plain brass drawing pin rests among moss and thistles, turning the landscape into a gentle woodland mystery. A winding path leads through new beech leaves toward the deeper forest; keep any distant toy figures tiny, indistinct, and without recognizable character traits. Emphasize the handmade object, spacious forest atmosphere, and the question of where the lost tail belongs. Show no branded or adaptation-specific character design.",
+        "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+        "output": "output/imagegen/chapter-scenes/winnie-the-pooh/heroes/chapter-005-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-005-hero.txt",
+        "promptSha256": "27750b9ae95f4b7463b101f35b14996ae459d9dd7a79a129efcfdbce078c50d4"
+      },
+      "inline": [
+        {
+          "id": "chapter-005-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 32,
+          "anchorSha256": "970b46f6f1361b829a585339e5f49fe3619ec3d468fb3cb3cca80b34b354d672",
+          "align": "right",
+          "passageExcerpt": "These notices had been written by Christopher Robin, who was the only one in the forest who could spell; for Owl, wise though he was in many ways, able to read and write and spell his own name WOL, yet somehow went all to pieces over delicate words like MEASLES and BUTTEREDTOAST. Winnie-the-Pooh read the two notices very carefully, first from left to right, and afterwards, in case he had missed some of it, from right to left. Then, to make quite sure, he knocked and pulled the knocker, and he pulled and knocked the bell-rope, and he called out in a very loud voice, \"Owl! I require an answer! It's Bear speaking.\" And the door opened, and Owl looked out. \"Hallo, Pooh,\" he said. \"How's things?\"",
+          "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+          "output": "output/imagegen/chapter-scenes/winnie-the-pooh/inline/chapter-005-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-005-inline-01.txt",
+          "promptSha256": "fb0305c968c847aa287088247c698b62623ff8c5cadb6ab4366e77d8815cbb6e"
+        }
+      ]
+    },
+    {
+      "id": "chapter-006",
+      "number": 6,
+      "title": "IN WHICH PIGLET MEETS A HEFFALUMP",
+      "metrics": {
+        "narrativeWords": 2626,
+        "textBlocks": 86,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-006-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 11,
+        "sourceFraction": 0.101104,
+        "minimumInlineSeparation": 0.40099,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "73e7b1d0d110f9b4380ce4dd1df87f646be85ed8a840ba9c3dbfc2a0a5e955e3",
+        "passageExcerpt": "\"What have you decided, the small shaggy honey-brown teddy bear?\" \"I have decided to catch a an imagined elephant-like creature.\" the small shaggy honey-brown teddy bear nodded his head several times as he said this, and waited for the tiny pale-pink stuffed pig to say \"How?\" or \"the small shaggy honey-brown teddy bear, you couldn't!\" or something helpful of that sort, but the tiny pale-pink stuffed pig said nothing. The fact was the tiny pale-pink stuffed pig was wishing that he had thought about it first.",
+        "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+        "output": "output/imagegen/chapter-scenes/winnie-the-pooh/heroes/chapter-006-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-006-hero.txt",
+        "promptSha256": "656aac60ab31526fa4aa2deaeeb3bdd91a98ce006329ba496a3c4093df088da7"
+      },
+      "inline": [
+        {
+          "id": "chapter-006-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 41,
+          "anchorSha256": "53ae2d025d5d70a054c3289f0616f7e0874cafceb2ce0342555bacc8fdf05490",
+          "align": "right",
+          "passageExcerpt": "Having made certain of this, he took the jar back to the tiny pale-pink stuffed pig, and the tiny pale-pink stuffed pig looked up from the bottom of his Very Deep Pit, and said, \"Got it?\" and the small shaggy honey-brown teddy bear said, \"Yes, but it isn't quite a full jar,\" and he threw it down to the tiny pale-pink stuffed pig, and the tiny pale-pink stuffed pig said, \"No, it isn't! Is that all you've got left?\" and the small shaggy honey-brown teddy bear said \"Yes.\" Because it was. So the tiny pale-pink stuffed pig put the jar at the bottom of the Pit, and climbed out, and they went off home together. \"Well, good night, the small shaggy honey-brown teddy bear,\" said the tiny pale-pink stuffed pig, when they had got to the small shaggy honey-brown teddy bear's house. \"And we meet at six o'clock to-morrow morning by the Pine Trees, and see how many an imagined elephant-like creatures we've got in our Trap.\" \"Six o'clock, the tiny pale-pink stuffed pig. And have you got any string?\"",
+          "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+          "output": "output/imagegen/chapter-scenes/winnie-the-pooh/inline/chapter-006-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-006-inline-01.txt",
+          "promptSha256": "4414c9843afab6bf2373c086c359b276bcab03b0e4d38edfa93ba038dd50fed3"
+        }
+      ]
+    },
+    {
+      "id": "chapter-007",
+      "number": 7,
+      "title": "IN WHICH EEYORE HAS A BIRTHDAY AND GETS TWO PRESENTS",
+      "metrics": {
+        "narrativeWords": 2561,
+        "textBlocks": 165,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-007-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 15,
+        "sourceFraction": 0.096251,
+        "minimumInlineSeparation": 0.244241,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "f76785bedac7b5aebfe7adcd061dd9eefdb4b2c07db2db0fe2ef31565cffe933",
+        "passageExcerpt": "the small shaggy honey-brown teddy bear sat down on a large stone, and tried to think this out. It sounded to him like a riddle, and he was never much good at riddles, being a Bear of Very Little Brain. So he sang Cottleston Pie instead: That was the first verse. When he had finished it, the melancholy grey stuffed donkey didn't actually say that he didn't like it, so the small shaggy honey-brown teddy bear very kindly sang the second verse to him: the melancholy grey stuffed donkey still said nothing at all, so the small shaggy honey-brown teddy bear hummed the third verse quietly to himself:",
+        "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+        "output": "output/imagegen/chapter-scenes/winnie-the-pooh/heroes/chapter-007-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-007-hero.txt",
+        "promptSha256": "8d8b2180452df56cf8b8bdc8c18ae66bcc9f5031c20f2c22edf7ae13c509be6a"
+      },
+      "inline": [
+        {
+          "id": "chapter-007-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 60,
+          "anchorSha256": "195304f825bb8ad0d01e89abaf5c31ee5d924b4461d33e4b08c0765716503709",
+          "align": "right",
+          "passageExcerpt": "So off the tiny pale-pink stuffed pig trotted; and in the other direction went the small shaggy honey-brown teddy bear, with his jar of honey. It was a warm day, and he had a long way to go. He hadn't gone more than half-way when a sort of funny feeling began to creep all over him. It began at the tip of his nose and trickled all through him and out at the soles of his feet. It was just as if somebody inside him were saying, \"Now then, the small shaggy honey-brown teddy bear, time for a little something.\" \"Dear, dear,\" said the small shaggy honey-brown teddy bear, \"I didn't know it was as late as that.\" So he sat down and took the top off his jar of honey. \"Lucky I brought this with me,\" he thought. \"Many a bear going out on a warm day like this would never have thought of bringing a little something with him.\" And he began to eat.",
+          "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+          "output": "output/imagegen/chapter-scenes/winnie-the-pooh/inline/chapter-007-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-007-inline-01.txt",
+          "promptSha256": "1d02c006937d50b2804cbf55909afcbf608cc44ee60a939e8f835df213594845"
+        },
+        {
+          "id": "chapter-007-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 102,
+          "anchorSha256": "a971ff42c7d0706c7f53e531f08bb0e9d0eeb39cfc9bf741394ef2bc7fc47c95",
+          "align": "left",
+          "passageExcerpt": "\"Oh, dear!\" said Piglet \"Oh, dear, oh, dearie, dearie, dear! Well, it's too late now. I can't go back, and I haven't another balloon, and perhaps Eeyore doesn't like balloons so very much.\" So he trotted on, rather sadly now, and down he came to the side of the stream where Eeyore was, and called out to him. \"Good morning, Eeyore,\" shouted Piglet.",
+          "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+          "output": "output/imagegen/chapter-scenes/winnie-the-pooh/inline/chapter-007-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-007-inline-02.txt",
+          "promptSha256": "f0fd571e3c56d3792286073558a9dcdb492db7c280c811abf442d6c95e90d923"
+        }
+      ]
+    },
+    {
+      "id": "chapter-008",
+      "number": 8,
+      "title": "IN WHICH KANGA AND BABY ROO COME TO THE FOREST, AND PIGLET HAS A BATH",
+      "metrics": {
+        "narrativeWords": 2577,
+        "textBlocks": 145,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-008-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 11,
+        "sourceFraction": 0.0974,
+        "minimumInlineSeparation": 0.232247,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "34a5a701b589f4e98a2b1b57cd6105503553822c0e7ab313184814620e5d7171",
+        "passageExcerpt": "\"Seventeen, isn't it?\" said the woodland rabbit. \"And one more for a handkerchief—that's eighteen. Eighteen pockets in one suit! I haven't time.\" There was a long and thoughtful silence ... and then the small shaggy honey-brown teddy bear, who had been frowning very hard for some minutes, said: \" I make it fifteen.\" \"What?\" said the woodland rabbit.",
+        "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+        "output": "output/imagegen/chapter-scenes/winnie-the-pooh/heroes/chapter-008-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-008-hero.txt",
+        "promptSha256": "1735305965fdfb535d0039385ab6062dd89776cb81c407901c846d8fa2626c42"
+      },
+      "inline": [
+        {
+          "id": "chapter-008-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 50,
+          "anchorSha256": "70f0737ed3077caee853009cd3d07f5fe8ac59a3757b77f9375da450e31cf3b0",
+          "align": "right",
+          "passageExcerpt": "\"Oh!\" \"Why, what's the trouble, the tiny pale-pink stuffed pig?\" \"Nothing,\" said the tiny pale-pink stuffed pig, \"as long as we all three say it. As long as we all three say it,\" said the tiny pale-pink stuffed pig, \"I don't mind,\" he said, \"but I shouldn't care to say ' Aha! ' by myself. It wouldn't sound nearly so well. By the way,\" he said, \"you are quite sure about what you said about the winter months?\"",
+          "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+          "output": "output/imagegen/chapter-scenes/winnie-the-pooh/inline/chapter-008-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-008-inline-01.txt",
+          "promptSha256": "bc38c866c2f9d1b0782a8520913aa43384200585162ebe928b6ef4c96e6cfb24"
+        },
+        {
+          "id": "chapter-008-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 112,
+          "anchorSha256": "361b17534fb6e139ef288a6f5c8d9464454d651c83b99963a707ce78e00e73b2",
+          "align": "left",
+          "passageExcerpt": "And as he went up in the air he said, \" Ooooooo! \" and as he came down he said, \" Ow! \" And he was saying, \" Ooooooo-ow, Ooooooo-ow, Ooooooo-ow \" all the way to Kanga's house. Of course as soon as Kanga unbuttoned her pocket, she saw what had happened. Just for a moment, she thought she was frightened, and then she knew she wasn't; for she felt quite sure that Christopher Robin would never let any harm happen to Roo. So she said to herself, \"If they are having a joke with me, I will have a joke with them.\" \"Now then, Roo, dear,\" she said, as she took Piglet out of her pocket. \"Bed-time.\"",
+          "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+          "output": "output/imagegen/chapter-scenes/winnie-the-pooh/inline/chapter-008-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-008-inline-02.txt",
+          "promptSha256": "165c5e9c53f2ca739d8a4dbb28d671cc6f543a1e07db2cf36d072d2577d8e61f"
+        }
+      ]
+    },
+    {
+      "id": "chapter-009",
+      "number": 9,
+      "title": "IN WHICH CHRISTOPHER ROBIN LEADS AN EXPOTITION TO THE NORTH POLE",
+      "metrics": {
+        "narrativeWords": 2870,
+        "textBlocks": 155,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-009-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.099652,
+        "minimumInlineSeparation": 0.238153,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ff9a19269d682e5e5ad4464eb8edc5fe0b2ae0e3e14e688347979828ff759856",
+        "passageExcerpt": "Christopher Robin was sitting outside his door, putting on his Big Boots. As soon as he saw the Big Boots, Pooh knew that an Adventure was going to happen, and he brushed the honey off his nose with the back of his paw, and spruced himself up as well as he could, so as to look Ready for Anything. \"Good-morning, Christopher Robin,\" he called out. \"Hallo, Pooh Bear. I can't get this boot on.\"",
+        "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+        "output": "output/imagegen/chapter-scenes/winnie-the-pooh/heroes/chapter-009-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-009-hero.txt",
+        "promptSha256": "53f84b2306d6686938010322c8c12622071843d97f8bc38e1c55b0b19872e743"
+      },
+      "inline": [
+        {
+          "id": "chapter-009-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 47,
+          "anchorSha256": "7c76be7657e32d810b055f0a72aa2d2350adecdfbc0fb9dbd51dd6b26c09753f",
+          "align": "right",
+          "passageExcerpt": "\"What I say,\" said Eeyore, \"is that it's unsettling. I didn't want to come on this Expo—what Pooh said. I only came to oblige. But here I am; and if I am the end of the Expo—what we're talking about—then let me be the end. But if, every time I want to sit down for a little rest, I have to brush away half a dozen of Rabbit's smaller friends-and-relations first, then this isn't an Expo—whatever it is—at all, it's simply a Confused Noise. That's what I say.\" \"I see what Eeyore means,\" said Owl. \"If you ask me——\" \"I'm not asking anybody,\" said Eeyore. \"I'm just telling everybody. We can look for the North Pole, or we can play 'Here we go gathering Nuts and May' with the end part of an ant's nest. It's all the same to me.\"",
+          "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+          "output": "output/imagegen/chapter-scenes/winnie-the-pooh/inline/chapter-009-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-009-inline-01.txt",
+          "promptSha256": "7086559e276eea8bb23364cc9ca1477f52dcdaf4573fa219e1febed0d2e07b9a"
+        },
+        {
+          "id": "chapter-009-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 107,
+          "anchorSha256": "0767737d1a9fc7a6a861ac99febc5aef3a9301b631ae6d7f8cb3520b5edc24e7",
+          "align": "left",
+          "passageExcerpt": "\"The only thing,\" said the woodland rabbit, \"is, where is it sticking ?\" \"That's what we're looking for,\" said the young boy. They went back to the others. the tiny pale-pink stuffed pig was lying on his back, sleeping peacefully. the little kangaroo toy was washing his face and paws in the stream, while the mother kangaroo toy explained to everybody proudly that this was the first time he had ever washed his face himself, and the owl was telling the mother kangaroo toy an Interesting Anecdote full of long words like EncyclopÃ¦dia and Rhododendron to which the mother kangaroo toy wasn't listening.",
+          "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+          "output": "output/imagegen/chapter-scenes/winnie-the-pooh/inline/chapter-009-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-009-inline-02.txt",
+          "promptSha256": "3cc47acb28d219939485f7123543f7f6eb7e970cac2e3e6bd3b935f75b83924e"
+        }
+      ]
+    },
+    {
+      "id": "chapter-010",
+      "number": 10,
+      "title": "IN WHICH PIGLET IS ENTIRELY SURROUNDED BY WATER",
+      "metrics": {
+        "narrativeWords": 2647,
+        "textBlocks": 85,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-010-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.104836,
+        "minimumInlineSeparation": 0.397809,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "d0b7a6357bf70a9fd076f6868390cc3b46960862502c3d04fbce259b0c6506f1",
+        "passageExcerpt": "For it was rather exciting. The little dry ditches in which Piglet had nosed about so often had become streams, the little streams across which he had splashed were rivers, and the river, between whose steep banks they had played so happily, had sprawled out of its own bed and was taking up so much room everywhere, that Piglet was beginning to wonder whether it would be coming into his bed soon. \"It's a little Anxious,\" he said to himself, \"to be a Very Small Animal Entirely Surrounded by Water. Christopher Robin and Pooh could escape by Climbing Trees, and Kanga could escape by Jumping, and Rabbit could escape by Burrowing, and Owl could escape by Flying, and Eeyore could escape by—by Making a Loud Noise Until Rescued, and here am I, surrounded by water and I can't do anything .\" It went on raining, and every day the water got a little higher, until now it was nearly up to Piglet's window ... and still he hadn't done anything.",
+        "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+        "output": "output/imagegen/chapter-scenes/winnie-the-pooh/heroes/chapter-010-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-010-hero.txt",
+        "promptSha256": "9f40ffc8e21d33ef8c1be260aa79fb31ccad2ea8eb4c81d2d1dddb9f8a0fccf9"
+      },
+      "inline": [
+        {
+          "id": "chapter-010-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 30,
+          "anchorSha256": "acf82cf7f3ca5bdb38017e95fd70426ee7d990f1a075ff56c06f954f41e1c3b7",
+          "align": "right",
+          "passageExcerpt": "\"It's a Missage,\" he said to himself, \"that's what it is. And that letter is a 'P,' and so is that, and so is that, and 'P' means 'Pooh,' so it's a very important Missage to me, and I can't read it. I must find Christopher Robin or Owl or Piglet, one of those Clever Readers who can read things, and they will tell me what this missage means. Only I can't swim. Bother!\" Then he had an idea, and I think that for a Bear of Very Little Brain, it was a good idea. He said to himself: \"If a bottle can float, then a jar can float, and if a jar floats, I can sit on the top of it, if it's a very big jar.\"",
+          "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+          "output": "output/imagegen/chapter-scenes/winnie-the-pooh/inline/chapter-010-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-010-inline-01.txt",
+          "promptSha256": "48dc6d97a6acb725d8a46956f93566f1432b528ad33aeea9553d733b051c61bb"
+        }
+      ]
+    },
+    {
+      "id": "chapter-011",
+      "number": 11,
+      "title": "IN WHICH CHRISTOPHER ROBIN GIVES POOH A PARTY, AND WE SAY GOOD-BYE",
+      "metrics": {
+        "narrativeWords": 1742,
+        "textBlocks": 82,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-011-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.095293,
+        "minimumInlineSeparation": 0.423938,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "d5c28cf4120bdeb3d5c11eecbc29b1fc8fed09895ff935ef7a9d35539510758f",
+        "passageExcerpt": "\"You are, are you?\" said the owl. \"And it's to be a special sort of party, because it's because of what the small shaggy honey-brown teddy bear did when he did what he did to save the tiny pale-pink stuffed pig from the flood.\" \"Oh, that's what it's for, is it?\" said the owl.",
+        "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+        "output": "output/imagegen/chapter-scenes/winnie-the-pooh/heroes/chapter-011-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-011-hero.txt",
+        "promptSha256": "3ebd59b3671208328df0adc290d3253caf01fdabd7e0aec79426ba156ce69d6f"
+      },
+      "inline": [
+        {
+          "id": "chapter-011-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 43,
+          "anchorSha256": "49f1faae50acfed856294c82366007838857d84d6afdc316c488d0e554f66785",
+          "align": "right",
+          "passageExcerpt": "Roo looked to see if it didn't, and it didn't, so he said \"Hallo, Owl!\"—and Owl said \"Hallo, my little fellow,\" in a kindly way, and went on telling Christopher Robin about an accident which had nearly happened to a friend of his whom Christopher Robin didn't know, and Kanga said to Roo, \"Drink up your milk first, dear, and talk afterwards.\" So Roo, who was drinking his milk, tried to say that he could do both at once ... and had to be patted on the back and dried for quite a long time afterwards. When they had all nearly eaten enough, Christopher Robin banged on the table with his spoon, and everybody stopped talking and was very silent, except Roo who was just finishing a loud attack of hiccups and trying to look as if it was one of Rabbit's relations. \"This party,\" said Christopher Robin, \"is a party because of what someone did, and we all know who it was, and it's his party, because of what he did, and I've got a present for him and here it is.\" Then he felt about a little and whispered, \"Where is it?\"",
+          "referenceImage": "output/imagegen/references/winnie-the-pooh.webp",
+          "output": "output/imagegen/chapter-scenes/winnie-the-pooh/inline/chapter-011-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/winnie-the-pooh/chapter-011-inline-01.txt",
+          "promptSha256": "a1ac825f3b1aa5eb66f71bf053e1b02e414dabb7ab920ff8510298956bac7c18"
+        }
+      ]
+    }
+  ]
+}

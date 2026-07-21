@@ -1,0 +1,1251 @@
+{
+  "schemaVersion": 1,
+  "storySlug": "the-wonderful-wizard-of-oz",
+  "title": "The Wonderful Wizard of Oz",
+  "author": "L. Frank Baum",
+  "generation": {
+    "provider": "OpenAI",
+    "model": "gpt-image-2",
+    "quality": "low",
+    "format": "webp"
+  },
+  "artDirection": {
+    "style": "Exuberant Art Nouveau chromolithograph with emerald, poppy red, yellow-brick gold, silver and sky cyan; flowing contours, decorative botanical rhythm and bold fantasy silhouettes.",
+    "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+    "referenceStatus": "planned"
+  },
+  "quota": {
+    "unit": "inline-illustrations-per-chapter",
+    "formula": "min(4, max(1, ceil(narrativeWords / 3000), ceil(textBlocks / 100)))",
+    "narrativeBlockTypes": [
+      "paragraph",
+      "verse"
+    ],
+    "heroesAreAdditionalToInlineQuota": true
+  },
+  "referenceJob": {
+    "id": "the-wonderful-wizard-of-oz-reference-sheet",
+    "role": "reference-sheet",
+    "operation": "image-edit",
+    "width": 816,
+    "height": 816,
+    "sourceImage": "output/imagegen/singles/the-wonderful-wizard-of-oz/scene.webp",
+    "output": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+    "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/the-wonderful-wizard-of-oz-reference-sheet.txt",
+    "promptSha256": "509413709f1c52572774176c0c018d46b0f69592eb2ae9b4197f1697b3d72cac"
+  },
+  "summary": {
+    "chapters": 24,
+    "desiredInline": 26,
+    "retainedInline": 1,
+    "plannedInline": 25,
+    "plannedHeroes": 24
+  },
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "number": 1,
+      "title": "The Cyclone",
+      "metrics": {
+        "narrativeWords": 1139,
+        "textBlocks": 20,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-01-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.072432,
+        "minimumInlineSeparation": 0.648376,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "84bb8a3ef30bc00170ec0faf05849747c84840c843b831e9f21d4bf485e01f9b",
+        "passageExcerpt": "Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, who was a farmer, and Aunt Em, who was the farmer's wife. Their house was small, for the lumber to build it had to be carried by wagon many miles. There were four walls, a floor and a roof, which made one room; and this room contained a rusty looking cooking stove, a cupboard for the dishes, a table, three or four chairs, and the beds. Uncle Henry and Aunt Em had a big bed in one corner, and Dorothy a little bed in another corner. There was no garret at all, and no cellar—except a small hole, dug in the ground, called a cyclone cellar, where the family could go in case one of those great whirlwinds arose, mighty enough to crush any building in its path. It was reached by a trap-door in the middle of the floor, from which a ladder led down into the small, dark hole. When Dorothy stood in the doorway and looked around, she could see nothing but the great gray prairie on every side. Not a tree nor a house broke the broad sweep of flat country that reached the edge of the sky in all directions. The sun had baked the plowed land into a gray mass, with little cracks running through it. Even the grass was not green, for the sun had burned the tops of the long blades until they were the same gray color to be seen everywhere. Once the house had been painted, but the sun blistered the paint and the rains washed it…",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-01-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-01-hero.txt",
+        "promptSha256": "14d0ecf22ad31b95eba59877816fc69b692ddca745db1b42b955a1ca394c090e"
+      },
+      "inline": [
+        {
+          "id": "cyclone",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 16,
+          "anchorSha256": "52d84a4414e3829d2a022f508c977f7926a281541803be29847e0bf4542d1d1f",
+          "align": "plate",
+          "source": "output/imagegen/singles/the-wonderful-wizard-of-oz/scene.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/the-wonderful-wizard-of-oz/scene.txt",
+          "caption": "The farmhouse in the cyclone"
+        }
+      ]
+    },
+    {
+      "id": "chapter-02",
+      "number": 2,
+      "title": "The Council with the Munchkins",
+      "metrics": {
+        "narrativeWords": 2004,
+        "textBlocks": 62,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-02-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.08508,
+        "minimumInlineSeparation": 0.421906,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "738873a7722a034fcb450a25311036ce1346e4f1b59dbfa2eec99f20536a0df1",
+        "passageExcerpt": "The little girl gave a cry of amazement and looked about her, her eyes growing bigger and bigger at the wonderful sights she saw. The cyclone had set the house down, very gently—for a cyclone—in the midst of a country of marvelous beauty. There were lovely patches of green sward all about, with stately trees bearing rich and luscious fruits. Banks of gorgeous flowers were on every hand, and birds with rare and brilliant plumage sang and fluttered in the trees and bushes. A little way off was a small brook, rushing and sparkling along between green banks, and murmuring in a voice very grateful to a little girl who had lived so long on the dry, gray prairies. While she stood looking eagerly at the strange and beautiful sights, she noticed coming toward her a group of the queerest people she had ever seen. They were not as big as the grown folk she had always been used to; but neither were they very small. In fact, they seemed about as tall as Dorothy, who was a well-grown child for her age, although they were, so far as looks go, many years older.",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-02-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-02-hero.txt",
+        "promptSha256": "73b98a307c4ca0bdae50aea4dc17bbcbbb314646f956319fb3037a906a9f7638"
+      },
+      "inline": [
+        {
+          "id": "chapter-02-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 28,
+          "anchorSha256": "693d02ec180c3e7f3280c86316b444a101a6f943c2f0aebb9c8169b7cce30c47",
+          "align": "right",
+          "passageExcerpt": "\"Oh, no; that is a great mistake. There were only four witches in all the Land of Oz, and two of them, those who live in the North and the South, are good witches. I know this is true, for I am one of them myself, and cannot be mistaken. Those who dwelt in the East and the West were, indeed, wicked witches; but now that you have killed one of them, there is but one wicked Witch in all the Land of Oz—the one who lives in the West.\" \"But,\" said Dorothy, after a moment's thought, \"Aunt Em has told me that the witches were all dead—years and years ago.\" \"Who is Aunt Em?\" inquired the little old woman.",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-02-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-02-inline-01.txt",
+          "promptSha256": "4e384ebe3b21f46cb60760a1ce98b1c9481e820652875dc85fdf6ed3cae09a37"
+        }
+      ]
+    },
+    {
+      "id": "chapter-03",
+      "number": 3,
+      "title": "How Dorothy Saved the Scarecrow",
+      "metrics": {
+        "narrativeWords": 1960,
+        "textBlocks": 57,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-03-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.094133,
+        "minimumInlineSeparation": 0.413265,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "1186eef88aca8627662c288d5e38e4bddd2a34eacdad5af60a4d4f0f9835615a",
+        "passageExcerpt": "Then she went back to the house, and having helped herself and Toto to a good drink of the cool, clear water, she set about making ready for the journey to the City of Emeralds. Dorothy had only one other dress, but that happened to be clean and was hanging on a peg beside her bed. It was gingham, with checks of white and blue; and although the blue was somewhat faded with many washings, it was still a pretty frock. The girl washed herself carefully, dressed herself in the clean gingham, and tied her pink sunbonnet on her head. She took a little basket and filled it with bread from the cupboard, laying a white cloth over the top. Then she looked down at her feet and noticed how old and worn her shoes were. \"They surely will never do for a long journey, Toto,\" she said. And Toto looked up into her face with his little black eyes and wagged his tail to show he knew what she meant.",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-03-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-03-hero.txt",
+        "promptSha256": "1575a343f5e9fbf5194f58a10d350bcb759722d43275b1247636d392dbd771ed"
+      },
+      "inline": [
+        {
+          "id": "chapter-03-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 27,
+          "anchorSha256": "a1fc10fcfe94c6b363d92761c56b2672d1021565d91bdfc2d5bb6a8ed752298d",
+          "align": "right",
+          "passageExcerpt": "When she had tired watching the dancing, Boq led her into the house, where he gave her a room with a pretty bed in it. The sheets were made of blue cloth, and Dorothy slept soundly in them till morning, with Toto curled up on the blue rug beside her. She ate a hearty breakfast, and watched a wee Munchkin baby, who played with Toto and pulled his tail and crowed and laughed in a way that greatly amused Dorothy. Toto was a fine curiosity to all the people, for they had never seen a dog before. \"How far is it to the Emerald City?\" the girl asked.",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-03-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-03-inline-01.txt",
+          "promptSha256": "3e60efb9b9f8bea7dd49d9e0f982cd89783f78e00ccb9648d07ab42a09d092d1"
+        }
+      ]
+    },
+    {
+      "id": "chapter-04",
+      "number": 4,
+      "title": "The Road Through the Forest",
+      "metrics": {
+        "narrativeWords": 1435,
+        "textBlocks": 38,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-04-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.108014,
+        "minimumInlineSeparation": 0.401394,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ab454f75469b70570eff6023b53a263c43c58e0b8f187255879cb27a124a5402",
+        "passageExcerpt": "The farms were not nearly so well cared for here as they were farther back. There were fewer houses and fewer fruit trees, and the farther they went the more dismal and lonesome the country became. At noon they sat down by the roadside, near a little brook, and Dorothy opened her basket and got out some bread. She offered a piece to the Scarecrow, but he refused. \"I am never hungry,\" he said; \"and it is a lucky thing I am not. For my mouth is only painted, and if I should cut a hole in it so I could eat, the straw I am stuffed with would come out, and that would spoil the shape of my head.\"",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-04-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-04-hero.txt",
+        "promptSha256": "367fed3d57b5f7fb4c095a36d7c14d5528b21c609d5bbe5e4de833593b4e33e3"
+      },
+      "inline": [
+        {
+          "id": "chapter-04-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 22,
+          "anchorSha256": "d3faae335f02744e470276702172d015b2adbd3e283d7f32cc92656ef1cca4fb",
+          "align": "right",
+          "passageExcerpt": "\"'This fellow will scare the crows fast enough,' said the farmer; 'he looks just like a man.' \"'Why, he is a man,' said the other, and I quite agreed with him. The farmer carried me under his arm to the cornfield, and set me up on a tall stick, where you found me. He and his friend soon after walked away and left me alone. \"I did not like to be deserted this way; so I tried to walk after them, but my feet would not touch the ground, and I was forced to stay on that pole. It was a lonely life to lead, for I had nothing to think of, having been made such a little while before. Many crows and other birds flew into the cornfield, but as soon as they saw me they flew away again, thinking I was a Munchkin; and this pleased me and made me feel that I was quite an important person. By and by an old crow flew near me, and after looking at me carefully he perched upon my shoulder and said,",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-04-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-04-inline-01.txt",
+          "promptSha256": "fb3192cba12a06eb30141c0e463856069ac9e573fbd13b09886cce21ce5a30d5"
+        }
+      ]
+    },
+    {
+      "id": "chapter-05",
+      "number": 5,
+      "title": "The Rescue of the Tin Woodman",
+      "metrics": {
+        "narrativeWords": 2051,
+        "textBlocks": 53,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-05-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 7,
+        "sourceFraction": 0.096538,
+        "minimumInlineSeparation": 0.407362,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "5ce9f89eeb602441e7fbc91e6d3d305308a31b4a9fe632ad79635c38ef253133",
+        "passageExcerpt": "They left the cottage and walked through the trees until they found a little spring of clear water, where Dorothy drank and bathed and ate her breakfast. She saw there was not much bread left in the basket, and the girl was thankful the Scarecrow did not have to eat anything, for there was scarcely enough for herself and Toto for the day. When she had finished her meal, and was about to go back to the road of yellow brick, she was startled to hear a deep groan near by. \"What was that?\" she asked, timidly.",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-05-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-05-hero.txt",
+        "promptSha256": "93aec7a28e6c79bd34c05fa79684ff5a2c07fe1bac39833faf24ace28f9cce2b"
+      },
+      "inline": [
+        {
+          "id": "chapter-05-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 39,
+          "anchorSha256": "aa2d4fea0b11db9e24cdae0daf5392c7891e884970f1fc713a6c592880dc7f04",
+          "align": "right",
+          "passageExcerpt": "\"Why didn't you walk around the hole?\" asked the Tin Woodman. \"I don't know enough,\" replied the Scarecrow, cheerfully. \"My head is stuffed with straw, you know, and that is why I am going to Oz to ask him for some brains.\" \"Oh, I see;\" said the Tin Woodman. \"But, after all, brains are not the best things in the world.\"",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-05-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-05-inline-01.txt",
+          "promptSha256": "e4d216d6fbfcf00f628dbf2d30d5dbf15a5f1f45e88b442d244e1efbfdcb6d60"
+        }
+      ]
+    },
+    {
+      "id": "chapter-06",
+      "number": 6,
+      "title": "The Cowardly Lion",
+      "metrics": {
+        "narrativeWords": 1497,
+        "textBlocks": 47,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-06-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.084502,
+        "minimumInlineSeparation": 0.411156,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "df28e0e19077b62804f583b76eac9b2560d472e71176562cd1a900b19382ffb7",
+        "passageExcerpt": "There were few birds in this part of the forest, for birds love the open country where there is plenty of sunshine; but now and then there came a deep growl from some wild animal hidden among the trees. These sounds made the little girl's heart beat fast, for she did not know what made them; but Toto knew, and he walked close to Dorothy's side, and did not even bark in return. \"How long will it be,\" the child asked of the Tin Woodman, \"before we are out of the forest?\" \"I cannot tell,\" was the answer, \"for I have never been to the Emerald City. But my father went there once, when I was a boy, and he said it was a long journey through a dangerous country, although nearer to the city where Oz dwells the country is beautiful. But I am not afraid so long as I have my oil-can, and nothing can hurt the Scarecrow, while you bear upon your forehead the mark of the good Witch's kiss, and that will protect you from harm.\"",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-06-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-06-hero.txt",
+        "promptSha256": "6941798f34021625ef106a2228832df71e405435041c9343ed21b9095b86190e"
+      },
+      "inline": [
+        {
+          "id": "chapter-06-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 25,
+          "anchorSha256": "e542eb41ce6ec74ea7490c899998bdb2e361d08c13f4b7ad504c506366a6bf87",
+          "align": "right",
+          "passageExcerpt": "\"What makes you a coward?\" asked Dorothy, looking at the great beast in wonder, for he was as big as a small horse. \"It's a mystery,\" replied the Lion. \"I suppose I was born that way. All the other animals in the forest naturally expect me to be brave, for the Lion is everywhere thought to be the King of Beasts. I learned that if I roared very loudly every living thing was frightened and got out of my way. Whenever I've met a man I've been awfully scared; but I just roared at him, and he has always run away as fast as he could go. If the elephants and the tigers and the bears had ever tried to fight me, I should have run myself—I'm such a coward; but just as soon as they hear me roar they all try to get away from me, and of course I let them go.\" \"But that isn't right. The King of Beasts shouldn't be a coward,\" said the Scarecrow.",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-06-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-06-inline-01.txt",
+          "promptSha256": "47140730008eac6abb130ac4cfb655f82b6f694a2fe0cb42293fede2a14df948"
+        }
+      ]
+    },
+    {
+      "id": "chapter-07",
+      "number": 7,
+      "title": "The Journey to the Great Oz",
+      "metrics": {
+        "narrativeWords": 1800,
+        "textBlocks": 41,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-07-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.077778,
+        "minimumInlineSeparation": 0.419722,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "5ed2b54d7f52dfe898c2dcc1077fa62e62f708f5543e5305844e3be319c12756",
+        "passageExcerpt": "\"If you wish,\" said the Lion, \"I will go into the forest and kill a deer for you. You can roast it by the fire, since your tastes are so peculiar that you prefer cooked food, and then you will have a very good breakfast.\" \"Don't! please don't,\" begged the Tin Woodman. \"I should certainly weep if you killed a poor deer, and then my jaws would rust again.\" But the Lion went away into the forest and found his own supper, and no one ever knew what it was, for he didn't mention it. And the Scarecrow found a tree full of nuts and filled Dorothy's basket with them, so that she would not be hungry for a long time. She thought this was very kind and thoughtful of the Scarecrow, but she laughed heartily at the awkward way in which the poor creature picked up the nuts. His padded hands were so clumsy and the nuts were so small that he dropped almost as many as he put in the basket. But the Scarecrow did not mind how long it took him to fill the basket, for it enabled him to keep away from the fire, as he feared a spark might get into his straw and burn him up. So he kept a good distance away from the flames, and only came near to cover Dorothy with dry leaves when she lay down to sleep. These kept her very snug and warm and she slept soundly until morning.",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-07-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-07-hero.txt",
+        "promptSha256": "f98b4adda1a5586e14d73e6c3303f9cc86f6ef9ba34d2f6da714f9ae136ab937"
+      },
+      "inline": [
+        {
+          "id": "chapter-07-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 21,
+          "anchorSha256": "6db232e671c11763a5b2c2fe6ff95c2d95ae49992e8109b905a4b4a90652933a",
+          "align": "right",
+          "passageExcerpt": "Dorothy thought she would go next; so she took Toto in her arms and climbed on the Lion's back, holding tightly to his mane with one hand. The next moment it seemed as if she was flying through the air; and then, before she had time to think about it, she was safe on the other side. The Lion went back a third time and got the Tin Woodman, and then they all sat down for a few moments to give the beast a chance to rest, for his great leaps had made his breath short, and he panted like a big dog that has been running too long. They found the forest very thick on this side, and it looked dark and gloomy. After the Lion had rested they started along the road of yellow brick, silently wondering, each in his own mind, if ever they would come to the end of the woods and reach the bright sunshine again. To add to their discomfort, they soon heard strange noises in the depths of the forest, and the Lion whispered to them that it was in this part of the country that the Kalidahs lived. \"What are the Kalidahs?\" asked the girl.",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-07-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-07-inline-01.txt",
+          "promptSha256": "3875cc5f4b60be8601f96b2b277c095536d935ed5b63d58fd7335461625093c4"
+        }
+      ]
+    },
+    {
+      "id": "chapter-08",
+      "number": 8,
+      "title": "The Deadly Poppy Field",
+      "metrics": {
+        "narrativeWords": 1923,
+        "textBlocks": 58,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-08-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.100624,
+        "minimumInlineSeparation": 0.397036,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "8ed1982ae4fb3a6dc5a8476dfc5e200f35359fce26f2ea9ea380a864bd3af5eb",
+        "passageExcerpt": "To be sure, the broad river now cut them off from this beautiful land; but the raft was nearly done, and after the Tin Woodman had cut a few more logs and fastened them together with wooden pins, they were ready to start. Dorothy sat down in the middle of the raft and held Toto in her arms. When the Cowardly Lion stepped upon the raft it tipped badly, for he was big and heavy; but the Scarecrow and the Tin Woodman stood upon the other end to steady it, and they had long poles in their hands to push the raft through the water. They got along quite well at first, but when they reached the middle of the river the swift current swept the raft down stream, farther and farther away from the road of yellow brick; and the water grew so deep that the long poles would not touch the bottom. \"This is bad,\" said the Tin Woodman, \"for if we cannot get to the land we shall be carried into the country of the wicked Witch of the West, and she will enchant us and make us her slaves.\"",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-08-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-08-hero.txt",
+        "promptSha256": "fcf83124e88893e159a919d0facd70b2875f368b78412ce42000fe41b62cd3a7"
+      },
+      "inline": [
+        {
+          "id": "chapter-08-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 36,
+          "anchorSha256": "5c69d396096836e042da3119c0775e2ac0a9b0dc608f93dbdc166676f44abd49",
+          "align": "right",
+          "passageExcerpt": "\"Over there in the river,\" answered the girl. \"If he wasn't so big and heavy I would get him for you,\" remarked the Stork. \"He isn't heavy a bit,\" said Dorothy, eagerly, \"for he is stuffed with straw; and if you will bring him back to us we shall thank you ever and ever so much.\"",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-08-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-08-inline-01.txt",
+          "promptSha256": "1b9bc791514cd2bd9c826948032a8be47662fe23baeea9fe90d8b996baaef6e9"
+        }
+      ]
+    },
+    {
+      "id": "chapter-09",
+      "number": 9,
+      "title": "The Queen of the Field Mice",
+      "metrics": {
+        "narrativeWords": 1382,
+        "textBlocks": 43,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-09-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.125181,
+        "minimumInlineSeparation": 0.377352,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "7ac5e7ddbbf4d08b4ae48fbf2ac7d405e53d9a7c855dc4f03465ffa6b0135d51",
+        "passageExcerpt": "The Tin Woodman was about to reply when he heard a low growl, and turning his head (which worked beautifully on hinges) he saw a strange beast come bounding over the grass towards them. It was, indeed, a great, yellow wildcat, and the Woodman thought it must be chasing something, for its ears were lying close to its head and its mouth was wide open, showing two rows of ugly teeth, while its red eyes glowed like balls of fire. As it came nearer the Tin Woodman saw that running before the beast was a little gray field-mouse, and although he had no heart he knew it was wrong for the wildcat to try to kill such a pretty, harmless creature. So the Woodman raised his axe, and as the wildcat ran by he gave it a quick blow that cut the beast's head clean off from its body, and it rolled over at his feet in two pieces. The field-mouse, now that it was freed from its enemy, stopped short; and coming slowly up to the Woodman it said, in a squeaky little voice,",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-09-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-09-hero.txt",
+        "promptSha256": "b95d0f759bd607746b44bd0103efaddad26190e29abe582f8fe41487b6e978fd"
+      },
+      "inline": [
+        {
+          "id": "chapter-09-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 27,
+          "anchorSha256": "3612b6b896d62d8a0e42d5f5d197e7a1b2c0070d54081aed9dd12c0b10ef6b8d",
+          "align": "right",
+          "passageExcerpt": "\"Really?\" asked the Mouse. \"He says so himself,\" answered the Scarecrow, \"and he would never hurt anyone who is our friend. If you will help us to save him I promise that he shall treat you all with kindness.\" \"Very well,\" said the Queen, \"we will trust you. But what shall we do?\"",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-09-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-09-inline-01.txt",
+          "promptSha256": "7cb19ec572442d64d0ad6469ab131cdf11f9644367b574d478665c78d5235687"
+        }
+      ]
+    },
+    {
+      "id": "chapter-10",
+      "number": 10,
+      "title": "The Guardian of the Gates",
+      "metrics": {
+        "narrativeWords": 1954,
+        "textBlocks": 58,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-10-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 7,
+        "sourceFraction": 0.095957,
+        "minimumInlineSeparation": 0.404555,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "f12f3d740aa92768f14bf292f08eb58b4a7c63b5cb70f4b22930f41a54bc7186",
+        "passageExcerpt": "\"We must journey on until we find the road of yellow brick again,\" said Dorothy; \"and then we can keep on to the Emerald City.\" So, the Lion being fully refreshed, and feeling quite himself again, they all started upon the journey, greatly enjoying the walk through the soft, fresh grass; and it was not long before they reached the road of yellow brick and turned again toward the Emerald City where the great Oz dwelt. The road was smooth and well paved, now, and the country about was beautiful; so that the travelers rejoiced in leaving the forest far behind, and with it the many dangers they had met in its gloomy shades. Once more they could see fences built beside the road; but these were painted green, and when they came to a small house, in which a farmer evidently lived, that also was painted green. They passed by several of these houses during the afternoon, and sometimes people came to the doors and looked at them as if they would like to ask questions; but no one came near them nor spoke to them because of the great Lion, of which they were much afraid. The people were all dressed in clothing of a lovely emerald green color and wore peaked hats like those of the Munchkins.",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-10-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-10-hero.txt",
+        "promptSha256": "6054875dae6de2a7f1ff4753b3697192077f8a6a97c5b0ff9aaf709a83343a6d"
+      },
+      "inline": [
+        {
+          "id": "chapter-10-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 35,
+          "anchorSha256": "a60cf61d13a8ccf82e1b23913c88904747cec68ba6340ebe5c5870a17bb76a29",
+          "align": "right",
+          "passageExcerpt": "\"That will not trouble him,\" continued the man, \"for Oz has a large collection of hearts, of all sizes and shapes.\" \"And I want him to give me courage,\" said the Cowardly Lion. \"Oz keeps a great pot of courage in his throne room,\" said the man, \"which he has covered with a golden plate, to keep it from running over. He will be glad to give you some.\"",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-10-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-10-inline-01.txt",
+          "promptSha256": "2ea5fef4f2a8dc765680c86beab418a773ad830a3f3985321ee24036032c8d25"
+        }
+      ]
+    },
+    {
+      "id": "chapter-11",
+      "number": 11,
+      "title": "The Wonderful Emerald City of Oz",
+      "metrics": {
+        "narrativeWords": 3609,
+        "textBlocks": 108,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-11-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 7,
+        "sourceFraction": 0.098504,
+        "minimumInlineSeparation": 0.23483,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ef843d0f5a2e4ea8beff71044af3ef078f3ef59af841207208a6e3837a148328",
+        "passageExcerpt": "\"Step inside,\" answered the soldier, \"and I will carry your message to him.\" So they passed through the Palace gates and were led into a big room with a green carpet and lovely green furniture set with emeralds. The soldier made them all wipe their feet upon a green mat before entering this room, and when they were seated he said, politely, \"Please make yourselves comfortable while I go to the door of the Throne Room and tell Oz you are here.\"",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-11-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-11-hero.txt",
+        "promptSha256": "556324aaf65db77b0668c30547a476db4fbff52409bcab028b8b6b7cd3abfebb"
+      },
+      "inline": [
+        {
+          "id": "chapter-11-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 26,
+          "anchorSha256": "5f703c8173e163366acf0afb157795bdb82b2d1eb15a763e572f00caab6bcfa5",
+          "align": "right",
+          "passageExcerpt": "\"Oh, he will see you,\" said the soldier who had taken her message to the Wizard, \"although he does not like to have people ask to see him. Indeed, at first he was angry, and said I should send you back where you came from. Then he asked me what you looked like, and when I mentioned your silver shoes he was very much interested. At last I told him about the mark upon your forehead, and he decided he would admit you to his presence.\" Just then a bell rang, and the green girl said to Dorothy, \"That is the signal. You must go into the Throne Room alone.\"",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-11-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-11-inline-01.txt",
+          "promptSha256": "f102a3c30799a435d3af0b5cd1c7f26f23a07140281e58ae0475f109c6cb19d1"
+        },
+        {
+          "id": "chapter-11-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 72,
+          "anchorSha256": "088d5a52719060b78123eec6685a52f91fb2b8ca7c78cb92cd0a31eb8ff03c11",
+          "align": "left",
+          "passageExcerpt": "\"So I did. I don't care who kills her. But until she is dead I will not grant your wish. Now go, and do not seek me again until you have earned the brains you so greatly desire.\" The Scarecrow went sorrowfully back to his friends and told them what Oz had said; and Dorothy was surprised to find that the great Wizard was not a Head, as she had seen him, but a lovely lady. \"All the same,\" said the Scarecrow, \"she needs a heart as much as the Tin Woodman.\"",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-11-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-11-inline-02.txt",
+          "promptSha256": "fa8b52170ec01478c70f7328c5c1f9bbe3531be80d2fcd7dfef24f771aac7865"
+        }
+      ]
+    },
+    {
+      "id": "chapter-12",
+      "number": 12,
+      "title": "The Search for the Wicked Witch",
+      "metrics": {
+        "narrativeWords": 3671,
+        "textBlocks": 85,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-12-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 12,
+        "sourceFraction": 0.106647,
+        "minimumInlineSeparation": 0.225279,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "d3619fbf97fb52bf674411a6414e5702c054069662cdfa291748f99bb65b3844",
+        "passageExcerpt": "In the afternoon the sun shone hot in their faces, for there were no trees to offer them shade; so that before night Dorothy and Toto and the Lion were tired, and lay down upon the grass and fell asleep, with the Woodman and the Scarecrow keeping watch. Now the Wicked Witch of the West had but one eye, yet that was as powerful as a telescope, and could see everywhere. So, as she sat in the door of her castle, she happened to look around and saw Dorothy lying asleep, with her friends all about her. They were a long distance off, but the Wicked Witch was angry to find them in her country; so she blew upon a silver whistle that hung around her neck. At once there came running to her from all directions a pack of great wolves. They had long legs and fierce eyes and sharp teeth.",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-12-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-12-hero.txt",
+        "promptSha256": "4153aa275ed30b9d275aad0378c1797705b80cd73aba192a1b7be5d316ab3495"
+      },
+      "inline": [
+        {
+          "id": "chapter-12-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 38,
+          "anchorSha256": "77082939990cab8b932f06fa0a4471f1c240e999217d2283265b19938f352a5e",
+          "align": "right",
+          "passageExcerpt": "The bees came and found no one but the Woodman to sting, so they flew at him and broke off all their stings against the tin, without hurting the Woodman at all. And as bees cannot live when their stings are broken that was the end of the black bees, and they lay scattered thick about the Woodman, like little heaps of fine coal. Then Dorothy and the Lion got up, and the girl helped the Tin Woodman put the straw back into the Scarecrow again, until he was as good as ever. So they started upon their journey once more. The Wicked Witch was so angry when she saw her black bees in little heaps like fine coal that she stamped her foot and tore her hair and gnashed her teeth. And then she called a dozen of her slaves, who were the Winkies, and gave them sharp spears, telling them to go to the strangers and destroy them.",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-12-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-12-inline-01.txt",
+          "promptSha256": "f6ff7da093105139a6758ebca6c958317fcabdbfb71cd4a82ebb9a8ab97e1dbb"
+        },
+        {
+          "id": "chapter-12-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 67,
+          "anchorSha256": "edc7bcdd8b2696fc15cb896a94aab8302ef4a900c1d69be4ac52881f410eab10",
+          "align": "left",
+          "passageExcerpt": "\"Come with me; and see that you mind everything I tell you, for if you do not I will make an end of you, as I did of the Tin Woodman and the Scarecrow.\" Dorothy followed her through many of the beautiful rooms in her castle until they came to the kitchen, where the Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood. Dorothy went to work meekly, with her mind made up to work as hard as she could; for she was glad the Wicked Witch had decided not to kill her.",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-12-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-12-inline-02.txt",
+          "promptSha256": "f257a3a5f212132223922bbde3ebe9f68590fafcf1eb6ea9406877503711ac45"
+        }
+      ]
+    },
+    {
+      "id": "chapter-13",
+      "number": 13,
+      "title": "The Rescue",
+      "metrics": {
+        "narrativeWords": 1187,
+        "textBlocks": 31,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-13-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.102359,
+        "minimumInlineSeparation": 0.418281,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "56bc134b19658cce5aadd93e959b410aa6448d18bd0dce62a129c14a3dd9b5a7",
+        "passageExcerpt": "There was great rejoicing among the yellow Winkies, for they had been made to work hard during many years for the Wicked Witch, who had always treated them with great cruelty. They kept this day as a holiday, then and ever after, and spent the time in feasting and dancing. \"If our friends, the Scarecrow and the Tin Woodman, were only with us,\" said the Lion, \"I should be quite happy.\" \"Don't you suppose we could rescue them?\" asked the girl, anxiously.",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-13-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-13-hero.txt",
+        "promptSha256": "2b36643583ef1f7504bdf9ff706d43c5e1b1ee8a1a6f1af3c52c0d3a360d7abf"
+      },
+      "inline": [
+        {
+          "id": "chapter-13-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 15,
+          "anchorSha256": "88d4cce46ff64f740dc21415f632a0f04e42946be89ed578fbf8afe7bbe8d6e3",
+          "align": "right",
+          "passageExcerpt": "When, at last, he walked into Dorothy's room and thanked her for rescuing him, he was so pleased that he wept tears of joy, and Dorothy had to wipe every tear carefully from his face with her apron, so his joints would not be rusted. At the same time her own tears fell thick and fast at the joy of meeting her old friend again, and these tears did not need to be wiped away. As for the Lion, he wiped his eyes so often with the tip of his tail that it became quite wet, and he was obliged to go out into the court-yard and hold it in the sun till it dried. \"If we only had the Scarecrow with us again,\" said the Tin Woodman, when Dorothy had finished telling him everything that had happened, \"I should be quite happy.\" \"We must try to find him,\" said the girl.",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-13-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-13-inline-01.txt",
+          "promptSha256": "9a1da93861f91d3b4749237ad3278162dcaf48e73b076b37fb1d8b5842f2bb2e"
+        }
+      ]
+    },
+    {
+      "id": "chapter-14",
+      "number": 14,
+      "title": "The Winged Monkeys",
+      "metrics": {
+        "narrativeWords": 1885,
+        "textBlocks": 43,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-14-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.103714,
+        "minimumInlineSeparation": 0.391777,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "988edd61dc17aa2ee9731ee2f9765e3c25a205025b605e3766d1836d2ca0b648",
+        "passageExcerpt": "The next morning the sun was behind a cloud, but they started on, as if they were quite sure which way they were going. \"If we walk far enough,\" said Dorothy, \"we shall sometime come to some place, I am sure.\" But day by day passed away, and they still saw nothing before them but the yellow fields. The Scarecrow began to grumble a bit.",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-14-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-14-hero.txt",
+        "promptSha256": "40394ca6b1493654686107667d17a417e31857252f090df7fff20178bf00ebf0"
+      },
+      "inline": [
+        {
+          "id": "chapter-14-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 32,
+          "anchorSha256": "a23d6ed79e39f6f1bc0b3d1d98a887d6cdd266f10d3bf1f5354c2575b8f079f1",
+          "align": "right",
+          "passageExcerpt": "Dorothy found herself riding easily between two of the biggest Monkeys, one of them the King himself. They had made a chair of their hands and were careful not to hurt her. \"Why do you have to obey the charm of the Golden Cap?\" she asked. \"That is a long story,\" answered the King, with a laugh; \"but as we have a long journey before us I will pass the time by telling you about it, if you wish.\"",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-14-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-14-inline-01.txt",
+          "promptSha256": "119d08db7fa98b7ad05ad1bf9d17c8a8e2cc0ac29cb02f42e6501e7063641226"
+        }
+      ]
+    },
+    {
+      "id": "chapter-15",
+      "number": 15,
+      "title": "The Discovery of Oz, the Terrible",
+      "metrics": {
+        "narrativeWords": 2763,
+        "textBlocks": 94,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-15-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 12,
+        "sourceFraction": 0.083967,
+        "minimumInlineSeparation": 0.418567,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "74a0b37f3d7b741e8886bb2e2b50bbed7b3dc9e102c88aab71a743d52b9824c8",
+        "passageExcerpt": "Then he led them into his little room and locked the spectacles from the great box on all their eyes, just as he had done before. Afterward they passed on through the gate into the Emerald City, and when the people heard from the Guardian of the Gate that they had melted the Wicked Witch of the West they all gathered around the travellers and followed them in a great crowd to the Palace of Oz. The soldier with the green whiskers was still on guard before the door, but he let them in at once and they were again met by the beautiful green girl, who showed each of them to their old rooms at once, so they might rest until the Great Oz was ready to receive them. The soldier had the news carried straight to Oz that Dorothy and the other travellers had come back again, after destroying the Wicked Witch; but Oz made no reply. They thought the Great Wizard would send for them at once, but he did not. They had no word from him the next day, nor the next, nor the next. The waiting was tiresome and wearing, and at last they grew vexed that Oz should treat them in so poor a fashion, after sending them to undergo hardships and slavery. So the Scarecrow at last asked the green girl to take another message to Oz, saying if he did not let them in to see him at once they would call the Winged Monkeys to help them, and find out whether he kept his promises or not. When the Wizard was given this m…",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-15-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-15-hero.txt",
+        "promptSha256": "c1c9346aac94070c0b970e08fd8c0f9949215c2d03f825b1eabc146195847c4c"
+      },
+      "inline": [
+        {
+          "id": "chapter-15-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 62,
+          "anchorSha256": "c9106c928777f8f6963e923e616e99a3ba056d8d946b0084cb6d2a4177aff01c",
+          "align": "right",
+          "passageExcerpt": "\"This I hung from the ceiling by a wire,\" said Oz; \"I stood behind the screen and pulled a thread, to make the eyes move and the mouth open.\" \"But how about the voice?\" she enquired. \"Oh, I am a ventriloquist,\" said the little man, \"and I can throw the sound of my voice wherever I wish; so that you thought it was coming out of the Head. Here are the other things I used to deceive you.\" He showed the Scarecrow the dress and the mask he had worn when he seemed to be the lovely Lady; and the Tin Woodman saw that his Terrible Beast was nothing but a lot of skins, sewn together, with slats to keep their sides out. As for the Ball of Fire, the false Wizard had hung that also from the ceiling. It was really a ball of cotton, but when oil was poured upon it the ball burned fiercely.",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-15-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-15-inline-01.txt",
+          "promptSha256": "eff25fca4c83867d73d062cd0cdcc90db1bc774276d3bc0baa53c1cee5353448"
+        }
+      ]
+    },
+    {
+      "id": "chapter-16",
+      "number": 16,
+      "title": "The Magic Art of the Great Humbug",
+      "metrics": {
+        "narrativeWords": 921,
+        "textBlocks": 42,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-16-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 5,
+        "sourceFraction": 0.108578,
+        "minimumInlineSeparation": 0.395223,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "fea78895ec783f5f5c1b124e0f6ca9da01468f753b7026955e98f8d49d82d9c8",
+        "passageExcerpt": "\"It is kind of you to like a Scarecrow,\" he replied. \"But surely you will think more of me when you hear the splendid thoughts my new brain is going to turn out.\" Then he said good-bye to them all in a cheerful voice and went to the Throne Room, where he rapped upon the door. \"Come in,\" said Oz. The Scarecrow went in and found the little man sitting down by the window, engaged in deep thought.",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-16-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-16-hero.txt",
+        "promptSha256": "32bfe6fc6ecbc8ad16c5c52524888c45dbed8bf10e03ef74fef8ab3a4b1e3c4a"
+      },
+      "inline": [
+        {
+          "id": "chapter-16-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 24,
+          "anchorSha256": "c71a0ebc47b300ef47f15c7435b945894cc55bf4e930aa7b3739c999ee339026",
+          "align": "right",
+          "passageExcerpt": "\"Very well,\" answered the little man. \"But I shall have to cut a hole in your breast, so I can put your heart in the right place. I hope it won't hurt you.\" \"Oh, no;\" answered the Woodman. \"I shall not feel it at all.\" So Oz brought a pair of tinners' shears and cut a small, square hole in the left side of the Tin Woodman's breast. Then, going to a chest of drawers, he took out a pretty heart, made entirely of silk and stuffed with sawdust.",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-16-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-16-inline-01.txt",
+          "promptSha256": "58aeab51038bec15ade682cd9ae8d55cd1654b27fa04fbe4032795a9b01d4ac5"
+        }
+      ]
+    },
+    {
+      "id": "chapter-17",
+      "number": 17,
+      "title": "How the Balloon Was Launched",
+      "metrics": {
+        "narrativeWords": 1154,
+        "textBlocks": 33,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-17-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.114385,
+        "minimumInlineSeparation": 0.402513,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "37ff4edf2212736eb0abbbd9bc89c4ca0619748ca29d328181fbfb4316f17f04",
+        "passageExcerpt": "For three days Dorothy heard nothing from Oz. These were sad days for the little girl, although her friends were all quite happy and contented. The Scarecrow told them there were wonderful thoughts in his head; but he would not say what they were because he knew no one could understand them but himself. When the Tin Woodman walked about he felt his heart rattling around in his breast; and he told Dorothy he had discovered it to be a kinder and more tender heart than the one he had owned when he was made of flesh. The Lion declared he was afraid of nothing on earth, and would gladly face an army of men or a dozen of the fierce Kalidahs. Thus each of the little party was satisfied except Dorothy, who longed more than ever to get back to Kansas. On the fourth day, to her great joy, Oz sent for her, and when she entered the Throne Room he said, pleasantly:",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-17-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-17-hero.txt",
+        "promptSha256": "f03fc2023be117ec5064c40224bb8996b36062ead93b389149b17dfaf561ae59"
+      },
+      "inline": [
+        {
+          "id": "chapter-17-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 18,
+          "anchorSha256": "800c6bd5f224a4f691a724fb85176d41120e3de56062e45f07c4dae66e8c4479",
+          "align": "right",
+          "passageExcerpt": "\"Thank you,\" he answered. \"Now, if you will help me sew the silk together, we will begin to work on our balloon.\" So Dorothy took a needle and thread, and as fast as Oz cut the strips of silk into proper shape the girl sewed them neatly together. First there was a strip of light green silk, then a strip of dark green and then a strip of emerald green; for Oz had a fancy to make the balloon in different shades of the color about them. It took three days to sew all the strips together, but when it was finished they had a big bag of green silk more than twenty feet long. Then Oz painted it on the inside with a coat of thin glue, to make it air-tight, after which he announced that the balloon was ready.",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-17-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-17-inline-01.txt",
+          "promptSha256": "62f39a26361a1aa8dd0660a12489b52fbd498f732acea1e35fed6aee0944e685"
+        }
+      ]
+    },
+    {
+      "id": "chapter-18",
+      "number": 18,
+      "title": "Away to the South",
+      "metrics": {
+        "narrativeWords": 1165,
+        "textBlocks": 48,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-18-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.106009,
+        "minimumInlineSeparation": 0.377253,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "d620cb55908b03364b05368bb70d672e65af4246e80054f169a2c9aca4a280a5",
+        "passageExcerpt": "\"Truly I should be ungrateful if I failed to mourn for the man who gave me my lovely heart. I should like to cry a little because Oz is gone, if you will kindly wipe away my tears, so that I shall not rust.\" \"With pleasure,\" she answered, and brought a towel at once. Then the Tin Woodman wept for several minutes, and she watched the tears carefully and wiped them away with the towel. When he had finished he thanked her kindly and oiled himself thoroughly with his jewelled oil-can, to guard against mishap. The Scarecrow was now the ruler of the Emerald City, and although he was not a Wizard the people were proud of him. \"For,\" they said, \"there is not another city in all the world that is ruled by a stuffed man.\" And, so far as they knew, they were quite right.",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-18-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-18-hero.txt",
+        "promptSha256": "2ec23cc26605b6ec33529e278d93833a724b11524cfd5af9e4cc68ff3fa0cb72"
+      },
+      "inline": [
+        {
+          "id": "chapter-18-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 22,
+          "anchorSha256": "cbac6efa8b2e729ee8ac2bd8e2c9e99e2db82c540a48870ee8b566cd3fc51126",
+          "align": "right",
+          "passageExcerpt": "But the Monkey King shook his head. \"That cannot be done,\" he said. \"We belong to this country alone, and cannot leave it. There has never been a Winged Monkey in Kansas yet, and I suppose there never will be, for they don't belong there. We shall be glad to serve you in any way in our power, but we cannot cross the desert. Good-bye.\" And with another bow the Monkey King spread his wings and flew away through the window, followed by all his band.",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-18-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-18-inline-01.txt",
+          "promptSha256": "a0a65f80b6d81823c48fecad3ac2d2784e0c8fe73fa781a828737643fb0fba87"
+        }
+      ]
+    },
+    {
+      "id": "chapter-19",
+      "number": 19,
+      "title": "Attacked by the Fighting Trees",
+      "metrics": {
+        "narrativeWords": 1011,
+        "textBlocks": 28,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-19-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.090504,
+        "minimumInlineSeparation": 0.41543,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "6ad20a1115da2eea94d057d2b7446ef9479324ce0e8599c23f4218497b3ab4ff",
+        "passageExcerpt": "The next morning Dorothy kissed the pretty green girl good-bye, and they all shook hands with the soldier with the green whiskers, who had walked with them as far as the gate. When the Guardian of the Gate saw them again he wondered greatly that they could leave the beautiful City to get into new trouble. But he at once unlocked their spectacles, which he put back into the green box, and gave them many good wishes to carry with them. \"You are now our ruler,\" he said to the Scarecrow; \"so you must come back to us as soon as possible.\" \"I certainly shall if I am able,\" the Scarecrow replied; \"but I must help Dorothy to get home, first.\"",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-19-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-19-hero.txt",
+        "promptSha256": "f3c471e4cd5ebbaf43061911e225a209994b6c9fae330cbcfb31cc00e3dacfa6"
+      },
+      "inline": [
+        {
+          "id": "chapter-19-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 15,
+          "anchorSha256": "dbb279442533cc1ae744ca4dfecfedb1ce54496de50bf8b044446e0b853d435b",
+          "align": "right",
+          "passageExcerpt": "Dorothy said nothing. Oz had not kept the promise he made her, but he had done his best, so she forgave him. As he said, he was a good man, even if he was a bad Wizard. The first day's journey was through the green fields and bright flowers that stretched about the Emerald City on every side. They slept that night on the grass, with nothing but the stars over them; and they rested very well indeed. In the morning they travelled on until they came to a thick wood. There was no way of going around it, for it seemed to extend to the right and left as far as they could see; and, besides, they did not dare change the direction of their journey for fear of getting lost. So they looked for the place where it would be easiest to get into the forest.",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-19-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-19-inline-01.txt",
+          "promptSha256": "3752027a165fec693615c0e1edd87e05abea4e9242cd8be9bd86cfd0c73bcde1"
+        }
+      ]
+    },
+    {
+      "id": "chapter-20",
+      "number": 20,
+      "title": "The Dainty China Country",
+      "metrics": {
+        "narrativeWords": 1474,
+        "textBlocks": 47,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-20-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 5,
+        "sourceFraction": 0.091588,
+        "minimumInlineSeparation": 0.41791,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "f509732319941ad77b6441f2eb371f8249456dd6e06b5157889378c10c9dfb24",
+        "passageExcerpt": "\"Rest your brains and do not worry about the wall,\" replied the Woodman; \"when we have climbed over it we shall know what is on the other side.\" After a time the ladder was finished. It looked clumsy, but the Tin Woodman was sure it was strong and would answer their purpose. The Scarecrow waked Dorothy and the Lion and Toto, and told them that the ladder was ready. The Scarecrow climbed up the ladder first, but he was so awkward that Dorothy had to follow close behind and keep him from falling off. When he got his head over the top of the wall the Scarecrow said, \"Oh, my!\"",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-20-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-20-hero.txt",
+        "promptSha256": "32151aeeabacd2a50df8e7cb2d22c610b502f45c6490f1165f901c594204f20b"
+      },
+      "inline": [
+        {
+          "id": "chapter-20-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 21,
+          "anchorSha256": "9aaa3654c72df73731272d46426285eebeaec1b940fe92124cb612e65b458bf7",
+          "align": "right",
+          "passageExcerpt": "Dorothy was shocked to see that the cow had broken her leg short off, and that the pail was lying in several small pieces, while the poor milk-maid had a nick in her left elbow. \"There!\" cried the milk-maid, angrily; \"see what you have done! My cow has broken her leg, and I must take her to the mender's shop and have it glued on again. What do you mean by coming here and frightening my cow?\" \"I'm very sorry,\" returned Dorothy; \"please forgive us.\"",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-20-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-20-inline-01.txt",
+          "promptSha256": "13512bbb656f686ee580cbed9b228e6b860ce0fb18903bdeb29b8c1e2fa332a1"
+        }
+      ]
+    },
+    {
+      "id": "chapter-21",
+      "number": 21,
+      "title": "The Lion Becomes the King of Beasts",
+      "metrics": {
+        "narrativeWords": 892,
+        "textBlocks": 24,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-21-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.122758,
+        "minimumInlineSeparation": 0.344731,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "f031eabfbd04185847bbe5afaf4603a2d3b6cf6c44b06793390f1fb418c95500",
+        "passageExcerpt": "After climbing down from the china wall the travellers found themselves in a disagreeable country, full of bogs and marshes and covered with tall, rank grass. It was difficult to walk far without falling into muddy holes, for the grass was so thick that it hid them from sight. However, by carefully picking their way, they got safely along until they reached solid ground. But here the country seemed wilder than ever, and after a long and tiresome walk through the underbrush they entered another forest, where the trees were bigger and older than any they had ever seen. \"This forest is perfectly delightful,\" declared the Lion, looking around him with joy; \"never have I seen a more beautiful place.\" \"It seems gloomy,\" said the Scarecrow.",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-21-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-21-hero.txt",
+        "promptSha256": "00dc0b88c323ef54686176ccede2b959383cc88ce7c737e9601da2fa9cbf2558"
+      },
+      "inline": [
+        {
+          "id": "chapter-21-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 12,
+          "anchorSha256": "d6ecdd3ffa6cb38db280f0766e144328c2481a7bbda704c1f56d4ea3741d14ec",
+          "align": "right",
+          "passageExcerpt": "\"Welcome, O King of Beasts! You have come in good time to fight our enemy and bring peace to all the animals of the forest once more.\" \"What is your trouble?\" asked the Lion, quietly. \"We are all threatened,\" answered the tiger, \"by a fierce enemy which has lately come into this forest. It is a most tremendous monster, like a great spider, with a body as big as an elephant and legs as long as a tree trunk. It has eight of these long legs, and as the monster crawls through the forest he seizes an animal with a leg and drags it to his mouth, where he eats it as a spider does a fly. Not one of us is safe while this fierce creature is alive, and we had called a meeting to decide how to take care of ourselves when you came among us.\"",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-21-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-21-inline-01.txt",
+          "promptSha256": "e9c541a5372a5a2addc70a7f7a7e59f2f6a85206ebdff8a0102cb27f0f6fcaae"
+        }
+      ]
+    },
+    {
+      "id": "chapter-22",
+      "number": 22,
+      "title": "The Country of the Quadlings",
+      "metrics": {
+        "narrativeWords": 933,
+        "textBlocks": 33,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-22-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 6,
+        "sourceFraction": 0.094855,
+        "minimumInlineSeparation": 0.393355,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "a99be33412d6b64e051e7fe1d9a4291ce69323fc6513258177298c502229f758",
+        "passageExcerpt": "\"Keep back!\" \"Who are you?\" asked the Scarecrow. Then a head showed itself over the rock and the same voice said, \"This hill belongs to us, and we don't allow anyone to cross it.\"",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-22-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-22-hero.txt",
+        "promptSha256": "0f4958b0fb7e581752ab5c6febb2834cbfe02349370667989d9c1cf344f18457"
+      },
+      "inline": [
+        {
+          "id": "chapter-22-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 21,
+          "anchorSha256": "c11115aeabfe6082c6164789cdc212f0aa375ad0b27753c024d4511c9494a317",
+          "align": "right",
+          "passageExcerpt": "\"Call the Winged Monkeys,\" suggested the Tin Woodman; \"you have still the right to command them once more.\" \"Very well,\" she answered, and putting on the Golden Cap she uttered the magic words. The Monkeys were as prompt as ever, and in a few moments the entire band stood before her. \"What are your commands?\" enquired the King of the Monkeys, bowing low.",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-22-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-22-inline-01.txt",
+          "promptSha256": "e875fb5d5adabb08a8bcaadc21e07f8779677d3f26abe1dc49ca8b73befff957"
+        }
+      ]
+    },
+    {
+      "id": "chapter-23",
+      "number": 23,
+      "title": "The Good Witch Grants Dorothy's Wish",
+      "metrics": {
+        "narrativeWords": 1250,
+        "textBlocks": 45,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-23-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.1016,
+        "minimumInlineSeparation": 0.4152,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "e9e374e6c2f94be7db170cf603f780295a3a8cd8f436b4393f2f7a52d18a07ce",
+        "passageExcerpt": "She was both beautiful and young to their eyes. Her hair was a rich red in color and fell in flowing ringlets over her shoulders. Her dress was pure white; but her eyes were blue, and they looked kindly upon the little girl. \"What can I do for you, my child?\" she asked. Dorothy told the Witch all her story; how the cyclone had brought her to the Land of Oz, how she had found her companions, and of the wonderful adventures they had met with.",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-23-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-23-hero.txt",
+        "promptSha256": "762cee2a58e05ff3564a93fb46dc4b010d441a027be4c089b61fc18f18c4080e"
+      },
+      "inline": [
+        {
+          "id": "chapter-23-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 26,
+          "anchorSha256": "62992bde3e9ba8603f2bd5b676e429c8f8ff2cd6c89edf29da456306a7280a3d",
+          "align": "right",
+          "passageExcerpt": "\"Over the hill of the Hammer-Heads,\" he answered, \"lies a grand old forest, and all the beasts that live there have made me their King. If I could only get back to this forest I would pass my life very happily there.\" \"My third command to the Winged Monkeys,\" said Glinda, \"shall be to carry you to your forest. Then, having used up the powers of the Golden Cap, I shall give it to the King of the Monkeys, that he and his band may thereafter be free for evermore.\" The Scarecrow and the Tin Woodman and the Lion now thanked the Good Witch earnestly for her kindness, and Dorothy exclaimed,",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-23-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-23-inline-01.txt",
+          "promptSha256": "0c900edc5b8f9470fd73668930c144e8bb33955e63d9dc7007f27968ce2806a2"
+        }
+      ]
+    },
+    {
+      "id": "chapter-24",
+      "number": 24,
+      "title": "Home Again",
+      "metrics": {
+        "narrativeWords": 74,
+        "textBlocks": 3,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-24-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.155405,
+        "minimumInlineSeparation": 0.331081,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "bb181f2c75ca0c2512bf56eae7338511c395fee8fdcf119440044cb1ae0728f1",
+        "passageExcerpt": "Aunt Em had just come out of the house to water the cabbages when she looked up and saw Dorothy running toward her. \"My darling child!\" she cried, folding the little girl in her arms and covering her face with kisses; \"where in the world did you come from?\"",
+        "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+        "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/heroes/chapter-24-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-24-hero.txt",
+        "promptSha256": "102a13f3ef5151fa40a3b4605dc62c30fe1519af10a662f361a6d7211f7e65c2"
+      },
+      "inline": [
+        {
+          "id": "chapter-24-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 2,
+          "anchorSha256": "564fd22b311cd6acf625a3d8e6cd982fde69579646392cfa57a27c7e05620770",
+          "align": "right",
+          "passageExcerpt": "Aunt Em had just come out of the house to water the cabbages when she looked up and saw Dorothy running toward her. \"My darling child!\" she cried, folding the little girl in her arms and covering her face with kisses; \"where in the world did you come from?\" \"From the Land of Oz,\" said Dorothy, gravely. \"And here is Toto, too. And oh, Aunt Em! I'm so glad to be at home again!\"",
+          "referenceImage": "output/imagegen/references/the-wonderful-wizard-of-oz.webp",
+          "output": "output/imagegen/chapter-scenes/the-wonderful-wizard-of-oz/inline/chapter-24-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-wonderful-wizard-of-oz/chapter-24-inline-01.txt",
+          "promptSha256": "3cf31531d94ad08e9e2127deec807c7ec056f73596ffc08e82265d72a000a303"
+        }
+      ]
+    }
+  ]
+}

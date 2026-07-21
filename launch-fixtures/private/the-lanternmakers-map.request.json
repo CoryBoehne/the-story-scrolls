@@ -1,0 +1,72 @@
+{
+  "authorDisplayName": "Cory Boehne",
+  "title": "The Lanternmaker's Map",
+  "creativeBrief": "Create a complete middle-grade fantasy about Mara Vale, an eleven-year-old apprentice lanternmaker who discovers that the constellations punched into an unfinished brass lantern form a map to roads that exist only in darkness. Mara wants to prove she is ready to inherit her missing mother's workshop, but she needs to learn that mastery is not the same as facing every danger alone. Her companion is Tavin, a careful young courier who can remember any road but is frightened of paths no one has named. Their guide is Wick, a tiny ember-moth whose glow brightens when someone tells the truth. The antagonist, Magistrate Vey, is not a monster: he seals magical roads because an earlier expedition cost him someone he loved. Build a causally connected six-chapter arc: discovery and refusal; the first impossible road; a choice that fractures the group; consequences that reveal Vey's understandable fear; reconciliation and a plan based on shared trust; then a climax in which Mara completes the map by asking for help rather than conquering the road alone. Plant and resolve the lantern's missing north-star aperture, Tavin's unopened delivery, and the question of what happened to Mara's mother. Give Mara and Tavin meaningful, incremental character growth, keep the danger exciting but non-graphic, and end with earned hope rather than an effortless victory. The thematic lesson is that courage can mean carrying the light together. Preserve continuity of objects, injuries, knowledge, clothing, relationships, geography, and time of day across every chapter. Write vivid, specific prose with warmth, humor, subtext, varied sentence rhythm, and no generic moralizing.",
+  "source": {
+    "kind": "brief"
+  },
+  "sourceMetadata": {
+    "sourceTitle": "The Lanternmaker's Map",
+    "originalAuthor": "Cory Boehne",
+    "originalLanguage": "English",
+    "changeDescription": "An original story conceived and directed by Cory Boehne, written and illustrated through The Story Scrolls creator workflow."
+  },
+  "rights": {
+    "basis": "own",
+    "confirmed": true,
+    "statement": "I created and control the submitted story concept and authorize The Story Scrolls to generate, store, illustrate, and share this edition.",
+    "sourceUrls": []
+  },
+  "sharing": {
+    "visibility": "public",
+    "requestPublic": true
+  },
+  "generation": {
+    "confirmed": true,
+    "qualityLevel": 2,
+    "customQuality": {
+      "writingTier": "balanced",
+      "refinementPasses": 0,
+      "imageTier": "draft",
+      "outputSize": "standard"
+    },
+    "targetChapters": 6,
+    "targetWordsPerChapter": 900,
+    "continuityCharacters": [
+      "Mara Vale",
+      "Tavin",
+      "Wick",
+      "Magistrate Vey",
+      "Mara's mother"
+    ],
+    "transformation": {
+      "mode": "faithful",
+      "summaryLevel": "balanced",
+      "modernization": "none",
+      "reimagination": {
+        "enabled": false
+      }
+    },
+    "audience": {
+      "targetAge": 11,
+      "format": "prose"
+    },
+    "visualStyle": "expressive literary fantasy illustration in textured ink and layered transparent watercolor, clear character acting, tactile brass and paper detail, amber lantern light against mineral-blue night, cinematic but readable compositions, wonder balanced with age-appropriate non-graphic peril",
+    "artDirection": "The continuity guide must include exactly five separate recurring-character entries: Mara Vale, Tavin, Wick, Magistrate Vey, and Mara's mother. Keep Mara's brass lantern, tool satchel, dark curls, patched indigo coat, and changing emotional confidence consistent. Keep Tavin's red courier scarf, map case, careful posture, and gradual willingness to improvise consistent. Render Wick as one small ember-moth, never a swarm. Let every image advance a specific story beat. Use clean silhouettes and clear focal hierarchy for younger readers. Show each named character no more than once in an image unless the scene explicitly requires a reflection or magical double, and do not add duplicate background versions of the cast.",
+    "fontFamily": "caveat-brush",
+    "themeId": "manuscript",
+    "illustratedContract": true,
+    "cleanup": {
+      "leadingNoteDelimiters": []
+    },
+    "illustrations": {
+      "mode": "ai",
+      "density": "balanced",
+      "budget": {
+        "mode": "per_chapter",
+        "count": 2,
+        "flexibleAllocation": false
+      }
+    }
+  }
+}

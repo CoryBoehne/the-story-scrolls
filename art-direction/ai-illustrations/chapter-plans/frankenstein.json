@@ -1,0 +1,1542 @@
+{
+  "schemaVersion": 1,
+  "storySlug": "frankenstein",
+  "title": "Frankenstein",
+  "author": "Mary Wollstonecraft Shelley",
+  "generation": {
+    "provider": "OpenAI",
+    "model": "gpt-image-2",
+    "quality": "low",
+    "format": "webp"
+  },
+  "artDirection": {
+    "style": "Romantic Gothic oil and mezzotint with cold cyan watercolor accents; granular darkness, sublime landscapes, glacial blue, corpse ivory, coal black and candle amber.",
+    "referenceImage": "output/imagegen/references/frankenstein.webp",
+    "referenceStatus": "approved-existing"
+  },
+  "quota": {
+    "unit": "inline-illustrations-per-chapter",
+    "formula": "min(4, max(1, ceil(narrativeWords / 3000), ceil(textBlocks / 100)))",
+    "narrativeBlockTypes": [
+      "paragraph",
+      "verse"
+    ],
+    "heroesAreAdditionalToInlineQuota": true
+  },
+  "referenceJob": null,
+  "summary": {
+    "chapters": 28,
+    "desiredInline": 37,
+    "retainedInline": 4,
+    "plannedInline": 33,
+    "plannedHeroes": 28
+  },
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "number": 1,
+      "title": "Letter I",
+      "metrics": {
+        "narrativeWords": 1203,
+        "textBlocks": 13,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-001-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.027847,
+        "minimumInlineSeparation": 0.524938,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "fd98373fdc9f12e7e11c53b5896d48981c5bbf62d00388dc880d5a8e5ce7fb4d",
+        "passageExcerpt": "St. Petersburgh, Dec. 11th, 17—. You will rejoice to hear that no disaster has accompanied the commencement of an enterprise which you have regarded with such evil forebodings. I arrived here yesterday; and my first task is to assure my dear sister of my welfare, and increasing confidence in the success of my undertaking. I am already far north of London; and as I walk in the streets of Petersburgh, I feel a cold northern breeze play upon my cheeks, which braces my nerves, and fills me with delight. Do you understand this feeling? This breeze, which has travelled from the regions towards which I am advancing, gives me a foretaste of those icy climes. Inspirited by this wind of promise, my day dreams become more fervent and vivid. I try in vain to be persuaded that the pole is the seat of frost and desolation; it ever presents itself to my imagination as the region of beauty and delight. There, Margaret, the sun is for ever visible; its broad disk just skirting the horizon, and diffusing a perpetual splendour. There—for with your leave, my sister, I will put some trust in preceding navigators—there snow and frost are banished; and, sailing over a calm sea, we may be wafted to a land surpassing in wonders and in beauty every region hitherto discovered on the habitable globe. Its productions and features may be without example, as the phenomena of the heavenly bodies undoubtedly a…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-001-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-001-hero.txt",
+        "promptSha256": "232951098f0e27cfea5eb30cbe102914cec96e93bcbb4e76564a5729f9e88cb1"
+      },
+      "inline": [
+        {
+          "id": "chapter-001-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 5,
+          "anchorSha256": "f301881f12a6503cbe9a84e40584c20fd6c46f051f05b1c4e76d13326035c1be",
+          "align": "right",
+          "passageExcerpt": "…remember, that a history of all the voyages made for purposes of discovery composed the whole of our good uncle Thomas's library. My education was neglected, yet I was passionately fond of reading. These volumes were my study day and night, and my familiarity with them increased that regret which I had felt, as a child, on learning that my father's dying injunction had forbidden my uncle to allow me to embark in a seafaring life. These visions faded when I perused, for the first time, those poets whose effusions entranced my soul, and lifted it to heaven. I also became a poet, and for one year lived in a Paradise of my own creation; I imagined that I also might obtain a niche in the temple where the names of Homer and Shakspeare are consecrated. You are well acquainted with my failure, and how heavily I bore the disappointment. But just at that time I inherited the fortune of my cousin, and my thoughts were turned into the channel of their earlier bent. Six years have passed since I resolved on my present undertaking. I can, even now, remember the hour from which I dedicated myself to this great enterprise. I commenced by inuring my body to hardship. I accompanied the whale-fishers on several expeditions to the North Sea; I voluntarily endured cold, famine, thirst, and want of sleep; I often worked harder than the common sailors during the day, and devoted my nights to the stud…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-001-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-001-inline-01.txt",
+          "promptSha256": "58d24be062a1724231b8b6ae499c9c05522e297fbbce31b62ef7eeca6345de41"
+        }
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "number": 2,
+      "title": "Letter II",
+      "metrics": {
+        "narrativeWords": 1313,
+        "textBlocks": 11,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-002-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.027799,
+        "minimumInlineSeparation": 0.524372,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "399a5f419028134e5cb78d737d17b4e14b62f3ad3f38f8f1a69666b5e5a3251a",
+        "passageExcerpt": "Archangel, 28th March, 17—. How slowly the time passes here, encompassed as I am by frost and snow! yet a second step is taken towards my enterprise. I have hired a vessel, and am occupied in collecting my sailors; those whom I have already engaged, appear to be men on whom I can depend, and are certainly possessed of dauntless courage. But I have one want which I have never yet been able to satisfy; and the absence of the object of which I now feel as a most severe evil. I have no friend, Margaret: when I am glowing with the enthusiasm of success, there will be none to participate my joy; if I am assailed by disappointment, no one will endeavour to sustain me in dejection. I shall commit my thoughts to paper, it is true; but that is a poor medium for the communication of feeling. I desire the company of a man who could sympathise with me; whose eyes would reply to mine. You may deem me romantic, my dear sister, but I bitterly feel the want of a friend. I have no one near me, gentle yet courageous, possessed of a cultivated as well as of a capacious mind, whose tastes are like my own, to approve or amend my plans. How would such a friend repair the faults of your poor brother! I am too ardent in execution, and too impatient of difficulties. But it is a still greater evil to me that I am self-educated: for the first fourteen years of my life I ran wild on a common, and read noth…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-002-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-002-hero.txt",
+        "promptSha256": "5d7c5298c51d51a8fa0e4b7ad68c8db939f4f4a2a5831b22a02497ed61b0ecc0"
+      },
+      "inline": [
+        {
+          "id": "chapter-002-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 5,
+          "anchorSha256": "7085abf60e115884f910b35b541f6bc95bf564ed9f5cad84a390c65a1add6e70",
+          "align": "right",
+          "passageExcerpt": "…The master is a person of an excellent disposition, and is remarkable in the ship for his gentleness and the mildness of his discipline. This circumstance, added to his well known integrity and dauntless courage, made me very desirous to engage him. A youth passed in solitude, my best years spent under your gentle and feminine fosterage, has so refined the groundwork of my character, that I cannot overcome an intense distaste to the usual brutality exercised on board ship: I have never believed it to be necessary; and when I heard of a mariner equally noted for his kindliness of heart, and the respect and obedience paid to him by his crew, I felt myself peculiarly fortunate in being able to secure his services. I heard of him first in rather a romantic manner, from a lady who owes to him the happiness of her life. This, briefly, is his story. Some years ago, he loved a young Russian lady, of moderate fortune; and having amassed a considerable sum in prize-money, the father of the girl consented to the match. He saw his mistress once before the destined ceremony; but she was bathed in tears, and, throwing herself at his feet, entreated him to spare her, confessing at the same time that she loved another, but that he was poor, and that her father would never consent to the union. My generous friend reassured the suppliant, and on being informed of the name of her lover, instantly…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-002-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-002-inline-01.txt",
+          "promptSha256": "1ba310ee7050e7882baa21d3ffa24ac964a82a4923dea643d560a6c2df2046e3"
+        }
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "number": 3,
+      "title": "Letter III",
+      "metrics": {
+        "narrativeWords": 300,
+        "textBlocks": 8,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-003-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.023333,
+        "minimumInlineSeparation": 0.561667,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "8fe1673c6850a66c43671b4122d4b2c6a01230d3960d44a8bda7a25d4ece6e7b",
+        "passageExcerpt": "To Mrs. Saville, England. My dear Sister , July 7th, 17—. I write a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a merchantman now on its homeward voyage from Archangel; more fortunate than I, who may not see my native land, perhaps, for many years. I am, however, in good spirits: my men are bold, and apparently firm of purpose; nor do the floating sheets of ice that continually pass us, indicating the dangers of the region towards which we are advancing, appear to dismay them. We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not expected.",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-003-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-003-hero.txt",
+        "promptSha256": "8d4217dfc6eccd3b5992dec885ef76b77a1b430a46e867a9433ebd69c6d43b6a"
+      },
+      "inline": [
+        {
+          "id": "chapter-003-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 3,
+          "anchorSha256": "7128e32a9f9ef1f2a42baeb9dccf94a679a327f9b1d5ab1e33233196bcc57ade",
+          "align": "right",
+          "passageExcerpt": "I write a few lines in haste, to say that I am safe, and well advanced on my voyage. This letter will reach England by a merchantman now on its homeward voyage from Archangel; more fortunate than I, who may not see my native land, perhaps, for many years. I am, however, in good spirits: my men are bold, and apparently firm of purpose; nor do the floating sheets of ice that continually pass us, indicating the dangers of the region towards which we are advancing, appear to dismay them. We have already reached a very high latitude; but it is the height of summer, and although not so warm as in England, the southern gales, which blow us speedily towards those shores which I so ardently desire to attain, breathe a degree of renovating warmth which I had not expected. No incidents have hitherto befallen us that would make a figure in a letter. One or two stiff gales, and the springing of a leak, are accidents which experienced navigators scarcely remember to record; and I shall be well content if nothing worse happen to us during our voyage. Adieu, my dear Margaret. Be assured, that for my own sake, as well as yours, I will not rashly encounter danger. I will be cool, persevering, and prudent.",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-003-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-003-inline-01.txt",
+          "promptSha256": "9c57e814d9ee06f7bd5bcb050a4d65b8c9baa20ac8944917977c658b9e110cd1"
+        }
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "number": 4,
+      "title": "Letter IV",
+      "metrics": {
+        "narrativeWords": 2738,
+        "textBlocks": 39,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-004-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 5,
+        "sourceFraction": 0.092586,
+        "minimumInlineSeparation": 0.409606,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "cb369e74502827dd7ee2f9e798e70319ac624941e12fa008dd4a04d474e764a5",
+        "passageExcerpt": "About two o'clock the mist cleared away, and we beheld, stretched out in every direction, vast and irregular plains of ice, which seemed to have no end. Some of my comrades groaned, and my own mind began to grow watchful with anxious thoughts, when a strange sight suddenly attracted our attention, and diverted our solicitude from our own situation. We perceived a low carriage, fixed on a sledge and drawn by dogs, pass on towards the north, at the distance of half a mile: a being which had the shape of a man, but apparently of gigantic stature, sat in the sledge, and guided the dogs. We watched the rapid progress of the traveller with our telescopes, until he was lost among the distant inequalities of the ice. This appearance excited our unqualified wonder. We were, as we believed, many hundred miles from any land; but this apparition seemed to denote that it was not, in reality, so distant as we had supposed. Shut in, however, by ice, it was impossible to follow his track, which we had observed with the greatest attention. About two hours after this occurrence, we heard the ground sea; and before night the ice broke, and freed our ship. We, however, lay to until the morning, fearing to encounter in the dark those large loose masses which float about after the breaking up of the ice. I profited of this time to rest for a few hours.",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-004-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-004-hero.txt",
+        "promptSha256": "bf73013f5defefc32c2700a89d4fbdb6a40dfce82e2aa2490c57c2438cc041da"
+      },
+      "inline": [
+        {
+          "id": "chapter-004-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 24,
+          "anchorSha256": "37426355e578f18fa99d0dd75e90f8c17b0639897897e69b11d6f14ec6385080",
+          "align": "right",
+          "passageExcerpt": "I said in one of my letters, my dear Margaret, that I should find no friend on the wide ocean; yet I have found a man who, before his spirit had been broken by misery, I should have been happy to have possessed as the brother of my heart. I shall continue my journal concerning the stranger at intervals, should I have any fresh incidents to record. August 13th, 17—.",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-004-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-004-inline-01.txt",
+          "promptSha256": "a2c1869f8355ff34e3dbef9aa66dc8907e8104805198b7953bd1362087e7b0ed"
+        }
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "number": 5,
+      "title": "Chapter I",
+      "metrics": {
+        "narrativeWords": 1777,
+        "textBlocks": 11,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-005-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.102138,
+        "minimumInlineSeparation": 0.427124,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "80a57764cde21fd2fa58d1b35f1e816b0b0a5945f22549249953b569d6624655",
+        "passageExcerpt": "…etually occupied by the affairs of his country; a variety of circumstances had prevented his marrying early, nor was it until the decline of life that he became a husband and the father of a family. As the circumstances of his marriage illustrate his character, I cannot refrain from relating them. One of his most intimate friends was a merchant, who, from a flourishing state, fell, through numerous mischances, into poverty. This man, whose name was Beaufort, was of a proud and unbending disposition, and could not bear to live in poverty and oblivion in the same country where he had formerly been distinguished for his rank and magnificence. Having paid his debts, therefore, in the most honourable manner, he retreated with his daughter to the town of Lucerne, where he lived unknown and in wretchedness. My father loved Beaufort with the truest friendship, and was deeply grieved by his retreat in these unfortunate circumstances. He bitterly deplored the false pride which led his friend to a conduct so little worthy of the affection that united them. He lost no time in endeavouring to seek him out, with the hope of persuading him to begin the world again through his credit and assistance. Beaufort had taken effectual measures to conceal himself; and it was ten months before my father discovered his abode. Overjoyed at this discovery, he hastened to the house, which was situated in a…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-005-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-005-hero.txt",
+        "promptSha256": "17d1d0383dfe6ffe860d7b1a793b9a141284b6443e509330e947131e2d20d6ef"
+      },
+      "inline": [
+        {
+          "id": "chapter-005-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 6,
+          "anchorSha256": "016503b24215926ca40878870fe0c5d6f4142ad315ce999598242f730be36466",
+          "align": "right",
+          "passageExcerpt": "…mate of Italy, and the change of scene and interest attendant on a tour through that land of wonders, as a restorative for her weakened frame. From Italy they visited Germany and France. I, their eldest child, was born at Naples, and as an infant accompanied them in their rambles. I remained for several years their only child. Much as they were attached to each other, they seemed to draw inexhaustible stores of affection from a very mine of love to bestow them upon me. My mother's tender caresses, and my father's smile of benevolent pleasure while regarding me, are my first recollections. I was their plaything and their idol, and something better—their child, the innocent and helpless creature bestowed on them by Heaven, whom to bring up to good, and whose future lot it was in their hands to direct to happiness or misery, according as they fulfilled their duties towards me. With this deep consciousness of what they owed towards the being to which they had given life, added to the active spirit of tenderness that animated both, it may be imagined that while during every hour of my infant life I received a lesson of patience, of charity, and of self-control, I was so guided by a silken cord, that all seemed but one train of enjoyment to me. For a long time I was their only care. My mother had much desired to have a daughter, but I continued their single offspring. When I was abou…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-005-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-005-inline-01.txt",
+          "promptSha256": "8b42c970e1a56f3cb4a3d02de1809c04cab15c411377c12d5a2ef0affbe7a603"
+        }
+      ]
+    },
+    {
+      "id": "chapter-006",
+      "number": 6,
+      "title": "Chapter II",
+      "metrics": {
+        "narrativeWords": 2208,
+        "textBlocks": 16,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-006-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.140851,
+        "minimumInlineSeparation": 0.376132,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "04af236bf7149468315ee79f02321c29f4b25909bae9d8b79ef257cbdb05f68e",
+        "passageExcerpt": "…ss akin to rapture, as they were unfolded to me, are among the earliest sensations I can remember. On the birth of a second son, my junior by seven years, my parents gave up entirely their wandering life, and fixed themselves in their native country. We possessed a house in Geneva, and a campagne on Belrive, the eastern shore of the lake, at the distance of rather more than a league from the city. We resided principally in the latter, and the lives of my parents were passed in considerable seclusion. It was my temper to avoid a crowd, and to attach myself fervently to a few. I was indifferent, therefore, to my schoolfellows in general; but I united myself in the bonds of the closest friendship to one among them. Henry Clerval was the son of a merchant of Geneva. He was a boy of singular talent and fancy. He loved enterprise, hardship, and even danger, for its own sake. He was deeply read in books of chivalry and romance. He composed heroic songs, and began to write many a tale of enchantment and knightly adventure. He tried to make us act plays, and to enter into masquerades, in which the characters were drawn from the heroes of Roncesvalles, of the Round Table of King Arthur, and the chivalrous train who shed their blood to redeem the holy sepulchre from the hands of the infidels. No human being could have passed a happier childhood than myself. My parents were possessed by th…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-006-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-006-hero.txt",
+        "promptSha256": "8c435d9fdb52b543ea046505d0ff90127b8d458283ace267d9b8a912c653c23f"
+      },
+      "inline": [
+        {
+          "id": "chapter-006-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 7,
+          "anchorSha256": "d34ddf8158db6c42b9e36ad2a820d5d76c0283813a10fa9791635fe38f4a8fe2",
+          "align": "right",
+          "passageExcerpt": "…his feeling into enthusiasm. A new light seemed to dawn upon my mind; and, bounding with joy, I communicated my discovery to my father. My father looked carelessly at the titlepage of my book, and said, \"Ah! Cornelius Agrippa! My dear Victor, do not waste your time upon this; it is sad trash.\" If, instead of this remark, my father had taken the pains to explain to me, that the principles of Agrippa had been entirely exploded, and that a modern system of science had been introduced, which possessed much greater powers than the ancient, because the powers of the latter were chimerical, while those of the former were real and practical; under such circumstances, I should certainly have thrown Agrippa aside, and have contented my imagination, warmed as it was, by returning with greater ardour to my former studies. It is even possible, that the train of my ideas would never have received the fatal impulse that led to my ruin. But the cursory glance my father had taken of my volume by no means assured me that he was acquainted with its contents; and I continued to read with the greatest avidity. When I returned home, my first care was to procure the whole works of this author, and afterwards of Paracelsus and Albertus Magnus. I read and studied the wild fancies of these writers with delight; they appeared to me treasures known to few beside myself. I have described myself as always h…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-006-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-006-inline-01.txt",
+          "promptSha256": "6e7ed009c4cfe0d2ec36b5c2761961adc8a9a3ce281ab8faf8148fc4d01c90f2"
+        }
+      ]
+    },
+    {
+      "id": "chapter-007",
+      "number": 7,
+      "title": "Chapter III",
+      "metrics": {
+        "narrativeWords": 2690,
+        "textBlocks": 22,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-007-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.076952,
+        "minimumInlineSeparation": 0.417472,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "2adb7ba146e1f1400e34794e37582a99d6e8a94c6fc0c4ea6e2ee767deea9c05",
+        "passageExcerpt": "…were, of my future misery. Elizabeth had caught the scarlet fever; her illness was severe, and she was in the greatest danger. During her illness, many arguments had been urged to persuade my mother to refrain from attending upon her. She had, at first, yielded to our entreaties; but when she heard that the life of her favourite was menaced, she could no longer control her anxiety. She attended her sick bed,—her watchful attentions triumphed over the malignity of the distemper,—Elizabeth was saved, but the consequences of this imprudence were fatal to her preserver. On the third day my mother sickened; her fever was accompanied by the most alarming symptoms, and the looks of her medical attendants prognosticated the worst event. On her death-bed the fortitude and benignity of this best of women did not desert her. She joined the hands of Elizabeth and myself:—\"My children,\" she said, \"my firmest hopes of future happiness were placed on the prospect of your union. This expectation will now be the consolation of your father. Elizabeth, my love, you must supply my place to my younger children. Alas! I regret that I am taken from you; and, happy and beloved as I have been, is it not hard to quit you all? But these are not thoughts befitting me; I will endeavour to resign myself cheerfully to death, and will indulge a hope of meeting you in another world.\" She died calmly; and her c…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-007-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-007-hero.txt",
+        "promptSha256": "75a12e42996b1ad10967822859f15cff083517c819547e91e681fddbe121c77b"
+      },
+      "inline": [
+        {
+          "id": "chapter-007-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 11,
+          "anchorSha256": "d7d5630c8b489346489e252d494cd7cadf85d00269c3f25010cee67b9fafafcb",
+          "align": "right",
+          "passageExcerpt": "…an, but deeply embued in the secrets of his science. He asked me several questions concerning my progress in the different branches of science appertaining to natural philosophy. I replied carelessly; and, partly in contempt, mentioned the names of my alchymists as the principal authors I had studied. The professor stared: \"Have you,\" he said, \"really spent your time in studying such nonsense?\" I replied in the affirmative. \"Every minute,\" continued M. Krempe with warmth, \"every instant that you have wasted on those books is utterly and entirely lost. You have burdened your memory with exploded systems and useless names. Good God! in what desert land have you lived, where no one was kind enough to inform you that these fancies, which you have so greedily imbibed, are a thousand years old, and as musty as they are ancient? I little expected, in this enlightened and scientific age, to find a disciple of Albertus Magnus and Paracelsus. My dear sir, you must begin your studies entirely anew.\" So saying, he stept aside, and wrote down a list of several books treating of natural philosophy, which he desired me to procure; and dismissed me, after mentioning that in the beginning of the following week he intended to commence a course of lectures upon natural philosophy in its general relations, and that M. Waldman, a fellow-professor, would lecture upon chemistry the alternate days tha…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-007-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-007-inline-01.txt",
+          "promptSha256": "f4a2009086c99a0f221154751e29886f77e2f1f1dea6d315b4b35ec492fdeed9"
+        }
+      ]
+    },
+    {
+      "id": "chapter-008",
+      "number": 8,
+      "title": "Chapter IV",
+      "metrics": {
+        "narrativeWords": 2535,
+        "textBlocks": 14,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-008-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.12643,
+        "minimumInlineSeparation": 0.411045,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ddfc61bf1e6363e226c28019d708d8a96ff23b46ea8d89b83f72971985cab4e8",
+        "passageExcerpt": "…As I applied so closely, it may be easily conceived that my progress was rapid. My ardour was indeed the astonishment of the students, and my proficiency that of the masters. Professor Krempe often asked me, with a sly smile, how Cornelius Agrippa went on? whilst M. Waldman expressed the most heart-felt exultation in my progress. Two years passed in this manner, during which I paid no visit to Geneva, but was engaged, heart and soul, in the pursuit of some discoveries, which I hoped to make. None but those who have experienced them can conceive of the enticements of science. In other studies you go as far as others have gone before you, and there is nothing more to know; but in a scientific pursuit there is continual food for discovery and wonder. A mind of moderate capacity, which closely pursues one study, must infallibly arrive at great proficiency in that study; and I, who continually sought the attainment of one object of pursuit, and was solely wrapt up in this, improved so rapidly, that, at the end of two years, I made some discoveries in the improvement of some chemical instruments, which procured me great esteem and admiration at the university. When I had arrived at this point, and had become as well acquainted with the theory and practice of natural philosophy as depended on the lessons of any of the professors at Ingolstadt, my residence there being no longer conduc…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-008-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-008-hero.txt",
+        "promptSha256": "636a0785f59681138c839ed6ebc9fc29c41fdb95c16fa5f86a2c05947e8f4a7a"
+      },
+      "inline": [
+        {
+          "id": "chapter-008-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 6,
+          "anchorSha256": "34961b239891c0c893d3cbf15b3846c4b228a507d769801021afc9f511ec8eae",
+          "align": "right",
+          "passageExcerpt": "…When I found so astonishing a power placed within my hands, I hesitated a long time concerning the manner in which I should employ it. Although I possessed the capacity of bestowing animation, yet to prepare a frame for the reception of it, with all its intricacies of fibres, muscles, and veins, still remained a work of inconceivable difficulty and labour. I doubted at first whether I should attempt the creation of a being like myself, or one of simpler organization; but my imagination was too much exalted by my first success to permit me to doubt of my ability to give life to an animal as complex and wonderful as man. The materials at present within my command hardly appeared adequate to so arduous an undertaking; but I doubted not that I should ultimately succeed. I prepared myself for a multitude of reverses; my operations might be incessantly baffled, and at last my work be imperfect: yet, when I considered the improvement which every day takes place in science and mechanics, I was encouraged to hope my present attempts would at least lay the foundations of future success. Nor could I consider the magnitude and complexity of my plan as any argument of its impracticability. It was with these feelings that I began the creation of a human being. As the minuteness of the parts formed a great hinderance to my speed, I resolved, contrary to my first intention, to make the being o…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-008-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-008-inline-01.txt",
+          "promptSha256": "285db5f88a72108072181bb4212fb279c9c0ea5f60d28aa6c685b09b7fb9c255"
+        }
+      ]
+    },
+    {
+      "id": "chapter-009",
+      "number": 9,
+      "title": "Chapter V",
+      "metrics": {
+        "narrativeWords": 2351,
+        "textBlocks": 27,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-009-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 22,
+        "sourceFraction": 0.911314,
+        "minimumInlineSeparation": 0.862612,
+        "selection": "closing-90-percent",
+        "sourceAnchorSha256": "532aca41e080c670dd9b36ef37ab9d4a9eb76fbbd828ae24d5c3fecac81b6e3a",
+        "passageExcerpt": "By very slow degrees, and with frequent relapses, that alarmed and grieved my friend, I recovered. I remember the first time I became capable of observing outward objects with any kind of pleasure, I perceived that the fallen leaves had disappeared, and that the young buds were shooting forth from the trees that shaded my window. It was a divine spring; and the season contributed greatly to my convalescence. I felt also sentiments of joy and affection revive in my bosom; my gloom disappeared, and in a short time I became as cheerful as before I was attacked by the fatal passion. \"Dearest Clerval,\" exclaimed I, \"how kind, how very good you are to me. This whole winter, instead of being spent in study, as you promised yourself, has been consumed in my sick room. How shall I ever repay you? I feel the greatest remorse for the disappointment of which I have been the occasion; but you will forgive me.\" \"You will repay me entirely, if you do not discompose yourself, but get well as fast as you can; and since you appear in such good spirits, I may speak to you on one subject, may I not?\"",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-009-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-009-hero.txt",
+        "promptSha256": "08c5a73478ce8e2f90bacf46724e77a03933524179c14a3bde7e94184bbabd5e"
+      },
+      "inline": [
+        {
+          "id": "creation",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 2,
+          "anchorSha256": "b266a0bcccd2dce45377c1368956698c6c75c11dec3d98296405439ce661f17f",
+          "align": "right",
+          "source": "output/imagegen/frankenstein/creation-calibration.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/frankenstein/creation.txt",
+          "caption": "The dull yellow eye opens"
+        }
+      ]
+    },
+    {
+      "id": "chapter-010",
+      "number": 10,
+      "title": "Chapter VI",
+      "metrics": {
+        "narrativeWords": 2725,
+        "textBlocks": 23,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-010-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.099633,
+        "minimumInlineSeparation": 0.396881,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "99853f78c2bf0d0701738f554236a5ff170cee1458da61fe091f9e54bc94440c",
+        "passageExcerpt": "…ever guess your wishes, nor minister to them with the care and affection of your poor cousin. Yet that is over now: Clerval writes that indeed you are getting better. I eagerly hope that you will confirm this intelligence soon in your own handwriting. \"Get well—and return to us. You will find a happy, cheerful home, and friends who love you dearly. Your father's health is vigorous, and he asks but to see you,—but to be assured that you are well; and not a care will ever cloud his benevolent countenance. How pleased you would be to remark the improvement of our Ernest! He is now sixteen, and full of activity and spirit. He is desirous to be a true Swiss, and to enter into foreign service; but we cannot part with him, at least until his elder brother return to us. My uncle is not pleased with the idea of a military career in a distant country; but Ernest never had your powers of application. He looks upon study as an odious fetter;—his time is spent in the open air, climbing the hills or rowing on the lake. I fear that he will become an idler, unless we yield the point, and permit him to enter on the profession which he has selected. \"Little alteration, except the growth of our dear children, has taken place since you left us. The blue lake, and snow-clad mountains, they never change;—and I think our placid home, and our contented hearts are regulated by the same immutable laws.…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-010-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-010-hero.txt",
+        "promptSha256": "59f8fcff3e6d446388f7ffbe648b3eb01bcd4d79b1bd003766c6ad7070dc107f"
+      },
+      "inline": [
+        {
+          "id": "chapter-010-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 12,
+          "anchorSha256": "96226069e48f99cca5d7970f338a3bccb50df84dc7ae678db1cdfc29fb9bbec7",
+          "align": "right",
+          "passageExcerpt": "\" Elizabeth Lavenza. \"Geneva, March 18th, 17—.\" \"Dear, dear Elizabeth!\" I exclaimed, when I had read her letter, \"I will write instantly, and relieve them from the anxiety they must feel.\" I wrote, and this exertion greatly fatigued me; but my convalescence had commenced, and proceeded regularly. In another fortnight I was able to leave my chamber.",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-010-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-010-inline-01.txt",
+          "promptSha256": "7b543516d64d8176fd24e61ea8d8b394366d8b306f5f9c87c6f66151c052e62d"
+        }
+      ]
+    },
+    {
+      "id": "chapter-011",
+      "number": 11,
+      "title": "Chapter VII",
+      "metrics": {
+        "narrativeWords": 3571,
+        "textBlocks": 51,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-011-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 6,
+        "sourceFraction": 0.101792,
+        "minimumInlineSeparation": 0.225427,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "a523ee3d5462f049127facc024da700f6b7b41795afdde0095daf51f36a9c696",
+        "passageExcerpt": "…s already dusk before we thought of returning; and then we discovered that William and Ernest, who had gone on before, were not to be found. We accordingly rested on a seat until they should return. Presently Ernest came, and enquired if we had seen his brother: he said, that he had been playing with him, that William had run away to hide himself, and that he vainly sought for him, and afterwards waited for him a long time, but that he did not return. \"This account rather alarmed us, and we continued to search for him until night fell, when Elizabeth conjectured that he might have returned to the house. He was not there. We returned again, with torches; for I could not rest, when I thought that my sweet boy had lost himself, and was exposed to all the damps and dews of night; Elizabeth also suffered extreme anguish. About five in the morning I discovered my lovely boy, whom the night before I had seen blooming and active in health, stretched on the grass livid and motionless: the print of the murderer's finger was on his neck. \"He was conveyed home, and the anguish that was visible in my countenance betrayed the secret to Elizabeth. She was very earnest to see the corpse. At first I attempted to prevent her; but she persisted, and entering the room where it lay, hastily examined the neck of the victim, and clasping her hands exclaimed, 'O God! I have murdered my darling child!'",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-011-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-011-hero.txt",
+        "promptSha256": "8663c24741d000f050f04590fe4e811fcc104685017013b06223575929ed5ab2"
+      },
+      "inline": [
+        {
+          "id": "chapter-011-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 22,
+          "anchorSha256": "e7672755ebcbf33eb60ec41ff6f1cf8243e0cba77f4936aabc037110e51ac8c8",
+          "align": "right",
+          "passageExcerpt": "…longed to console and sympathise with my loved and sorrowing friends; but when I drew near my native town, I slackened my progress. I could hardly sustain the multitude of feelings that crowded into my mind. I passed through scenes familiar to my youth, but which I had not seen for nearly six years. How altered every thing might be during that time! One sudden and desolating change had taken place; but a thousand little circumstances might have by degrees worked other alterations, which, although they were done more tranquilly, might not be the less decisive. Fear overcame me; I dared not advance, dreading a thousand nameless evils that made me tremble, although I was unable to define them. I remained two days at Lausanne, in this painful state of mind. I contemplated the lake: the waters were placid; all around was calm; and the snowy mountains, \"the palaces of nature,\" were not changed. By degrees the calm and heavenly scene restored me, and I continued my journey towards Geneva. The road ran by the side of the lake, which became narrower as I approached my native town. I discovered more distinctly the black sides of Jura, and the bright summit of Mont Blanc. I wept like a child. \"Dear mountains! my own beautiful lake! how do you welcome your wanderer? Your summits are clear; the sky and lake are blue and placid. Is this to prognosticate peace, or to mock at my unhappiness?\"",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-011-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-011-inline-01.txt",
+          "promptSha256": "c5a4b3391ae8ce07e653193dbbcbe24c7aa3b8b39b86132c0d91595c208e272d"
+        },
+        {
+          "id": "chapter-011-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 32,
+          "anchorSha256": "a9138627860a877aaa5c3d9637a3ad0409ac3e1999ae0e0b994dbb5230519b09",
+          "align": "left",
+          "passageExcerpt": "…th which I had been seized just at the time that I dated my creation, and which would give an air of delirium to a tale otherwise so utterly improbable. I well knew that if any other had communicated such a relation to me, I should have looked upon it as the ravings of insanity. Besides, the strange nature of the animal would elude all pursuit, even if I were so far credited as to persuade my relatives to commence it. And then of what use would be pursuit? Who could arrest a creature capable of scaling the overhanging sides of Mont Salêve? These reflections determined me, and I resolved to remain silent. It was about five in the morning when I entered my father's house. I told the servants not to disturb the family, and went into the library to attend their usual hour of rising. Six years had elapsed, passed as a dream but for one indelible trace, and I stood in the same place where I had last embraced my father before my departure for Ingolstadt. Beloved and venerable parent! He still remained to me. I gazed on the picture of my mother, which stood over the mantel-piece. It was an historical subject, painted at my father's desire, and represented Caroline Beaufort in an agony of despair, kneeling by the coffin of her dead father. Her garb was rustic, and her cheek pale; but there was an air of dignity and beauty, that hardly permitted the sentiment of pity. Below this picture…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-011-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-011-inline-02.txt",
+          "promptSha256": "290e88d6cd0059c5a39f40b5789ad19d089767184720ea80b8abe5ae998c32a4"
+        }
+      ]
+    },
+    {
+      "id": "chapter-012",
+      "number": 12,
+      "title": "Chapter VIII",
+      "metrics": {
+        "narrativeWords": 3092,
+        "textBlocks": 33,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-012-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.082309,
+        "minimumInlineSeparation": 0.242076,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "7ea5ec4406dac6d3a2c79a4aacf747e081fbf1a1047e787245c8ee67711ff3c7",
+        "passageExcerpt": "…I have confessed myself guilty of the crime ascribed to Justine; but I was absent when it was committed, and such a declaration would have been considered as the ravings of a madman, and would not have exculpated her who suffered through me. The appearance of Justine was calm. She was dressed in mourning; and her countenance, always engaging, was rendered, by the solemnity of her feelings, exquisitely beautiful. Yet she appeared confident in innocence, and did not tremble, although gazed on and execrated by thousands; for all the kindness which her beauty might otherwise have excited, was obliterated in the minds of the spectators by the imagination of the enormity she was supposed to have committed. She was tranquil, yet her tranquillity was evidently constrained; and as her confusion had before been adduced as a proof of her guilt, she worked up her mind to an appearance of courage. When she entered the court, she threw her eyes round it, and quickly discovered where we were seated. A tear seemed to dim her eye when she saw us; but she quickly recovered herself, and a look of sorrowful affection seemed to attest her utter guiltlessness. The trial began; and, after the advocate against her had stated the charge, several witnesses were called. Several strange facts combined against her, which might have staggered any one who had not such proof of her innocence as I had. She ha…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-012-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-012-hero.txt",
+        "promptSha256": "d7c306ae11798c510d5c97f7e610d443934946bc9b73921af52bbec63c396e61"
+      },
+      "inline": [
+        {
+          "id": "chapter-012-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 7,
+          "anchorSha256": "ee7ed3c4566e517833bf3eb0aea695363a9ea112d24cc4f8ef184bef8c39760d",
+          "align": "right",
+          "passageExcerpt": "\"I know,\" continued the unhappy victim, \"how heavily and fatally this one circumstance weighs against me, but I have no power of explaining it; and when I have expressed my utter ignorance, I am only left to conjecture concerning the probabilities by which it might have been placed in my pocket. But here also I am checked. I believe that I have no enemy on earth, and none surely would have been so wicked as to destroy me wantonly. Did the murderer place it there? I know of no opportunity afforded him for so doing; or, if I had, why should he have stolen the jewel, to part with it again so soon? \"I commit my cause to the justice of my judges, yet I see no room for hope. I beg permission to have a few witnesses examined concerning my character; and if their testimony shall not overweigh my supposed guilt, I must be condemned, although I would pledge my salvation on my innocence.\" Several witnesses were called, who had known her for many years, and they spoke well of her; but fear, and hatred of the crime of which they supposed her guilty, rendered them timorous, and unwilling to come forward. Elizabeth saw even this last resource, her excellent dispositions and irreproachable conduct, about to fail the accused, when, although violently agitated, she desired permission to address the court.",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-012-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-012-inline-01.txt",
+          "promptSha256": "8994167305f3d1192d9defd05f3f2f8a45fc2d008c89e68583b088122b2f372e"
+        },
+        {
+          "id": "chapter-012-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 20,
+          "anchorSha256": "489d73aa11ca8f9fee9ef35e69758c20598e0be92d4adad5be829b0c27fde770",
+          "align": "left",
+          "passageExcerpt": "\"And do you also believe that I am so very, very wicked? Do you also join with my enemies to crush me, to condemn me as a murderer?\" Her voice was suffocated with sobs. \"Rise, my poor girl,\" said Elizabeth, \"why do you kneel, if you are innocent? I am not one of your enemies; I believed you guiltless, notwithstanding every evidence, until I heard that you had yourself declared your guilt. That report, you say, is false; and be assured, dear Justine, that nothing can shake my confidence in you for a moment, but your own confession.\" \"I did confess; but I confessed a lie. I confessed, that I might obtain absolution; but now that falsehood lies heavier at my heart than all my other sins. The God of heaven forgive me! Ever since I was condemned, my confessor has besieged me; he threatened and menaced, until I almost began to think that I was the monster that he said I was. He threatened excommunication and hell fire in my last moments, if I continued obdurate. Dear lady, I had none to support me; all looked on me as a wretch doomed to ignominy and perdition. What could I do? In an evil hour I subscribed to a lie; and now only am I truly miserable.\"",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-012-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-012-inline-02.txt",
+          "promptSha256": "5808ee3027902ed91ef558c6f7858d6efad8b73a85095ec2352aa846cc1c1246"
+        }
+      ]
+    },
+    {
+      "id": "chapter-013",
+      "number": 13,
+      "title": "Chapter IX",
+      "metrics": {
+        "narrativeWords": 2220,
+        "textBlocks": 16,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-013-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.097748,
+        "minimumInlineSeparation": 0.418694,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "7fe5572ca025077d58da6625cd47dd01d99c190c41c2d67529f0d21049ab7c2b",
+        "passageExcerpt": "…(I persuaded myself), was yet behind. Yet my heart overflowed with kindness, and the love of virtue. I had begun life with benevolent intentions, and thirsted for the moment when I should put them in practice, and make myself useful to my fellow-beings. Now all was blasted: instead of that serenity of conscience, which allowed me to look back upon the past with self-satisfaction, and from thence to gather promise of new hopes, I was seized by remorse and the sense of guilt, which hurried me away to a hell of intense tortures, such as no language can describe. This state of mind preyed upon my health, which had perhaps never entirely recovered from the first shock it had sustained. I shunned the face of man; all sound of joy or complacency was torture to me; solitude was my only consolation—deep, dark, deathlike solitude. My father observed with pain the alteration perceptible in my disposition and habits, and endeavoured by arguments deduced from the feelings of his serene conscience and guiltless life, to inspire me with fortitude, and awaken in me the courage to dispel the dark cloud which brooded over me. \"Do you think, Victor,\" said he, \"that I do not suffer also? No one could love a child more than I loved your brother;\" (tears came into his eyes as he spoke;) \"but is it not a duty to the survivors, that we should refrain from augmenting their unhappiness by an appearance…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-013-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-013-hero.txt",
+        "promptSha256": "7d87a4d015b7ac30d6263a8e973f6bfe12d4104d0d8736ddd771e69b5320b5ea"
+      },
+      "inline": [
+        {
+          "id": "chapter-013-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 7,
+          "anchorSha256": "5c9dad0415a91a17dc0c966154d63317b09691ddacbc90ce7fef793e54a54543",
+          "align": "right",
+          "passageExcerpt": "…\"When I reflect, my dear cousin,\" said she, \"on the miserable death of Justine Moritz, I no longer see the world and its works as they before appeared to me. Before, I looked upon the accounts of vice and injustice, that I read in books or heard from others, as tales of ancient days, or imaginary evils; at least they were remote, and more familiar to reason than to the imagination; but now misery has come home, and men appear to me as monsters thirsting for each other's blood. Yet I am certainly unjust. Every body believed that poor girl to be guilty; and if she could have committed the crime for which she suffered, assuredly she would have been the most depraved of human creatures. For the sake of a few jewels, to have murdered the son of her benefactor and friend, a child whom she had nursed from its birth, and appeared to love as if it had been her own! I could not consent to the death of any human being; but certainly I should have thought such a creature unfit to remain in the society of men. But she was innocent. I know, I feel she was innocent; you are of the same opinion, and that confirms me. Alas! Victor, when falsehood can look so like the truth, who can assure themselves of certain happiness? I feel as if I were walking on the edge of a precipice, towards which thousands are crowding, and endeavouring to plunge me into the abyss. William and Justine were assassinate…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-013-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-013-inline-01.txt",
+          "promptSha256": "df6ee7b7ebf8bc6fd07d63cdbdcf8b730da5c00839ab0a81708b3496b9451ad9"
+        }
+      ]
+    },
+    {
+      "id": "chapter-014",
+      "number": 14,
+      "title": "Chapter X",
+      "metrics": {
+        "narrativeWords": 2292,
+        "textBlocks": 16,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-014-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.05541,
+        "minimumInlineSeparation": 0.382417,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "24e86079b7bf190d87ce40af18bad3b99fd74de4e1c0c100bcfda59603fe15e3",
+        "passageExcerpt": "I spent the following day roaming through the valley. I stood beside the sources of the Arveiron, which take their rise in a glacier, that with slow pace is advancing down from the summit of the hills, to barricade the valley. The abrupt sides of vast mountains were before me; the icy wall of the glacier overhung me; a few shattered pines were scattered around; and the solemn silence of this glorious presence-chamber of imperial Nature was broken only by the brawling waves, or the fall of some vast fragment, the thunder sound of the avalanche, or the cracking, reverberated along the mountains of the accumulated ice, which, through the silent working of immutable laws, was ever and anon rent and torn, as if it had been but a plaything in their hands. These sublime and magnificent scenes afforded me the greatest consolation that I was capable of receiving. They elevated me from all littleness of feeling; and although they did not remove my grief, they subdued and tranquillised it. In some degree, also, they diverted my mind from the thoughts over which it had brooded for the last month. I retired to rest at night; my slumbers, as it were, waited on and ministered to by the assemblance of grand shapes which I had contemplated during the day. They congregated round me; the unstained snowy mountain-top, the glittering pinnacle, the pine woods, and ragged bare ravine; the eagle, soar…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-014-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-014-hero.txt",
+        "promptSha256": "f5fd30c11e1606ba2a7a8ed393fa1190729376c788654254e1bc328377043994"
+      },
+      "inline": [
+        {
+          "id": "glacier-confrontation",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 4,
+          "anchorSha256": "42e7594cba75e132bc9c0b681775ce847cb58fd3c6b0e23ba160f40a12183467",
+          "align": "plate",
+          "source": "output/imagegen/scenes/frankenstein/glacier-confrontation.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/frankenstein/glacier-confrontation.txt",
+          "caption": "Across the Mer de Glace"
+        }
+      ]
+    },
+    {
+      "id": "chapter-015",
+      "number": 15,
+      "title": "Chapter XI",
+      "metrics": {
+        "narrativeWords": 2903,
+        "textBlocks": 19,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-015-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.101619,
+        "minimumInlineSeparation": 0.695832,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ce3898790d229f541e995ae1673faaa5ba39d8f0593d4abf84ef767e5be96dc2",
+        "passageExcerpt": "…. The light became more and more oppressive to me; and, the heat wearying me as I walked, I sought a place where I could receive shade. This was the forest near Ingolstadt; and here I lay by the side of a brook resting from my fatigue, until I felt tormented by hunger and thirst. This roused me from my nearly dormant state, and I ate some berries which I found hanging on the trees, or lying on the ground. I slaked my thirst at the brook; and then lying down, was overcome by sleep. \"It was dark when I awoke; I felt cold also, and half-frightened, as it were instinctively, finding myself so desolate. Before I had quitted your apartment, on a sensation of cold, I had covered myself with some clothes; but these were insufficient to secure me from the dews of night. I was a poor, helpless, miserable wretch; I knew, and could distinguish, nothing; but feeling pain invade me on all sides, I sat down and wept. \"Soon a gentle light stole over the heavens, and gave me a sensation of pleasure. I started up, and beheld a radiant form rise from among the trees. [2] I gazed with a kind of wonder. It moved slowly, but it enlightened my path; and I again went out in search of berries. I was still cold, when under one of the trees I found a huge cloak, with which I covered myself, and sat down upon the ground. No distinct ideas occupied my mind; all was confused. I felt light, and hunger, and t…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-015-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-015-hero.txt",
+        "promptSha256": "0d28519d0dba2b4973b56fe5078e4dbba512c4d96ea290feb94d37902db5f88e"
+      },
+      "inline": [
+        {
+          "id": "cottage-crevice",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 14,
+          "anchorSha256": "5e737dbec4795e47974cf917abc2dbc7c707283d367fdd72025d7f30ba733371",
+          "align": "left",
+          "source": "output/imagegen/scenes/frankenstein/cottage-crevice.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/frankenstein/cottage-crevice.txt",
+          "caption": "The De Laceys through the crevice"
+        }
+      ]
+    },
+    {
+      "id": "chapter-016",
+      "number": 16,
+      "title": "Chapter XII",
+      "metrics": {
+        "narrativeWords": 2069,
+        "textBlocks": 19,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-016-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.077574,
+        "minimumInlineSeparation": 0.399468,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "de64adedfd6d3d15959e4986993386b1ba0df795c8b67093e501516dbbab41d7",
+        "passageExcerpt": "\"The cottagers arose the next morning before the sun. The young woman arranged the cottage, and prepared the food; and the youth departed after the first meal. \"This day was passed in the same routine as that which preceded it. The young man was constantly employed out of doors, and the girl in various laborious occupations within. The old man, whom I soon perceived to be blind, employed his leisure hours on his instrument or in contemplation. Nothing could exceed the love and respect which the younger cottagers exhibited towards their venerable companion. They performed towards him every little office of affection and duty with gentleness; and he rewarded them by his benevolent smiles. \"They were not entirely happy. The young man and his companion often went apart, and appeared to weep. I saw no cause for their unhappiness; but I was deeply affected by it. If such lovely creatures were miserable, it was less strange that I, an imperfect and solitary being, should be wretched. Yet why were these gentle beings unhappy? They possessed a delightful house (for such it was in my eyes) and every luxury; they had a fire to warm them when chill, and delicious viands when hungry; they were dressed in excellent clothes; and, still more, they enjoyed one another's company and speech, interchanging each day looks of affection and kindness. What did their tears imply? Did they really expres…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-016-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-016-hero.txt",
+        "promptSha256": "d0171d3a6e5c8908db4f35544aa7a1c99e2412b4e8760c3313e33e4e7d771aef"
+      },
+      "inline": [
+        {
+          "id": "chapter-016-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 9,
+          "anchorSha256": "3b447814cbe67eed95a993d1977b105160dde95a98fdd805f2b98585cec58eb8",
+          "align": "right",
+          "passageExcerpt": "…everal other words, without being able as yet to understand or apply them; such as good , dearest , unhappy . \"I spent the winter in this manner. The gentle manners and beauty of the cottagers greatly endeared them to me: when they were unhappy, I felt depressed; when they rejoiced, I sympathised in their joys. I saw few human beings beside them; and if any other happened to enter the cottage, their harsh manners and rude gait only enhanced to me the superior accomplishments of my friends. The old man, I could perceive, often endeavoured to encourage his children, as sometimes I found that he called them, to cast off their melancholy. He would talk in a cheerful accent, with an expression of goodness that bestowed pleasure even upon me. Agatha listened with respect, her eyes sometimes filled with tears, which she endeavoured to wipe away unperceived; but I generally found that her countenance and tone were more cheerful after having listened to the exhortations of her father. It was not thus with Felix. He was always the saddest of the group; and, even to my unpractised senses, he appeared to have suffered more deeply than his friends. But if his countenance was more sorrowful, his voice was more cheerful than that of his sister, especially when he addressed the old man. \"I could mention innumerable instances, which, although slight, marked the dispositions of these amiable cot…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-016-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-016-inline-01.txt",
+          "promptSha256": "c351666e16b0c29e2256876bbed8b8a458912f8de93eedac437ddf557ada55e8"
+        }
+      ]
+    },
+    {
+      "id": "chapter-017",
+      "number": 17,
+      "title": "Chapter XIII",
+      "metrics": {
+        "narrativeWords": 2036,
+        "textBlocks": 22,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-017-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.112475,
+        "minimumInlineSeparation": 0.390963,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "8a92efbcc779cc0075a461862a1502df0058988af7b6de88db582ca2541aee74",
+        "passageExcerpt": "…n listened to him—that I observed the countenance of Felix was melancholy beyond expression; he sighed frequently; and once his father paused in his music, and I conjectured by his manner that he enquired the cause of his son's sorrow. Felix replied in a cheerful accent, and the old man was recommencing his music, when some one tapped at the door. \"It was a lady on horseback, accompanied by a countryman as a guide. The lady was dressed in a dark suit, and covered with a thick black veil. Agatha asked a question; to which the stranger only replied by pronouncing, in a sweet accent, the name of Felix. Her voice was musical, but unlike that of either of my friends. On hearing this word, Felix came up hastily to the lady; who, when she saw him, threw up her veil, and I beheld a countenance of angelic beauty and expression. Her hair of a shining raven black, and curiously braided; her eyes were dark, but gentle, although animated; her features of a regular proportion, and her complexion wondrously fair, each cheek tinged with a lovely pink. \"Felix seemed ravished with delight when he saw her, every trait of sorrow vanished from his face, and it instantly expressed a degree of ecstatic joy, of which I could hardly have believed it capable; his eyes sparkled, as his cheek flushed with pleasure; and at that moment I thought him as beautiful as the stranger. She appeared affected by dif…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-017-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-017-hero.txt",
+        "promptSha256": "eae00f55c3500e35e5f085ee4384bd000f858abb813651638d4cad1310c70c5f"
+      },
+      "inline": [
+        {
+          "id": "chapter-017-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 11,
+          "anchorSha256": "a9ac253ec2855ee30187f20a8d9b27be58af6d94e7f5a0cfa94a9859056921a5",
+          "align": "right",
+          "passageExcerpt": "\"In the meanwhile also the black ground was covered with herbage, and the green banks interspersed with innumerable flowers, sweet to the scent and the eyes, stars of pale radiance among the moonlight woods; the sun became warmer, the nights clear and balmy; and my nocturnal rambles were an extreme pleasure to me, although they were considerably shortened by the late setting and early rising of the sun; for I never ventured abroad during daylight, fearful of meeting with the same treatment I had formerly endured in the first village which I entered. \"My days were spent in close attention, that I might more speedily master the language; and I may boast that I improved more rapidly than the Arabian, who understood very little, and conversed in broken accents, whilst I comprehended and could imitate almost every word that was spoken. \"While I improved in speech, I also learned the science of letters, as it was taught to the stranger; and this opened before me a wide field for wonder and delight.",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-017-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-017-inline-01.txt",
+          "promptSha256": "87e235eb34711658cadfd3e4338571360591b10424d12934ab6f7dd16eee74c3"
+        }
+      ]
+    },
+    {
+      "id": "chapter-018",
+      "number": 18,
+      "title": "Chapter XIV",
+      "metrics": {
+        "narrativeWords": 1854,
+        "textBlocks": 20,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-018-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.101942,
+        "minimumInlineSeparation": 0.390237,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "dee0cc1031bea058b324208ead9c4b18ab8ae9979f09266e67af19cd2fbd431b",
+        "passageExcerpt": "…in affluence, respected by his superiors, and beloved by his equals. His son was bred in the service of his country; and Agatha had ranked with ladies of the highest distinction. A few months before my arrival, they had lived in a large and luxurious city, called Paris, surrounded by friends, and possessed of every enjoyment which virtue, refinement of intellect, or taste, accompanied by a moderate fortune, could afford. \"The father of Safie had been the cause of their ruin. He was a Turkish merchant, and had inhabited Paris for many years, when, for some reason which I could not learn, he became obnoxious to the government. He was seized and cast into prison the very day that Safie arrived from Constantinople to join him. He was tried, and condemned to death. The injustice of his sentence was very flagrant; all Paris was indignant; and it was judged that his religion and wealth, rather than the crime alleged against him, had been the cause of his condemnation. \"Felix had accidentally been present at the trial; his horror and indignation were uncontrollable, when he heard the decision of the court. He made, at that moment, a solemn vow to deliver him, and then looked around for the means. After many fruitless attempts to gain admittance to the prison, he found a strongly grated window in an unguarded part of the building, which lighted the dungeon of the unfortunate Mahometan;…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-018-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-018-hero.txt",
+        "promptSha256": "d43a59ced86d45895149e032ebc8700d7e3914c2e5d065421300da91d6099d7e"
+      },
+      "inline": [
+        {
+          "id": "chapter-018-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 9,
+          "anchorSha256": "e6229c9a37fb450cdcbf9756d81c41eee01aec7f4ca3013fd590b2c78cbb7ad5",
+          "align": "right",
+          "passageExcerpt": "\"The day for the execution of the Turk was fixed; but, on the night previous to it, he quitted his prison, and before morning was distant many leagues from Paris. Felix had procured passports in the name of his father, sister, and himself. He had previously communicated his plan to the former, who aided the deceit by quitting his house, under the pretence of a journey, and concealed himself, with his daughter, in an obscure part of Paris. \"Felix conducted the fugitives through France to Lyons, and across Mont Cenis to Leghorn, where the merchant had decided to wait a favourable opportunity of passing into some part of the Turkish dominions. \"Safie resolved to remain with her father until the moment of his departure, before which time the Turk renewed his promise that she should be united to his deliverer; and Felix remained with them in expectation of that event; and in the mean time he enjoyed the society of the Arabian, who exhibited towards him the simplest and tenderest affection. They conversed with one another through the means of an interpreter, and sometimes with the interpretation of looks; and Safie sang to him the divine airs of her native country.",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-018-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-018-inline-01.txt",
+          "promptSha256": "f76979f7c8c2e0d066afc718409a4c04b8a3d006acb486003275137127fe571b"
+        }
+      ]
+    },
+    {
+      "id": "chapter-019",
+      "number": 19,
+      "title": "Chapter XV",
+      "metrics": {
+        "narrativeWords": 3010,
+        "textBlocks": 38,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-019-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.104651,
+        "minimumInlineSeparation": 0.247508,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "d1edc9a8e771198f9af51030daa72b9916772b2c373f1f4aef7d2d2f9b7da865",
+        "passageExcerpt": "…ight; I now continually studied and exercised my mind upon these histories, whilst my friends were employed in their ordinary occupations. \"I can hardly describe to you the effect of these books. They produced in me an infinity of new images and feelings, that sometimes raised me to ecstacy, but more frequently sunk me into the lowest dejection. In the 'Sorrows of Werter,' besides the interest of its simple and affecting story, so many opinions are canvassed, and so many lights thrown upon what had hitherto been to me obscure subjects, that I found in it a never-ending source of speculation and astonishment. The gentle and domestic manners it described, combined with lofty sentiments and feelings, which had for their object something out of self, accorded well with my experience among my protectors, and with the wants which were for ever alive in my own bosom. But I thought Werter himself a more divine being than I had ever beheld or imagined; his character contained no pretension, but it sunk deep. The disquisitions upon death and suicide were calculated to fill me with wonder. I did not pretend to enter into the merits of the case, yet I inclined towards the opinions of the hero, whose extinction I wept, without precisely understanding it. \"As I read, however, I applied much personally to my own feelings and condition. I found myself similar, yet at the same time strangely un…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-019-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-019-hero.txt",
+        "promptSha256": "58568ac2ca2b5e284254dd94c508363d99c829af87154dd05650a06a137d5ebd"
+      },
+      "inline": [
+        {
+          "id": "chapter-019-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 7,
+          "anchorSha256": "5dc9d2de35e7cc23d1a4b38f2f62cabb9215b9cea1bca133d737e8b9cd492e43",
+          "align": "right",
+          "passageExcerpt": "…envy rose within me. \"Another circumstance strengthened and confirmed these feelings. Soon after my arrival in the hovel, I discovered some papers in the pocket of the dress which I had taken from your laboratory. At first I had neglected them; but now that I was able to decipher the characters in which they were written, I began to study them with diligence. It was your journal of the four months that preceded my creation. You minutely described in these papers every step you took in the progress of your work; this history was mingled with accounts of domestic occurrences. You, doubtless, recollect these papers. Here they are. Every thing is related in them which bears reference to my accursed origin; the whole detail of that series of disgusting circumstances which produced it, is set in view; the minutest description of my odious and loathsome person is given, in language which painted your own horrors, and rendered mine indelible. I sickened as I read. 'Hateful day when I received life!' I exclaimed in agony. 'Accursed creator! Why did you form a monster so hideous that even you turned from me in disgust? God, in pity, made man beautiful and alluring, after his own image; but my form is a filthy type of yours, more horrid even from the very resemblance. Satan had his companions, fellow-devils, to admire and encourage him; but I am solitary and abhorred.' \"These were the ref…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-019-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-019-inline-01.txt",
+          "promptSha256": "5e8e0a99c151d7ed549418957cc9395c784e36b42f889b56632eb7ba50413757"
+        },
+        {
+          "id": "chapter-019-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 14,
+          "anchorSha256": "93a8d953472690974497d1bd8c6276585aa192ae446e8b9f2b38a70770c720ca",
+          "align": "left",
+          "passageExcerpt": "\"One day, when the sun shone on the red leaves that strewed the ground, and diffused cheerfulness, although it denied warmth, Safie, Agatha, and Felix departed on a long country walk, and the old man, at his own desire, was left alone in the cottage. When his children had departed, he took up his guitar, and played several mournful but sweet airs, more sweet and mournful than I had ever heard him play before. At first his countenance was illuminated with pleasure, but, as he continued, thoughtfulness and sadness succeeded; at length, laying aside the instrument, he sat absorbed in reflection. \"My heart beat quick; this was the hour and moment of trial, which would decide my hopes, or realise my fears. The servants were gone to a neighbouring fair. All was silent in and around the cottage: it was an excellent opportunity; yet, when I proceeded to execute my plan, my limbs failed me, and I sank to the ground. Again I rose; and, exerting all the firmness of which I was master, removed the planks which I had placed before my hovel to conceal my retreat. The fresh air revived me, and, with renewed determination, I approached the door of their cottage. \"I knocked. 'Who is there?' said the old man—'Come in.'",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-019-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-019-inline-02.txt",
+          "promptSha256": "926c104e3b281ca9d477cac30d9419f57f6e19baabc79af8b57b0089ed27716f"
+        }
+      ]
+    },
+    {
+      "id": "chapter-020",
+      "number": 20,
+      "title": "Chapter XVI",
+      "metrics": {
+        "narrativeWords": 3204,
+        "textBlocks": 37,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-020-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.09613,
+        "minimumInlineSeparation": 0.250156,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "208ba3a72c9e192cc3047fb151314e5b0e33c9d07eb59b9265bde4da35cb25da",
+        "passageExcerpt": "\"But this was a luxury of sensation that could not endure; I became fatigued with excess of bodily exertion, and sank on the damp grass in the sick impotence of despair. There was none among the myriads of men that existed who would pity or assist me; and should I feel kindness towards my enemies? No: from that moment I declared everlasting war against the species, and, more than all, against him who had formed me, and sent me forth to this insupportable misery. \"The sun rose; I heard the voices of men, and knew that it was impossible to return to my retreat during that day. Accordingly I hid myself in some thick underwood, determining to devote the ensuing hours to reflection on my situation. \"The pleasant sunshine, and the pure air of day, restored me to some degree of tranquillity; and when I considered what had passed at the cottage, I could not help believing that I had been too hasty in my conclusions. I had certainly acted imprudently. It was apparent that my conversation had interested the father in my behalf, and I was a fool in having exposed my person to the horror of his children. I ought to have familiarised the old De Lacey to me, and by degrees to have discovered myself to the rest of his family, when they should have been prepared for my approach. But I did not believe my errors to be irretrievable; and, after much consideration, I resolved to return to the cott…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-020-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-020-hero.txt",
+        "promptSha256": "a30ae415cf462c895f6099a4b80eab1f3711f2351301e2c38555dc02bc77be23"
+      },
+      "inline": [
+        {
+          "id": "chapter-020-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 12,
+          "anchorSha256": "b9184b0ca840cb2c0dfe63d5c8f02eb0d450f202ab98a1b1fec0bb7dfa082d9b",
+          "align": "right",
+          "passageExcerpt": "…site beauty of the Arabian, these thoughts vanished, and a gush of tears somewhat soothed me. But again, when I reflected that they had spurned and deserted me, anger returned, a rage of anger; and, unable to injure any thing human, I turned my fury towards inanimate objects. As night advanced, I placed a variety of combustibles around the cottage; and, after having destroyed every vestige of cultivation in the garden, I waited with forced impatience until the moon had sunk to commence my operations. \"As the night advanced, a fierce wind arose from the woods, and quickly dispersed the clouds that had loitered in the heavens: the blast tore along like a mighty avalanche, and produced a kind of insanity in my spirits, that burst all bounds of reason and reflection. I lighted the dry branch of a tree, and danced with fury around the devoted cottage, my eyes still fixed on the western horizon, the edge of which the moon nearly touched. A part of its orb was at length hid, and I waved my brand; it sunk, and, with a loud scream, I fired the straw, and heath, and bushes, which I had collected. The wind fanned the fire, and the cottage was quickly enveloped by the flames, which clung to it, and licked it with their forked and destroying tongues. \"As soon as I was convinced that no assistance could save any part of the habitation, I quitted the scene, and sought for refuge in the woods.",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-020-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-020-inline-01.txt",
+          "promptSha256": "51bf1f3518e343260e9aa6727c3fc34ef8f3f301e3e845b080b1819130116bb3"
+        },
+        {
+          "id": "chapter-020-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 19,
+          "anchorSha256": "0b6ced4c4a75da2d79e9965703f8264f10c6ba842ce96c7d7694f9177f75249c",
+          "align": "left",
+          "passageExcerpt": "…when I was suddenly interrupted by the approach of a rustic, who was probably the person from whom she had playfully fled. On seeing me, he darted towards me, and tearing the girl from my arms, hastened towards the deeper parts of the wood. I followed speedily, I hardly knew why; but when the man saw me draw near, he aimed a gun, which he carried, at my body, and fired. I sunk to the ground, and my injurer, with increased swiftness, escaped into the wood. \"This was then the reward of my benevolence! I had saved a human being from destruction, and, as a recompense, I now writhed under the miserable pain of a wound, which shattered the flesh and bone. The feelings of kindness and gentleness, which I had entertained but a few moments before, gave place to hellish rage and gnashing of teeth. Inflamed by pain, I vowed eternal hatred and vengeance to all mankind. But the agony of my wound overcame me; my pulses paused, and I fainted. \"For some weeks I led a miserable life in the woods, endeavouring to cure the wound which I had received. The ball had entered my shoulder, and I knew not whether it had remained there or passed through; at any rate I had no means of extracting it. My sufferings were augmented also by the oppressive sense of the injustice and ingratitude of their infliction. My daily vows rose for revenge—a deep and deadly revenge, such as would alone compensate for the…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-020-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-020-inline-02.txt",
+          "promptSha256": "e3fa5de7cb5e9682223c9f88e7a81553c3a7849dcd840aadbb8f2467c6549b7d"
+        }
+      ]
+    },
+    {
+      "id": "chapter-021",
+      "number": 21,
+      "title": "Chapter XVII",
+      "metrics": {
+        "narrativeWords": 1918,
+        "textBlocks": 21,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-021-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.080031,
+        "minimumInlineSeparation": 0.418665,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "14522a3a36fe1195eeafce5581b60d6b1a41e57c4f8c147e65e47eaee7ee08dc",
+        "passageExcerpt": "The latter part of his tale had kindled anew in me the anger that had died away while he narrated his peaceful life among the cottagers, and, as he said this, I could no longer suppress the rage that burned within me. \"I do refuse it,\" I replied; \"and no torture shall ever extort a consent from me. You may render me the most miserable of men, but you shall never make me base in my own eyes. Shall I create another like yourself, whose joint wickedness might desolate the world. Begone! I have answered you; you may torture me, but I will never consent.\" \"You are in the wrong,\" replied the fiend; \"and, instead of threatening, I am content to reason with you. I am malicious because I am miserable. Am I not shunned and hated by all mankind? You, my creator, would tear me to pieces, and triumph; remember that, and tell me why I should pity man more than he pities me? You would not call it murder, if you could precipitate me into one of those ice-rifts, and destroy my frame, the work of your own hands. Shall I respect man, when he contemns me? Let him live with me in the interchange of kindness; and, instead of injury, I would bestow every benefit upon him with tears of gratitude at his acceptance. But that cannot be; the human senses are insurmountable barriers to our union. Yet mine shall not be the submission of abject slavery. I will revenge my injuries: if I cannot inspire love, I…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-021-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-021-hero.txt",
+        "promptSha256": "60fd9366cb8457e3e5ff8350e8516a4caaa3f18e848b5d3250ddb03240ba7907"
+      },
+      "inline": [
+        {
+          "id": "chapter-021-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 10,
+          "anchorSha256": "a70ecdd3e38da83029186093e6e121756f16587beef1f05e83c797ed9ef4d4ca",
+          "align": "right",
+          "passageExcerpt": "…abitations of man, to dwell in those wilds where the beasts of the field will be your only companions. How can you, who long for the love and sympathy of man, persevere in this exile? You will return, and again seek their kindness, and you will meet with their detestation; your evil passions will be renewed, and you will then have a companion to aid you in the task of destruction. This may not be: cease to argue the point, for I cannot consent.\" \"How inconstant are your feelings! but a moment ago you were moved by my representations, and why do you again harden yourself to my complaints? I swear to you, by the earth which I inhabit, and by you that made me, that, with the companion you bestow, I will quit the neighbourhood of man, and dwell as it may chance, in the most savage of places. My evil passions will have fled, for I shall meet with sympathy! my life will flow quietly away, and, in my dying moments, I shall not curse my maker.\" His words had a strange effect upon me. I compassionated him, and sometimes felt a wish to console him; but when I looked upon him, when I saw the filthy mass that moved and talked, my heart sickened, and my feelings were altered to those of horror and hatred. I tried to stifle these sensations; I thought, that as I could not sympathise with him, I had no right to withhold from him the small portion of happiness which was yet in my power to best…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-021-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-021-inline-01.txt",
+          "promptSha256": "194d4d018743a5b2718b72200c43a7b5fb11673465cef31d0757e8a9d3a04b77"
+        }
+      ]
+    },
+    {
+      "id": "chapter-022",
+      "number": 22,
+      "title": "Chapter XVIII",
+      "metrics": {
+        "narrativeWords": 2790,
+        "textBlocks": 24,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-022-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.103405,
+        "minimumInlineSeparation": 0.379749,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "534d83c9622fb67c5c7e14332a25c13d10c09b90266665d551791ac6e6a2b6af",
+        "passageExcerpt": "…ty began to appear less absolute to me. A change indeed had taken place in me: my health, which had hitherto declined, was now much restored; and my spirits, when unchecked by the memory of my unhappy promise, rose proportionably. My father saw this change with pleasure, and he turned his thoughts towards the best method of eradicating the remains of my melancholy, which every now and then would return by fits, and with a devouring blackness overcast the approaching sunshine. At these moments I took refuge in the most perfect solitude. I passed whole days on the lake alone in a little boat, watching the clouds, and listening to the rippling of the waves, silent and listless. But the fresh air and bright sun seldom failed to restore me to some degree of composure; and, on my return, I met the salutations of my friends with a readier smile and a more cheerful heart. It was after my return from one of these rambles, that my father, calling me aside, thus addressed me:— \"I am happy to remark, my dear son, that you have resumed your former pleasures, and seem to be returning to yourself. And yet you are still unhappy, and still avoid our society. For some time I was lost in conjecture as to the cause of this; but yesterday an idea struck me, and if it is well founded, I conjure you to avow it. Reserve on such a point would be not only useless, but draw down treble misery on us all.\"",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-022-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-022-hero.txt",
+        "promptSha256": "c0c729911391629a34545cf3d45fbd235b681cef24ff79d765ee644a6bf7ebe3"
+      },
+      "inline": [
+        {
+          "id": "chapter-022-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 11,
+          "anchorSha256": "6191e538433e8b2b6b1ebf5a51a9fe0bc2338d72dfaba5ee47940e6a3591de03",
+          "align": "right",
+          "passageExcerpt": "…Strasburgh. This interfered with the solitude I coveted for the prosecution of my task; yet at the commencement of my journey the presence of my friend could in no way be an impediment, and truly I rejoiced that thus I should be saved many hours of lonely, maddening reflection. Nay, Henry might stand between me and the intrusion of my foe. If I were alone, would he not at times force his abhorred presence on me, to remind me of my task, or to contemplate its progress? To England, therefore, I was bound, and it was understood that my union with Elizabeth should take place immediately on my return. My father's age rendered him extremely averse to delay. For myself, there was one reward I promised myself from my detested toils—one consolation for my unparalleled sufferings; it was the prospect of that day when, enfranchised from my miserable slavery, I might claim Elizabeth, and forget the past in my union with her. I now made arrangements for my journey; but one feeling haunted me, which filled me with fear and agitation. During my absence I should leave my friends unconscious of the existence of their enemy, and unprotected from his attacks, exasperated as he might be by my departure. But he had promised to follow me wherever I might go; and would he not accompany me to England? This imagination was dreadful in itself, but soothing, inasmuch as it supposed the safety of my frie…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-022-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-022-inline-01.txt",
+          "promptSha256": "9fa871da63c64641bb7505bbba15a3b916f7b0af34f0dd5d516a41bbb1d3813d"
+        }
+      ]
+    },
+    {
+      "id": "chapter-023",
+      "number": 23,
+      "title": "Chapter XIX",
+      "metrics": {
+        "narrativeWords": 2610,
+        "textBlocks": 23,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-023-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.12931,
+        "minimumInlineSeparation": 0.372605,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "3c747edc01c85e45edafd03aed9e8b6b5a0d6f9706609bb6e7d28ebb6d1ac1e8",
+        "passageExcerpt": "…ents connected with those names filled my soul with anguish. But in Clerval I saw the image of my former self; he was inquisitive, and anxious to gain experience and instruction. The difference of manners which he observed was to him an inexhaustible source of instruction and amusement. He was also pursuing an object he had long had in view. His design was to visit India, in the belief that he had in his knowledge of its various languages, and in the views he had taken of its society, the means of materially assisting the progress of European colonisation and trade. In Britain only could he further the execution of his plan. He was for ever busy; and the only check to his enjoyments was my sorrowful and dejected mind. I tried to conceal this as much as possible, that I might not debar him from the pleasures natural to one, who was entering on a new scene of life, undisturbed by any care or bitter recollection. I often refused to accompany him, alleging another engagement, that I might remain alone. I now also began to collect the materials necessary for my new creation, and this was to me like the torture of single drops of water continually falling on the head. Every thought that was devoted to it was an extreme anguish, and every word that I spoke in allusion to it caused my lips to quiver, and my heart to palpitate. After passing some months in London, we received a letter f…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-023-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-023-hero.txt",
+        "promptSha256": "397333265ea12cb844714a6d30ae91c7859fd2d530e910250b5e91573d88e857"
+      },
+      "inline": [
+        {
+          "id": "chapter-023-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 10,
+          "anchorSha256": "bf09c34badb2a4c08ed331187fad0548a76bcb512f8af65dfc3adb65f77fd04d",
+          "align": "right",
+          "passageExcerpt": "…us cave, and the little cabinets of natural history, where the curiosities are disposed in the same manner as in the collections at Servox and Chamounix. The latter name made me tremble, when pronounced by Henry; and I hastened to quit Matlock, with which that terrible scene was thus associated. From Derby, still journeying northward, we passed two months in Cumberland and Westmorland. I could now almost fancy myself among the Swiss mountains. The little patches of snow which yet lingered on the northern sides of the mountains, the lakes, and the dashing of the rocky streams, were all familiar and dear sights to me. Here also we made some acquaintances, who almost contrived to cheat me into happiness. The delight of Clerval was proportionably greater than mine; his mind expanded in the company of men of talent, and he found in his own nature greater capacities and resources than he could have imagined himself to have possessed while he associated with his inferiors. \"I could pass my life here,\" said he to me; \"and among these mountains I should scarcely regret Switzerland and the Rhine.\" But he found that a traveller's life is one that includes much pain amidst its enjoyments. His feelings are for ever on the stretch; and when he begins to sink into repose, he finds himself obliged to quit that on which he rests in pleasure for something new, which again engages his attention,…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-023-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-023-inline-01.txt",
+          "promptSha256": "eddf9c2c467f5d6100669478c7de851d9aa4811103283ab54d9a27f00421bc13"
+        }
+      ]
+    },
+    {
+      "id": "chapter-024",
+      "number": 24,
+      "title": "Chapter XX",
+      "metrics": {
+        "narrativeWords": 3523,
+        "textBlocks": 37,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-024-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 29,
+        "sourceFraction": 0.897531,
+        "minimumInlineSeparation": 0.214874,
+        "selection": "closing-90-percent",
+        "sourceAnchorSha256": "000b77a4e36080ddf6361dbaa11732f87d8b2053c4905412de0c8ba5d579ef89",
+        "passageExcerpt": "As I was occupied in fixing the boat and arranging the sails, several people crowded towards the spot. They seemed much surprised at my appearance; but, instead of offering me any assistance, whispered together with gestures that at any other time might have produced in me a slight sensation of alarm. As it was, I merely remarked that they spoke English; and I therefore addressed them in that language: \"My good friends,\" said I, \"will you be so kind as to tell me the name of this town, and inform me where I am?\" \"You will know that soon enough,\" replied a man with a hoarse voice. \"May be you are come to a place that will not prove much to your taste; but you will not be consulted as to your quarters, I promise you.\" I was exceedingly surprised on receiving so rude an answer from a stranger; and I was also disconcerted on perceiving the frowning and angry countenances of his companions. \"Why do you answer me so roughly?\" I replied; \"surely it is not the custom of Englishmen to receive strangers so inhospitably.\"",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-024-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-024-hero.txt",
+        "promptSha256": "f338f905f5b5cf0aba7eb66d370acbf80169b637d957fa1ba96036e5d209d988"
+      },
+      "inline": [
+        {
+          "id": "destroyed-companion",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 3,
+          "anchorSha256": "559c051baeb912ade1268ad70a188cb53273a18d288d35a1091927c6f9c988d8",
+          "align": "right",
+          "source": "output/imagegen/scenes/frankenstein/destroyed-companion.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/frankenstein/destroyed-companion.txt",
+          "caption": "The broken promise"
+        },
+        {
+          "id": "chapter-024-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 23,
+          "anchorSha256": "8dcf11906299ffbc8166e2cdf6bb55ed0978fb6eb4db42c083398500d318ed81",
+          "align": "left",
+          "passageExcerpt": "…of the basest and most atrocious selfishness; and I banished from my mind every thought that could lead to a different conclusion. Between two and three in the morning the moon rose; and I then, putting my basket aboard a little skiff, sailed out about four miles from the shore. The scene was perfectly solitary: a few boats were returning towards land, but I sailed away from them. I felt as if I was about the commission of a dreadful crime, and avoided with shuddering anxiety any encounter with my fellow-creatures. At one time the moon, which had before been clear, was suddenly overspread by a thick cloud, and I took advantage of the moment of darkness, and cast my basket into the sea: I listened to the gurgling sound as it sunk, and then sailed away from the spot. The sky became clouded; but the air was pure, although chilled by the north-east breeze that was then rising. But it refreshed me, and filled me with such agreeable sensations, that I resolved to prolong my stay on the water; and, fixing the rudder in a direct position, stretched myself at the bottom of the boat. Clouds hid the moon, every thing was obscure, and I heard only the sound of the boat, as its keel cut through the waves; the murmur lulled me, and in a short time I slept soundly. I do not know how long I remained in this situation, but when I awoke I found that the sun had already mounted considerably. The…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-024-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-024-inline-02.txt",
+          "promptSha256": "209d94ed91da38a93c81f22c0b50b2fc19a26cc4487952a158203abe7c309f84"
+        }
+      ]
+    },
+    {
+      "id": "chapter-025",
+      "number": 25,
+      "title": "Chapter XXI",
+      "metrics": {
+        "narrativeWords": 3740,
+        "textBlocks": 49,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-025-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.090909,
+        "minimumInlineSeparation": 0.240374,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "50bfeeef039a422d20ce3ad720732eabb8e8765e8316bba7402460b249a9b97a",
+        "passageExcerpt": "…o assist him; and, by the light of their lantern, they found that he had fallen on the body of a man, who was to all appearance dead. Their first supposition was, that it was the corpse of some person who had been drowned, and was thrown on shore by the waves; but, on examination, they found that the clothes were not wet, and even that the body was not then cold. They instantly carried it to the cottage of an old woman near the spot, and endeavoured, but in vain, to restore it to life. It appeared to be a handsome young man, about five and twenty years of age. He had apparently been strangled; for there was no sign of any violence, except the black mark of fingers on his neck. The first part of this deposition did not in the least interest me; but when the mark of the fingers was mentioned, I remembered the murder of my brother, and felt myself extremely agitated; my limbs trembled, and a mist came over my eyes, which obliged me to lean on a chair for support. The magistrate observed me with a keen eye, and of course drew an unfavourable augury from my manner. The son confirmed his father's account: but when Daniel Nugent was called, he swore positively that, just before the fall of his companion, he saw a boat, with a single man in it, at a short distance from the shore; and, as far as he could judge by the light of a few stars, it was the same boat in which I had just landed.",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-025-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-025-hero.txt",
+        "promptSha256": "c15f84167d2fb3d9ba60278a01b4dca56b9e2493c89d4c138b8c7414b1fc3525"
+      },
+      "inline": [
+        {
+          "id": "chapter-025-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 13,
+          "anchorSha256": "c52f94c2d3cbfa7678c77887aff443dbc73313928abe3f2e01d09e1b8d3e4de7",
+          "align": "right",
+          "passageExcerpt": "But I was doomed to live; and, in two months, found myself as awaking from a dream, in a prison, stretched on a wretched bed, surrounded by gaolers, turnkeys, bolts, and all the miserable apparatus of a dungeon. It was morning, I remember, when I thus awoke to understanding: I had forgotten the particulars of what had happened, and only felt as if some great misfortune had suddenly overwhelmed me; but when I looked around, and saw the barred windows, and the squalidness of the room in which I was, all flashed across my memory, and I groaned bitterly. This sound disturbed an old woman who was sleeping in a chair beside me. She was a hired nurse, the wife of one of the turnkeys, and her countenance expressed all those bad qualities which often characterise that class. The lines of her face were hard and rude, like that of persons accustomed to see without sympathising in sights of misery. Her tone expressed her entire indifference; she addressed me in English, and the voice struck me as one that I had heard during my sufferings:— \"Are you better now, sir?\" said she.",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-025-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-025-inline-01.txt",
+          "promptSha256": "59fac49fffd098b6075af02708790dc3d71778bb74eb3aee8844738c5cb18f4a"
+        },
+        {
+          "id": "chapter-025-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 39,
+          "anchorSha256": "ec749c37facb7c5d327af6f3eccf8e04ecee650fe481513c92b216df6cd88ee5",
+          "align": "left",
+          "passageExcerpt": "My father calmed me with assurances of their welfare, and endeavoured, by dwelling on these subjects so interesting to my heart, to raise my desponding spirits; but he soon felt that a prison cannot be the abode of cheerfulness. \"What a place is this that you inhabit, my son!\" said he, looking mournfully at the barred windows, and wretched appearance of the room. \"You travelled to seek happiness, but a fatality seems to pursue you. And poor Clerval—\" The name of my unfortunate and murdered friend was an agitation too great to be endured in my weak state; I shed tears. \"Alas! yes, my father,\" replied I; \"some destiny of the most horrible kind hangs over me, and I must live to fulfil it, or surely I should have died on the coffin of Henry.\"",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-025-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-025-inline-02.txt",
+          "promptSha256": "0291b333d270248d2bc5eb1a18b70346c4f2f26052ed8c749c19ccfc37c888c1"
+        }
+      ]
+    },
+    {
+      "id": "chapter-026",
+      "number": 26,
+      "title": "Chapter XXII",
+      "metrics": {
+        "narrativeWords": 3421,
+        "textBlocks": 41,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-026-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.109179,
+        "minimumInlineSeparation": 0.240427,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ffcaeb39cdd5a9c2986cf75fcd33a7560996d5d5b96a613c6ed093a2232f6bf9",
+        "passageExcerpt": "…innocent as I, and she suffered the same charge; she died for it; and I am the cause of this—I murdered her. William, Justine, and Henry—they all died by my hands.\" My father had often, during my imprisonment, heard me make the same assertion; when I thus accused myself, he sometimes seemed to desire an explanation, and at others he appeared to consider it as the offspring of delirium, and that, during my illness, some idea of this kind had presented itself to my imagination, the remembrance of which I preserved in my convalescence. I avoided explanation, and maintained a continual silence concerning the wretch I had created. I had a persuasion that I should be supposed mad; and this in itself would for ever have chained my tongue. But, besides, I could not bring myself to disclose a secret which would fill my hearer with consternation, and make fear and unnatural horror the inmates of his breast. I checked, therefore, my impatient thirst for sympathy, and was silent when I would have given the world to have confided the fatal secret. Yet still words like those I have recorded, would burst uncontrollably from me. I could offer no explanation of them; but their truth in part relieved the burden of my mysterious woe. Upon this occasion my father said, with an expression of unbounded wonder, \"My dearest Victor, what infatuation is this? My dear son, I entreat you never to make su…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-026-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-026-hero.txt",
+        "promptSha256": "98a1b26b29338b0b7075173b888ea3d69f2dafa1c166343bc5068d7390a1a53f"
+      },
+      "inline": [
+        {
+          "id": "chapter-026-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 14,
+          "anchorSha256": "12e889380ceba2982194178d9b682a99ef3179913f69ec963af0b7de0bb338b2",
+          "align": "right",
+          "passageExcerpt": "…you not love another? \"You have travelled; you have spent several years of your life at Ingolstadt; and I confess to you, my friend, that when I saw you last autumn so unhappy, flying to solitude, from the society of every creature, I could not help supposing that you might regret our connection, and believe yourself bound in honour to fulfil the wishes of your parents, although they opposed themselves to your inclinations. But this is false reasoning. I confess to you, my friend, that I love you, and that in my airy dreams of futurity you have been my constant friend and companion. But it is your happiness I desire as well as my own, when I declare to you, that our marriage would render me eternally miserable, unless it were the dictate of your own free choice. Even now I weep to think, that, borne down as you are by the cruellest misfortunes, you may stifle, by the word honour , all hope of that love and happiness which would alone restore you to yourself. I, who have so disinterested an affection for you, may increase your miseries tenfold, by being an obstacle to your wishes. Ah! Victor, be assured that your cousin and playmate has too sincere a love for you not to be made miserable by this supposition. Be happy, my friend; and if you obey me in this one request, remain satisfied that nothing on earth will have the power to interrupt my tranquillity. \"Do not let this lette…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-026-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-026-inline-01.txt",
+          "promptSha256": "240a5a32130d38c5e9d46b8afef2d4ad4d763befca3a5e40bed85a13d9a9c934"
+        },
+        {
+          "id": "chapter-026-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 27,
+          "anchorSha256": "bbd98a51bed93c84ddb04d44441580f7f24311a162e17c7cbab39ef77e825e25",
+          "align": "left",
+          "passageExcerpt": "\"None on earth. I love Elizabeth, and look forward to our union with delight. Let the day therefore be fixed; and on it I will consecrate myself, in life or death, to the happiness of my cousin.\" \"My dear Victor, do not speak thus. Heavy misfortunes have befallen us; but let us only cling closer to what remains, and transfer our love for those whom we have lost, to those who yet live. Our circle will be small, but bound close by the ties of affection and mutual misfortune. And when time shall have softened your despair, new and dear objects of care will be born to replace those of whom we have been so cruelly deprived.\" Such were the lessons of my father. But to me the remembrance of the threat returned: nor can you wonder, that, omnipotent as the fiend had yet been in his deeds of blood, I should almost regard him as invincible; and that when he had pronounced the words, \"I shall be with you on your wedding-night,\" I should regard the threatened fate as unavoidable. But death was no evil to me, if the loss of Elizabeth were balanced with it; and I therefore, with a contented and even cheerful countenance, agreed with my father, that if my cousin would consent, the ceremony should take place in ten days, and thus put, as I imagined, the seal to my fate.",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-026-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-026-inline-02.txt",
+          "promptSha256": "25dbfd2c7eeb6252dd509dff9ce194fff1462658b43b63a0716e6c40f9559dd8"
+        }
+      ]
+    },
+    {
+      "id": "chapter-027",
+      "number": 27,
+      "title": "Chapter XXIII",
+      "metrics": {
+        "narrativeWords": 2597,
+        "textBlocks": 30,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-027-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.094532,
+        "minimumInlineSeparation": 0.394109,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "dff4c6c0fb136d42cac1617db95738ac32155b5f20292e3adb1c4080b59dcee5",
+        "passageExcerpt": "Elizabeth observed my agitation for some time in timid and fearful silence; but there was something in my glance which communicated terror to her, and trembling she asked, \"What is it that agitates you, my dear Victor? What is it you fear?\" \"Oh! peace, peace, my love,\" replied I; \"this night, and all will be safe: but this night is dreadful, very dreadful.\" I passed an hour in this state of mind, when suddenly I reflected how fearful the combat which I momentarily expected would be to my wife, and I earnestly entreated her to retire, resolving not to join her until I had obtained some knowledge as to the situation of my enemy.",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-027-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-027-hero.txt",
+        "promptSha256": "9ccd0cb509b4d41edbe43372e4018d3530708b4e7adb0aa7a720f05362d07105"
+      },
+      "inline": [
+        {
+          "id": "chapter-027-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 13,
+          "anchorSha256": "60bf83f0933fe8447959343d7fee3604af327c03c4815327df2b1f82b0541624",
+          "align": "right",
+          "passageExcerpt": "…ted up, and resolved to return to Geneva with all possible speed. There were no horses to be procured, and I must return by the lake; but the wind was unfavourable, and the rain fell in torrents. However, it was hardly morning, and I might reasonably hope to arrive by night. I hired men to row, and took an oar myself; for I had always experienced relief from mental torment in bodily exercise. But the overflowing misery I now felt, and the excess of agitation that I endured, rendered me incapable of any exertion. I threw down the oar; and leaning my head upon my hands, gave way to every gloomy idea that arose. If I looked up, I saw the scenes which were familiar to me in my happier time, and which I had contemplated but the day before in the company of her who was now but a shadow and a recollection. Tears streamed from my eyes. The rain had ceased for a moment, and I saw the fish play in the waters as they had done a few hours before; they had then been observed by Elizabeth. Nothing is so painful to the human mind as a great and sudden change. The sun might shine, or the clouds might lower: but nothing could appear to me as it had done the day before. A fiend had snatched from me every hope of future happiness: no creature had ever been so miserable as I was; so frightful an event is single in the history of man. But why should I dwell upon the incidents that followed this las…",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-027-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-027-inline-01.txt",
+          "promptSha256": "1a1fbbc5914f786914fe91f0d494200493287fc1624e2c2d61ed894c867ab675"
+        }
+      ]
+    },
+    {
+      "id": "chapter-028",
+      "number": 28,
+      "title": "Chapter XXIV",
+      "metrics": {
+        "narrativeWords": 8241,
+        "textBlocks": 81,
+        "inlineQuota": 3
+      },
+      "hero": {
+        "id": "chapter-028-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 75,
+        "sourceFraction": 0.912996,
+        "minimumInlineSeparation": 0.164786,
+        "selection": "closing-90-percent",
+        "sourceAnchorSha256": "3507b2df19dd2bb7131e0b38782ac95f54f65071d379269451141b8e50f64034",
+        "passageExcerpt": "…were once filled with sublime and transcendent visions of the beauty and the majesty of goodness. But it is even so; the fallen angel becomes a malignant devil. Yet even that enemy of God and man had friends and associates in his desolation; I am alone. \"You, who call Frankenstein your friend, seem to have a knowledge of my crimes and his misfortunes. But, in the detail which he gave you of them, he could not sum up the hours and months of misery which I endured, wasting in impotent passions. For while I destroyed his hopes, I did not satisfy my own desires. They were for ever ardent and craving; still I desired love and fellowship, and I was still spurned. Was there no injustice in this? Am I to be thought the only criminal, when all human kind sinned against me? Why do you not hate Felix, who drove his friend from his door with contumely? Why do you not execrate the rustic who sought to destroy the saviour of his child? Nay, these are virtuous and immaculate beings! I, the miserable and the abandoned, am an abortion, to be spurned at, and kicked, and trampled on. Even now my blood boils at the recollection of this injustice. \"But it is true that I am a wretch. I have murdered the lovely and the helpless; I have strangled the innocent as they slept, and grasped to death his throat who never injured me or any other living thing. I have devoted my creator, the select specimen o…",
+        "referenceImage": "output/imagegen/references/frankenstein.webp",
+        "output": "output/imagegen/chapter-scenes/frankenstein/heroes/chapter-028-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-028-hero.txt",
+        "promptSha256": "f658e374d34792102278d39445350ab1206eed9b68cc11eba1a469eb06d5175b"
+      },
+      "inline": [
+        {
+          "id": "chapter-028-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.25,
+          "afterBlockIndex": 18,
+          "anchorSha256": "dc5ab4a924e2c8cdfa8cd504bcecbfbd4ef04ef31d4cc743eeec5bd4cf6675d4",
+          "align": "right",
+          "passageExcerpt": "…on. A gigantic monster, they said, had arrived the night before, armed with a gun and many pistols; putting to flight the inhabitants of a solitary cottage, through fear of his terrific appearance. He had carried off their store of winter food, and, placing it in a sledge, to draw which he had seized on a numerous drove of trained dogs, he had harnessed them, and the same night, to the joy of the horror-struck villagers, had pursued his journey across the sea in a direction that led to no land; and they conjectured that he must speedily be destroyed by the breaking of the ice, or frozen by the eternal frosts. On hearing this information, I suffered a temporary access of despair. He had escaped me; and I must commence a destructive and almost endless journey across the mountainous ices of the ocean,—amidst cold that few of the inhabitants could long endure, and which I, the native of a genial and sunny climate, could not hope to survive. Yet at the idea that the fiend should live and be triumphant, my rage and vengeance returned, and, like a mighty tide, overwhelmed every other feeling. After a slight repose, during which the spirits of the dead hovered round, and instigated me to toil and revenge, I prepared for my journey. I exchanged my land-sledge for one fashioned for the inequalities of the Frozen Ocean; and purchasing a plentiful stock of provisions, I departed from land.",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-028-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-028-inline-01.txt",
+          "promptSha256": "785356e03ceeb341a5b0a9241602cda7aa17db648ca912588c62697b56011ebf"
+        },
+        {
+          "id": "chapter-028-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 37,
+          "anchorSha256": "f7cfd4ddbcd837a450adc73f81e00e20289c2faa181b926e5d1c8e5795aaf867",
+          "align": "left",
+          "passageExcerpt": "…s, think you that any can replace those who are gone? Can any man be to me as Clerval was; or any woman another Elizabeth? Even where the affections are not strongly moved by any superior excellence, the companions of our childhood always possess a certain power over our minds, which hardly any later friend can obtain. They know our infantine dispositions, which, however they may be afterwards modified, are never eradicated; and they can judge of our actions with more certain conclusions as to the integrity of our motives. A sister or a brother can never, unless indeed such symptoms have been shown early, suspect the other of fraud or false dealing, when another friend, however strongly he may be attached, may, in spite of himself, be contemplated with suspicion. But I enjoyed friends, dear not only through habit and association, but from their own merits; and wherever I am, the soothing voice of my Elizabeth, and the conversation of Clerval, will be ever whispered in my ear. They are dead; and but one feeling in such a solitude can persuade me to preserve my life. If I were engaged in any high undertaking or design, fraught with extensive utility to my fellow-creatures, then could I live to fulfil it. But such is not my destiny; I must pursue and destroy the being to whom I gave existence; then my lot on earth will be fulfilled, and I may die.\" September 2d. My beloved Sister,",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-028-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-028-inline-02.txt",
+          "promptSha256": "3c37aa1e4dd04c1d8b7060aa953fbcaf4c09db96379dcadb0090c347d5f9886a"
+        },
+        {
+          "id": "chapter-028-inline-03",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 3,
+          "targetFraction": 0.75,
+          "afterBlockIndex": 63,
+          "anchorSha256": "a5346c1d9f7b064b5c20ad68c6f30df93df5249d3f82136d25d64ecbe5fde504",
+          "align": "right",
+          "passageExcerpt": "\"That he should live to be an instrument of mischief disturbs me; in other respects, this hour, when I momentarily expect my release, is the only happy one which I have enjoyed for several years. The forms of the beloved dead flit before me, and I hasten to their arms. Farewell, Walton! Seek happiness in tranquillity, and avoid ambition, even if it be only the apparently innocent one of distinguishing yourself in science and discoveries. Yet why do I say this? I have myself been blasted in these hopes, yet another may succeed.\" His voice became fainter as he spoke; and at length, exhausted by his effort, he sunk into silence. About half an hour afterwards he attempted again to speak, but was unable; he pressed my hand feebly, and his eyes closed for ever, while the irradiation of a gentle smile passed away from his lips. Margaret, what comment can I make on the untimely extinction of this glorious spirit? What can I say, that will enable you to understand the depth of my sorrow? All that I should express would be inadequate and feeble. My tears flow; my mind is overshadowed by a cloud of disappointment. But I journey towards England, and I may there find consolation.",
+          "referenceImage": "output/imagegen/references/frankenstein.webp",
+          "output": "output/imagegen/chapter-scenes/frankenstein/inline/chapter-028-inline-03.webp",
+          "prompt": "output/imagegen/chapter-prompts/frankenstein/chapter-028-inline-03.txt",
+          "promptSha256": "53377abf6a2a57d18662f61aaee15a00f1ad84223c0763f3bd445a0778d1dad0"
+        }
+      ]
+    }
+  ]
+}

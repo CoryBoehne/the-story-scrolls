@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.corydev.thestoryscrolls-backup</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/coryboehne/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node</string>
+    <string>/Users/coryboehne/Server Hosting/sites/storyscrolls-next/scripts/backup-community.mjs</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/coryboehne/Server Hosting/sites/storyscrolls-next</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>NODE_ENV</key>
+    <string>production</string>
+    <key>STORYSCROLLS_DATA_DIR</key>
+    <string>/Users/coryboehne/Server Hosting/_data/thestoryscrolls</string>
+    <key>STORYSCROLLS_BACKUP_DIR</key>
+    <string>/Users/coryboehne/Server Hosting/_backups/private/thestoryscrolls</string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>3</integer>
+    <key>Minute</key>
+    <integer>31</integer>
+  </dict>
+  <key>LowPriorityIO</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>/usr/local/var/log/corydev-thestoryscrolls-backup.log</string>
+  <key>StandardErrorPath</key>
+  <string>/usr/local/var/log/corydev-thestoryscrolls-backup.log</string>
+</dict>
+</plist>

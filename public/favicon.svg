@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>The Story Scrolls</title>
+  <defs>
+    <linearGradient id="gold" x1="16" y1="12" x2="49" y2="53" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f3d798"/>
+      <stop offset=".52" stop-color="#d4a452"/>
+      <stop offset="1" stop-color="#946126"/>
+    </linearGradient>
+    <radialGradient id="night" cx="32" cy="25" r="35" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172637"/>
+      <stop offset="1" stop-color="#080d14"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#070b11"/>
+  <circle cx="32" cy="32" r="26" fill="url(#night)" stroke="#bd8a3d" stroke-width="2"/>
+  <circle cx="32" cy="32" r="22.5" fill="none" stroke="#f2d89a" stroke-opacity=".16"/>
+  <path d="M17 20c6.2-7 21.6-8.5 29.1-2.4 5.7 4.7 2.2 12.8-8.2 14.3l-10.4 1.5C18.1 34.8 13.9 41.8 19 47c6.6 6.7 21.5 5.5 28.2-1.8" fill="none" stroke="#5a371a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M17 20c6.2-7 21.6-8.5 29.1-2.4 5.7 4.7 2.2 12.8-8.2 14.3l-10.4 1.5C18.1 34.8 13.9 41.8 19 47c6.6 6.7 21.5 5.5 28.2-1.8" fill="none" stroke="url(#gold)" stroke-width="5.2" stroke-linecap="round"/>
+  <path d="M16.9 20c-3.7.1-5 4.8-1.8 6.5 2.5 1.3 5.4-.2 5.6-2.7M47.2 45.2c3.7-.1 5 4.8 1.8 6.5-2.5 1.3-5.4-.2-5.6-2.7" fill="none" stroke="#f0cf86" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="m32.6 23 .8 2.1 2.2.8-2.2.8-.8 2.2-.8-2.2-2.1-.8 2.1-.8Z" fill="#fff1bd"/>
+</svg>

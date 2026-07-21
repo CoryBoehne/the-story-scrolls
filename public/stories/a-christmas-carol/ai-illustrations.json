@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 2,
+  "storySlug": "a-christmas-carol",
+  "generation": {
+    "provider": "OpenAI",
+    "model": "gpt-image-2",
+    "quality": "low",
+    "outputFormat": "webp",
+    "outputCompression": 86
+  },
+  "artDirection": {
+    "style": "Hand-colored Victorian wood engraving with dense crosshatching and theatrical gaslight; soot-black, parchment, holly crimson and spectral mint; humane 1840s London caricature.",
+    "continuityReferenceUsed": true,
+    "continuityReferenceSha256": "fcf541a4ed5b08591a227f388b30265ea696cb1247e3189a90f5c29b35c916e8"
+  },
+  "assets": [
+    {
+      "id": "ai-chapter-001-hero",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-001-hero-c9386d98d597.webp",
+      "alt": "AI chapter illustration for MARLEY'S GHOST in A Christmas Carol.",
+      "caption": "Chapter 1: MARLEY'S GHOST",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 239776,
+      "sha256": "c9386d98d597fac50a1ebb0193be14d859a2df85210d9eed54235a4c38855d48",
+      "promptSha256": "302b8a298dbea668d6f290b4600e0c7e087af3fffd2c1004a2250d41c1351b3a"
+    },
+    {
+      "id": "ai-chapter-001-inline-02",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-001-inline-02-c8bb177b808e.webp",
+      "alt": "AI illustration depicting a scene from MARLEY'S GHOST in A Christmas Carol.",
+      "caption": "MARLEY'S GHOST — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 211004,
+      "sha256": "c8bb177b808ec5a4ef9a9889f5410c2636436d324f5b76e53dd5bd4bff6eeba5",
+      "promptSha256": "10a25faf0caaec74a46166d3f158a8bf534a3387cdd823b2d82a9877981431d3"
+    },
+    {
+      "id": "ai-marley-at-the-door",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/marley-at-the-door-31af0bdc58ac.webp",
+      "alt": "AI illustration depicting a scene from MARLEY'S GHOST in A Christmas Carol.",
+      "caption": "Marley at the door",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 640,
+      "height": 1024,
+      "bytes": 202710,
+      "sha256": "31af0bdc58ac5739cd10909fb25725c5e747ac0926bc23a5aea412497152e01f",
+      "promptSha256": "070d990f79552496158b244d276a70f1a187d1a77db6a15baa4702c2e77129bd"
+    },
+    {
+      "id": "ai-chapter-001-inline-03",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-001-inline-03-70c0519053bc.webp",
+      "alt": "AI illustration depicting a scene from MARLEY'S GHOST in A Christmas Carol.",
+      "caption": "MARLEY'S GHOST — illustration 3",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 266876,
+      "sha256": "70c0519053bc01c4048c5982d3794e35a28885cf7c71d2a23e37c11267dfc379",
+      "promptSha256": "276d5a3534300f36a7f1b0b12f2fd600487741d0f1cd1ecb096ce5b2d8082f6e"
+    },
+    {
+      "id": "ai-chapter-002-hero",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-002-hero-c9c4354aab74.webp",
+      "alt": "AI chapter illustration for THE FIRST OF THE THREE SPIRITS in A Christmas Carol.",
+      "caption": "Chapter 2: THE FIRST OF THE THREE SPIRITS",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 210858,
+      "sha256": "c9c4354aab740af7246037cc941a8d39527d97df18dc36b5c66da32ecde9ed15",
+      "promptSha256": "489440e16ff6720e9758e07f70ab4d41a986dab8fd94f786d5d9a9e789e4f83e"
+    },
+    {
+      "id": "ai-chapter-002-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-002-inline-01-1ca41e125426.webp",
+      "alt": "AI illustration depicting a scene from THE FIRST OF THE THREE SPIRITS in A Christmas Carol.",
+      "caption": "THE FIRST OF THE THREE SPIRITS — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 242390,
+      "sha256": "1ca41e12542683eb596579df4230a4c7b4b1c99ae47daf2e144d41975f889a4b",
+      "promptSha256": "5d73ab1707fec0cc213e64c07475b8bf75229ec5408303b1322848e21cd5511b"
+    },
+    {
+      "id": "ai-chapter-002-inline-02",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-002-inline-02-4eb011bd7831.webp",
+      "alt": "AI illustration depicting a scene from THE FIRST OF THE THREE SPIRITS in A Christmas Carol.",
+      "caption": "THE FIRST OF THE THREE SPIRITS — illustration 2",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 216966,
+      "sha256": "4eb011bd7831c4e1ff30750ca1e7d9373809ac75e616e902499c57eb425df441",
+      "promptSha256": "8a04302bcfcc007e2956f8555ed70e965f15bcced38e9938dfe0a05a08d56a53"
+    },
+    {
+      "id": "ai-chapter-002-inline-03",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-002-inline-03-ee7191a703f1.webp",
+      "alt": "AI illustration depicting a scene from THE FIRST OF THE THREE SPIRITS in A Christmas Carol.",
+      "caption": "THE FIRST OF THE THREE SPIRITS — illustration 3",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 233810,
+      "sha256": "ee7191a703f1decd5c6fa5a5bd46cdad7e92dc205467a7306551ecef760b7eb0",
+      "promptSha256": "d82df873cc40ea7e061d9623863b35d449ecc0de4e69dbb87549bb58d3719825"
+    },
+    {
+      "id": "ai-chapter-003-hero",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-003-hero-9b3778ecc9c0.webp",
+      "alt": "AI chapter illustration for THE SECOND OF THE THREE SPIRITS in A Christmas Carol.",
+      "caption": "Chapter 3: THE SECOND OF THE THREE SPIRITS",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 283280,
+      "sha256": "9b3778ecc9c0fc048a1c33ab64af5016f52547c2a02687bd46411a2fdae99908",
+      "promptSha256": "12f3b3a398747dd57a54348826ca23cfb9364891fc2bbe6d7a006a182836e238"
+    },
+    {
+      "id": "ai-chapter-003-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-003-inline-01-294ba8a9c039.webp",
+      "alt": "AI illustration depicting a scene from THE SECOND OF THE THREE SPIRITS in A Christmas Carol.",
+      "caption": "THE SECOND OF THE THREE SPIRITS — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 259792,
+      "sha256": "294ba8a9c039a9dd2c3c705f012c3c6585d3f2a8c46aab57beb517a3fd355aad",
+      "promptSha256": "ee36875e2f39929f65ff795753810b30e855c45e95d7fdf21481352f7a7468fb"
+    },
+    {
+      "id": "ai-chapter-003-inline-02",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-003-inline-02-26a2973bf50f.webp",
+      "alt": "AI illustration depicting a scene from THE SECOND OF THE THREE SPIRITS in A Christmas Carol.",
+      "caption": "THE SECOND OF THE THREE SPIRITS — illustration 2",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 229294,
+      "sha256": "26a2973bf50f9f048022d4d77b4d0a62878119c379a9a4b3aadc9a72dd0ffa2a",
+      "promptSha256": "e5d1d36910bf9999771f25e253c5e915a942f6154901dcc0b6dddfcf61a876f1"
+    },
+    {
+      "id": "ai-chapter-003-inline-03",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-003-inline-03-c21997c31cf2.webp",
+      "alt": "AI illustration depicting a scene from THE SECOND OF THE THREE SPIRITS in A Christmas Carol.",
+      "caption": "THE SECOND OF THE THREE SPIRITS — illustration 3",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 241748,
+      "sha256": "c21997c31cf26067d31e2ee4518d9f2bad9ca0600b595162ddbf760910b18c45",
+      "promptSha256": "6167227f5f123ab4402e19da49c88ea482433a1a76a1b763cbaceb74ab6d9460"
+    },
+    {
+      "id": "ai-chapter-004-hero",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-004-hero-bcf61f032f67.webp",
+      "alt": "AI chapter illustration for THE LAST OF THE SPIRITS in A Christmas Carol.",
+      "caption": "Chapter 4: THE LAST OF THE SPIRITS",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 216220,
+      "sha256": "bcf61f032f67505970ff7fad5b9c297bb564b017e209fc884958b32ee6440e61",
+      "promptSha256": "cf76f29225782568fb47d99b71fbfd5af735c35617e7e5d5b7e31402a01b7763"
+    },
+    {
+      "id": "ai-chapter-004-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-004-inline-01-77fc931d9b78.webp",
+      "alt": "AI illustration depicting a scene from THE LAST OF THE SPIRITS in A Christmas Carol.",
+      "caption": "THE LAST OF THE SPIRITS — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 235522,
+      "sha256": "77fc931d9b783763d317f69b9449a8042549b5021e83fcb69ac7d37e5a5ab877",
+      "promptSha256": "2bfcb62e362a2b178312e7ab388a2eb13e2bcc0fed4bd634a95ea667392051ee"
+    },
+    {
+      "id": "ai-chapter-004-inline-02",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-004-inline-02-f3cf3a8118fe.webp",
+      "alt": "AI illustration depicting a scene from THE LAST OF THE SPIRITS in A Christmas Carol.",
+      "caption": "THE LAST OF THE SPIRITS — illustration 2",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 195310,
+      "sha256": "f3cf3a8118fe0b2fac4f9d888aa2a9a23c7e6412d2bde7d805d41e4516b10b6d",
+      "promptSha256": "a3e5e2ab1c30b263661589613da680860c6fef035113d769040a0576149322fe"
+    },
+    {
+      "id": "ai-chapter-005-hero",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-005-hero-27f4fc7db1f6.webp",
+      "alt": "AI chapter illustration for THE END OF IT in A Christmas Carol.",
+      "caption": "Chapter 5: THE END OF IT",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1344,
+      "height": 576,
+      "bytes": 226958,
+      "sha256": "27f4fc7db1f62583d1042cbe556d17e530e04afd4e5277cffe3cbc75606cd5b5",
+      "promptSha256": "d1e8115611f0ba2adb80eb6e6d874e62ee56cb0cb9e9f399c8e23dc77859f5c4"
+    },
+    {
+      "id": "ai-chapter-005-inline-01",
+      "type": "ai-illustration",
+      "path": "/stories/a-christmas-carol/ai-images/chapter-005-inline-01-f99c455dedc5.webp",
+      "alt": "AI illustration depicting a scene from THE END OF IT in A Christmas Carol.",
+      "caption": "THE END OF IT — illustration 1",
+      "creator": "OpenAI GPT Image 2",
+      "mime": "image/webp",
+      "width": 1024,
+      "height": 640,
+      "bytes": 257762,
+      "sha256": "f99c455dedc5dd649212b075195f77a6cf3f4bacd80835963e6eebfbc9d6fe69",
+      "promptSha256": "04425daded5387a441a5334fbfebb50d5d5e56617d61231d663587c1fa1a8683"
+    }
+  ],
+  "placements": [
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-001",
+      "chapterSha256": "386040caf4579f6662a571da08ef696799ee0b52717eda82716ae93f00f134ef",
+      "assetId": "ai-chapter-001-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-001",
+      "afterBlockIndex": 32,
+      "anchorSha256": "dcc1b93b79d34ee991502f55621c4c6ac992e48a265e922bdc6907d9ab476f52",
+      "assetId": "ai-chapter-001-inline-02",
+      "placement": "inline",
+      "align": "left"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-001",
+      "afterBlockIndex": 83,
+      "anchorSha256": "c2761ed51c0ab7e7eef44d371afac52f063059e5dc486b129ac5c98bf309fd28",
+      "assetId": "ai-marley-at-the-door",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-001",
+      "afterBlockIndex": 122,
+      "anchorSha256": "b3ae86561f794cc0e4770d132c7b2d0f2c7bdf5025957e1681e4ba972b8ef8b6",
+      "assetId": "ai-chapter-001-inline-03",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-002",
+      "chapterSha256": "3c5997029cb11d86714cc21cae1575fbb604067b2d11ece42c87b0c0c98e160b",
+      "assetId": "ai-chapter-002-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-002",
+      "afterBlockIndex": 47,
+      "anchorSha256": "efc601bc3f5c4b2010e4de35682acd158c0cc2f7d5e7ea35faad05d8f5424ab3",
+      "assetId": "ai-chapter-002-inline-01",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-002",
+      "afterBlockIndex": 81,
+      "anchorSha256": "1ebdd03671ef9316e7ae34b799d2d4868c9cd0e5654c8388303fa26a270a0249",
+      "assetId": "ai-chapter-002-inline-02",
+      "placement": "inline",
+      "align": "left"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-002",
+      "afterBlockIndex": 114,
+      "anchorSha256": "6c2a54d5365dd672b669355644799c00269533af71f84f266d9960241fe11f03",
+      "assetId": "ai-chapter-002-inline-03",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-003",
+      "chapterSha256": "783457c7b0a1a4f6b9063d7d2484b553d68e0732a183fc0f253a86f370375bf2",
+      "assetId": "ai-chapter-003-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-003",
+      "afterBlockIndex": 28,
+      "anchorSha256": "8aa618d3d7b6fb365ef47cf082310267ec3f95952d8e232fbbefe40e23ddf8d6",
+      "assetId": "ai-chapter-003-inline-01",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-003",
+      "afterBlockIndex": 80,
+      "anchorSha256": "673c7651b8526a8ce521fc58aebd82fa19cf0607cb36cce498d50a0679a2a290",
+      "assetId": "ai-chapter-003-inline-02",
+      "placement": "inline",
+      "align": "left"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-003",
+      "afterBlockIndex": 114,
+      "anchorSha256": "ed533393074661ae4dd6c068d785da11f451fa971094e97d0762f5caeb167bd2",
+      "assetId": "ai-chapter-003-inline-03",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-004",
+      "chapterSha256": "cf957576ba4f6d661f35655247a227841f2563d5ebf6e14ebbc1801e756a7272",
+      "assetId": "ai-chapter-004-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-004",
+      "afterBlockIndex": 50,
+      "anchorSha256": "a846230e1e98e36a2d0fc50f027752ec72f7b7688f6ebcaea9739ba2114fbc74",
+      "assetId": "ai-chapter-004-inline-01",
+      "placement": "inline",
+      "align": "right"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-004",
+      "afterBlockIndex": 105,
+      "anchorSha256": "32651cc9781003faafa0a1d61b401ac8f78686b395fa035e7c4503a995f3e7cc",
+      "assetId": "ai-chapter-004-inline-02",
+      "placement": "inline",
+      "align": "left"
+    },
+    {
+      "kind": "chapter-hero",
+      "chapterId": "chapter-005",
+      "chapterSha256": "e2ca774272ce0b7d70a6c4fcf3247e66b4bd412147ad926e4fd03ea68d23ddd6",
+      "assetId": "ai-chapter-005-hero"
+    },
+    {
+      "kind": "after-block",
+      "chapterId": "chapter-005",
+      "afterBlockIndex": 38,
+      "anchorSha256": "a23b71266c7ffdf7d9baf18a809d0a342f6fe4563e33bf832b8aae5eb4f057ac",
+      "assetId": "ai-chapter-005-inline-01",
+      "placement": "inline",
+      "align": "right"
+    }
+  ]
+}

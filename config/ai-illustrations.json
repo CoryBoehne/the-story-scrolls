@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "generation": {
+    "provider": "OpenAI",
+    "model": "gpt-image-2",
+    "quality": "low",
+    "format": "webp",
+    "compression": 86
+  },
+  "books": {
+    "a-christmas-carol": {
+      "style": "Hand-colored Victorian wood engraving with dense crosshatching and theatrical gaslight; soot-black, parchment, holly crimson and spectral mint; humane 1840s London caricature.",
+      "scenes": [
+        {"id":"marley-at-the-door","chapterId":"chapter-001","afterBlockIndex":83,"align":"right","caption":"Marley at the door","source":"output/imagegen/singles/a-christmas-carol/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/a-christmas-carol/scene.txt"}
+      ]
+    },
+    "alice-in-wonderland": {
+      "style": "Airy Victorian pen and ink with flat transparent watercolor; elastic scale, crisp eccentric silhouettes, playful negative space and dream-logic perspective.",
+      "scenes": [
+        {"id":"down-the-rabbit-hole","chapterId":"chapter-01","afterBlockIndex":3,"align":"left","caption":"Down the rabbit hole","source":"output/imagegen/singles/alice-in-wonderland/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/alice-in-wonderland/scene.txt"}
+      ]
+    },
+    "anne-of-green-gables": {
+      "style": "Luminous pastoral gouache over watercolor paper; loose sunlit brushwork and wind-swept vegetation; spruce green, lupine violet, orchard pink and clear-sky blue; observant 1880s Prince Edward Island naturalism.",
+      "referenceImage": "output/imagegen/references/anne-of-green-gables.webp",
+      "scenes": [
+        {"id":"station-arrival","chapterId":"chapter-002","afterBlockIndex":3,"align":"right","caption":"Waiting at Bright River","source":"output/imagegen/scenes/anne-of-green-gables/station-arrival.webp","prompt":"art-direction/ai-illustrations/scene-prompts/anne-of-green-gables/station-arrival.txt"},
+        {"id":"slate-crack","chapterId":"chapter-015","afterBlockIndex":39,"align":"left","caption":"A slate across Gilbert's head","source":"output/imagegen/scenes/anne-of-green-gables/slate-crack.webp","prompt":"art-direction/ai-illustrations/scene-prompts/anne-of-green-gables/slate-crack.txt"},
+        {"id":"green-hair","chapterId":"chapter-027","afterBlockIndex":18,"align":"right","caption":"The green-hair catastrophe","source":"output/imagegen/scenes/anne-of-green-gables/green-hair.webp","prompt":"art-direction/ai-illustrations/scene-prompts/anne-of-green-gables/green-hair.txt"},
+        {"id":"lily-maid-bridge","chapterId":"chapter-028","afterBlockIndex":22,"align":"plate","caption":"The unfortunate Lily Maid","source":"output/imagegen/scenes/anne-of-green-gables/lily-maid-bridge.webp","prompt":"art-direction/ai-illustrations/scene-prompts/anne-of-green-gables/lily-maid-bridge.txt"}
+      ]
+    },
+    "black-beauty": {
+      "style": "Hand-tinted nineteenth-century sporting lithograph with precise equine anatomy, charcoal modeling and rain-and-sweat sheen; saddle brown, racing green, burgundy and stable gold.",
+      "scenes": [
+        {"id":"burning-stable","chapterId":"chapter-016","afterBlockIndex":13,"align":"right","caption":"Through the burning stable","source":"output/imagegen/singles/black-beauty/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/black-beauty/scene.txt"}
+      ]
+    },
+    "dracula": {
+      "style": "Fin-de-siècle symbolist aquatint with translucent crimson washes; elongated shadows, sharp moon geometry, oxblood, bone, silver and midnight blue; faces emerging from velvety black.",
+      "referenceImage": "output/imagegen/references/dracula.webp",
+      "scenes": [
+        {"id":"castle-wall","chapterId":"chapter-003","afterBlockIndex":22,"align":"right","caption":"The Count on the castle wall","source":"output/imagegen/scenes/dracula/castle-wall.webp","prompt":"art-direction/ai-illustrations/scene-prompts/dracula/castle-wall.txt"},
+        {"id":"demeter-whitby","chapterId":"chapter-007","afterBlockIndex":7,"align":"plate","caption":"The Demeter reaches Whitby","source":"output/imagegen/scenes/dracula/demeter-whitby.webp","prompt":"art-direction/ai-illustrations/scene-prompts/dracula/demeter-whitby.txt"},
+        {"id":"undead-lucy","chapterId":"chapter-016","afterBlockIndex":16,"align":"left","caption":"Lucy in the yew avenue","source":"output/imagegen/scenes/dracula/undead-lucy.webp","prompt":"art-direction/ai-illustrations/scene-prompts/dracula/undead-lucy.txt"},
+        {"id":"final-sunset","chapterId":"chapter-027","afterBlockIndex":59,"align":"plate","caption":"The last light on the mountain","source":"output/imagegen/scenes/dracula/final-sunset.webp","prompt":"art-direction/ai-illustrations/scene-prompts/dracula/final-sunset.txt"}
+      ]
+    },
+    "five-children-and-it": {
+      "style": "Edwardian children's-book colored pencil and opaque gouache with sandy texture and rounded comic staging; ochre, coral, turquoise and plum.",
+      "scenes": [
+        {"id":"children-take-wing","chapterId":"chapter-004","afterBlockIndex":68,"align":"left","caption":"The children take wing","source":"output/imagegen/singles/five-children-and-it/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/five-children-and-it/scene.txt"}
+      ]
+    },
+    "frankenstein": {
+      "style": "Romantic Gothic oil and mezzotint with cold cyan watercolor accents; granular darkness, sublime landscapes, glacial blue, corpse ivory, coal black and candle amber.",
+      "referenceImage": "output/imagegen/references/frankenstein.webp",
+      "scenes": [
+        {"id":"creation","chapterId":"chapter-009","afterBlockIndex":2,"align":"right","caption":"The dull yellow eye opens","source":"output/imagegen/frankenstein/creation-calibration.webp","prompt":"art-direction/ai-illustrations/scene-prompts/frankenstein/creation.txt"},
+        {"id":"glacier-confrontation","chapterId":"chapter-014","afterBlockIndex":4,"align":"plate","caption":"Across the Mer de Glace","source":"output/imagegen/scenes/frankenstein/glacier-confrontation.webp","prompt":"art-direction/ai-illustrations/scene-prompts/frankenstein/glacier-confrontation.txt"},
+        {"id":"cottage-crevice","chapterId":"chapter-015","afterBlockIndex":14,"align":"left","caption":"The De Laceys through the crevice","source":"output/imagegen/scenes/frankenstein/cottage-crevice.webp","prompt":"art-direction/ai-illustrations/scene-prompts/frankenstein/cottage-crevice.txt"},
+        {"id":"destroyed-companion","chapterId":"chapter-024","afterBlockIndex":3,"align":"right","caption":"The broken promise","source":"output/imagegen/scenes/frankenstein/destroyed-companion.webp","prompt":"art-direction/ai-illustrations/scene-prompts/frankenstein/destroyed-companion.txt"}
+      ]
+    },
+    "journey-to-the-center-of-the-earth": {
+      "style": "Victorian scientific chromolithograph with crisp geological strata, specimen-like detail and cavern-scale composition; mineral teal, sulfur yellow, basalt violet and magma orange.",
+      "scenes": [
+        {"id":"lidenbrock-sea-monsters","chapterId":"chapter-033","afterBlockIndex":55,"align":"plate","caption":"Monsters of the Lidenbrock Sea","source":"output/imagegen/singles/journey-to-the-center-of-the-earth/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/journey-to-the-center-of-the-earth/scene.txt"}
+      ]
+    },
+    "pride-and-prejudice": {
+      "style": "Refined Regency fashion-plate linework with delicate gouache; socially charged spacing, cream, celadon, dusty rose and ink gray; restrained expressions and fine textile detail.",
+      "scenes": [
+        {"id":"first-proposal","chapterId":"chapter-034","afterBlockIndex":4,"align":"right","caption":"Darcy's first proposal","source":"output/imagegen/singles/pride-and-prejudice/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/pride-and-prejudice/scene.txt"}
+      ]
+    },
+    "the-adventures-of-huckleberry-finn": {
+      "style": "American river woodcut with broad ink wash, rough-hewn marks, humid haze and river indigo, mud ochre, cypress black and moon white; candid and unsentimental.",
+      "scenes": [
+        {"id":"go-to-hell","chapterId":"chapter-031","afterBlockIndex":26,"align":"left","caption":"All right, then","source":"output/imagegen/singles/the-adventures-of-huckleberry-finn/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-adventures-of-huckleberry-finn/scene.txt"}
+      ]
+    },
+    "the-adventures-of-sherlock-holmes": {
+      "style": "Victorian newspaper engraving sharpened with selective clue color; sepia, fog gray, bottle green and one signal red; lamplight cones, exact props and cerebral tension.",
+      "scenes": [
+        {"id":"speckled-band","chapterId":"chapter-008","afterBlockIndex":240,"align":"right","caption":"The speckled band","source":"output/imagegen/singles/the-adventures-of-sherlock-holmes/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-adventures-of-sherlock-holmes/scene.txt"}
+      ]
+    },
+    "the-call-of-the-wild": {
+      "style": "Muscular scratchboard and linocut with restrained transparent color; slashing snow marks, powerful animal anatomy, ice blue, pine black, raw umber and fire amber.",
+      "scenes": [
+        {"id":"thornton-defends-buck","chapterId":"chapter-005","afterBlockIndex":60,"align":"left","caption":"Thornton comes to Buck's defense","source":"output/imagegen/singles/the-call-of-the-wild/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-call-of-the-wild/scene.txt"}
+      ]
+    },
+    "the-count-of-monte-cristo": {
+      "style": "French Romantic theatrical oil rendered as rich impasto; jewel-toned chiaroscuro, obsidian, emerald, imperial gold and deep carmine; operatic scale and transformation.",
+      "scenes": [
+        {"id":"treasure-of-monte-cristo","chapterId":"chapter-024","afterBlockIndex":55,"align":"right","caption":"The treasure of Monte Cristo","source":"output/imagegen/singles/the-count-of-monte-cristo/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-count-of-monte-cristo/scene.txt"}
+      ]
+    },
+    "the-lost-world": {
+      "style": "Early adventure-pulp gouache with natural-history precision and subtle print halftone; jungle jade, clay red, sulfur cream and storm blue; weighty dinosaurs and steamy depth.",
+      "scenes": [
+        {"id":"iguanodon-family","chapterId":"chapter-010","afterBlockIndex":33,"align":"plate","caption":"The iguanodon family","source":"output/imagegen/singles/the-lost-world/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-lost-world/scene.txt"}
+      ]
+    },
+    "the-princess-and-the-goblin": {
+      "style": "Jewel-like watercolor resembling illuminated stained glass; lapis, amethyst, ember orange and moon silver; faceted cavern shadows, luminous edges and a delicate silver-thread motif.",
+      "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+      "scenes": [
+        {"id":"moonlit-grandmother","chapterId":"chapter-011","afterBlockIndex":10,"align":"right","caption":"The old lady in the moonlight","source":"output/imagegen/scenes/the-princess-and-the-goblin/moonlit-grandmother.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-princess-and-the-goblin/moonlit-grandmother.txt"},
+        {"id":"goblin-hall","chapterId":"chapter-009","afterBlockIndex":3,"align":"plate","caption":"The hall of the goblin palace","source":"output/imagegen/scenes/the-princess-and-the-goblin/goblin-hall.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-princess-and-the-goblin/goblin-hall.txt"},
+        {"id":"thread-escape","chapterId":"chapter-021","afterBlockIndex":59,"align":"left","caption":"Following the silver thread","source":"output/imagegen/scenes/the-princess-and-the-goblin/thread-escape.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-princess-and-the-goblin/thread-escape.txt"},
+        {"id":"goblin-invasion","chapterId":"chapter-027","afterBlockIndex":10,"align":"right","caption":"The Goblin Queen's charge","source":"output/imagegen/scenes/the-princess-and-the-goblin/goblin-invasion.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-princess-and-the-goblin/goblin-invasion.txt"}
+      ]
+    },
+    "the-secret-garden": {
+      "style": "Exact botanical watercolor with touches of velvety gouache; mist gray and bare-earth umber evolve into leaf emerald, rose madder and daffodil gold; light as emotional transformation.",
+      "referenceImage": "output/imagegen/references/the-secret-garden.webp",
+      "scenes": [
+        {"id":"buried-key","chapterId":"chapter-007","afterBlockIndex":54,"align":"right","caption":"The buried key","source":"output/imagegen/scenes/the-secret-garden/buried-key.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-secret-garden/buried-key.txt"},
+        {"id":"door-opens","chapterId":"chapter-008","afterBlockIndex":52,"align":"left","caption":"The hidden door opens","source":"output/imagegen/scenes/the-secret-garden/door-opens.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-secret-garden/door-opens.txt"},
+        {"id":"colin-enters","chapterId":"chapter-020","afterBlockIndex":69,"align":"plate","caption":"Colin enters the garden","source":"output/imagegen/scenes/the-secret-garden/colin-enters.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-secret-garden/colin-enters.txt"},
+        {"id":"colin-stands","chapterId":"chapter-026","afterBlockIndex":9,"align":"right","caption":"Colin stands","source":"output/imagegen/scenes/the-secret-garden/colin-stands.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-secret-garden/colin-stands.txt"}
+      ]
+    },
+    "the-story-of-king-arthur-and-his-knights": {
+      "style": "Medieval illuminated-manuscript tempera with raised-gold effect; ultramarine, vermilion, malachite and gold; heraldic staging and patterned skies inside cinematic scenes.",
+      "scenes": [
+        {"id":"sword-from-the-anvil","chapterId":"chapter-001","afterBlockIndex":39,"align":"left","caption":"The sword from the anvil","source":"output/imagegen/singles/the-story-of-king-arthur-and-his-knights/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-story-of-king-arthur-and-his-knights/scene.txt"}
+      ]
+    },
+    "the-swiss-family-robinson": {
+      "style": "Hand-tinted early-nineteenth-century expedition lithograph with sunlit gouache; lagoon turquoise, tropical jade, sailcloth ivory and warm teak; clear ingenious construction and believable flora and fauna.",
+      "referenceImage": "output/imagegen/references/the-swiss-family-robinson.webp",
+      "scenes": [
+        {"id":"tub-boat","chapterId":"chapter-001","afterBlockIndex":23,"align":"plate","caption":"Building the tub boat","source":"output/imagegen/scenes/the-swiss-family-robinson/tub-boat.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-swiss-family-robinson/tub-boat.txt"},
+        {"id":"rope-ladder","chapterId":"chapter-010","afterBlockIndex":8,"align":"right","caption":"A ladder into the branches","source":"output/imagegen/scenes/the-swiss-family-robinson/rope-ladder.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-swiss-family-robinson/rope-ladder.txt"},
+        {"id":"buffalo-charge","chapterId":"chapter-024","afterBlockIndex":12,"align":"plate","caption":"The buffalo charge","source":"output/imagegen/scenes/the-swiss-family-robinson/buffalo-charge.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-swiss-family-robinson/buffalo-charge.txt"},
+        {"id":"whales-at-night","chapterId":"chapter-051","afterBlockIndex":2,"align":"plate","caption":"Among the whales","source":"output/imagegen/scenes/the-swiss-family-robinson/whales-at-night.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-swiss-family-robinson/whales-at-night.txt"}
+      ]
+    },
+    "the-war-of-the-worlds": {
+      "style": "Expressionist stone lithograph with scraped ink and oxidized color; smoke black, toxic copper, alarm red and ashen beige; canted horizons and colossal geometric tripods.",
+      "scenes": [
+        {"id":"tripod-rises","chapterId":"chapter-011","afterBlockIndex":26,"align":"plate","caption":"The fighting-machine rises","source":"output/imagegen/singles/the-war-of-the-worlds/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-war-of-the-worlds/scene.txt"}
+      ]
+    },
+    "the-wind-in-the-willows": {
+      "style": "Pastoral watercolor and drybrush on warm rag paper; willow green, river blue, russet and primrose; grounded anthropomorphic animals, cozy material detail and lyrical light.",
+      "scenes": [
+        {"id":"piper-at-the-gates","chapterId":"chapter-007","afterBlockIndex":28,"align":"plate","caption":"The Piper at the Gates of Dawn","source":"output/imagegen/singles/the-wind-in-the-willows/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-wind-in-the-willows/scene.txt"}
+      ]
+    },
+    "the-wonderful-wizard-of-oz": {
+      "style": "Exuberant Art Nouveau chromolithograph with emerald, poppy red, yellow-brick gold, silver and sky cyan; flowing contours, decorative botanical rhythm and bold fantasy silhouettes.",
+      "scenes": [
+        {"id":"cyclone","chapterId":"chapter-01","afterBlockIndex":16,"align":"plate","caption":"The farmhouse in the cyclone","source":"output/imagegen/singles/the-wonderful-wizard-of-oz/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/the-wonderful-wizard-of-oz/scene.txt"}
+      ]
+    },
+    "treasure-island": {
+      "style": "Weathered nautical etching over opaque gouache; rope-fiber lines and salt-stained texture; navy, parchment, oxidized green and sparing blood red; readable rigging and tense lantern light.",
+      "scenes": [
+        {"id":"apple-barrel","chapterId":"chapter-010","afterBlockIndex":34,"align":"right","caption":"Inside the apple barrel","source":"output/imagegen/singles/treasure-island/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/treasure-island/scene.txt"}
+      ]
+    },
+    "white-fang": {
+      "style": "Stark charcoal and ink-brush naturalism with minimal snow white, graphite, ice blue and rust; torn expressive edges, physical breath and fur, close animal-eye compositions.",
+      "scenes": [
+        {"id":"outside-the-cave","chapterId":"chapter-007","afterBlockIndex":8,"align":"left","caption":"The world beyond the cave","source":"output/imagegen/singles/white-fang/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/white-fang/scene.txt"}
+      ]
+    },
+    "winnie-the-pooh": {
+      "style": "Gentle colored pencil with translucent watercolor on creamy paper; honey gold, moss, muted brick red and cornflower; loose handmade outlines, ample white space and tiny woodland scale.",
+      "scenes": [
+        {"id":"blue-balloon","chapterId":"chapter-002","afterBlockIndex":64,"align":"right","caption":"Pooh and the blue balloon","source":"output/imagegen/singles/winnie-the-pooh/scene.webp","prompt":"art-direction/ai-illustrations/scene-prompts/winnie-the-pooh/scene.txt"}
+      ]
+    }
+  }
+}

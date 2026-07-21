@@ -1,0 +1,79 @@
+{
+  "authorDisplayName": "Cory Boehne",
+  "title": "A Christmas Carol: A Clearer Road",
+  "source": {
+    "kind": "gutenberg",
+    "gutenbergId": 46
+  },
+  "sourceMetadata": {
+    "originalAuthor": "Charles Dickens",
+    "sourceTitle": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
+    "edition": "Project Gutenberg eBook 46",
+    "originalLanguage": "English",
+    "canonicalUrl": "https://www.gutenberg.org/ebooks/46",
+    "changeDescription": "A detailed, age-appropriate condensed retelling in clear contemporary English. The plot, five-stave structure, character arcs, social conscience, Christmas spirit, and earned transformation of the public-domain original are preserved; frightening and mortality-related moments are handled sensitively and non-graphically."
+  },
+  "rights": {
+    "basis": "public_domain",
+    "confirmed": true,
+    "statement": "The source is the public-domain Project Gutenberg eBook 46. This new edition adds an original condensed adaptation, language modernization, illumination, and illustrations.",
+    "sourceUrls": [
+      "https://www.gutenberg.org/ebooks/46"
+    ]
+  },
+  "sharing": {
+    "visibility": "public",
+    "requestPublic": true
+  },
+  "generation": {
+    "confirmed": true,
+    "qualityLevel": 3,
+    "customQuality": {
+      "writingTier": "balanced",
+      "refinementPasses": 0,
+      "imageTier": "draft",
+      "outputSize": "standard"
+    },
+    "targetChapters": 5,
+    "targetWordsPerChapter": 900,
+    "continuityCharacters": [
+      "Ebenezer Scrooge",
+      "Bob Cratchit",
+      "Tiny Tim",
+      "Jacob Marley",
+      "Ghost of Christmas Past",
+      "Ghost of Christmas Present",
+      "Ghost of Christmas Yet to Come",
+      "Fred"
+    ],
+    "transformation": {
+      "mode": "summary",
+      "summaryLevel": "detailed",
+      "modernization": "full",
+      "reimagination": {
+        "enabled": false
+      }
+    },
+    "audience": {
+      "targetAge": 9,
+      "format": "prose"
+    },
+    "visualStyle": "lively illustrated-novel watercolor with textured ink, expressive readable faces, warm candlelit gold against cool winter blue, tactile Victorian streets and interiors, clear visual storytelling, welcoming seasonal wonder, and sensitively staged non-graphic supernatural tension suitable for a nine-year-old reader",
+    "artDirection": "The continuity guide must include exactly eight separate recurring-character entries: Ebenezer Scrooge, Bob Cratchit, Tiny Tim, Jacob Marley, the Ghost of Christmas Past, the Ghost of Christmas Present, the Ghost of Christmas Yet to Come, and Fred. Preserve recognizable Victorian London clothing, architecture, class contrasts, and winter atmosphere without making poverty decorative. Keep Scrooge's facial structure, dark coat, silver hair, posture, and gradual emotional softening consistent across time. Make each spirit visually distinct through shape, light, and palette rather than horror. Show sickness, death, fear, and deprivation through implication, empathy, reaction, and symbolic detail—never graphic imagery. Keep Tiny Tim dignified and active rather than sentimentalized. Show each named character no more than once per image unless the source scene truly contains a reflection or supernatural double, and never populate the background with duplicate cast members.",
+    "fontFamily": "caveat-brush",
+    "themeId": "manuscript",
+    "illustratedContract": true,
+    "cleanup": {
+      "leadingNoteDelimiters": []
+    },
+    "illustrations": {
+      "mode": "ai",
+      "density": "balanced",
+      "budget": {
+        "mode": "per_chapter",
+        "count": 2,
+        "flexibleAllocation": false
+      }
+    }
+  }
+}

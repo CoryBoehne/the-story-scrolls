@@ -1,0 +1,2244 @@
+{
+  "schemaVersion": 1,
+  "storySlug": "journey-to-the-center-of-the-earth",
+  "title": "Journey to the Center of the Earth",
+  "author": "Jules Verne",
+  "generation": {
+    "provider": "OpenAI",
+    "model": "gpt-image-2",
+    "quality": "low",
+    "format": "webp"
+  },
+  "artDirection": {
+    "style": "Victorian scientific chromolithograph with crisp geological strata, specimen-like detail and cavern-scale composition; mineral teal, sulfur yellow, basalt violet and magma orange.",
+    "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+    "referenceStatus": "planned"
+  },
+  "quota": {
+    "unit": "inline-illustrations-per-chapter",
+    "formula": "min(4, max(1, ceil(narrativeWords / 3000), ceil(textBlocks / 100)))",
+    "narrativeBlockTypes": [
+      "paragraph",
+      "verse"
+    ],
+    "heroesAreAdditionalToInlineQuota": true
+  },
+  "referenceJob": {
+    "id": "journey-to-the-center-of-the-earth-reference-sheet",
+    "role": "reference-sheet",
+    "operation": "image-edit",
+    "width": 816,
+    "height": 816,
+    "sourceImage": "output/imagegen/singles/journey-to-the-center-of-the-earth/scene.webp",
+    "output": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+    "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/journey-to-the-center-of-the-earth-reference-sheet.txt",
+    "promptSha256": "56d7ad39044e3567d8c9ba52b00245e3f9458d27b01894b70214bcd63b923262"
+  },
+  "summary": {
+    "chapters": 45,
+    "desiredInline": 45,
+    "retainedInline": 1,
+    "plannedInline": 44,
+    "plannedHeroes": 45
+  },
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "number": 1,
+      "title": "THE PROFESSOR AND HIS FAMILY",
+      "metrics": {
+        "narrativeWords": 1472,
+        "textBlocks": 33,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-001-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 8,
+        "sourceFraction": 0.102242,
+        "minimumInlineSeparation": 0.425951,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "54488761b7d877436c7f37859a3421f305e3873eef77362180a6d6da2b4b7267",
+        "passageExcerpt": "\"Here he is, Monsieur Axel; I will run and hide myself while you argue with him.\" And Martha retreated in safety into her own dominions. I was left alone. But how was it possible for a man of my undecided turn of mind to argue successfully with so irascible a person as the Professor? With this persuasion I was hurrying away to my own little retreat upstairs, when the street door creaked upon its hinges; heavy feet made the whole flight of stairs to shake; and the master of the house, passing rapidly through the dining-room, threw himself in haste into his own sanctum.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-001-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-001-hero.txt",
+        "promptSha256": "f6791ae3dd6c07e465df5ea39c6817ca17511ab056babdbd82f2cb1e8bba079d"
+      },
+      "inline": [
+        {
+          "id": "chapter-001-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 22,
+          "anchorSha256": "9d34ae988f81aecee6a52dadea5c1382615f7f357e77029b89e7a0bb0458ff25",
+          "align": "right",
+          "passageExcerpt": "…well understood in time, and an unfair advantage was taken of it; the students laid wait for him in dangerous places, and when he began to stumble, loud was the laughter, which is not in good taste, not even in Germans. And if there was always a full audience to honour the Liedenbrock courses, I should be sorry to conjecture how many came to make merry at my uncle's expense. Nevertheless my good uncle was a man of deep learning—a fact I am most anxious to assert and reassert. Sometimes he might irretrievably injure a specimen by his too great ardour in handling it; but still he united the genius of a true geologist with the keen eye of the mineralogist. Armed with his hammer, his steel pointer, his magnetic needles, his blowpipe, and his bottle of nitric acid, he was a powerful man of science. He would refer any mineral to its proper place among the six hundred [1] elementary substances now enumerated, by its fracture, its appearance, its hardness, its fusibility, its sonorousness, its smell, and its taste. The name of Liedenbrock was honourably mentioned in colleges and learned societies. Humphry Davy, [2] Humboldt, Captain Sir John Franklin, General Sabine, never failed to call upon him on their way through Hamburg. Becquerel, Ebelman, Brewster, Dumas, Milne-Edwards, Saint-Claire-Deville frequently consulted him upon the most difficult problems in chemistry, a science which w…",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-001-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-001-inline-01.txt",
+          "promptSha256": "a1d057baec32c3c82ca42bdf8bb1e6484bd9c8ce9ee17be832a84195b629543a"
+        }
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "number": 2,
+      "title": "A MYSTERY TO BE SOLVED AT ANY PRICE",
+      "metrics": {
+        "narrativeWords": 1308,
+        "textBlocks": 45,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-002-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.115443,
+        "minimumInlineSeparation": 0.384939,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "6b59981ddd7b3edf6553a487183754189b05f52f706d0cca20ca55f236256248",
+        "passageExcerpt": "How well I knew all these bits of science! Many a time, instead of enjoying the company of lads of my own age, I had preferred dusting these graphites, anthracites, coals, lignites, and peats! And there were bitumens, resins, organic salts, to be protected from the least grain of dust; and metals, from iron to gold, metals whose current value altogether disappeared in the presence of the republican equality of scientific specimens; and stones too, enough to rebuild entirely the house in Königstrasse, even with a handsome additional room, which would have suited me admirably. But on entering this study now I thought of none of all these wonders; my uncle alone filled my thoughts. He had thrown himself into a velvet easy-chair, and was grasping between his hands a book over which he bent, pondering with intense admiration. \"Here's a remarkable book! What a wonderful book!\" he was exclaiming.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-002-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-002-hero.txt",
+        "promptSha256": "98cfe6186fb0f6c1fb5b6c545900cd1233f6b0c80d1637d27291c5dcabbe031f"
+      },
+      "inline": [
+        {
+          "id": "chapter-002-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 21,
+          "anchorSha256": "322f5dd564a98236a7bcb8b67f11b5ce3e8f8da808efee321596729649389f82",
+          "align": "right",
+          "passageExcerpt": "\"Yes. Do you want me to explain what that is?\" \"Of course not,\" I replied in the tone of an injured man. But my uncle persevered, and told me, against my will, of many things I cared nothing about. \"Runic characters were in use in Iceland in former ages. They were invented, it is said, by Odin himself. Look there, and wonder, impious young man, and admire these letters, the invention of the Scandinavian god!\"",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-002-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-002-inline-01.txt",
+          "promptSha256": "da4faa773e4f1befa03a98d86aaa5b7c19c1d557b389bfa522c166a71afca8cb"
+        }
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "number": 3,
+      "title": "THE RUNIC WRITING EXERCISES THE PROFESSOR",
+      "metrics": {
+        "narrativeWords": 2003,
+        "textBlocks": 67,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-003-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 9,
+        "sourceFraction": 0.101098,
+        "minimumInlineSeparation": 0.401897,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "69e7386bf1489f71c76531a0e032b551d2fa73af501659db9eac8176429ffdb1",
+        "passageExcerpt": "When this work was ended my uncle tore the paper from me and examined it attentively for a long time. \"What does it all mean?\" he kept repeating mechanically. Upon my honour I could not have enlightened him. Besides he did not ask me, and he went on talking to himself.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-003-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-003-hero.txt",
+        "promptSha256": "6994fdda601a1e99198adc27b94c61b7aa031b2de1149cd79a5829675dd9ae69"
+      },
+      "inline": [
+        {
+          "id": "chapter-003-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 38,
+          "anchorSha256": "d5d1bd03d47163cf0f55cd86c525f70c001c6b136b352bb568cceb1fb924183a",
+          "align": "right",
+          "passageExcerpt": "\"Very well,\" thought I, \"if you can bring order out of that confusion, my dear uncle, you are a clever man.\" \"Let us examine carefully,\" said he again, taking up the leaf upon which I had written. \"Here is a series of one hundred and thirty-two letters in apparent disorder. There are words consisting of consonants only, as nrrlls; others, on the other hand, in which vowels predominate, as for instance the fifth, uneeief, or the last but one, oseibo . Now this arrangement has evidently not been premeditated; it has arisen mathematically in obedience to the unknown law which has ruled in the succession of these letters. It appears to me a certainty that the original sentence was written in a proper manner, and afterwards distorted by a law which we have yet to discover. Whoever possesses the key of this cipher will read it with fluency. What is that key? Axel, have you got it?\" I answered not a word, and for a very good reason. My eyes had fallen upon a charming picture, suspended against the wall, the portrait of Gräuben. My uncle's ward was at that time at Altona, staying with a relation, and in her absence I was very downhearted; for I may confess it to you now, the pretty Virlandaise and the professor's nephew loved each other with a patience and a calmness entirely German. We had become engaged unknown to my uncle, who was too much taken up with geology to be able to enter i…",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-003-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-003-inline-01.txt",
+          "promptSha256": "2f04e24be260fb89e279353f32a342bb639d509c83e3fd499dfcbfa949fa61a9"
+        }
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "number": 4,
+      "title": "THE ENEMY TO BE STARVED INTO SUBMISSION",
+      "metrics": {
+        "narrativeWords": 1265,
+        "textBlocks": 29,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-004-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 10,
+        "sourceFraction": 0.096838,
+        "minimumInlineSeparation": 0.368775,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "dc2d96ab8c026215cf15bed0544a7a74850955071d2e1ce083104b4f76a2887a",
+        "passageExcerpt": "I hardly dared to confess that, with so absolute a ruler as my uncle, this fate was inevitable. The old servant, visibly moved, returned to the kitchen, moaning piteously. When I was alone, I thought I would go and tell Gräuben all about it. But how should I be able to escape from the house? The Professor might return at any moment. And suppose he called me? And suppose he tackled me again with this logomachy, which might vainly have been set before ancient Oedipus. And if I did not obey his call, who could answer for what might happen?",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-004-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-004-hero.txt",
+        "promptSha256": "00031edd5d59790d5070c07c29c88441c7cd9e3af64abd240fdc3c79d24d3677"
+      },
+      "inline": [
+        {
+          "id": "chapter-004-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 18,
+          "anchorSha256": "0f6c00dc142aae10427670835492d60a81341022c640dda8901bd15736a27f93",
+          "align": "right",
+          "passageExcerpt": "I sought to group the letters so as to form words. Quite impossible! When I put them together by twos, threes, fives or sixes, nothing came of it but nonsense. To be sure the fourteenth, fifteenth and sixteenth letters made the English word 'ice'; the eighty-third and two following made 'sir'; and in the midst of the document, in the second and third lines, I observed the words, \"rots,\" \"mutabile,\" \"ira,\" \"net,\" \"atra.\" \"Come now,\" I thought, \"these words seem to justify my uncle's view about the language of the document. In the fourth line appeared the word \"luco\", which means a sacred wood. It is true that in the third line was the word \"tabiled\", which looked like Hebrew, and in the last the purely French words \"mer\", \"arc\", \"mere.\"\" All this was enough to drive a poor fellow crazy. Four different languages in this ridiculous sentence! What connection could there possibly be between such words as ice, sir, anger, cruel, sacred wood, changeable, mother, bow, and sea? The first and the last might have something to do with each other; it was not at all surprising that in a document written in Iceland there should be mention of a sea of ice; but it was quite another thing to get to the end of this cryptogram with so small a clue. So I was struggling with an insurmountable difficulty; my brain got heated, my eyes watered over that sheet of paper; its hundred and thirty-two letter…",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-004-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-004-inline-01.txt",
+          "promptSha256": "811f4d3a688e29795494748ef314acb659cb0041d0076a80b4a9b3fc0b8aad50"
+        }
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "number": 5,
+      "title": "FAMINE, THEN VICTORY, FOLLOWED BY DISMAY",
+      "metrics": {
+        "narrativeWords": 1704,
+        "textBlocks": 58,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-005-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.082453,
+        "minimumInlineSeparation": 0.419014,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "9a766c20ae85fa70558576d4f59ffbd05e4d184dab8ad1d065d9f78f00a2a106",
+        "passageExcerpt": "He sat in his armchair, and pen in hand he began what looked very much like algebraic formula: I followed with my eyes his trembling hands, I took count of every movement. Might not some unhoped-for result come of it? I trembled, too, very unnecessarily, since the true key was in my hands, and no other would open the secret. For three long hours my uncle worked on without a word, without lifting his head; rubbing out, beginning again, then rubbing out again, and so on a hundred times. I knew very well that if he succeeded in setting down these letters in every possible relative position, the sentence would come out. But I knew also that twenty letters alone could form two quintillions, four hundred and thirty-two quadrillions, nine hundred and two trillions, eight billions, a hundred and seventy-six millions, six hundred and forty thousand combinations. Now, here were a hundred and thirty-two letters in this sentence, and these hundred and thirty-two letters would give a number of different sentences, each made up of at least a hundred and thirty-three figures, a number which passed far beyond all calculation or conception.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-005-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-005-hero.txt",
+        "promptSha256": "286f5c62f8c19ec71decbc9eed136676fda2822f7f0629a2731e613d6a2d1451"
+      },
+      "inline": [
+        {
+          "id": "chapter-005-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 18,
+          "anchorSha256": "6ccf77e1eb3d0df9ea9d8e8b0aadb48fd4a669c5bd6b9a597bb49318c1148b42",
+          "align": "right",
+          "passageExcerpt": "Was this done on purpose? Or was it a mistake? Did he want to reduce us by famine? This seemed like going rather too far! What! should Martha and I be victims of a position of things in which we had not the smallest interest? It was a fact that a few years before this, whilst my uncle was working at his great classification of minerals, he was forty-eight hours without eating, and all his household were obliged to share in this scientific fast. As for me, what I remember is, that I got severe cramps in my stomach, which hardly suited the constitution of a hungry, growing lad. Now it appeared to me as if breakfast was going to be wanting, just as supper had been the night before. Yet I resolved to be a hero, and not to be conquered by the pangs of hunger. Martha took it very seriously, and, poor woman, was very much distressed. As for me, the impossibility of leaving the house distressed me a good deal more, and for a very good reason. A caged lover's feelings may easily be imagined. My uncle went on working, his imagination went off rambling into the ideal world of combinations; he was far away from earth, and really far away from earthly wants.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-005-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-005-inline-01.txt",
+          "promptSha256": "0577405fb8f4262296398e19a41f60660998efc879a1e9ed28ef1c5ac2c795ef"
+        }
+      ]
+    },
+    {
+      "id": "chapter-006",
+      "number": 6,
+      "title": "EXCITING DISCUSSIONS ABOUT AN UNPARALLELED ENTERPRISE",
+      "metrics": {
+        "narrativeWords": 2530,
+        "textBlocks": 75,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-006-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 5,
+        "sourceFraction": 0.103755,
+        "minimumInlineSeparation": 0.396838,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "36b8a9fbc0fc1993efc202b3864eae918b14375f8c1d70e35d5133c7906d1be6",
+        "passageExcerpt": "\"Axel,\" said he very mildly; \"you are a very ingenious young man, you have done me a splendid service, at a moment when, wearied out with the struggle, I was going to abandon the contest. Where should I have lost myself? None can tell. Never, my lad, shall I forget it; and you shall have your share in the glory to which your discovery will lead.\" \"Oh, come!\" thought I, \"he is in a good way. Now is the time for discussing that same glory.\" \"Before all things,\" my uncle resumed, \"I enjoin you to preserve the most inviolable secrecy: you understand? There are not a few in the scientific world who envy my success, and many would be ready to undertake this enterprise, to whom our return should be the first news of it.\"",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-006-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-006-hero.txt",
+        "promptSha256": "33b4f1a4cbfe303deebd2d1a664c629524770149973af1a6b1448d9b77a3f205"
+      },
+      "inline": [
+        {
+          "id": "chapter-006-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 43,
+          "anchorSha256": "7887cca3564492be4f38861db77d6295acd3bfb8d56be80d9fbf8360479b7450",
+          "align": "right",
+          "passageExcerpt": "Decidedly, my uncle had answered every one of my objections. I saw that his position on the old parchment was impregnable. I therefore ceased to press him upon that part of the subject, and as above all things he must be convinced, I passed on to scientific objections, which in my opinion were far more serious. \"Well, then,\" I said, \"I am forced to admit that Saknussemm's sentence is clear, and leaves no room for doubt. I will even allow that the document bears every mark and evidence of authenticity. That learned philosopher did get to the bottom of Sneffels, he has seen the shadow of Scartaris touch the edge of the crater before the kalends of July; he may even have heard the legendary stories told in his day about that crater reaching to the centre of the world; but as for reaching it himself, as for performing the journey, and returning, if he ever went, I say no—he never, never did that.\" \"Now for your reason?\" said my uncle ironically.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-006-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-006-inline-01.txt",
+          "promptSha256": "9807868f4734b616aef36a87e0a0c3accdb93a1c16bd706f98355cf96feefef1"
+        }
+      ]
+    },
+    {
+      "id": "chapter-007",
+      "number": 7,
+      "title": "A WOMAN'S COURAGE",
+      "metrics": {
+        "narrativeWords": 1856,
+        "textBlocks": 76,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-007-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.098869,
+        "minimumInlineSeparation": 0.40167,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "559eeb3797c10518f3b0ddb78333934f3f721d714c9e3e224244f468c1a15ce9",
+        "passageExcerpt": "I was all adrift amongst a thousand contradictory hypotheses, but I could not lay hold of one. Yet I remembered that I had been convinced, although now my enthusiasm was beginning to cool down; but I felt a desire to start at once, and not to lose time and courage by calm reflection. I had at that moment quite courage enough to strap my knapsack to my shoulders and start. But I must confess that in another hour this unnatural excitement abated, my nerves became unstrung, and from the depths of the abysses of this earth I ascended to its surface again.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-007-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-007-hero.txt",
+        "promptSha256": "cd3e026c6569a9e11cfa8314010eeeb8c9d29c5f1210c8aef1d5423f6b8c6446"
+      },
+      "inline": [
+        {
+          "id": "chapter-007-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 38,
+          "anchorSha256": "656f91f4ec45da63e81f88e5c47bb77241832aca8c9c14a5bd289eac7a748e2e",
+          "align": "right",
+          "passageExcerpt": "I could hear no more. I fled for refuge into my own little room. All hope was now at an end. My uncle had been all the morning making purchases of a part of the tools and apparatus required for this desperate undertaking. The passage was encumbered with rope ladders, knotted cords, torches, flasks, grappling irons, alpenstocks, pickaxes, iron shod sticks, enough to load ten men. I spent an awful night. Next morning I was called early. I had quite decided I would not open the door. But how was I to resist the sweet voice which was always music to my ears, saying, \"My dear Axel?\"",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-007-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-007-inline-01.txt",
+          "promptSha256": "b227af2ace23b5ccaaca75530657c487ad5b03fd1ee94d891a158c0780781949"
+        }
+      ]
+    },
+    {
+      "id": "chapter-008",
+      "number": 8,
+      "title": "SERIOUS PREPARATIONS FOR VERTICAL DESCENT",
+      "metrics": {
+        "narrativeWords": 2038,
+        "textBlocks": 53,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-008-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 5,
+        "sourceFraction": 0.106477,
+        "minimumInlineSeparation": 0.407262,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "91fd278c22d03a2e6c574e2055ed72636bd9a960937bccaf64e6222ef22a918f",
+        "passageExcerpt": "Amongst other documents, a sheet of paper, carefully folded, bore the heading of the Danish consulate with the signature of W. Christiensen, consul at Hamburg and the Professor's friend. With this we possessed the proper introductions to the Governor of Iceland. I also observed the famous document most carefully laid up in a secret pocket in his portfolio. I bestowed a malediction upon it, and then proceeded to examine the country. It was a very long succession of uninteresting loamy and fertile flats, a very easy country for the construction of railways, and propitious for the laying-down of these direct level lines so dear to railway companies.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-008-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-008-hero.txt",
+        "promptSha256": "1448caa982a5efcb9fa62d862e8a485bd058127eb2fa1fb3712c9baac7dabd05"
+      },
+      "inline": [
+        {
+          "id": "chapter-008-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 25,
+          "anchorSha256": "a5fead8b3435484999f4436e96e716927cb4ddb62a4087bc9cb069a07b9a175f",
+          "align": "right",
+          "passageExcerpt": "M. Thomsen placed his services at our disposal, and we visited the quays with the object of finding out the next vessel to sail. I was yet in hopes that there would be no means of getting to Iceland. But there was no such luck. A small Danish schooner, the Valkyria , was to set sail for Rejkiavik on the 2nd of June. The captain, M. Bjarne, was on board. His intending passenger was so joyful that he almost squeezed his hands till they ached. That good man was rather surprised at his energy. To him it seemed a very simple thing to go to Iceland, as that was his business; but to my uncle it was sublime. The worthy captain took advantage of his enthusiasm to charge double fares; but we did not trouble ourselves about mere trifles. . \"You must be on board on Tuesday, at seven in the morning,\" said Captain Bjarne, after having pocketed more dollars than were his due.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-008-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-008-inline-01.txt",
+          "promptSha256": "cd98da3c95a1ecc91b57948dcbc6ea356e5f2945fa7126c24cc24816c0116bee"
+        }
+      ]
+    },
+    {
+      "id": "chapter-009",
+      "number": 9,
+      "title": "ICELAND! BUT WHAT NEXT?",
+      "metrics": {
+        "narrativeWords": 2081,
+        "textBlocks": 52,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-009-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 6,
+        "sourceFraction": 0.110043,
+        "minimumInlineSeparation": 0.379145,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "3af597e12310a003ed18c753361ef82d8fe485a03694e9f3522c8fc922cafd24",
+        "passageExcerpt": "\"Sublime madman!\" I said, \"no doubt you would approve of our expedition. Perhaps you would keep us company to the centre of the globe, to find the solution of your eternal doubts.\" But there was no ghostly shape upon the ancient walls. Indeed, the castle is much younger than the heroic prince of Denmark. It now answers the purpose of a sumptuous lodge for the doorkeeper of the straits of the Sound, before which every year there pass fifteen thousand ships of all nations. The castle of Kronsberg soon disappeared in the mist, as well as the tower of Helsingborg, built on the Swedish coast, and the schooner passed lightly on her way urged by the breezes of the Cattegat.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-009-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-009-hero.txt",
+        "promptSha256": "d319be29dde3e4ba5f90746f8f95a18b4d2053ad08fee0d971be43643dc7be27"
+      },
+      "inline": [
+        {
+          "id": "chapter-009-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 29,
+          "anchorSha256": "bf95521be64423f832447bebb6070e1b190ab68fa47c7b4c5648f9c1db8131a4",
+          "align": "right",
+          "passageExcerpt": "The first man we saw was a good-looking fellow enough, in a general's uniform. Yet he was not a general but a magistrate, the Governor of the island, M. le Baron Trampe himself. The Professor was soon aware of the presence he was in. He delivered him his letters from Copenhagen, and then followed a short conversation in the Danish language, the purport of which I was quite ignorant of, and for a very good reason. But the result of this first conversation was, that Baron Trampe placed himself entirely at the service of Professor Liedenbrock. My uncle was just as courteously received by the mayor, M. Finsen, whose appearance was as military, and disposition and office as pacific, as the Governor's. As for the bishop's suffragan, M. Picturssen, he was at that moment engaged on an episcopal visitation in the north. For the time we must be resigned to wait for the honour of being presented to him. But M. Fridrikssen, professor of natural sciences at the school of Rejkiavik, was a delightful man, and his friendship became very precious to me. This modest philosopher spoke only Danish and Latin. He came to proffer me his good offices in the language of Horace, and I felt that we were made to understand each other. In fact he was the only person in Iceland with whom I could converse at all.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-009-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-009-inline-01.txt",
+          "promptSha256": "7a8c35d1827b1055f1156718ecde2f07931bf01841ff8d6f97545cc26bf8a9db"
+        }
+      ]
+    },
+    {
+      "id": "chapter-010",
+      "number": 10,
+      "title": "INTERESTING CONVERSATIONS WITH ICELANDIC SAVANTS",
+      "metrics": {
+        "narrativeWords": 1395,
+        "textBlocks": 69,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-010-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.102151,
+        "minimumInlineSeparation": 0.396416,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "daa734670a1c16605ad2ca889fbc2cac75fb737339b287ad3d024c4b36506a7f",
+        "passageExcerpt": "In the first place M. Fridrikssen wanted to know what success my uncle had had at the library. \"Your library! why there is nothing but a few tattered books upon almost deserted shelves.\" \"Indeed!\" replied M. Fridrikssen, \"why we possess eight thousand volumes, many of them valuable and scarce, works in the old Scandinavian language, and we have all the novelties that Copenhagen sends us every year.\"",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-010-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-010-hero.txt",
+        "promptSha256": "ec8bb5e933f2feb07293ccecf715a7d114f62c7e0c6cbfa93d333b63a3ea5f7a"
+      },
+      "inline": [
+        {
+          "id": "chapter-010-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 34,
+          "anchorSha256": "c3531dd1f2350ab0ddf38d08de4a9e329b9857015c6832939ab1b4bd1433ad95",
+          "align": "right",
+          "passageExcerpt": "\"Have you some private document in your possession?\" asked our host. \"No; I was only supposing a case.\" \"Oh, very well,\" answered M. Fridrikssen, who was kind enough not to pursue the subject when he had noticed the embarrassment of his friend. \"I hope you will not leave our island until you have seen some of its mineralogical wealth.\"",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-010-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-010-inline-01.txt",
+          "promptSha256": "ece68ea7b320c036188164668eb0135c12017f16d9da2be435efd5bf5c3040bd"
+        }
+      ]
+    },
+    {
+      "id": "chapter-011",
+      "number": 11,
+      "title": "A GUIDE FOUND TO THE CENTRE OF THE EARTH",
+      "metrics": {
+        "narrativeWords": 2022,
+        "textBlocks": 43,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-011-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.110534,
+        "minimumInlineSeparation": 0.393175,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "34058186a6a0762f688aa8392551680e5f24d9c4d144ae707c8aa79d5cb1fc2e",
+        "passageExcerpt": "…and, fell in long meshes upon his broad shoulders. The movements of this native were lithe and supple; but he made little use of his arms in speaking, like a man who knew nothing or cared nothing about the language of gestures. His whole appearance bespoke perfect calmness and self-possession, not indolence but tranquillity. It was felt at once that he would be beholden to nobody, that he worked for his own convenience, and that nothing in this world could astonish or disturb his philosophic calmness. I caught the shades of this Icelander's character by the way in which he listened to the impassioned flow of words which fell from the Professor. He stood with arms crossed, perfectly unmoved by my uncle's incessant gesticulations. A negative was expressed by a slow movement of the head from left to right, an affirmative by a slight bend, so slight that his long hair scarcely moved. He carried economy of motion even to parsimony. Certainly I should never have dreamt in looking at this man that he was a hunter; he did not look likely to frighten his game, nor did he seem as if he would even get near it. But the mystery was explained when M. Fridrikssen informed me that this tranquil personage was only a hunter of the eider duck, whose under plumage constitutes the chief wealth of the island. This is the celebrated eider down, and it requires no great rapidity of movement to get it.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-011-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-011-hero.txt",
+        "promptSha256": "dcf8f1e64c109caf5a1aa0d811072bbd336a77d103d30988442ccbf6d2c320a2"
+      },
+      "inline": [
+        {
+          "id": "chapter-011-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 24,
+          "anchorSha256": "d20ea001c3277eb2038308b083ccdf4307e542d81dfe76a2a7fb696194a4740c",
+          "align": "right",
+          "passageExcerpt": "1. An Eigel's centigrade thermometer, graduated up to 150 degrees (302 degrees Fahr.), which seemed to me too much or too little. Too much if the internal heat was to rise so high, for in this case we should be baked, not enough to measure the temperature of springs or any matter in a state of fusion. 2. An aneroid barometer, to indicate extreme pressures of the atmosphere. An ordinary barometer would not have answered the purpose, as the pressure would increase during our descent to a point which the mercurial barometer [1] would not register. 3. A chronometer, made by Boissonnas, jun., of Geneva, accurately set to the meridian of Hamburg.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-011-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-011-inline-01.txt",
+          "promptSha256": "6061baa9d8037c865735f7695efdcc3087a488eb62676b0850739693bf101511"
+        }
+      ]
+    },
+    {
+      "id": "chapter-012",
+      "number": 12,
+      "title": "A BARREN LAND",
+      "metrics": {
+        "narrativeWords": 1642,
+        "textBlocks": 41,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-012-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.103837,
+        "minimumInlineSeparation": 0.414738,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ac75298288d2d1c361f5afc0ea3adcb1e78132024a29241714ea9168b35bcfbb",
+        "passageExcerpt": "\"Besides,\" I said to myself, \"where's the risk? Here we are travelling all through a most interesting country! We are about to climb a very remarkable mountain; at the worst we are going to scramble down an extinct crater. It is evident that Saknussemm did nothing more than this. As for a passage leading to the centre of the globe, it is mere rubbish! perfectly impossible! Very well, then; let us get all the good we can out of this expedition, and don't let us haggle about the chances.\" This reasoning having settled my mind, we got out of Rejkiavik. Hans moved steadily on, keeping ahead of us at an even, smooth, and rapid pace. The baggage horses followed him without giving any trouble. Then came my uncle and myself, looking not so very ill-mounted on our small but hardy animals.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-012-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-012-hero.txt",
+        "promptSha256": "6517cf1cbf804cdbed0cedfd3af11b918d1587afea2f80629cf4b2061ec9dc5a"
+      },
+      "inline": [
+        {
+          "id": "chapter-012-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 13,
+          "anchorSha256": "d36ad502e4745b5598f007c790726d299bede32dcb96e05a71327c342f331f90",
+          "align": "right",
+          "passageExcerpt": "Yet this part of the province, at a very small distance from the capital, is reckoned among the inhabited and cultivated portions of Iceland. What, then, must other tracts be, more desert than this desert? In the first half mile we had not seen one farmer standing before his cabin door, nor one shepherd tending a flock less wild than himself, nothing but a few cows and sheep left to themselves. What then would be those convulsed regions upon which we were advancing, regions subject to the dire phenomena of eruptions, the offspring of volcanic explosions and subterranean convulsions? We were to know them before long, but on consulting Olsen's map, I saw that they would be avoided by winding along the seashore. In fact, the great plutonic action is confined to the central portion of the island; there, rocks of the trappean and volcanic class, including trachyte, basalt, and tuffs and agglomerates associated with streams of lava, have made this a land of supernatural horrors. I had no idea of the spectacle which was awaiting us in the peninsula of Snæfell, where these ruins of a fiery nature have formed a frightful chaos. In two hours from Rejkiavik we arrived at the burgh of Gufunes, called Aolkirkja, or principal church. There was nothing remarkable here but a few houses, scarcely enough for a German hamlet.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-012-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-012-inline-01.txt",
+          "promptSha256": "74cae764aa1cb35f7ee47b28678fb9513e0a19df977b4d5bda912aec3cf169d4"
+        }
+      ]
+    },
+    {
+      "id": "chapter-013",
+      "number": 13,
+      "title": "HOSPITALITY UNDER THE ARCTIC CIRCLE",
+      "metrics": {
+        "narrativeWords": 1725,
+        "textBlocks": 34,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-013-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.083188,
+        "minimumInlineSeparation": 0.413333,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "420ef8d2f1471cd133210df3fdcc2856abf1b6d28e3efa70ad45cf5a7e160664",
+        "passageExcerpt": "It was a peasant's house, but in point of hospitality it was equal to a king's. On our arrival the master came with outstretched hands, and without more ceremony he beckoned us to follow him. To accompany him down the long, narrow, dark passage, would have been impossible. Therefore, we followed, as he bid us. The building was constructed of roughly squared timbers, with rooms on both sides, four in number, all opening out into the one passage: these were the kitchen, the weaving shop, the badstofa, or family sleeping-room, and the visitors' room, which was the best of all. My uncle, whose height had not been thought of in building the house, of course hit his head several times against the beams that projected from the ceilings. We were introduced into our apartment, a large room with a floor of earth stamped hard down, and lighted by a window, the panes of which were formed of sheep's bladder, not admitting too much light. The sleeping accommodation consisted of dry litter, thrown into two wooden frames painted red, and ornamented with Icelandic sentences. I was hardly expecting so much comfort; the only discomfort proceeded from the strong odour of dried fish, hung meat, and sour milk, of which my nose made bitter complaints.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-013-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-013-hero.txt",
+        "promptSha256": "58b0d8d4dacd66aecd866b78a7c3d42e728126fd22121d8e0c2f33e3a6caa0fb"
+      },
+      "inline": [
+        {
+          "id": "chapter-013-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 17,
+          "anchorSha256": "88c027c9581fe510f57856dc3fdab8a452ad194742aa0e9c37e1f6501accb5b5",
+          "align": "right",
+          "passageExcerpt": "…his little world at the arrival of the soup, and the national taciturnity resumed its empire even over the children. The host served out to us a soup made of lichen and by no means unpleasant, then an immense piece of dried fish floating in butter rancid with twenty years' keeping, and, therefore, according to Icelandic gastronomy, much preferable to fresh butter. Along with this, we had 'skye,' a sort of clotted milk, with biscuits, and a liquid prepared from juniper berries; for beverage we had a thin milk mixed with water, called in this country 'blanda.' It is not for me to decide whether this diet is wholesome or not; all I can say is, that I was desperately hungry, and that at dessert I swallowed to the very last gulp of a thick broth made from buckwheat. As soon as the meal was over the children disappeared, and their elders gathered round the peat fire, which also burnt such miscellaneous fuel as briars, cow-dung, and fishbones. After this little pinch of warmth the different groups retired to their respective rooms. Our hostess hospitably offered us her assistance in undressing, according to Icelandic usage; but on our gracefully declining, she insisted no longer, and I was able at last to curl myself up in my mossy bed. At five next morning we bade our host farewell, my uncle with difficulty persuading him to accept a proper remuneration; and Hans signalled the start.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-013-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-013-inline-01.txt",
+          "promptSha256": "4be031b464c3a33db79ad403cf631d5ae1f74327d0646e7621da366d89959457"
+        }
+      ]
+    },
+    {
+      "id": "chapter-014",
+      "number": 14,
+      "title": "BUT ARCTICS CAN BE INHOSPITABLE, TOO",
+      "metrics": {
+        "narrativeWords": 1854,
+        "textBlocks": 44,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-014-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.092772,
+        "minimumInlineSeparation": 0.391855,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "0f4bee7d44ad66992865f63495944d24e3f217ef08885036bc002cab0dbf8eb6",
+        "passageExcerpt": "I had heard of the Giant's Causeway in Ireland, and Fingal's Cave in Staffa, one of the Hebrides; but I had never yet seen a basaltic formation. At Stapi I beheld this phenomenon in all its beauty. The wall that confined the fiord, like all the coast of the peninsula, was composed of a series of vertical columns thirty feet high. These straight shafts, of fair proportions, supported an architrave of horizontal slabs, the overhanging portion of which formed a semi-arch over the sea. At intervals, under this natural shelter, there spread out vaulted entrances in beautiful curves, into which the waves came dashing with foam and spray. A few shafts of basalt, torn from their hold by the fury of tempests, lay along the soil like remains of an ancient temple, in ruins for ever fresh, and over which centuries passed without leaving a trace of age upon them.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-014-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-014-hero.txt",
+        "promptSha256": "c78598633f4a59d2a923928e8c573cc71e50d51f6fc8c07fa3474877c838263c"
+      },
+      "inline": [
+        {
+          "id": "chapter-014-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 18,
+          "anchorSha256": "c621a3b34e65c1e6619ae61e9adb1177d41fa27837df1e742078de2750da9d0b",
+          "align": "right",
+          "passageExcerpt": "Hans merely nodded. There or elsewhere, down in the bowels of the earth, or anywhere on the surface, all was alike to him. For my own part the incidents of the journey had hitherto kept me amused, and made me forgetful of coming evils; but now my fears again were beginning to get the better of me. But what could I do? The place to resist the Professor would have been Hamburg, not the foot of Snæfell. One thought, above all others, harassed and alarmed me; it was one calculated to shake firmer nerves than mine. Now, thought I, here we are, about to climb Snæfell. Very good. We will explore the crater. Very good, too, others have done as much without dying for it. But that is not all. If there is a way to penetrate into the very bowels of the island, if that ill-advised Saknussemm has told a true tale, we shall lose our way amidst the deep subterranean passages of this volcano. Now, there is no proof that Snæfell is extinct. Who can assure us that an eruption is not brewing at this very moment? Does it follow that because the monster has slept since 1229 he must therefore never awake again? And if he wakes up presently, where shall we be?",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-014-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-014-inline-01.txt",
+          "promptSha256": "5349bb057ec85e15851a26d9e128a49f96d7ca85f1901f472651e465a20f51da"
+        }
+      ]
+    },
+    {
+      "id": "chapter-015",
+      "number": 15,
+      "title": "SNÆFELL AT LAST",
+      "metrics": {
+        "narrativeWords": 1755,
+        "textBlocks": 34,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-015-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.107407,
+        "minimumInlineSeparation": 0.393162,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "79a4eec869688cb237b17b63daa3a5aecb7217144e808e4fd12054b28286a79e",
+        "passageExcerpt": "After we had passed the basaltic wall of the fiord of Stapi we passed over a vegetable fibrous peat bog, left from the ancient vegetation of this peninsula. The vast quantity of this unworked fuel would be sufficient to warm the whole population of Iceland for a century; this vast turbary measured in certain ravines had in many places a depth of seventy feet, and presented layers of carbonized remains of vegetation alternating with thinner layers of tufaceous pumice. As a true nephew of the Professor Liedenbrock, and in spite of my dismal prospects, I could not help observing with interest the mineralogical curiosities which lay about me as in a vast museum, and I constructed for myself a complete geological account of Iceland. This most curious island has evidently been projected from the bottom of the sea at a comparatively recent date. Possibly, it may still be subject to gradual elevation. If this is the case, its origin may well be attributed to subterranean fires. Therefore, in this case, the theory of Sir Humphry Davy, Saknussemm's document, and my uncle's theories would all go off in smoke. This hypothesis led me to examine with more attention the appearance of the surface, and I soon arrived at a conclusion as to the nature of the forces which presided at its birth.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-015-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-015-hero.txt",
+        "promptSha256": "d1c9e6e623b2c006587d8d4b41a768112c22d6a359ceaf7cf34559e5877bac13"
+      },
+      "inline": [
+        {
+          "id": "chapter-015-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 14,
+          "anchorSha256": "93a339c3f0cc68b258984d170380766d7eb22f492f415f7aa50680e36d915748",
+          "align": "right",
+          "passageExcerpt": "Hans went on as quietly as if he were on level ground; sometimes he disappeared altogether behind the huge blocks, then a shrill whistle would direct us on our way to him. Sometimes he would halt, pick up a few bits of stone, build them up into a recognisable form, and thus made landmarks to guide us in our way back. A very wise precaution in itself, but, as things turned out, quite useless. Three hours' fatiguing march had only brought us to the base of the mountain. There Hans bid us come to a halt, and a hasty breakfast was served out. My uncle swallowed two mouthfuls at a time to get on faster. But, whether he liked it or not, this was a rest as well as a breakfast hour and he had to wait till it pleased our guide to move on, which came to pass in an hour. The three Icelanders, just as taciturn as their comrade the hunter, never spoke, and ate their breakfasts in silence. We were now beginning to scale the steep sides of Snæfell. Its snowy summit, by an optical illusion not unfrequent in mountains, seemed close to us, and yet how many weary hours it took to reach it! The stones, adhering by no soil or fibrous roots of vegetation, rolled away from under our feet, and rushed down the precipice below with the swiftness of an avalanche.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-015-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-015-inline-01.txt",
+          "promptSha256": "872fc64a5ad798d35cc0eea980ab0aac84502e7a108d3ac55ecaa283ca5b6bb4"
+        }
+      ]
+    },
+    {
+      "id": "chapter-016",
+      "number": 16,
+      "title": "BOLDLY DOWN THE CRATER",
+      "metrics": {
+        "narrativeWords": 1763,
+        "textBlocks": 49,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-016-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.09671,
+        "minimumInlineSeparation": 0.408111,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "6d6715abedf285556e58539326448a746da39cb919c22ee5475c75d9a95a4f68",
+        "passageExcerpt": "Next morning we awoke half frozen by the sharp keen air, but with the light of a splendid sun. I rose from my granite bed and went out to enjoy the magnificent spectacle that lay unrolled before me. I stood on the very summit of the southernmost of Snæfell's peaks. The range of the eye extended over the whole island. By an optical law which obtains at all great heights, the shores seemed raised and the centre depressed. It seemed as if one of Helbesmer's raised maps lay at my feet. I could see deep valleys intersecting each other in every direction, precipices like low walls, lakes reduced to ponds, rivers abbreviated into streams. On my right were numberless glaciers and innumerable peaks, some plumed with feathery clouds of smoke. The undulating surface of these endless mountains, crested with sheets of snow, reminded one of a stormy sea. If I looked westward, there the ocean lay spread out in all its magnificence, like a mere continuation of those flock-like summits. The eye could hardly tell where the snowy ridges ended and the foaming waves began. I was thus steeped in the marvellous ecstasy which all high summits develop in the mind; and now without giddiness, for I was beginning to be accustomed to these sublime aspects of nature. My dazzled eyes were bathed in the bright flood of the solar rays. I was forgetting where and who I was, to live the life of elves and sylphs,…",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-016-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-016-hero.txt",
+        "promptSha256": "5f1def2684242154c0e38f4a75c56ea0e627c5daf65bea1cac05111ad2cf7acc"
+      },
+      "inline": [
+        {
+          "id": "chapter-016-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 19,
+          "anchorSha256": "4db1e6ee64ad90540842e096bf0ec9ff7c272a5487b126c9788772673ec0fdbf",
+          "align": "right",
+          "passageExcerpt": "At mid-day we arrived. I raised my head and saw straight above me the upper aperture of the cone, framing a bit of sky of very small circumference, but almost perfectly round. Just upon the edge appeared the snowy peak of Saris, standing out sharp and clear against endless space. At the bottom of the crater were three chimneys, through which, in its eruptions, Snæfell had driven forth fire and lava from its central furnace. Each of these chimneys was a hundred feet in diameter. They gaped before us right in our path. I had not the courage to look down either of them. But Professor Liedenbrock had hastily surveyed all three; he was panting, running from one to the other, gesticulating, and uttering incoherent expressions. Hans and his comrades, seated upon loose lava rocks, looked at him with as much wonder as they knew how to express, and perhaps taking him for an escaped lunatic. Suddenly my uncle uttered a cry. I thought his foot must have slipped and that he had fallen down one of the holes. But, no; I saw him, with arms outstretched and legs straddling wide apart, erect before a granite rock that stood in the centre of the crater, just like a pedestal made ready to receive a statue of Pluto. He stood like a man stupefied, but the stupefaction soon gave way to delirious rapture.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-016-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-016-inline-01.txt",
+          "promptSha256": "6687f073a482cbcebf0a8cd6b3b55a61576db8bed30401f5f34053e14325db65"
+        }
+      ]
+    },
+    {
+      "id": "chapter-017",
+      "number": 17,
+      "title": "VERTICAL DESCENT",
+      "metrics": {
+        "narrativeWords": 1401,
+        "textBlocks": 42,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-017-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.138829,
+        "minimumInlineSeparation": 0.343326,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "eae4b7cd70a1a2983079379b29121e761619b7620afc8669dc3916d8dbf00071",
+        "passageExcerpt": "…sence of the hunter. Hans accepted the enterprise with such calmness, such indifference, such perfect disregard of any possible danger that I blushed at the idea of being less brave than he. If I had been alone I might have once more tried the effect of argument; but in the presence of the guide I held my peace; my heart flew back to my sweet Virlandaise, and I approached the central chimney. I have already mentioned that it was a hundred feet in diameter, and three hundred feet round. I bent over a projecting rock and gazed down. My hair stood on end with terror. The bewildering feeling of vacuity laid hold upon me. I felt my centre of gravity shifting its place, and giddiness mounting into my brain like drunkenness. There is nothing more treacherous than this attraction down deep abysses. I was just about to drop down, when a hand laid hold of me. It was that of Hans. I suppose I had not taken as many lessons on gulf exploration as I ought to have done in the Frelsers Kirk at Copenhagen. But, however short was my examination of this well, I had taken some account of its conformation. Its almost perpendicular walls were bristling with innumerable projections which would facilitate the descent. But if there was no want of steps, still there was no rail. A rope fastened to the edge of the aperture might have helped us down. But how were we to unfasten it, when arrived at the oth…",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-017-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-017-hero.txt",
+        "promptSha256": "0d9f4c211bdcbfcf12ba275de4592f4be36a36d10ac30d5e643a242c027e915d"
+      },
+      "inline": [
+        {
+          "id": "chapter-017-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 16,
+          "anchorSha256": "3c3591cfeefa4d4ef8b5803892999a2aacd77f9f02d885d1fe21602b280b64b6",
+          "align": "right",
+          "passageExcerpt": "Now I ask any sensible man if it was possible to hear those words without a shudder. The Professor fastened his package of instruments upon his shoulders; Hans took the tools; I took the arms: and the descent commenced in the following order; Hans, my uncle, and myself. It was effected in profound silence, broken only by the descent of loosened stones down the dark gulf. I dropped as it were, frantically clutching the double cord with one hand and buttressing myself from the wall with the other by means of my stick. One idea overpowered me almost, fear lest the rock should give way from which I was hanging. This cord seemed a fragile thing for three persons to be suspended from. I made as little use of it as possible, performing wonderful feats of equilibrium upon the lava projections which my foot seemed to catch hold of like a hand.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-017-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-017-inline-01.txt",
+          "promptSha256": "26056aacd3004266e70fd714f3f000489f221123f650a61a17784942e1550f46"
+        }
+      ]
+    },
+    {
+      "id": "chapter-018",
+      "number": 18,
+      "title": "THE WONDERS OF TERRESTRIAL DEPTHS",
+      "metrics": {
+        "narrativeWords": 1556,
+        "textBlocks": 59,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-018-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 6,
+        "sourceFraction": 0.1009,
+        "minimumInlineSeparation": 0.417416,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "5d27b00e960f67250f1fdda836cb7bea4eb7dae1f3858d4cc98f21594e7a87bc",
+        "passageExcerpt": "\"What do you mean?\" \"I mean that we have only reached the level of the island, long vertical tube, which terminates at the mouth of the crater, has its lower end only at the level of the sea.\" \"Are you sure of that?\"",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-018-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-018-hero.txt",
+        "promptSha256": "80c3760fc1d825040bd47a20d95cb292bc3200defc6016232a16eb5cff3eb766"
+      },
+      "inline": [
+        {
+          "id": "chapter-018-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 33,
+          "anchorSha256": "1beca85c60d485a4f817551de3da051c2e935e0d3abeedd0e183af9813b6dc48",
+          "align": "right",
+          "passageExcerpt": "The only difficulty in proceeding lay in not sliding too fast down an incline of about forty-five degrees; happily certain asperities and a few blisterings here and there formed steps, and we descended, letting our baggage slip before us from the end of a long rope. But that which formed steps under our feet became stalactites overhead. The lava, which was porous in many places, had formed a surface covered with small rounded blisters; crystals of opaque quartz, set with limpid tears of glass, and hanging like clustered chandeliers from the vaulted roof, seemed as it were to kindle and form a sudden illumination as we passed on our way. It seemed as if the genii of the depths were lighting up their palace to receive their terrestrial guests. \"It is magnificent!\" I cried spontaneously. \"My uncle, what a sight! Don't you admire those blending hues of lava, passing from reddish brown to bright yellow by imperceptible shades? And these crystals are just like globes of light.\"",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-018-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-018-inline-01.txt",
+          "promptSha256": "e197212c8e9df65ceccbf76dc3127d170ef1586317f01e5bd1a02225c46ae0ca"
+        }
+      ]
+    },
+    {
+      "id": "chapter-019",
+      "number": 19,
+      "title": "GEOLOGICAL STUDIES IN SITU",
+      "metrics": {
+        "narrativeWords": 1445,
+        "textBlocks": 50,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-019-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 5,
+        "sourceFraction": 0.103114,
+        "minimumInlineSeparation": 0.387197,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "aa9220daff21b42ebe29002fcc7be6d922f0bda639ae57431cb391e58694a4ca",
+        "passageExcerpt": "Still my uncle refused to admit an appearance of hesitation, either before me or the guide; he pointed out the Eastern tunnel, and we were soon all three in it. Besides there would have been interminable hesitation before this choice of roads; for since there was no indication whatever to guide our choice, we were obliged to trust to chance. The slope of this gallery was scarcely perceptible, and its sections very unequal. Sometimes we passed a series of arches succeeding each other like the majestic arcades of a gothic cathedral. Here the architects of the middle ages might have found studies for every form of the sacred art which sprang from the development of the pointed arch. A mile farther we had to bow our heads under corniced elliptic arches in the romanesque style; and massive pillars standing out from the wall bent under the spring of the vault that rested heavily upon them. In other places this magnificence gave way to narrow channels between low structures which looked like beaver's huts, and we had to creep along through extremely narrow passages.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-019-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-019-hero.txt",
+        "promptSha256": "e9ac697ab8ed69637e47d3999c5ca896de27b2d790803bb38eb6019abe826b33"
+      },
+      "inline": [
+        {
+          "id": "chapter-019-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 22,
+          "anchorSha256": "be985f7b484ca0f6ba6017a264f6ada3382175350ab1c1e0af32c0a6b136a4ff",
+          "align": "right",
+          "passageExcerpt": "\"No doubt, for the last half-hour the inclines have gone the other way, and at this rate we shall soon arrive upon the level soil of Iceland.\" The Professor nodded slowly and uneasily like a man that declines to be convinced. I tried to resume the conversation. He answered not a word, and gave the signal for a start. I saw that his silence was nothing but ill-humour. Still I had courageously shouldered my burden again, and was rapidly following Hans, whom my uncle preceded. I was anxious not to be left behind. My greatest care was not to lose sight of my companions. I shuddered at the thought of being lost in the mazes of this vast subterranean labyrinth.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-019-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-019-inline-01.txt",
+          "promptSha256": "6987107675ece3bb2bdb6406a77cca04bbc32330cddb4713dfe3f2538e9ef0bf"
+        }
+      ]
+    },
+    {
+      "id": "chapter-020",
+      "number": 20,
+      "title": "THE FIRST SIGNS OF DISTRESS",
+      "metrics": {
+        "narrativeWords": 1416,
+        "textBlocks": 30,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-020-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.116879,
+        "minimumInlineSeparation": 0.380297,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "70b215702a85e827c22e3a5351794fc62e3a0cf75e703fdb6f26e3d6025c9839",
+        "passageExcerpt": "The road was now not ascending, at least not perceptibly. Sometimes, even, it seemed to have a slight fall. But this tendency, which was very trifling, could not do anything to reassure the Professor; for there was no change in the beds, and the transitional characteristics became more and more decided. The electric light was reflected in sparkling splendour from the schist, limestone, and old red sandstone of the walls. It might have been thought that we were passing through a section of Wales, of which an ancient people gave its name to this system. Specimens of magnificent marbles clothed the walls, some of a greyish agate fantastically veined with white, others of rich crimson or yellow dashed with splotches of red; then came dark cherry-coloured marbles relieved by the lighter tints of limestone. The greater part of these bore impressions of primitive organisms. Creation had evidently advanced since the day before. Instead of rudimentary trilobites, I noticed remains of a more perfect order of beings, amongst others ganoid fishes and some of those sauroids in which palaeontologists have discovered the earliest reptile forms. The Devonian seas were peopled by animals of these species, and deposited them by thousands in the rocks of the newer formation.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-020-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-020-hero.txt",
+        "promptSha256": "09bc4ece4de905a07046e92870c327804997b2d4883d73bbaf69217f1978ba17"
+      },
+      "inline": [
+        {
+          "id": "chapter-020-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 19,
+          "anchorSha256": "0edfd73ee7ec5f9cd62b518d7eeac9433cc625b50eab5be136fa3837fbbddd99",
+          "align": "right",
+          "passageExcerpt": "This cavern was about a hundred feet wide and a hundred and fifty in height. A large mass had been rent asunder by a subterranean disturbance. Yielding to some vast power from below it had broken asunder, leaving this great hollow into which human beings were now penetrating for the first time. The whole history of the carboniferous period was written upon these gloomy walls, and a geologist might with ease trace all its diverse phases. The beds of coal were separated by strata of sandstone or compact clays, and appeared crushed under the weight of overlying strata. At the age of the world which preceded the secondary period, the earth was clothed with immense vegetable forms, the product of the double influence of tropical heat and constant moisture; a vapoury atmosphere surrounded the earth, still veiling the direct rays of the sun.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-020-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-020-inline-01.txt",
+          "promptSha256": "d30783f26d05ba22580be3945f0068a1755249bd0724d816a831a05e6291b643"
+        }
+      ]
+    },
+    {
+      "id": "chapter-021",
+      "number": 21,
+      "title": "COMPASSION FUSES THE PROFESSOR'S HEART",
+      "metrics": {
+        "narrativeWords": 1322,
+        "textBlocks": 49,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-021-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.091906,
+        "minimumInlineSeparation": 0.403177,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "e5f7414a68743b85d02f1108e48a64b1e199e578d8b77aff631da0b3e17a24c9",
+        "passageExcerpt": "I will not speak of the sufferings we endured in our return. My uncle bore them with the angry impatience of a man obliged to own his weakness; Hans with the resignation of his passive nature; I, I confess, with complaints and expressions of despair. I had no spirit to oppose this ill fortune. As I had foretold, the water failed entirely by the end of the first day's retrograde march. Our fluid aliment was now nothing but gin; but this infernal fluid burned my throat, and I could not even endure the sight of it. I found the temperature and the air stifling. Fatigue paralysed my limbs. More than once I dropped down motionless. Then there was a halt; and my uncle and the Icelander did their best to restore me. But I saw that the former was struggling painfully against excessive fatigue and the tortures of thirst. At last, on Tuesday, July 8, we arrived on our hands and knees, and half dead, at the junction of the two roads. There I dropped like a lifeless lump, extended on the lava soil. It was ten in the morning.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-021-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-021-hero.txt",
+        "promptSha256": "ff738d823f83652b6c98e3f8c466f91cf3d63c312a9fd5ee4fda14e2522cc056"
+      },
+      "inline": [
+        {
+          "id": "chapter-021-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 28,
+          "anchorSha256": "2bfc861b2654f953edd9b792b3d2748836d1e26e838db0d77b7a8ef56150ffdd",
+          "align": "right",
+          "passageExcerpt": "\"Courage?\" \"I see you just as feeble-minded as you were before, and still expressing only despair!\" What sort of a man was this I had to do with, and what schemes was he now revolving in his fearless mind?",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-021-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-021-inline-01.txt",
+          "promptSha256": "f71190b16bdfd37f5c21b9dc01deb2cf09e8f492ad5870645ed729ab5aa6e687"
+        }
+      ]
+    },
+    {
+      "id": "chapter-022",
+      "number": 22,
+      "title": "TOTAL FAILURE OF WATER",
+      "metrics": {
+        "narrativeWords": 924,
+        "textBlocks": 24,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-022-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.080087,
+        "minimumInlineSeparation": 0.416126,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "cc32af2a86d15163d4ed2b09c0e3c9d409d66ba99798901604664f1ad4aefeb3",
+        "passageExcerpt": "\"Here are primitive rocks. Now we are in the right way. Forward!\" When in its early stages the earth was slowly cooling, its contraction gave rise in its crust to disruptions, distortions, fissures, and chasms. The passage through which we were moving was such a fissure, through which at one time granite poured out in a molten state. Its thousands of windings formed an inextricable labyrinth through the primeval mass. As fast as we descended, the succession of beds forming the primitive foundation came out with increasing distinctness. Geologists consider this primitive matter to be the base of the mineral crust of the earth, and have ascertained it to be composed of three different formations, schist, gneiss, and mica schist, resting upon that unchangeable foundation, the granite.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-022-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-022-hero.txt",
+        "promptSha256": "afa01ddffb54d9c4dd9215c193ae7d6afb4b11f8e4de10b994d3125ee635f491"
+      },
+      "inline": [
+        {
+          "id": "chapter-022-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 10,
+          "anchorSha256": "09aadfee1b3046da0c7ef8966681434f4c4497219551c358571c0d889eaff4c5",
+          "align": "right",
+          "passageExcerpt": "About six o'clock this brilliant fete of illuminations underwent a sensible abatement of splendour, then almost ceased. The walls assumed a crystallised though sombre appearance; mica was more closely mingled with the feldspar and quartz to form the proper rocky foundations of the earth, which bears without distortion or crushing the weight of the four terrestrial systems. We were immured within prison walls of granite. It was eight in the evening. No signs of water had yet appeared. I was suffering horribly. My uncle strode on. He refused to stop. He was listening anxiously for the murmur of distant springs. But, no, there was dead silence. And now my limbs were failing beneath me. I resisted pain and torture, that I might not stop my uncle, which would have driven him to despair, for the day was drawing near to its end, and it was his last.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-022-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-022-inline-01.txt",
+          "promptSha256": "73c60b39ab59836fcd468290d4b6e720f9578fd44aa986fc1f2cfdfabc76d53e"
+        }
+      ]
+    },
+    {
+      "id": "chapter-023",
+      "number": 23,
+      "title": "WATER DISCOVERED",
+      "metrics": {
+        "narrativeWords": 1544,
+        "textBlocks": 58,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-023-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 6,
+        "sourceFraction": 0.099093,
+        "minimumInlineSeparation": 0.385687,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "82e3aff2bf912c6d8a0a0e52f9c282f4e4888b399d14e3df4e02279e18ed817a",
+        "passageExcerpt": "No doubt under the inspiration of intense pain everybody becomes endowed with the gift of divers tongues. I did not know a word of Danish, yet instinctively I understood the word he had uttered. \"Water! water!\" I cried, clapping my hands and gesticulating like a madman. \"Water!\" repeated my uncle. \"Hvar?\" he asked, in Icelandic.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-023-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-023-hero.txt",
+        "promptSha256": "e15c65cb2a5d573b6c645a1b22efc989dc495f359c4d47e7bec728ac28f21809"
+      },
+      "inline": [
+        {
+          "id": "chapter-023-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 26,
+          "anchorSha256": "886276be0aaa1a14380541f682c30fd8c77840ca32d10fdc1ad6726f56f10d4b",
+          "align": "right",
+          "passageExcerpt": "\"Yes,\" cried my uncle, almost frantic with excitement. \"Hans is right. Capital fellow! Who but he would have thought of it?\" Yes; who but he? Such an expedient, however simple, would never have entered into our minds. True, it seemed most hazardous to strike a blow of the hammer in this part of the earth's structure. Suppose some displacement should occur and crush us all! Suppose the torrent, bursting through, should drown us in a sudden flood! There was nothing vain in these fancies. But still no fears of falling rocks or rushing floods could stay us now; and our thirst was so intense that, to satisfy it, we would have dared the waves of the north Atlantic. Hans set about the task which my uncle and I together could not have accomplished. If our impatience had armed our hands with power, we should have shattered the rock into a thousand fragments. Not so Hans. Full of self possession, he calmly wore his way through the rock with a steady succession of light and skilful strokes, working through an aperture six inches wide at the outside. I could hear a louder noise of flowing waters, and I fancied I could feel the delicious fluid refreshing my parched lips.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-023-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-023-inline-01.txt",
+          "promptSha256": "f934a89800c3c0a909467d60ca15cea8a0dbc91da167b817cf1e35d3d4fb3cd7"
+        }
+      ]
+    },
+    {
+      "id": "chapter-024",
+      "number": 24,
+      "title": "WELL SAID, OLD MOLE! CANST THOU WORK I' THE GROUND SO FAST?",
+      "metrics": {
+        "narrativeWords": 1140,
+        "textBlocks": 29,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-024-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.112281,
+        "minimumInlineSeparation": 0.362719,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "824ea7675d9dc1b24040c9d227bda8b139e9bf76d7daa0fd5c97e6d012b31819",
+        "passageExcerpt": "We breakfasted, and drank of this excellent chalybeate water. I felt wonderfully stronger, and quite decided upon pushing on. Why should not so firmly convinced a man as my uncle, furnished with so industrious a guide as Hans, and accompanied by so determined a nephew as myself, go on to final success? Such were the magnificent plans which struggled for mastery within me. If it had been proposed to me to return to the summit of Snæfell, I should have indignantly declined. Most fortunately, all we had to do was to descend. \"Let us start!\" I cried, awakening by my shouts the echoes of the vaulted hollows of the earth.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-024-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-024-hero.txt",
+        "promptSha256": "082993554d100520fed777b20bfad37837e0f32c61486568b4329d25a5172504"
+      },
+      "inline": [
+        {
+          "id": "chapter-024-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 13,
+          "anchorSha256": "1f0a1d70c7a848f8a641f98a43515c17b3c33cb4ac60ff68df403eae7c67037d",
+          "align": "right",
+          "passageExcerpt": "The ropes were so fastened by Hans as to guard against accident, and the descent commenced. I can hardly call it perilous, for I was beginning to be familiar with this kind of exercise. This well, or abyss, was a narrow cleft in the mass of the granite, called by geologists a 'fault,' and caused by the unequal cooling of the globe of the earth. If it had at one time been a passage for eruptive matter thrown out by Snæfell, I still could not understand why no trace was left of its passage. We kept going down a kind of winding staircase, which seemed almost to have been made by the hand of man. Every quarter of an hour we were obliged to halt, to take a little necessary repose and restore the action of our limbs. We then sat down upon a fragment of rock, and we talked as we ate and drank from the stream.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-024-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-024-inline-01.txt",
+          "promptSha256": "be44be10fe6e43ce11eff7e6ebec712f4a40a0aa19ec7cea2755551f3037f646"
+        }
+      ]
+    },
+    {
+      "id": "chapter-025",
+      "number": 25,
+      "title": "DE PROFUNDIS",
+      "metrics": {
+        "narrativeWords": 1307,
+        "textBlocks": 66,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-025-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.095256,
+        "minimumInlineSeparation": 0.403979,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "474745dc861459a6e8856c6d8dd2d6bdcfcbb7ded6551e21cb5683b9bcf3492b",
+        "passageExcerpt": "The grotto was an immense apartment. Along its granite floor ran our faithful stream. At this distance from its spring the water was scarcely tepid, and we drank of it with pleasure. After breakfast the Professor gave a few hours to the arrangement of his daily notes. \"First,\" said he, \"I will make a calculation to ascertain our exact position. I hope, after our return, to draw a map of our journey, which will be in reality a vertical section of the globe, containing the track of our expedition.\"",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-025-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-025-hero.txt",
+        "promptSha256": "5861dd1c303928b8d7ac05624fbfb165214763af77f1e967426b88fca554cc0a"
+      },
+      "inline": [
+        {
+          "id": "chapter-025-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 35,
+          "anchorSha256": "15d86584edcb2d5a6a168238ef5e622e51097fea329db57b70ce2a209198cb52",
+          "align": "right",
+          "passageExcerpt": "\"At the latitude of Iceland, where we now are, the radius of the earth, the distance from the centre to the surface is about 1,583 leagues; let us say in round numbers 1,600 leagues, or 4,800 miles. Out of 1,600 leagues we have gone twelve!\" \"So you say.\" \"And these twelve at a cost of 85 leagues diagonally?\"",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-025-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-025-inline-01.txt",
+          "promptSha256": "c8421bef7dd9cff5e087b371f7ed7f3001c1f925642583dada8a828c6ae60622"
+        }
+      ]
+    },
+    {
+      "id": "chapter-026",
+      "number": 26,
+      "title": "THE WORST PERIL OF ALL",
+      "metrics": {
+        "narrativeWords": 820,
+        "textBlocks": 20,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-026-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.145122,
+        "minimumInlineSeparation": 0.354878,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "f632de7245417963671b78fcdc863e2fc8ee1e8a81a1f91465b4afabc6754f30",
+        "passageExcerpt": "It must be confessed that hitherto things had not gone on so badly, and that I had small reason to complain. If our difficulties became no worse, we might hope to reach our end. And to what a height of scientific glory we should then attain! I had become quite a Liedenbrock in my reasonings; seriously I had. But would this state of things last in the strange place we had come to? Perhaps it might. For several days steeper inclines, some even frightfully near to the perpendicular, brought us deeper and deeper into the mass of the interior of the earth. Some days we advanced nearer to the centre by a league and a half, or nearly two leagues. These were perilous descents, in which the skill and marvellous coolness of Hans were invaluable to us. That unimpassioned Icelander devoted himself with incomprehensible deliberation; and, thanks to him, we crossed many a dangerous spot which we should never have cleared alone. But his habit of silence gained upon him day by day, and was infecting us. External objects produce decided effects upon the brain. A man shut up between four walls soon loses the power to associate words and ideas together. How many prisoners in solitary confinement become idiots, if not mad, for want of exercise for the thinking faculty!",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-026-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-026-hero.txt",
+        "promptSha256": "788e746c7f221d788b5ab18369f01cdca61b8b0f476f18943d0d51a7fedeac46"
+      },
+      "inline": [
+        {
+          "id": "chapter-026-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 8,
+          "anchorSha256": "35b3c06916d28ac56efe765d40144160188aaf2f5b40f120b5725fa3cf01e0b4",
+          "align": "right",
+          "passageExcerpt": "Well, well, I thought; I have been going too fast, or Hans and my uncle have stopped on the way. Come, this won't do; I must join them. Fortunately there is not much of an ascent. I retraced my steps. I walked for a quarter of an hour. I gazed into the darkness. I shouted. No reply: my voice was lost in the midst of the cavernous echoes which alone replied to my call. I began to feel uneasy. A shudder ran through me.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-026-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-026-inline-01.txt",
+          "promptSha256": "335f2a5e099d7607f2b24d192c5bdff60a2818eb47cc5088ff5aeaa31defc61c"
+        }
+      ]
+    },
+    {
+      "id": "chapter-027",
+      "number": 27,
+      "title": "LOST IN THE BOWELS OF THE EARTH",
+      "metrics": {
+        "narrativeWords": 1129,
+        "textBlocks": 25,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-027-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.084145,
+        "minimumInlineSeparation": 0.430027,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "2054e2236778193e0d06af7a5a608aebe4dd10e163a24bef5a9ebd7ccb347a9d",
+        "passageExcerpt": "Mechanically I swept the ground with my hands. How dry and hard the rock seemed to me! But how had I left the course of the stream? For it was a terrible fact that it no longer ran at my side. Then I understood the reason of that fearful silence, when for the last time I listened to hear if any sound from my companions could reach my ears. At the moment when I left the right road I had not noticed the absence of the stream. It is evident that at that moment a deviation had presented itself before me, whilst the Hansbach, following the caprice of another incline, had gone with my companions away into unknown depths. How was I to return? There was not a trace of their footsteps or of my own, for the foot left no mark upon the granite floor. I racked my brain for a solution of this impracticable problem. One word described my position. Lost!",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-027-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-027-hero.txt",
+        "promptSha256": "7c31dc938b8aca7000f9f9aba0482eb9269f6fc97ee24dd996e4cdb7d5c67ec9"
+      },
+      "inline": [
+        {
+          "id": "chapter-027-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 15,
+          "anchorSha256": "b66296125f182c1da2d6378ee640024d2b92d75fc250d201e61328c31300186b",
+          "align": "right",
+          "passageExcerpt": "I must thus arrive at the point where I had left the stream, that fatal turn in the road. With the stream at my feet, I might hope to regain the summit of Snæfell. Why had I not thought of that sooner? Here was evidently a chance of safety. The most pressing duty was to find out again the course of the Hansbach. I rose, and leaning upon my iron-pointed stick I ascended the gallery. The slope was rather steep. I walked on without hope but without indecision, like a man who has made up his mind. For half an hour I met with no obstacle. I tried to recognise my way by the form of the tunnel, by the projections of certain rocks, by the disposition of the fractures. But no particular sign appeared, and I soon saw that this gallery could not bring me back to the turning point. It came to an abrupt end. I struck against an impenetrable wall, and fell down upon the rock.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-027-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-027-inline-01.txt",
+          "promptSha256": "25f00bf946e23eb8567cc19a4d3cec84d5616c08447ffa0351134238a2a6ca87"
+        }
+      ]
+    },
+    {
+      "id": "chapter-028",
+      "number": 28,
+      "title": "THE RESCUE IN THE WHISPERING GALLERY",
+      "metrics": {
+        "narrativeWords": 1416,
+        "textBlocks": 62,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-028-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.094986,
+        "minimumInlineSeparation": 0.406427,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ea3cd26cc6c497ab9a83552588bb64252d01cd06da375dfe90d1593d28ad231a",
+        "passageExcerpt": "After my fall I had lost a good deal of blood. I felt it flowing over me. Ah! how happy I should have been could I have died, and if death were not yet to be gone through. I would think no longer. I drove away every idea, and, conquered by my grief, I rolled myself to the foot of the opposite wall. Already I was feeling the approach of another faint, and was hoping for complete annihilation, when a loud noise reached me. It was like the distant rumble of continuous thunder, and I could hear its sounding undulations rolling far away into the remote recesses of the abyss. Whence could this noise proceed? It must be from some phenomenon proceeding in the great depths amidst which I lay helpless. Was it an explosion of gas? Was it the fall of some mighty pillar of the globe?",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-028-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-028-hero.txt",
+        "promptSha256": "d6e02589c6f6929b4f2e93e3217657f85e9851a62346678e00cf73ffa9cfffdb"
+      },
+      "inline": [
+        {
+          "id": "chapter-028-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 30,
+          "anchorSha256": "96df88bf8812c51e0a351b272048044fa689e327bac878ec783bc8a3aa267fb1",
+          "align": "right",
+          "passageExcerpt": "\"Lost, in the deepest darkness.\" \"Where is your lamp?\" \"It is out.\"",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-028-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-028-inline-01.txt",
+          "promptSha256": "af82390fb10d96b030d809d2440c44ab6524eeead014112e8e50e6dd4575d242"
+        }
+      ]
+    },
+    {
+      "id": "chapter-029",
+      "number": 29,
+      "title": "THALATTA! THALATTA!",
+      "metrics": {
+        "narrativeWords": 1035,
+        "textBlocks": 52,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-029-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.093237,
+        "minimumInlineSeparation": 0.413043,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "923877196f12d17ff993583346addd225cf21985ce6a3a2c17243fd78ebad4c7",
+        "passageExcerpt": "\"My dear nephew,\" said my uncle, pressing me to his breast, \"you are saved.\" I was deeply touched with the tenderness of his manner as he uttered these words, and still more with the care with which he watched over me. But such trials were wanted to bring out the Professor's tenderer qualities. At this moment Hans came, he saw my hand in my uncle's, and I may safely say that there was joy in his countenance.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-029-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-029-hero.txt",
+        "promptSha256": "1ec457bfb747c283faec317d6a40e7a8f4691986b40bff90a817d8a0ded083bb"
+      },
+      "inline": [
+        {
+          "id": "chapter-029-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 19,
+          "anchorSha256": "2edd2c0c29ef31b3f1e7675392bb15b91be22a813c0d593b92146c26768a1087",
+          "align": "right",
+          "passageExcerpt": "\"You can hardly fail to be better, for you have slept quietly. Hans and I watched you by turns, and we have noticed you were evidently recovering.\" \"Indeed, I do feel a great deal better, and I will give you a proof of that presently if you will let me have my breakfast.\" \"You shall eat, lad. The fever has left you. Hans rubbed your wounds with some ointment or other of which the Icelanders keep the secret, and they have healed marvellously. Our hunter is a splendid fellow!\"",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-029-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-029-inline-01.txt",
+          "promptSha256": "4ac27aad30f63de0318236db1a674a4f2a72dad4069ce840c21e2ad1815464fd"
+        }
+      ]
+    },
+    {
+      "id": "chapter-030",
+      "number": 30,
+      "title": "A NEW MARE INTERNUM",
+      "metrics": {
+        "narrativeWords": 2349,
+        "textBlocks": 51,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-030-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.111963,
+        "minimumInlineSeparation": 0.39272,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "e0695f9e1eb42e444c699bb157d96407eaf8b4ca2d6cca96f44cafc0108d4bf6",
+        "passageExcerpt": "…abited by the first of created beings. The waves broke on this shore with the hollow echoing murmur peculiar to vast inclosed spaces. A light foam flew over the waves before the breath of a moderate breeze, and some of the spray fell upon my face. On this slightly inclining shore, about a hundred fathoms from the limit of the waves, came down the foot of a huge wall of vast cliffs, which rose majestically to an enormous height. Some of these, dividing the beach with their sharp spurs, formed capes and promontories, worn away by the ceaseless action of the surf. Farther on the eye discerned their massive outline sharply defined against the hazy distant horizon. It was quite an ocean, with the irregular shores of earth, but desert and frightfully wild in appearance. If my eyes were able to range afar over this great sea, it was because a peculiar light brought to view every detail of it. It was not the light of the sun, with his dazzling shafts of brightness and the splendour of his rays; nor was it the pale and uncertain shimmer of the moonbeams, the dim reflection of a nobler body of light. No; the illuminating power of this light, its trembling diffusiveness, its bright, clear whiteness, and its low temperature, showed that it must be of electric origin. It was like an aurora borealis, a continuous cosmical phenomenon, filling a cavern of sufficient extent to contain an ocean.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-030-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-030-hero.txt",
+        "promptSha256": "1162223bba40e011fa704b332188137ddb5d328095e2384949abbd9496325c05"
+      },
+      "inline": [
+        {
+          "id": "chapter-030-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 20,
+          "anchorSha256": "6acce98be7cb4c0871f0d7ac180c515e24461aded6feb3b65c20a8cb41526299",
+          "align": "right",
+          "passageExcerpt": "\"Well, take my arm, Axel, and let us follow the windings of the shore.\" I eagerly accepted, and we began to coast along this new sea. On the left huge pyramids of rock, piled one upon another, produced a prodigious titanic effect. Down their sides flowed numberless waterfalls, which went on their way in brawling but pellucid streams. A few light vapours, leaping from rock to rock, denoted the place of hot springs; and streams flowed softly down to the common basin, gliding down the gentle slopes with a softer murmur. Amongst these streams I recognised our faithful travelling companion, the Hansbach, coming to lose its little volume quietly in the mighty sea, just as if it had done nothing else since the beginning of the world.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-030-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-030-inline-01.txt",
+          "promptSha256": "aaf5af2bda93b86e1804fae12ff841ce5756edabed2824f5cafcfe044e61c2d6"
+        }
+      ]
+    },
+    {
+      "id": "chapter-031",
+      "number": 31,
+      "title": "PREPARATIONS FOR A VOYAGE OF DISCOVERY",
+      "metrics": {
+        "narrativeWords": 1235,
+        "textBlocks": 55,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-031-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.104858,
+        "minimumInlineSeparation": 0.402834,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "fb513d6f992d0647fe1d96261530fe0a4efe312b868af07e205b25d82321cc70",
+        "passageExcerpt": "\"Now,\" said my uncle, \"now is the time for high tide, and we must not lose the opportunity to study this phenomenon.\" \"What! the tide!\" I cried. \"Can the influence of the sun and moon be felt down here?\" \"Why not? Are not all bodies subject throughout their mass to the power of universal attraction? This mass of water cannot escape the general law. And in spite of the heavy atmospheric pressure on the surface, you will see it rise like the Atlantic itself.\"",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-031-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-031-hero.txt",
+        "promptSha256": "239baec8cb84d12ae0494280664a5ec817f739779ecac4d47a2567c75fa3c7b8"
+      },
+      "inline": [
+        {
+          "id": "chapter-031-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 29,
+          "anchorSha256": "ba352906a919432120416223efeb46d457b00865262dcd68991bda0561424cfe",
+          "align": "right",
+          "passageExcerpt": "I remarked: \"It is so; and here is a fact which science has scarcely suspected.\" \"Science, my lad, has been built upon many errors; but they are errors which it was good to fall into, for they led to the truth.\" \"What depth have we now reached?\"",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-031-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-031-inline-01.txt",
+          "promptSha256": "0ef7cf6c420bbb820c25b4a94b5fcc6e24adb35bbd81ba7d5227e98a61094d0e"
+        }
+      ]
+    },
+    {
+      "id": "chapter-032",
+      "number": 32,
+      "title": "WONDERS OF THE DEEP",
+      "metrics": {
+        "narrativeWords": 2030,
+        "textBlocks": 46,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-032-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 5,
+        "sourceFraction": 0.096552,
+        "minimumInlineSeparation": 0.39803,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "cea7560da2fd9da9d5056f2fffe52043cc1e80953c8c64c125212493a7395df4",
+        "passageExcerpt": "\"Port Gräuben let it be then.\" And so the cherished remembrance of my Virlandaise became associated with our adventurous expedition. The wind was from the north-west. We went with it at a high rate of speed. The dense atmosphere acted with great force and impelled us swiftly on.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-032-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-032-hero.txt",
+        "promptSha256": "64e12761f94de1dee8ff06abe05b20fe41e86bf72b95ea7f05f5648e7015d77f"
+      },
+      "inline": [
+        {
+          "id": "chapter-032-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 27,
+          "anchorSha256": "ca25190a593ff1b86a220c7f3c3bc8249185db60f895e6dc558b02cd8a9b6ba6",
+          "align": "right",
+          "passageExcerpt": "\"But to what family does it belong?\" \"It is of the order of ganoids, of the family of the cephalaspidae; and a species of pterichthys. But this one displays a peculiarity confined to all fishes that inhabit subterranean waters. It is blind, and not only blind, but actually has no eyes at all.\" I looked: nothing could be more certain. But supposing it might be a solitary case, we baited afresh, and threw out our line. Surely this ocean is well peopled with fish, for in another couple of hours we took a large quantity of pterichthydes, as well as of others belonging to the extinct family of the dipterides, but of which my uncle could not tell the species; none had organs of sight. This unhoped-for catch recruited our stock of provisions.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-032-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-032-inline-01.txt",
+          "promptSha256": "8b29fe4fdd902ccf425663551591d2b68b8e5003faafa2933c395eca2125ae44"
+        }
+      ]
+    },
+    {
+      "id": "chapter-033",
+      "number": 33,
+      "title": "A BATTLE OF MONSTERS",
+      "metrics": {
+        "narrativeWords": 2035,
+        "textBlocks": 60,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-033-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 9,
+        "sourceFraction": 0.093366,
+        "minimumInlineSeparation": 0.730467,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "3eb2db730cde5e5cae56f7847502339da0cb16c46acb45e791e2006a0063e932",
+        "passageExcerpt": "\"Yet we are going very fast.\" \"What does that signify? I am not complaining that the rate is slow, but that the sea is so wide.\" I then remembered that the Professor, before starting, had estimated the length of this underground sea at thirty leagues. Now we had made three times the distance, yet still the southern coast was not in sight.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-033-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-033-hero.txt",
+        "promptSha256": "ea67d6284761a63c713bcb5bd13d844b26fde077a76a37cd74d379f54c7353dc"
+      },
+      "inline": [
+        {
+          "id": "lidenbrock-sea-monsters",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 55,
+          "anchorSha256": "9ca809c5781d2b89741e199bc0bd47d71cb01e443351e12e79419cfa30d52681",
+          "align": "plate",
+          "source": "output/imagegen/singles/journey-to-the-center-of-the-earth/scene.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/journey-to-the-center-of-the-earth/scene.txt",
+          "caption": "Monsters of the Lidenbrock Sea"
+        }
+      ]
+    },
+    {
+      "id": "chapter-034",
+      "number": 34,
+      "title": "THE GREAT GEYSER",
+      "metrics": {
+        "narrativeWords": 1424,
+        "textBlocks": 50,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-034-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 5,
+        "sourceFraction": 0.099368,
+        "minimumInlineSeparation": 0.390801,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "f45b9a304182b09626ef1f322748f48aa3fd0c8cc6e6afc6936c1bfac9c7ffeb",
+        "passageExcerpt": "\"In the distance,\" says the Professor, \"there is a rock or islet, against which the sea is breaking.\" Hans climbs up the mast, but sees no breakers. The ocean' is smooth and unbroken to its farthest limit. Three hours pass away. The roarings seem to proceed from a very distant waterfall.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-034-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-034-hero.txt",
+        "promptSha256": "593bd43a8e9c51edf615a6563a5dcab558227f74d054b9e0e3ca870892d3879e"
+      },
+      "inline": [
+        {
+          "id": "chapter-034-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 25,
+          "anchorSha256": "c85e274b8e06b4431014d032ddaeb049d6f65a7006be400e4c34e09f3bb2982a",
+          "align": "right",
+          "passageExcerpt": "Imprudently, therefore, we pursue our way. The nearer we approach, the higher mounts the jet of water. What monster can possibly fill itself with such a quantity of water, and spurt it up so continuously? At eight in the evening we are not two leagues distant from it. Its body—dusky, enormous, hillocky—lies spread upon the sea like an islet. Is it illusion or fear? Its length seems to me a couple of thousand yards. What can be this cetacean, which neither Cuvier nor Blumenbach knew anything about? It lies motionless, as if asleep; the sea seems unable to move it in the least; it is the waves that undulate upon its sides. The column of water thrown up to a height of five hundred feet falls in rain with a deafening uproar. And here are we scudding like lunatics before the wind, to get near to a monster that a hundred whales a day would not satisfy! Terror seizes upon me. I refuse to go further. I will cut the halliards if necessary! I am in open mutiny against the Professor, who vouchsafes no answer.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-034-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-034-inline-01.txt",
+          "promptSha256": "546f65d8078d778f0204730094a514339e3cf0a07626f22b6603c7040bc2a85e"
+        }
+      ]
+    },
+    {
+      "id": "chapter-035",
+      "number": 35,
+      "title": "AN ELECTRIC STORM",
+      "metrics": {
+        "narrativeWords": 1990,
+        "textBlocks": 44,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-035-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.101005,
+        "minimumInlineSeparation": 0.419849,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ac528f269ce51e5817e6af6f4c978c0fd30fa493ae1e80701d63aab1ddbbf118",
+        "passageExcerpt": "I feel peculiar sensations, like many creatures on earth at the approach of violent atmospheric changes. The heavily voluted cumulus clouds lower gloomily and threateningly; they wear that implacable look which I have sometimes noticed at the outbreak of a great storm. The air is heavy; the sea is calm. In the distance the clouds resemble great bales of cotton, piled up in picturesque disorder. By degrees they dilate, and gain in huge size what they lose in number. Such is their ponderous weight that they cannot rise from the horizon; but, obeying an impulse from higher currents, their dense consistency slowly yields. The gloom upon them deepens; and they soon present to our view a ponderous mass of almost level surface. From time to time a fleecy tuft of mist, with yet some gleaming light left upon it, drops down upon the dense floor of grey, and loses itself in the opaque and impenetrable mass. The atmosphere is evidently charged and surcharged with electricity. My whole body is saturated; my hair bristles just as when you stand upon an insulated stool under the action of an electrical machine. It seems to me as if my companions, the moment they touched me, would receive a severe shock like that from an electric eel.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-035-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-035-hero.txt",
+        "promptSha256": "ebae2d0468550f196e51247413346a1cb7ee531b75b80a8048b531a5bb5e0230"
+      },
+      "inline": [
+        {
+          "id": "chapter-035-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 21,
+          "anchorSha256": "611db20dedcfb26b78c920eea2fc20e4f5b061e58c9bb3159bf6d91c8e686327",
+          "align": "right",
+          "passageExcerpt": "But now the rain forms a rushing cataract in front of that horizon toward which we are running with such maddening speed. But before it has reached us the rain cloud parts asunder, the sea boils, and the electric fires are brought into violent action by a mighty chemical power that descends from the higher regions. The most vivid flashes of lightning are mingled with the violent crash of continuous thunder. Ceaseless fiery arrows dart in and out amongst the flying thunder-clouds; the vaporous mass soon glows with incandescent heat; hailstones rattle fiercely down, and as they dash upon our iron tools they too emit gleams and flashes of lurid light. The heaving waves resemble fiery volcanic hills, each belching forth its own interior flames, and every crest is plumed with dancing fire. My eyes fail under the dazzling light, my ears are stunned with the incessant crash of thunder. I must be bound to the mast, which bows like a reed before the mighty strength of the storm. (Here my notes become vague and indistinct. I have only been able to find a few which I seem to have jotted down almost unconsciously. But their very brevity and their obscurity reveal the intensity of the excitement which dominated me, and describe the actual position even better than my memory could do.) Sunday, 23.—Where are we? Driven forward with a swiftness that cannot be measured.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-035-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-035-inline-01.txt",
+          "promptSha256": "2b91109fd973f4328e0595aeeaf85ace805d896a6822e23d787c0fb3524749ff"
+        }
+      ]
+    },
+    {
+      "id": "chapter-036",
+      "number": 36,
+      "title": "CALM PHILOSOPHIC DISCUSSIONS",
+      "metrics": {
+        "narrativeWords": 1717,
+        "textBlocks": 62,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-036-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.099301,
+        "minimumInlineSeparation": 0.407105,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "55ef4ed0c8087e2ffaaeddec0ab5960d681901d3b8efa0cb06a52d7703671a9d",
+        "passageExcerpt": "Then he returned to the rocks, against which the furious waves were beating, to save what he could. I was unable to speak. I was shattered with fatigue and excitement; I wanted a whole hour to recover even a little. But a deluge of rain was still falling, though with that violence which generally denotes the near cessation of a storm. A few overhanging rocks afforded us some shelter from the storm. Hans prepared some food, which I could not touch; and each of us, exhausted with three sleepless nights, fell into a broken and painful sleep. The next day the weather was splendid. The sky and the sea had sunk into sudden repose. Every trace of the awful storm had disappeared. The exhilarating voice of the Professor fell upon my ears as I awoke; he was ominously cheerful.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-036-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-036-hero.txt",
+        "promptSha256": "9bfea68406e07257d8b57c87f08fb4156e9faf3980c62427d30ae006b3bde9fb"
+      },
+      "inline": [
+        {
+          "id": "chapter-036-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 36,
+          "anchorSha256": "38e3167b5319ec5749b50e811e790518d69f6aa3d077eaadb99b08a699626705",
+          "align": "right",
+          "passageExcerpt": "\"Here it is, upon this rock, in perfect condition, as well as the thermometers and the chronometer. The hunter is a splendid fellow.\" There was no denying it. We had all our instruments. As for tools and appliances, there they all lay on the ground—ladders, ropes, picks, spades, etc. Still there was the question of provisions to be settled, and I asked—\"How are we off for provisions?\"",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-036-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-036-inline-01.txt",
+          "promptSha256": "fdf8004681fd9ede8deb09bd0863135ec5d3195361b580c519450e0d570a47bc"
+        }
+      ]
+    },
+    {
+      "id": "chapter-037",
+      "number": 37,
+      "title": "THE LIEDENBROCK MUSEUM OF GEOLOGY",
+      "metrics": {
+        "narrativeWords": 1425,
+        "textBlocks": 30,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-037-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.107368,
+        "minimumInlineSeparation": 0.38386,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "2b0d90ac373c6327f5538d69eae33f3b7d22355494b059019b1033bc66a4753b",
+        "passageExcerpt": "\"Aha! will fate play tricks upon me? Will the elements lay plots against me? Shall fire, air, and water make a combined attack against me? Well, they shall know what a determined man can do. I will not yield. I will not stir a single foot backwards, and it will be seen whether man or nature is to have the upper hand!\" Erect upon the rock, angry and threatening, Otto Liedenbrock was a rather grotesque fierce parody upon the fierce Achilles defying the lightning. But I thought it my duty to interpose and attempt to lay some restraint upon this unmeasured fanaticism. \"Just listen to me,\" I said firmly. \"Ambition must have a limit somewhere; we cannot perform impossibilities; we are not at all fit for another sea voyage; who would dream of undertaking a voyage of five hundred leagues upon a heap of rotten planks, with a blanket in rags for a sail, a stick for a mast, and fierce winds in our teeth? We cannot steer; we shall be buffeted by the tempests, and we should be fools and madmen to attempt to cross a second time.\"",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-037-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-037-hero.txt",
+        "promptSha256": "eb969d12d7029a8d67479c9a0d1adec76e5fc67d320a32b5986b4de4154ae249"
+      },
+      "inline": [
+        {
+          "id": "chapter-037-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 18,
+          "anchorSha256": "e94ca8a2e84a67e46ca10885ba23a45decb1f3fccdf0092051c855d17a2b00c0",
+          "align": "right",
+          "passageExcerpt": "\"Now let us start upon fresh discoveries,\" I said. And leaving Hans to his work we started off together. The space between the water and the foot of the cliffs was considerable. It took half an hour to bring us to the wall of rock. We trampled under our feet numberless shells of all the forms and sizes which existed in the earliest ages of the world. I also saw immense carapaces more than fifteen feet in diameter. They had been the coverings of those gigantic glyptodons or armadilloes of the pleiocene period, of which the modern tortoise is but a miniature representative. [1] The soil was besides this scattered with stony fragments, boulders rounded by water action, and ridged up in successive lines. I was therefore led to the conclusion that at one time the sea must have covered the ground on which we were treading. On the loose and scattered rocks, now out of the reach of the highest tides, the waves had left manifest traces of their power to wear their way in the hardest stone. This might up to a certain point explain the existence of an ocean forty leagues beneath the surface of the globe. But in my opinion this liquid mass would be lost by degrees farther and farther within the interior of the earth, and it certainly had its origin in the waters of the ocean overhead, which had made their way hither through some fissure. Yet it must be believed that that fissure is now clo…",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-037-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-037-inline-01.txt",
+          "promptSha256": "950d33664f5ae90525d9517a6731c7955f9fbd35fc88e1ef1268284304e12161"
+        }
+      ]
+    },
+    {
+      "id": "chapter-038",
+      "number": 38,
+      "title": "THE PROFESSOR IN HIS CHAIR AGAIN",
+      "metrics": {
+        "narrativeWords": 1832,
+        "textBlocks": 30,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-038-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.093341,
+        "minimumInlineSeparation": 0.396834,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "bba7b65ea9c480148b5fed3e71113dfa112c298bb87841fc102491c5948dbfbd",
+        "passageExcerpt": "On the 28th of March, 1863, some excavators working under the direction of M. Boucher de Perthes, in the stone quarries of Moulin Quignon, near Abbeville, in the department of Somme, found a human jawbone fourteen feet beneath the surface. It was the first fossil of this nature that had ever been brought to light. Not far distant were found stone hatchets and flint arrow-heads stained and encased by lapse of time with a uniform coat of rust. The noise of this discovery was very great, not in France alone, but in England and in Germany. Several savants of the French Institute, and amongst them MM. Milne-Edwards and de Quatrefages, saw at once the importance of this discovery, proved to demonstration the genuineness of the bone in question, and became the most ardent defendants in what the English called this 'trial of a jawbone.' To the geologists of the United Kingdom, who believed in the certainty of the fact—Messrs. Falconer, Busk, Carpenter, and others—scientific Germans were soon joined, and amongst them the forwardest, the most fiery, and the most enthusiastic, was my uncle Liedenbrock. Therefore the genuineness of a fossil human relic of the quaternary period seemed to be incontestably proved and admitted.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-038-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-038-hero.txt",
+        "promptSha256": "26b78ae8d0f86773ef49aa47958ccf8c985b49c67a05aaa70c3c04aee95ba1d8"
+      },
+      "inline": [
+        {
+          "id": "chapter-038-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 11,
+          "anchorSha256": "813c0b6ad5c9dd0e1640429caa68e533c6d9b2ae909bb6edd0896134c697c836",
+          "align": "right",
+          "passageExcerpt": "…\"Gentlemen, I have the honour to introduce to you a man of the quaternary or post-tertiary system. Eminent geologists have denied his existence, others no less eminent have affirmed it. The St. Thomases of palæontology, if they were here, might now touch him with their fingers, and would be obliged to acknowledge their error. I am quite aware that science has to be on its guard with discoveries of this kind. I know what capital enterprising individuals like Barnum have made out of fossil men. I have heard the tale of the kneepan of Ajax, the pretended body of Orestes claimed to have been found by the Spartans, and of the body of Asterius, ten cubits long, of which Pausanias speaks. I have read the reports of the skeleton of Trapani, found in the fourteenth century, and which was at the time identified as that of Polyphemus; and the history of the giant unearthed in the sixteenth century near Palermo. You know as well as I do, gentlemen, the analysis made at Lucerne in 1577 of those huge bones which the celebrated Dr. Felix Plater affirmed to be those of a giant nineteen feet high. I have gone through the treatises of Cassanion, and all those memoirs, pamphlets, answers, and rejoinders published respecting the skeleton of Teutobochus, the invader of Gaul, dug out of a sandpit in the Dauphiné, in 1613. In the eighteenth century I would have stood up for Scheuchzer's pre-adamite m…",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-038-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-038-inline-01.txt",
+          "promptSha256": "7d68dd2c891208eb09d7b7a036f8eb9e8eb8e919622065e22b67a1a5a9cc145e"
+        }
+      ]
+    },
+    {
+      "id": "chapter-039",
+      "number": 39,
+      "title": "FOREST SCENERY ILLUMINATED BY ELECTRICITY",
+      "metrics": {
+        "narrativeWords": 2023,
+        "textBlocks": 51,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-039-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.097874,
+        "minimumInlineSeparation": 0.415225,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "66714b6ec7d47f5b7dd0e503d697d773b853fe9b03e176706dd08e9fd98aa68f",
+        "passageExcerpt": "…thed in luminous electric fluid. By some phenomenon which I am unable to explain, it lighted up all sides of every object equally. Such was its diffusiveness, there being no central point from which the light emanated, that shadows no longer existed. You might have thought yourself under the rays of a vertical sun in a tropical region at noonday and the height of summer. No vapour was visible. The rocks, the distant mountains, a few isolated clumps of forest trees in the distance, presented a weird and wonderful aspect under these totally new conditions of a universal diffusion of light. We were like Hoffmann's shadowless man. After walking a mile we reached the outskirts of a vast forest, but not one of those forests of fungi which bordered Port Gräuben. Here was the vegetation of the tertiary period in its fullest blaze of magnificence. Tall palms, belonging to species no longer living, splendid palmacites, firs, yews, cypress trees, thujas, representatives of the conifers, were linked together by a tangled network of long climbing plants. A soft carpet of moss and hepaticas luxuriously clothed the soil. A few sparkling streams ran almost in silence under what would have been the shade of the trees, but that there was no shadow. On their banks grew tree-ferns similar to those we grow in hothouses. But a remarkable feature was the total absence of colour in all those trees, sh…",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-039-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-039-hero.txt",
+        "promptSha256": "68a0a59d10bbc655ba8549bf98c1d00851e4e68f92b7ddc0927aaf94454749f2"
+      },
+      "inline": [
+        {
+          "id": "chapter-039-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 20,
+          "anchorSha256": "6acc889f339a9a2a3a2e8f00aa18f3e6f79e16898b860f4827c1ccaadfb9aa67",
+          "align": "right",
+          "passageExcerpt": "In another quarter of an hour our nimble heels had carried us beyond the reach of this horrible monster. And yet, now that I can reflect quietly, now that my spirit has grown calm again, now that months have slipped by since this strange and supernatural meeting, what am I to think? what am I to believe? I must conclude that it was impossible that our senses had been deceived, that our eyes did not see what we supposed they saw. No human being lives in this subterranean world; no generation of men dwells in those inferior caverns of the globe, unknown to and unconnected with the inhabitants of its surface. It is absurd to believe it! I had rather admit that it may have been some animal whose structure resembled the human, some ape or baboon of the early geological ages, some protopitheca, or some mesopitheca, some early or middle ape like that discovered by Mr. Lartet in the bone cave of Sansau. But this creature surpassed in stature all the measurements known in modern palæontology. But that a man, a living man, and therefore whole generations doubtless besides, should be buried there in the bowels of the earth, is impossible.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-039-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-039-inline-01.txt",
+          "promptSha256": "b8c7216fc8891df0f73dcef62064f7284b857264fd319fe8957cd7c861cc296d"
+        }
+      ]
+    },
+    {
+      "id": "chapter-040",
+      "number": 40,
+      "title": "PREPARATIONS FOR BLASTING A PASSAGE TO THE CENTRE OF THE EARTH",
+      "metrics": {
+        "narrativeWords": 1553,
+        "textBlocks": 46,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-040-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.123954,
+        "minimumInlineSeparation": 0.366388,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "bdd8a3cf6a151e338c78ef584d2e4723bd585e1a422c6814fb0a89c5797539ee",
+        "passageExcerpt": "Whilst these reflections were occupying me, Professor Liedenbrock had launched into a somewhat rhapsodical eulogium, of which Arne Saknussemm was, of course, the hero. \"Thou marvellous genius!\" he cried, \"thou hast not forgotten one indication which might serve to lay open to mortals the road through the terrestrial crust; and thy fellow-creatures may even now, after the lapse of three centuries, again trace thy footsteps through these deep and darksome ways. You reserved the contemplation of these wonders for other eyes besides your own. Your name, graven from stage to stage, leads the bold follower of your footsteps to the very centre of our planet's core, and there again we shall find your own name written with your own hand. I too will inscribe my name upon this dark granite page. But for ever henceforth let this cape that advances into the sea discovered by yourself be known by your own illustrious name—Cape Saknussemm.\" Such were the glowing words of panegyric which fell upon my attentive ear, and I could not resist the sentiment of enthusiasm with which I too was infected. The fire of zeal kindled afresh in me. I forgot everything. I dismissed from my mind the past perils of the journey, the future danger of our return. That which another had done I supposed we might also do, and nothing that was not superhuman appeared impossible to me.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-040-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-040-hero.txt",
+        "promptSha256": "91087dfa543ea01eb5afbfa1f115e5fbf4100e5193e0068e5f0d9ed60ba28acc"
+      },
+      "inline": [
+        {
+          "id": "chapter-040-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 18,
+          "anchorSha256": "5a6847df2233c523434f3c029f2526cba2663506996378c4b22895b6d90a1cb7",
+          "align": "right",
+          "passageExcerpt": "All this crazy talk was going on still when we met the hunter. Everything was made ready for our instant departure. Every bit of cordage was put on board. We took our places, and with our sail set, Hans steered us along the coast to Cape Saknussemm. The wind was unfavourable to a species of launch not calculated for shallow water. In many places we were obliged to push ourselves along with iron-pointed sticks. Often the sunken rocks just beneath the surface obliged us to deviate from our straight course. At last, after three hours' sailing, about six in the evening we reached a place suitable for our landing. I jumped ashore, followed by my uncle and the Icelander. This short passage had not served to cool my ardour. On the contrary, I even proposed to burn 'our ship,' to prevent the possibility of return; but my uncle would not consent to that. I thought him singularly lukewarm. \"At least,\" I said, \"don't let us lose a minute.\"",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-040-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-040-inline-01.txt",
+          "promptSha256": "217d5298c615f7197b58281b9f17c893e7b3684b49f7e4cda6413d63184dbbe3"
+        }
+      ]
+    },
+    {
+      "id": "chapter-041",
+      "number": 41,
+      "title": "THE GREAT EXPLOSION AND THE RUSH DOWN BELOW",
+      "metrics": {
+        "narrativeWords": 1584,
+        "textBlocks": 35,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-041-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.101957,
+        "minimumInlineSeparation": 0.375,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "edf8bdbb0a7b6a2348d717a02e4485ff4eb6d237b240d029fafd916669f16a88",
+        "passageExcerpt": "I begged for the honour of lighting the fuse. This duty done, I was to join my companions on the raft, which had not yet been unloaded; we should then push off as far as we could and avoid the dangers arising from the explosion, the effects of which were not likely to be confined to the rock itself. The fuse was calculated to burn ten minutes before setting fire to the mine. I therefore had sufficient time to get away to the raft. I prepared to fulfil my task with some anxiety.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-041-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-041-hero.txt",
+        "promptSha256": "1d2f87d15bab6753b684a44bf6a9771d9b58110a90fdb32775c8cb202d2be34f"
+      },
+      "inline": [
+        {
+          "id": "chapter-041-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 23,
+          "anchorSha256": "4c432e0503d6069ce49d31ddfc7e19d71bf7cc26350d9c42b4ea7a581dd1a4bd",
+          "align": "right",
+          "passageExcerpt": "These ideas, it will be understood, presented themselves to my mind in a vague and undetermined form. I had difficulty in associating any ideas together during this headlong race, which seemed like a vertical descent. To judge by the air which was whistling past me and made a whizzing in my ears, we were moving faster than the fastest express trains. To light a torch under these conditions would have been impossible; and our last electric apparatus had been shattered by the force of the explosion. I was therefore much surprised to see a clear light shining near me. It lighted up the calm and unmoved countenance of Hans. The skilful huntsman had succeeded in lighting the lantern; and although it flickered so much as to threaten to go out, it threw a fitful light across the awful darkness. I was right in my supposition. It was a wide gallery. The dim light could not show us both its walls at once. The fall of the waters which were carrying us away exceeded that of the swiftest rapids in American rivers. Its surface seemed composed of a sheaf of arrows hurled with inconceivable force; I cannot convey my impressions by a better comparison. The raft, occasionally seized by an eddy, spun round as it still flew along. When it approached the walls of the gallery I threw on them the light of the lantern, and I could judge somewhat of the velocity of our speed by noticing how the jagged…",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-041-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-041-inline-01.txt",
+          "promptSha256": "fb3acdfe5b6ec9c9841f4a46d927d0498199cd3cac1a8dd0b93afb07478fab9e"
+        }
+      ]
+    },
+    {
+      "id": "chapter-042",
+      "number": 42,
+      "title": "HEADLONG SPEED UPWARD THROUGH THE HORRORS OF DARKNESS",
+      "metrics": {
+        "narrativeWords": 1706,
+        "textBlocks": 67,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-042-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 7,
+        "sourceFraction": 0.099062,
+        "minimumInlineSeparation": 0.405334,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "b867c76274cf1823aa5983328cdfc996c4845e3f0d985f068dfda653da3318b7",
+        "passageExcerpt": "Not without difficulty Hans succeeded in lighting the torch; and the flame, preserving its upward tendency, threw enough light to show us what kind of a place we were in. \"Just as I thought,\" said the Professor \"We are in a tunnel not four-and-twenty feet in diameter. The water had reached the bottom of the gulf. It is now rising to its level, and carrying us with it.\" \"Where to?\"",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-042-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-042-hero.txt",
+        "promptSha256": "a6f1fc84c9157eda1ce8b0fad503cc7da99d16d782494ffb21e1d59347c0710d"
+      },
+      "inline": [
+        {
+          "id": "chapter-042-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 40,
+          "anchorSha256": "69b8b0d76e41ec3ffaeeec6571e0696b3472cd5c15ddc788d85bab696a2287ca",
+          "align": "right",
+          "passageExcerpt": "\"What! do you think there is any chance of safety left?\" \"Yes, I do; as long as the heart beats, as long as body and soul keep together, I cannot admit that any creature endowed with a will has need to despair of life.\" Resolute words these! The man who could speak so, under such circumstances, was of no ordinary type.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-042-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-042-inline-01.txt",
+          "promptSha256": "4fbe9f30dc120c5525abb398b96257822110611a56158f0bbfcb22adb8cfd6b5"
+        }
+      ]
+    },
+    {
+      "id": "chapter-043",
+      "number": 43,
+      "title": "SHOT OUT OF A VOLCANO AT LAST!",
+      "metrics": {
+        "narrativeWords": 1898,
+        "textBlocks": 52,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-043-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.115911,
+        "minimumInlineSeparation": 0.410959,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "723d650290939db1693309af70192edba934c480585577db0bd8577040df3c36",
+        "passageExcerpt": "But other facts, other circumstances, of a peculiar nature, came to reveal to me by degrees the true state of the case. There came incessant and continuous explosions. I could only compare them to the loud rattle of a long train of chariots driven at full speed over the stones, or a roar of unintermitting thunder. Then the disordered compass, thrown out of gear by the electric currents, confirmed me in a growing conviction. The mineral crust of the globe threatened to burst up, the granite foundations to come together with a crash, the fissure through which we were helplessly driven would be filled up, the void would be full of crushed fragments of rock, and we poor wretched mortals were to be buried and annihilated in this dreadful consummation. \"My uncle,\" I cried, \"we are lost now, utterly lost!\"",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-043-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-043-hero.txt",
+        "promptSha256": "4ada40b41588bdd8e2d690f11978ec829071190626d5630336b4469d6e4bcca9"
+      },
+      "inline": [
+        {
+          "id": "chapter-043-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 25,
+          "anchorSha256": "3e20bf320f936c427eccdd436c683cd04856b1b2c303c12f28ba137bd6ac4987",
+          "align": "right",
+          "passageExcerpt": "…north for hundreds of leagues. Were we under Iceland again? Were we destined to be thrown up out of Hecla, or by which of the seven other fiery craters in that island? Within a radius of five hundred leagues to the west I remembered under this parallel of latitude only the imperfectly known volcanoes of the north-east coast of America. To the east there was only one in the 80th degree of north latitude, the Esk in Jan Mayen Island, not far from Spitzbergen! Certainly there was no lack of craters, and there were some capacious enough to throw out a whole army! But I wanted to know which of them was to serve us for an exit from the inner world. Towards morning the ascending movement became accelerated. If the heat increased, instead of diminishing, as we approached nearer to the surface of the globe, this effect was due to local causes alone, and those volcanic. The manner of our locomotion left no doubt in my mind. An enormous force, a force of hundreds of atmospheres, generated by the extreme pressure of confined vapours, was driving us irresistibly forward. But to what numberless dangers it exposed us! Soon lurid lights began to penetrate the vertical gallery which widened as we went up. Right and left I could see deep channels, like huge tunnels, out of which escaped dense volumes of smoke; tongues of fire lapped the walls, which crackled and sputtered under the intense heat.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-043-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-043-inline-01.txt",
+          "promptSha256": "36fdf0e37f6a7e23a00d53167c2ad8e633bfa9a2fc22821356540651f47d27b9"
+        }
+      ]
+    },
+    {
+      "id": "chapter-044",
+      "number": 44,
+      "title": "SUNNY LANDS IN THE BLUE MEDITERRANEAN",
+      "metrics": {
+        "narrativeWords": 1890,
+        "textBlocks": 62,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-044-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 7,
+        "sourceFraction": 0.10291,
+        "minimumInlineSeparation": 0.400794,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "62eb31baf9efde27303fd0465b7b8d5c5ebb2a7c6621355e55f4dcf72a3ba4c3",
+        "passageExcerpt": "\"Hans must be mistaken,\" I said, raising myself up. This was our final surprise after all the astonishing events of our wonderful journey. I expected to see a white cone covered with the eternal snow of ages rising from the midst of the barren deserts of the icy north, faintly lighted with the pale rays of the arctic sun, far away in the highest latitudes known; but contrary to all our expectations, my uncle, the Icelander, and myself were sitting half-way down a mountain baked under the burning rays of a southern sun, which was blistering us with the heat, and blinding us with the fierce light of his nearly vertical rays. I could not believe my own eyes; but the heated air and the sensation of burning left me no room for doubt. We had come out of the crater half naked, and the radiant orb to which we had been strangers for two months was lavishing upon us out of his blazing splendours more of his light and heat than we were able to receive with comfort.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-044-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-044-hero.txt",
+        "promptSha256": "781c5a71e9282fd0decc1a5ebe20d0ef38e0a778ba91ac0a518ecf67bdaba2cd"
+      },
+      "inline": [
+        {
+          "id": "chapter-044-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 23,
+          "anchorSha256": "a9e57ccb785a6454f2d34f7fd9d688398a72fcc0e899707acd158d5a31f0845f",
+          "align": "right",
+          "passageExcerpt": "The slope of the volcano was in many places of great steepness. We slid down screes of ashes, carefully avoiding the lava streams which glided sluggishly by us like fiery serpents. As we went I chattered and asked all sorts of questions as to our whereabouts, for I was too much excited not to talk a great deal. \"We are in Asia,\" I cried, \"on the coasts of India, in the Malay Islands, or in Oceania. We have passed through half the globe, and come out nearly at the antipodes.\" \"But the compass?\" said my uncle.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-044-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-044-inline-01.txt",
+          "promptSha256": "6bb2c466268eb013cabbfa3aa28b665ca97ebab2b5bbe31f84eeae049ca0bdfd"
+        }
+      ]
+    },
+    {
+      "id": "chapter-045",
+      "number": 45,
+      "title": "ALL'S WELL THAT ENDS WELL",
+      "metrics": {
+        "narrativeWords": 1114,
+        "textBlocks": 35,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-045-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.109066,
+        "minimumInlineSeparation": 0.390934,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "c0659151a5a64c3ede1546bb8e33c956247dafd221126b13919ca88303560ef2",
+        "passageExcerpt": "The Stromboliotes received us kindly as shipwrecked mariners. They gave us food and clothing. After waiting forty-eight hours, on the 31st of August, a small craft took us to Messina, where a few days' rest completely removed the effect of our fatigues. On Friday, September the 4th, we embarked on the steamer Volturno, employed by the French Messageries Imperiales, and in three days more we were at Marseilles, having no care on our minds except that abominable deceitful compass, which we had mislaid somewhere and could not now examine; but its inexplicable behaviour exercised my mind fearfully. On the 9th of September, in the evening, we arrived at Hamburg. I cannot describe to you the astonishment of Martha or the joy of Gräuben.",
+        "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+        "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/heroes/chapter-045-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-045-hero.txt",
+        "promptSha256": "ce1d1922ccd61913e4d61c5df828e756f5867b5606a7a8fb74c0b4a015ebb0a6"
+      },
+      "inline": [
+        {
+          "id": "chapter-045-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 11,
+          "anchorSha256": "44c6a36e70d05b71fab9d17d9ae909887b32067d7dbb8537a966e8ea7c98cf6b",
+          "align": "right",
+          "passageExcerpt": "For my part I cannot agree with his theory of gradual cooling: in spite of what I have seen and felt, I believe, and always shall believe, in the central heat. But I admit that certain circumstances not yet sufficiently understood may tend to modify in places the action of natural phenomena. While these questions were being debated with great animation, my uncle met with a real sorrow. Our faithful Hans, in spite of our entreaties, had left Hamburg; the man to whom we owed all our success and our lives too would not suffer us to reward him as we could have wished. He was seized with the mal de pays, a complaint for which we have not even a name in English. \" Farval, \" said he one day; and with that simple word he left us and sailed for Rejkiavik, which he reached in safety.",
+          "referenceImage": "output/imagegen/references/journey-to-the-center-of-the-earth.webp",
+          "output": "output/imagegen/chapter-scenes/journey-to-the-center-of-the-earth/inline/chapter-045-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/journey-to-the-center-of-the-earth/chapter-045-inline-01.txt",
+          "promptSha256": "77ecd160c5d76403af79a91157a1eb39e543c22dda947de8a1e6f3c2b3e2f28a"
+        }
+      ]
+    }
+  ]
+}

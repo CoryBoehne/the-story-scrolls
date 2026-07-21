@@ -1,0 +1,1630 @@
+{
+  "schemaVersion": 1,
+  "storySlug": "the-princess-and-the-goblin",
+  "title": "The Princess and the Goblin",
+  "author": "George MacDonald",
+  "generation": {
+    "provider": "OpenAI",
+    "model": "gpt-image-2",
+    "quality": "low",
+    "format": "webp"
+  },
+  "artDirection": {
+    "style": "Jewel-like watercolor resembling illuminated stained glass; lapis, amethyst, ember orange and moon silver; faceted cavern shadows, luminous edges and a delicate silver-thread motif.",
+    "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+    "referenceStatus": "approved-existing"
+  },
+  "quota": {
+    "unit": "inline-illustrations-per-chapter",
+    "formula": "min(4, max(1, ceil(narrativeWords / 3000), ceil(textBlocks / 100)))",
+    "narrativeBlockTypes": [
+      "paragraph",
+      "verse"
+    ],
+    "heroesAreAdditionalToInlineQuota": true
+  },
+  "referenceJob": null,
+  "summary": {
+    "chapters": 32,
+    "desiredInline": 35,
+    "retainedInline": 4,
+    "plannedInline": 31,
+    "plannedHeroes": 32
+  },
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "number": 1,
+      "title": "WHY THE PRINCESS HAS A STORY ABOUT HER",
+      "metrics": {
+        "narrativeWords": 969,
+        "textBlocks": 14,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-001-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 8,
+        "sourceFraction": 0.116615,
+        "minimumInlineSeparation": 0.324045,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "b19de383ac9d2e49cf4d64817ffb95786df24da131daa7a419a79aad4dc04ee5",
+        "passageExcerpt": "\" The daughter of a king. \" \" Very well, then every little girl is a princess, and there would be no need to say anything about it, except that she is always in danger of forgetting her rank, and behaving as if she had grown out of the mud. I have seen little princesses behave like the children of thieves and lying beggars, and that is why they need to be told they are princesses. And that is why, when I tell a story of this kind, I like to tell it about a princess. Then I can say better what I mean, because I can then give her every beautiful thing I want her to have. \" \" Please go on. \"",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-001-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-001-hero.txt",
+        "promptSha256": "e3ad04493eb434592e932e91e5f4ef6f75944db5afc3ece5e9aba2182f0509a7"
+      },
+      "inline": [
+        {
+          "id": "chapter-001-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 12,
+          "anchorSha256": "ff566a24b186c08cead4d8e420706b7f1b17b61c0c674377c54f5fb6b077da9f",
+          "align": "right",
+          "passageExcerpt": "…y, with eyes like two bits of night-sky, each with a star dissolved in the blue. Those eyes you would have thought must have known they came from there, so often were they turned up in that direction. The ceiling of her nursery was blue, with stars in it, as like the sky as they could make it. But I doubt if ever she saw the real sky with the stars in it, for a reason which I had better mention at once. These mountains were full of hollow places underneath; huge caverns, and winding ways, some with water running through them, and some shining with all colors of the rainbow when a light was taken in. There would not have been much known about them, had there not been mines there, great deep pits, with long galleries and passages running off from them, which had been dug to get at the ore of which the mountains were full. In the course of digging, the miners came upon many of these natural caverns. A few of them had far-off openings out on the side of a mountain, or into a ravine. Now in these subterranean caverns lived a strange race of beings, called by some gnomes, by some kobolds, by some goblins. There was a legend current in the country that at one time they lived above ground, and were very like other people. But for some reason or other, concerning which there were different legendary theories, the king had laid what they thought too severe taxes upon them, or had require…",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-001-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-001-inline-01.txt",
+          "promptSha256": "1e86b38475778ce988dfdcd86c423f379b31e3c0daa8f70446c9b172df60a76f"
+        }
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "number": 2,
+      "title": "THE PRINCESS LOSES HERSELF",
+      "metrics": {
+        "narrativeWords": 852,
+        "textBlocks": 6,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-002-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.012324,
+        "minimumInlineSeparation": 0.554577,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "8ba4b2515a20ebc4e37fa1e54126991be814eba05b777fa8513660516ab47a37",
+        "passageExcerpt": "I HAVE said the Princess Irene was about eight years old when my story begins. And this is how it begins. One very wet day, when the mountain was covered with mist which was constantly gathering itself together into rain-drops, and pouring down on the roofs of the great old house, whence it fell in a fringe of water from the eaves all round about it, the princess could not of course go out. She got very tired, so tired that even her toys could no longer amuse her. You would wonder at that if I had time to describe to you one half of the toys she had. But then you wouldn't have the toys themselves, and that makes all the difference: you can't get tired of a thing before you have it. It was a picture, though, worth seeing—the princess sitting in the nursery with the sky-ceiling over her head, at a great table covered with her toys. If the artist would like to draw this, I should advise him not to meddle with the toys. I am afraid of attempting to describe them, and I think he had better not try to draw them. He had better not. He can do a thousand things I can't, but I don't think he could draw those toys. No man could better make the princess herself than he could, though—leaning with her back bowed into the back of the chair, her head hanging down, and her hands in her lap, very miserable as she would say herself, not even knowing what she would like, except to go out and get v…",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-002-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-002-hero.txt",
+        "promptSha256": "21c8b39c22686c0ef6a2aa1448e14f1d9a0ab036dc4a43ab27c3cfd2ace9d520"
+      },
+      "inline": [
+        {
+          "id": "chapter-002-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 3,
+          "anchorSha256": "b13f78afff6f524c7e685568225f8f59f2dc03ffe57c421b5c65ed7e68d0ac74",
+          "align": "right",
+          "passageExcerpt": "…but one which opened at the foot of a curious old stair of worm-eaten oak, which looked as if never any one had set foot upon it. She had once before been up six steps, and that was sufficient reason, in such a day, for trying to find out what was at the top of it. Up and up she ran—such a long way it seemed to her! until she came to the top of the third flight. There she found the landing was the end of a long passage. Into this she ran. It was full of doors on each side. There were so many that she did not care to open any, but ran on to the end, where she turned into another passage, also full of doors. When she had turned twice more, and still saw doors and only doors about her, she began to get frightened. It was so silent! And all those doors must hide rooms with nobody in them! That was dreadful. Also the rain made a great trampling noise on the roof. She turned and started at full speed, her little footsteps echoing through the sounds of the rain—back for the stairs and her safe nursery. So she thought, but she had lost herself long ago. It doesn't follow that she was lost, because she had lost herself though. She ran for some distance, turned several times, and then began to be afraid. Very soon she was sure that she had lost the way back. Rooms everywhere, and no stair! Her little heart beat as fast as her little feet ran, and a lump of tears was growing in her throat…",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-002-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-002-inline-01.txt",
+          "promptSha256": "a9b559f874ed4ede164672e97e0f73edf40919316d077e4c4e196738864f203f"
+        }
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "number": 3,
+      "title": "THE PRINCESS AND—WE SHALL SEE WHO",
+      "metrics": {
+        "narrativeWords": 2027,
+        "textBlocks": 92,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-003-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.114948,
+        "minimumInlineSeparation": 0.393192,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "cf711fa214a8e2af0d60f044fb23c8b70c753f2d2cbdba4f64a2bdfc9365d4c1",
+        "passageExcerpt": "…tle while and then beginning again. It was more like the hum of a very happy bee that had found a rich well of honey in some globular flower, than anything else I can think of at this moment. Where could it come from? She laid her ear first to one of the doors to hearken if it was there—then to another. When she laid her ear against the third door, there could be no doubt where it came from: it must be from something in that room. What could it be? She was rather afraid, but her curiosity was stronger than her fear, and she opened the door very gently and peeped in. What do you think she saw? A very old lady who sat spinning. \" Oh, Mr. Editor! I know the story you are going to tell: it's The Sleeping Beauty; only you're spinning too, and making it longer. \" \" No, indeed, it is not that story. Why should I tell one that every properly educated child knows already? More old ladies than one have sat spinning in a garret. Besides, the old lady in that story was only spinning with a spindle, and this one was spinning with a spinning wheel, else how could the princess have heard the sweet noise through the door? Do you know the difference? Did you ever see a spindle or a spinning wheel? I daresay you never did. Well, ask your mamma to explain to you the difference. Between ourselves, however, I shouldn't wonder if she didn't know much better than you. Another thing is, that this is n…",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-003-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-003-hero.txt",
+        "promptSha256": "ffd94532e3137f04454cf289ba27a02bb98d1995eb0b5a466b51685847e0d6a7"
+      },
+      "inline": [
+        {
+          "id": "chapter-003-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 22,
+          "anchorSha256": "167352415135655ffe674f006a49036ff74de72b1f7ff4c46cebf9ce1fdae2ca",
+          "align": "right",
+          "passageExcerpt": "When she carried away the basin and towel, the little princess wondered to see how straight and tall she was, for, although she was so old, she didn't stoop a bit. She was dressed in black velvet with thick white heavy-looking lace about it; and on the black dress her hair shone like silver. There was hardly any more furniture in the room than there might have been in that of the poorest old woman who made her bread by her spinning. There was no carpet on the floor—no table anywhere—nothing but the spinning-wheel and the chair beside it. When she came back, she sat down again, and without a word began her spinning once more, while Irene, who had never seen a spinning-wheel, stood by her side and looked on. When the old lady had succeeded in getting her thread fairly in operation again, she said to the princess, but without looking at her: \"Do you know my name, child?\" \"No, I don't know it,\" answered the princess.",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-003-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-003-inline-01.txt",
+          "promptSha256": "24b9547e79c416381daa0808fcb260d42c69b7afed41a4b6fc85525b8569dfec"
+        }
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "number": 4,
+      "title": "WHAT THE NURSE THOUGHT OF IT",
+      "metrics": {
+        "narrativeWords": 1140,
+        "textBlocks": 55,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-004-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 6,
+        "sourceFraction": 0.107895,
+        "minimumInlineSeparation": 0.379825,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "8ce05e451245a02de3d3cb0bcb08bbc3087916b1b86d8818533c524df6031d3e",
+        "passageExcerpt": "\"What do you mean by that?\" asked the nurse, who thought she was making fun. \"I mean that I've been a long way up and up to see my great grandmother. Ah, nursie, you don't know what a beautiful mother of grandmothers I've got upstairs. She is such an old lady! with such lovely white hair!—as white as my silver cup. Now, when I think of it, I think her hair must be silver.\" \"What nonsense you are talking, princess!\" said the nurse.",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-004-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-004-hero.txt",
+        "promptSha256": "053680483718c3a8c045fb363691bd09f4ab6a31a1e6a7c9c2aad54fdc03ffc2"
+      },
+      "inline": [
+        {
+          "id": "chapter-004-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 32,
+          "anchorSha256": "dc044fd8228a03071074f6f46d0a8ce35d97571872e4593a13c8d2c2e4d66f7a",
+          "align": "right",
+          "passageExcerpt": "\"Indeed I have other work to do. It's your dinner-time, and I won't have any more such nonsense.\" The princess wiped her eyes, and her face grew so hot that they were soon quite dry. She sat down to her dinner, but ate next to nothing. Not to be believed does not at all agree with princesses; for a real princess cannot tell a lie. So all the afternoon she did not speak a word. Only when the nurse spoke to her, she answered her, for a real princess is never rude—even when she does well to be offended. Of course the nurse was not comfortable in her mind—not that she suspected the least truth in Irene's story, but that she loved her dearly, and was vexed with herself for having been cross to her. She thought her crossness was the cause of the princess' unhappiness, and had no idea that she was really and deeply hurt at not being believed. But, as it became more and more plain during the evening in every motion and look, that, although she tried to amuse herself with her toys, her heart was too vexed and troubled to enjoy them, her nurse's discomfort grew and grew. When bedtime came, she undressed and laid her down, but the child, instead of holding up her little mouth to be kissed, turned away from her and lay still. Then nursie's heart gave way altogether, and she began to cry. At the sound of her first sob, the princess turned again, and held her face to kiss her as usual. But t…",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-004-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-004-inline-01.txt",
+          "promptSha256": "be37873fa85f1d03b7e4f0a442d475536ba71de3f89130dea9ff339904bc9c62"
+        }
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "number": 5,
+      "title": "THE PRINCESS LETS WELL ALONE",
+      "metrics": {
+        "narrativeWords": 847,
+        "textBlocks": 12,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-005-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.112751,
+        "minimumInlineSeparation": 0.391972,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "37d4e28eb6707a823dba46faf7f97551ddecf5eee46ea803d25ef741a270e0f9",
+        "passageExcerpt": "WHEN she woke the next morning, the first thing she heard was the rain still falling. Indeed, this day was so like the last, that it would have been difficult to tell where was the use of it. The first thing she thought of, however, was not the rain, but the lady in the tower; and the first question that occupied her thoughts was whether she should not ask the nurse to fulfill her promise this very morning, and go with her to find her grandmother as soon as she had had her breakfast. But she came to the conclusion that perhaps the lady would not be pleased if she took anyone to see her without first asking leave; especially as it was pretty evident, seeing she lived on pigeons' eggs, and cooked them herself, that she did not want the household to know she was there. So the princess resolved to take the first opportunity of running up alone and asking whether she might bring her nurse. She believed the fact that she could not otherwise convince her she was telling the truth, would have much weight with her grandmother. The princess and her nurse were the best of friends all dressing time, and the princess in consequence ate an enormous little breakfast.",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-005-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-005-hero.txt",
+        "promptSha256": "e046ea32378a6723ab4f3473a02c2e8c4d9854f6620d16510498e1a61dd9fe6d"
+      },
+      "inline": [
+        {
+          "id": "chapter-005-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 8,
+          "anchorSha256": "a1e47cae8766d63e0bc921d12070ed1182dddf9da390f9a1cf4ee36dd6bbe7a7",
+          "align": "right",
+          "passageExcerpt": "\"Well, you see, Lootie, there are reasons,\" she returned, and said no more, for she did not want to bring up the subject of their former strife, lest her nurse should offer to go before she had had her grandmother's permission to bring her. Of course she could refuse to take her, but then she would believe her less than ever. Now the nurse, as she said herself afterward, could not be every moment in the room, and as never before yesterday had the princess given her the smallest reason for anxiety, it had not yet come into her head to watch her more closely. So she soon gave her a chance, and the very first that offered, Irene was off and up the stairs again. This day's adventure, however, did not turn out like yesterday's, although it began like it; and indeed to-day is very seldom like yesterday, if people would note the differences—even when it rains. The princess ran through passage after passage, and could not find the stair of the tower. My own suspicion is that she had not gone up high enough, and was searching on the second instead of the third floor. When she turned to go back, she failed equally in her search after the stair. She was lost once more.",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-005-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-005-inline-01.txt",
+          "promptSha256": "de88283c5440f0db2b141aeb3428c53baeee6839cfa873d906441a2b212d2278"
+        }
+      ]
+    },
+    {
+      "id": "chapter-006",
+      "number": 6,
+      "title": "THE LITTLE MINER",
+      "metrics": {
+        "narrativeWords": 3027,
+        "textBlocks": 109,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-006-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.104063,
+        "minimumInlineSeparation": 0.223984,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "2e55d19735ab80f751c10a2ccf651005eb5b7a6f55204ce434ff948fa5e95562",
+        "passageExcerpt": "…Lootie was very glad to please the princess. She got her hat and cloak, and they set out together for a walk up the mountain; for the road was so hard and steep that the water could not rest upon it, and it was always dry enough for walking a few minutes after the rain ceased. The clouds were rolling away in broken pieces, like great, overwoolly sheep, whose wool the sun had bleached till it was almost too white for the eyes to bear. Between them the sky shone with a deeper and purer blue, because of the rain. The trees on the road-side were hung all over with drops, which sparkled in the sun like jewels. The only things that were no brighter for the rain, were the brooks that ran down the mountain; they had changed from the clearness of crystal to a muddy brown; but what they lost in color they gained in sound—or at least in noise, for a brook when it is swollen is not so musical as before. But Irene was in raptures with the great brown streams tumbling down everywhere; and Lootie shared in her delight, for she too had been confined to the house for three days. At length she observed that the sun was getting low, and said it was time to be going back. She made the remark again and again, but, every time, the princess begged her to go on just a little farther and a little farther; reminding her that it was much easier to go down hill, and saying that when they did turn, they wo…",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-006-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-006-hero.txt",
+        "promptSha256": "ab32d9fc0e5ddf0a13e0858fc66796e286e51ff804bfc5410fe613f5a292fbe4"
+      },
+      "inline": [
+        {
+          "id": "chapter-006-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 22,
+          "anchorSha256": "13b633c33c85085256b43bfc372940c8679450ca3a2e8b03c698733f27ea155c",
+          "align": "right",
+          "passageExcerpt": "\"We've taken the wrong turning somewhere, and I don't know where we are. We are lost, lost!\" The terror she was in had quite bewildered her. It was true enough they had lost the way. They had been running down into a little valley in which there was no house to be seen. Now Irene did not know what good reason there was for her nurse's terror, for the servants had all strict orders never to mention the goblins to her, but it was very discomposing to see her nurse in such a fright. Before, however, she had time to grow thoroughly alarmed like her, she heard the sound of whistling, and that revived her. Presently she saw a boy coming up the road from the valley to meet them. He was the whistler; but before they met, his whistling changed to singing. And this is something like what he sang:",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-006-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-006-inline-01.txt",
+          "promptSha256": "eb24a89cf9458099c7a966bec77260a200a121570c26ae1db534711748b78225"
+        },
+        {
+          "id": "chapter-006-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 69,
+          "anchorSha256": "06b8371cd12ff8d01543fec9a6ef547d6924640a0dd6dd23b3ca4738226e0c04",
+          "align": "left",
+          "passageExcerpt": "\"I don't know what more.—What more is my name, Lootie?\" \"Princesses haven't got more than one name. They don't want it.\" \"Oh then, Curdie, you must call me just Irene, and no more.\"",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-006-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-006-inline-02.txt",
+          "promptSha256": "9300c1fa08a401298ea2e622d3dbf004a1d92c7d187d9fc9ece8a308672aa7a1"
+        }
+      ]
+    },
+    {
+      "id": "chapter-007",
+      "number": 7,
+      "title": "THE MINES",
+      "metrics": {
+        "narrativeWords": 1231,
+        "textBlocks": 20,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-007-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.080422,
+        "minimumInlineSeparation": 0.497563,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "acfe671ca9e3ecef1063870c2d0c49da485a3510c7311ae7fc3516f21fe51262",
+        "passageExcerpt": "CURDIE went home whistling. He resolved to say nothing about the princess for fear of getting the nurse into trouble, for while he enjoyed teasing her because of her absurdity, he was careful not to do her any harm. He saw no more of the goblins, and was soon fast asleep in his bed. He woke in the middle of the night, and thought he heard curious noises outside. He sat up and listened; then got up, and, opening the door very quietly, went out. When he peeped round the corner, he saw, under his own window, a group of stumpy creatures, whom he at once recognized by their shape. Hardly, however, had he begun his \"One, two, three!\" when they broke asunder, scurried away, and were out of sight. He returned laughing, got into bed again, and was fast asleep in a moment. Reflecting a little over the matter in the morning, he came to the conclusion that, as nothing of the kind had ever happened before, they must be annoyed with him for interfering to protect the princess. By the time he was dressed, however, he was thinking of something quite different, for he did not value the enmity of the goblins in the least.",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-007-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-007-hero.txt",
+        "promptSha256": "b74f0377aa19ca4e43ee7a4112f513f48f484ec36b8f47e91f7fdd10f254d379"
+      },
+      "inline": [
+        {
+          "id": "chapter-007-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 5,
+          "anchorSha256": "7902419b1874a8144ff9d334de7b695aa8fbf3a5e2adfef9a8147920600de1b1",
+          "align": "right",
+          "passageExcerpt": "…The work was hard at best, for it is very warm underground; but it was not particularly unpleasant, and some of the miners, when they wanted to earn a little more money for a particular purpose, would stop behind the rest, and work all night. But you could not tell night from day down there, except from feeling tired and sleepy; for no light of the sun ever came into those gloomy regions. Some who had thus remained behind during the night, although certain there were none of their companions at work, would declare the next morning that they heard, every time they halted for a moment to take breath, a tap-tapping all about them, as if the mountain were then more full of miners than ever it was during the day; and some in consequence would never stay over night, for all knew those were the sounds of the goblins. They worked only at night, for the miners' night was the goblins' day. Indeed, the greater number of the miners were afraid of the goblins: for there were strange stories well known amongst them of the treatment some had received whom the goblins had surprised at their work during the night. The more courageous of them, however, amongst them Peter Peterson and Curdie, who in this took after his father, had stayed in the mine all night again and again, and although they had several times encountered a few stray goblins, had never yet failed in driving them away. As I have…",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-007-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-007-inline-01.txt",
+          "promptSha256": "72a0f44bbf3e2d742a9c1743e946e48954b035ba2686fabc4913dc8ca4fe7026"
+        }
+      ]
+    },
+    {
+      "id": "chapter-008",
+      "number": 8,
+      "title": "THE GOBLINS",
+      "metrics": {
+        "narrativeWords": 2314,
+        "textBlocks": 82,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-008-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.092048,
+        "minimumInlineSeparation": 0.402766,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "232cd063307e15590eb88429d6d51ca974cf7782681d212ad091a4026331baac",
+        "passageExcerpt": "\"There's no hurry. That wretched little mole won't be through to-night, if he work ever so hard. He's by no means at the thinnest place.\" \"But you still think the lode does come through into our house?\" said the first voice. \"Yes, but a good bit farther on than he has got to yet. If he had struck a stroke more to the side just here,\" said the goblin, tapping the very stone, as it seemed to Curdie, against which his head lay, \"he would have been through; but he's a couple of yards past it now, and if he follow the lode it will be a week before it leads him in. You see it back there—a long way. Still, perhaps, in case of accident, it would be as well to be getting out of this. Helfer, you'll take the great chest. That's your business, you know.\"",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-008-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-008-hero.txt",
+        "promptSha256": "0a65fcd3651bae33e598e7cbad91aaf8cef19531a878117a7b71b97e47e6662c"
+      },
+      "inline": [
+        {
+          "id": "chapter-008-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 55,
+          "anchorSha256": "190353c34c660ad9575e62d2516bcf20237ac0ee291b3306a7fab18d04149182",
+          "align": "right",
+          "passageExcerpt": "\"Well, I suppose I must tell you. They're all at the palace consulting about it to-night; and as soon as we've got away from this thin place, I'm going there to hear what night they fix upon. I should like to see that young ruffian there on the other side, struggling in the agonies of—\" He dropped his voice so low that Curdie could hear only a growl. The growl went on in a low bass for a good while, as inarticulate as if the goblin's tongue had been a sausage; and it was not until his wife spoke again that it rose to its former pitch. \"But what shall we do when you are at the palace?\" she asked.",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-008-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-008-inline-01.txt",
+          "promptSha256": "09d5f6773cc12e6c2e0b11cf3f0822f4318dfa5afe44ef1378b7a6a159322356"
+        }
+      ]
+    },
+    {
+      "id": "chapter-009",
+      "number": 9,
+      "title": "THE HALL OF THE GOBLIN PALACE",
+      "metrics": {
+        "narrativeWords": 2611,
+        "textBlocks": 24,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-009-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.082535,
+        "minimumInlineSeparation": 0.233818,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "42992b10ff4c3121894cbacae2533af18ad793ffeb7c2302ee4c80bb986653c8",
+        "passageExcerpt": "A SOUND of many soft feet followed, but soon ceased. Then Curdie flew at the hole like a tiger, and tore and pulled. The sides gave way, and it was soon large enough for him to crawl through. He would not betray himself by rekindling his lamp, but the torches of the retreating company, departing in a straight line up a long avenue from the door of their cave, threw back light enough to afford him a glance round the deserted home of the goblins. To his surprise, he could discover nothing to distinguish it from an ordinary cave in the rock, upon many of which he had come with the rest of the miners in the progress of their excavations. The goblins had talked of coming back for the rest of their household gear: he saw nothing that would have made him suspect a family had taken shelter there for a single night. The floor was rough and stony; the walls full of projecting corners; the roof in one place twenty feet high, in another endangering his forehead; while on one side a stream, no thicker than a needle, it is true, but still sufficient to spread a wide dampness over the wall, flowed down the face of the rock. But the troop in front of him was toiling under heavy burdens. He could distinguish Helfer now and then, in the flickering light and shade, with his heavy chest on his bending shoulders; while the second brother was almost buried in what looked like a great feather-bed. \"W…",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-009-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-009-hero.txt",
+        "promptSha256": "e228e048f934c9312b6bd64f4110e87da29942e5ab2fdc63ea16999302c6a7c8"
+      },
+      "inline": [
+        {
+          "id": "goblin-hall",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 3,
+          "anchorSha256": "9dd24a138a4e475cf72fd53b50d924c897962a536000ba7f07aaff0ff0ad4a8d",
+          "align": "plate",
+          "source": "output/imagegen/scenes/the-princess-and-the-goblin/goblin-hall.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/the-princess-and-the-goblin/goblin-hall.txt",
+          "caption": "The hall of the goblin palace"
+        }
+      ]
+    },
+    {
+      "id": "chapter-010",
+      "number": 10,
+      "title": "THE PRINCESS'S KING-PAPA",
+      "metrics": {
+        "narrativeWords": 1467,
+        "textBlocks": 29,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-010-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.048739,
+        "minimumInlineSeparation": 0.448875,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "626020463e8182ede2a6389b3fc21f7d4ae43745c623c95d0b91d16a2bbb54b8",
+        "passageExcerpt": "THE weather continued fine for weeks, and the little princess went out every day. So long a period of fine weather had indeed never been known upon that mountain. The only uncomfortable thing was that her nurse was so nervous and particular about being in before the sun was down, that often she would take to her heels when nothing worse than a fleecy cloud crossing the sun threw a shadow on the hillside; and many an evening they were home a full hour before the sunlight had left the weathercock on the stables. If it had not been for such behavior, Irene would by this time have almost forgotten the goblins. She never forgot Curdie, but him she remembered for his own sake, and indeed would have remembered him if only because a princess never forgets her debts until they are paid. One splendid sunshiny day, about an hour after noon, Irene, who was playing on a lawn in the garden, heard the distant blast of a bugle. She jumped up with a cry of joy, for she knew by that particular blast that her father was on his way to see her. This part of the garden lay on the slope of the hill, and allowed a full view of the country below. So she shaded her eyes with her hand, and looked far away to catch the first glimpse of shining armor. In a few moments a little troop came glittering round the shoulder of a hill. Spears and helmets were sparkling and gleaming , banners were flying, horses pr…",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-010-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-010-hero.txt",
+        "promptSha256": "c11ece1db8f45c1ad363aa8b1b693b7af70c00c3739dc614552863875833d09b"
+      },
+      "inline": [
+        {
+          "id": "chapter-010-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 5,
+          "anchorSha256": "2cdf67569e1fb53874ed7bc7e7fabea92ad5be1e72ec543dade5f30e4c7c0c64",
+          "align": "right",
+          "passageExcerpt": "After the king had eaten and drunk, he turned to the princess and said, stroking her hair— \"Now, my child, what shall we do next?\" This was the question he almost always put to her first after their meal together; and Irene had been waiting for it with some impatience, for now, she thought, she should be able to settle a question which constantly perplexed her.",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-010-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-010-inline-01.txt",
+          "promptSha256": "bf3e6ebe44609061a0f12238737f883ba89a859e0c9f22ff4b336ec6ee51fa23"
+        }
+      ]
+    },
+    {
+      "id": "chapter-011",
+      "number": 11,
+      "title": "THE OLD LADY'S BEDROOM",
+      "metrics": {
+        "narrativeWords": 2637,
+        "textBlocks": 70,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-011-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.125521,
+        "minimumInlineSeparation": 0.23322,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "8fa74bddc20ea4e5bc3528e16220063b14d35f22002ab0261a7e2799d1389635",
+        "passageExcerpt": "…s whom the king had left, sat, and they showed her their arms and accoutrements, and did what they could to amuse her. Still at times she found it very dreary, and often and often wished that her huge great grandmother had not been a dream. One morning the nurse left her with the housekeeper for a while. To amuse her, she turned out the contents of an old cabinet upon the table. The little princess found her treasures, queer ancient ornaments and many things the uses of which she could not imagine, far more interesting than her own toys, and sat playing with them for two hours or more. But at length, in handling a curious old-fashioned brooch, she ran the pin of it into her thumb, and gave a little scream with the sharpness of the pain, but would have thought little more of it, had not the pain increased and her thumb begun to swell. This alarmed the housekeeper greatly. The nurse was fetched; the doctor was sent for; her hand was poulticed, and long before her usual time she was put to bed. The pain still continued, and although she fell asleep and dreamed a good many dreams, there was the pain always in every dream. At last it woke her up. The moon was shining brightly into the room. The poultice had fallen off her hand, and it was burning hot. She fancied if she could hold it into the moonlight, that would cool it. So she got out of bed, without waking the nurse who lay at t…",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-011-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-011-hero.txt",
+        "promptSha256": "af7e5913d66fce950039282178ddc25fb0096a2fcaa9c1f4d197f9f91407039e"
+      },
+      "inline": [
+        {
+          "id": "moonlit-grandmother",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 10,
+          "anchorSha256": "d65cf540b3030df8e3957584ec6332c9aa284ca028b9c0c715440504f222a5ee",
+          "align": "right",
+          "source": "output/imagegen/scenes/the-princess-and-the-goblin/moonlit-grandmother.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/the-princess-and-the-goblin/moonlit-grandmother.txt",
+          "caption": "The old lady in the moonlight"
+        }
+      ]
+    },
+    {
+      "id": "chapter-012",
+      "number": 12,
+      "title": "A SHORT CHAPTER ABOUT CURDIE",
+      "metrics": {
+        "narrativeWords": 736,
+        "textBlocks": 7,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-012-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.043478,
+        "minimumInlineSeparation": 0.5625,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "dabd2321fadf64b7bec0716a792d6357d83022da0edecdc8279153d56ed6a598",
+        "passageExcerpt": "CURDIE spent many nights in the mine. His father and he had taken Mrs. Peterson into the secret, for they knew mother could hold her tongue, which was more than could be said of all the miners' wives. But Curdie did not tell her that every night he spent in the mine, part of it went in earning a new red petticoat for her. Mrs. Peterson was such a nice good mother! All mothers are more or less, but Mrs. Peterson was nice and good all more and no less . She made a little heaven in that poor cottage on the hillside—for her husband and son to go home to out of the dreary earth in which they worked. I doubt if the princess was very much happier even in the arms of her huge great-grandmother than Peter and Curdie were in the arms of Mrs. Peterson. True, her hands were hard, and chapped, and large, but it was with work for them; and therefore in the sight of the angels, her hands were so much the more beautiful. And if Curdie worked hard to get her a petticoat, she worked hard every day to get him comforts which he would have missed much more than she would a new petticoat even in winter. Not that she and Curdie ever thought of how much they worked for each other: that would have spoiled everything.",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-012-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-012-hero.txt",
+        "promptSha256": "094d69cef5556cf9ef073d34b516ceb1dd62e53339f08efd80947758bad7afc0"
+      },
+      "inline": [
+        {
+          "id": "chapter-012-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 2,
+          "anchorSha256": "af503ffa89416cf833bb20f613dad4c2fd8579cb8b615dd71c10e05a381f09b2",
+          "align": "right",
+          "passageExcerpt": "…When left alone in the mine, Curdie always worked on for an hour or two first, following the lode which, according to Glump, would lead at last into the deserted habitation. After that, he would set out on a reconnoitering expedition. In order to manage this, or rather the return from it, better than the first time, he had bought a huge ball of fine string, having learned the trick from Hop-o'-my-Thumb, whose history his mother had often told him. Not that Hop-o'-my-Thumb had ever used a ball of string—I should be sorry to be supposed so far out in my classics—but the principle was the same as that of the pebbles. The end of this string he fastened to his pickaxe, which figured no bad anchor, and then, with the ball in his hand, unrolling as he went, set out in the dark through the natural gangs of the goblins' territory. The first night or two he came upon nothing worth remembering; saw only a little of the home-life of the cobs in the various caves they called houses; failed in coming upon anything to cast light upon the foregoing design which kept the inundation for the present in the background. But at length, I think on the third or fourth night, he found, partly guided by the noise of their implements, a company of evidently the best sappers and miners amongst them, hard at work. What were they about? It could not well be the inundation, seeing that had in the meantime be…",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-012-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-012-inline-01.txt",
+          "promptSha256": "17dc89c7232425d28c1bbe96fb3dea1f8c7e9942d3dff34e88a464fe558a9e5b"
+        }
+      ]
+    },
+    {
+      "id": "chapter-013",
+      "number": 13,
+      "title": "THE COBS' CREATURES",
+      "metrics": {
+        "narrativeWords": 1304,
+        "textBlocks": 4,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-013-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.243482,
+        "minimumInlineSeparation": 0.381902,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "5ada1d266d325066c18e29bb518a96ef3c6fd79efb6a8a93c2cee1d06c57cedf",
+        "passageExcerpt": "ABOUT this time, the gentlemen whom the king had left behind him to watch over the princess, had each occasion to doubt the testimony of his own eyes, for more than strange were the objects to which they would bear witness. They were of one sort—creatures—but so grotesque and misshapen as to be more like a child's drawings upon his slate than anything natural. They saw them only at night, while on guard about the house. The testimony of the man who first reported having seen one of them was that, as he was walking slowly round the house, while yet in the shadow, he caught sight of a creature standing on its hind legs in the moonlight, with its fore feet upon a window-ledge, staring in at the window. Its body might have been that of a dog or wolf—he thought, but he declared on his honor that its head was twice the size it ought to have been for the size of its body, and as round as a ball, while the face, which it turned upon him as it fled, was more like one carved by a boy upon the turnip inside which he is going to put a candle, than anything else he could think of. It rushed into the garden. He sent an arrow after it, and thought he must have struck it; for it gave an unearthly howl, and he could not find his arrow any more than the beast, although he searched all about the place where it vanished. They laughed at him until he was driven to hold his tongue; and said he must…",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-013-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-013-hero.txt",
+        "promptSha256": "1689fbc79e557f3a24696dbc6fcd46fdc42dd92fa6b2ecee62df87c414dab4a6"
+      },
+      "inline": [
+        {
+          "id": "chapter-013-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 1,
+          "anchorSha256": "ce9ce01814fe3c55e179c2bfec90a10272776a838c8e93dcc328452620b3a66a",
+          "align": "right",
+          "passageExcerpt": "…My readers will suspect what these were; but I will now give them full information concerning them. They were of course household animals belonging to the goblins, whose ancestors had taken their ancestors many centuries before from the upper regions of light into the lower regions of darkness. The original stocks of these horrible creatures were very much the same as the animals now seen about farms and homes in the country, with the exception of a few of them, which had been wild creatures, such as foxes, and indeed wolves and small bears, which the goblins, from their proclivity toward the animal creation, had caught when cubs and tamed. But in the course of time, all had undergone even greater changes than had passed upon their owners. They had altered—that is, their descendants had altered—into such creatures as I have not attempted to describe except in the vaguest manner—the various parts of their bodies assuming, in an apparently arbitrary and self-willed manner, the most abnormal developments. Indeed, so little did any distinct type predominate in some of the bewildering results, that you could only have guessed at any known animal as the original, and even then, what likeness remained would be more one of general expression than of definable conformation. But what increased the gruesomeness tenfold, was that, from constant domestic, or indeed rather family association…",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-013-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-013-inline-01.txt",
+          "promptSha256": "699c61fff4b95d8053b67836cb71a70e117050582b266b0433aee53553bbc8ee"
+        }
+      ]
+    },
+    {
+      "id": "chapter-014",
+      "number": 14,
+      "title": "THAT NIGHT WEEK",
+      "metrics": {
+        "narrativeWords": 1399,
+        "textBlocks": 10,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-014-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.098642,
+        "minimumInlineSeparation": 0.309507,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "4ba780624720ef2ee0730981c68c78b8e1cf0765c9d2002645436c0e127094eb",
+        "passageExcerpt": "…eek, Irene had been thinking every other moment of her promise to the old lady, although even now she could not feel quite sure that she had not been dreaming. Could it really be that an old lady lived up in the top of the house with pigeons and a spinning-wheel, and a lamp that never went out? She was, however, none the less determined, on the coming Friday, to ascend the three stairs, walk through the passages with the many doors, and try to find the tower in which she had either seen or dreamed her grandmother. Her nurse could not help wondering what had come to the child—she would sit so thoughtfully silent, and even in the midst of a game with her, would so suddenly fall into a dreamy mood. But Irene took care to betray nothing, whatever efforts Lootie might make to get at her thoughts. And Lootie had to say to herself, \"What an odd child she is!\" and give it up. At length the long looked-for Friday arrived, and lest Lootie should be moved to watch her, Irene endeavored to keep herself as quiet as possible. In the afternoon she asked for her doll's house, and went on arranging and rearranging the various rooms and their inhabitants for a whole hour. Then she gave a sigh and threw herself back in her chair. One of the dolls would not sit, and another would not stand, and they were all very tiresome. Indeed there was one that would not even lie down, which was too bad. But i…",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-014-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-014-hero.txt",
+        "promptSha256": "aeb5928c362e85b85ea7aea29de1470c96560ae974cd16998e362014196c5ae2"
+      },
+      "inline": [
+        {
+          "id": "chapter-014-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 6,
+          "anchorSha256": "aa54f32d49bb2d97eb056c629f01a7404d99ee3d38ba422cb3db452a0515c203",
+          "align": "right",
+          "passageExcerpt": "…s body no bigger and its legs no thicker than those of a cat. She was too frightened to cry out, but not too frightened to jump from her chair and run from the room. It is plain enough to every one of my readers what she ought to have done—and indeed Irene thought of it herself; but when she came to the foot of the old stair, just outside the nursery door, she imagined the creature running up those long ascents after her, and pursuing her through the dark passages— which, after all, might lead to no tower! That thought was too much. Her heart failed her, and turning from the stair, she rushed along to the hall, whence, finding the front-door open, she darted into the court, pursued—at least she thought so—by the creature. No one happening to see her, on she ran, unable to think for fear, and ready to run anywhere to elude the awful creature with the stilt-legs. Not daring to look behind her, she rushed straight out of the gate, and up the mountain. It was foolish indeed—thus to run farther and farther from all who could help her, as if she had been seeking a fit spot for the goblin-creature to eat her in at his leisure; but that is the way fear serves us: it always takes the side of the thing that we are afraid of. The princess was soon out of breath with running up hill; but she ran on, for she fancied the horrible creature just behind her, forgetting that, had it been after h…",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-014-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-014-inline-01.txt",
+          "promptSha256": "5f3b0045bf53b873b7e8eaadd8eb7bf326af93df6befb50762a0661d0e01cc43"
+        }
+      ]
+    },
+    {
+      "id": "chapter-015",
+      "number": 15,
+      "title": "WOVEN AND THEN SPUN",
+      "metrics": {
+        "narrativeWords": 2993,
+        "textBlocks": 104,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-015-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 7,
+        "sourceFraction": 0.102239,
+        "minimumInlineSeparation": 0.232877,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "16bd439416d9699a9071546789629515082888843f9d123236114465d85aa40f",
+        "passageExcerpt": "Irene wondered to hear her voice so plainly through the door; having shut the other, she opened it and went in. Oh, what a lovely haven to reach from the darkness and fear through which she had come! The soft light made her feel as if she were going into the heart of the milkiest pearl; while the blue walls and their silver stars for a moment perplexed her with the fancy that they were in reality the sky which she had left outside a minute ago covered with rainclouds. \"I've lighted a fire for you, Irene: you're cold and wet,\" said her grandmother. Then Irene looked again, and saw that what she had taken for a huge bouquet of red roses on a low stand against the wall, was in fact a fire which burned in the shapes of the loveliest and reddest roses, glowing gorgeously between the heads and wings of two cherubs of shining silver. And when she came nearer, she found that the smell of roses with which the room was filled, came from the fire-roses on the hearth. Her grandmother was dressed in the loveliest pale-blue velvet, over which her hair, no longer white, but of a rich gold color, streamed like a cataract, here falling in dull gathered heaps, there rushing away in smooth shining falls. And even as she looked, the hair seemed pouring down from her head, and vanishing in a golden mist ere it reached the floor. It flowed from under the edge of a circle of shining silver, set with…",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-015-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-015-hero.txt",
+        "promptSha256": "397dcc033baf59524ddf423f85bce7ea43795b5e6e82b425ce29b0f83eda9bf2"
+      },
+      "inline": [
+        {
+          "id": "chapter-015-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 24,
+          "anchorSha256": "09593894809d2a4bbb0f3a1f80f0af625474b7ae3f23ca5a5f807dbbf7fb6161",
+          "align": "right",
+          "passageExcerpt": "\"Oh! don't, please!\" cried Irene. \"Won't you hold it to my frock and my hands and my face? And I'm afraid my feet and my knees want it too!\" \"No,\" answered her grandmother, smiling a little sadly, as she threw the rose from her; \"it is too hot for you yet. It would set your frock in a flame. Besides, I don't want to make you clean to-night. I want your nurse and the rest of the people to see you as you are, for you will have to tell them how you ran away for fear of the long-legged cat. I should like to wash you, but they would not believe you then. Do you see that bath behind you?\" The princess looked, and saw a large oval tub of silver, shining brilliantly in the light of the wonderful lamp.",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-015-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-015-inline-01.txt",
+          "promptSha256": "ec4f8ee282b41964e56c419771073fdca22a94910226327fd7111f997d34d0a0"
+        },
+        {
+          "id": "chapter-015-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 70,
+          "anchorSha256": "81d894599005b80a34c5b9133ff7f862f54ba7da34cef127a3c2aea1d3dc9cc4",
+          "align": "left",
+          "passageExcerpt": "\"No; it's burnt in the fire.\" The lady put her hand in the fire, brought out the ball, glimmering as before, and held it toward her. Irene stretched out her hand to take it, but the lady turned, and going to her cabinet, opened a drawer, and laid the ball in it. \"Have I done anything to vex you, grandmother?\" said Irene pitifully.",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-015-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-015-inline-02.txt",
+          "promptSha256": "87f58c09cc21f3b5cf3532f93437ff44f0b5b7875f94698a5d4812c5b86cd198"
+        }
+      ]
+    },
+    {
+      "id": "chapter-016",
+      "number": 16,
+      "title": "THE RING",
+      "metrics": {
+        "narrativeWords": 648,
+        "textBlocks": 15,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-016-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.094136,
+        "minimumInlineSeparation": 0.451389,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "aa401814372c5ec4721bf3d5d6ed8bef8f2d935ffe2a8f66b347a7c0e4c2c38f",
+        "passageExcerpt": "THE same moment her nurse came into the room, sobbing. When she saw her sitting there, she started back with a loud cry of amazement and joy. Then running to her, she caught her up in her arms and covered her dear little face with kisses. \"My precious darling princess! where have you been? What has happened to you? We've all been crying our eyes out, and searching the house from top to bottom for you.\" \"Not quite from the top,\" thought Irene to herself; and she might have added—\"not quite to the bottom,\" perhaps, if she had known all. But the one she would not, and the other she could not say.",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-016-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-016-hero.txt",
+        "promptSha256": "fa643ebed7b00fbf1322f90872fd3a3ed52d44a1badf7af3729bfee7834aa8ba"
+      },
+      "inline": [
+        {
+          "id": "chapter-016-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 8,
+          "anchorSha256": "02ba2085480d737ad705052793c904ed7647e13a9f922d8c4811548bb4e5c60b",
+          "align": "right",
+          "passageExcerpt": "\"Not if you had time to think about it. But when those creatures came at you that night on the mountain, you were so frightened yourself that you lost your way home.\" This put a stop to Lootie's reproaches. She had been on the point of saying that the long-legged cat must have been a twilight fancy of the princess's, but the memory of the horrors of that night, and of the talking-to which the king had given her in consequence, prevented her from saying that which after all she did not half believe—having a strong suspicion that the cat was a goblin; for the fact was that she knew nothing of the difference between the goblins and their creatures: she counted them all just goblins. Without another word she went and got some fresh tea and bread and butter for the princess. Before she returned, the whole household, headed by the housekeeper, burst into the nursery to exult over their darling. The gentlemen-at-arms followed, and were ready enough to believe all she told them about the long-legged cat. Indeed, though wise enough to say nothing about it, they remembered with no little horror, just such a creature amongst those they had surprised at their gambols upon the princess's lawn. In their own hearts they blamed themselves for not having kept better watch. And their captain gave order that from this night the front door and all the windows on the ground floor should be locked i…",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-016-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-016-inline-01.txt",
+          "promptSha256": "1cf0a9efc204b6646ae7f8325c9a2ebe00f9d044f27a34840bad361695dc10da"
+        }
+      ]
+    },
+    {
+      "id": "chapter-017",
+      "number": 17,
+      "title": "SPRING-TIME",
+      "metrics": {
+        "narrativeWords": 865,
+        "textBlocks": 16,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-017-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.118497,
+        "minimumInlineSeparation": 0.380347,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "cad9a72f54347645c14cd65bd415e8081e77e62e1a484f93e758ab7ad729dbe4",
+        "passageExcerpt": "THE spring, so dear to all creatures, young and old, came at last, and before the first few days of it had gone, the king rode through its budding valleys to see his little daughter. He had been in a distant part of his dominions all the winter, for he was not in the habit of stopping in one great city, or of visiting only his favorite country houses, but he moved from place to place, that all his people might know him. Wherever he journeyed, he kept a constant lookout for the ablest and best men to put into office, and wherever he found himself mistaken, and those he had appointed incapable or unjust, he removed them at once. Hence you see it was his care of the people that kept him from seeing his princess so often as he would have liked. You may wonder why he did not take her about with him; but there were several reasons against his doing so, and I suspect her great-great-grandmother had had a principal hand in preventing it. Once more Irene heard the bugle-blast, and once more she was at the gate to meet her father as he rode up on his great white horse. After they had been alone for a little while, she thought of what she had resolved to ask him.",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-017-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-017-hero.txt",
+        "promptSha256": "7b5f18b6e4c9c00cd26f71d929e1d127ddfe4fb977e48aef560432dfec8649ac"
+      },
+      "inline": [
+        {
+          "id": "chapter-017-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 12,
+          "anchorSha256": "e73353014559484e616498b5a9d8db0e233eabaf463391c58fc000dc5b38bbdb",
+          "align": "right",
+          "passageExcerpt": "Irene did not remember her mother, and did not know why her father looked so, and why the tears came in his eyes; but she put her arms round his neck and kissed him, and asked no more questions. The king was much disturbed on hearing the report of the gentlemen-at-arms concerning the creatures they had seen; and I presume would have taken Irene with him that very day, but for what the presence of the ring on her finger assured him of. About an hour before he left, Irene saw him go up the old stair; and he did not come down again till they were just ready to start; and she thought with herself that he had been up to see the old lady. When he went away, he left the other six gentlemen behind him, that there might be six of them always on guard. And now, in the lovely spring-weather, Irene was out on the mountain the greater part of the day. In the warmer hollows there were lovely primroses, and not so many that she ever got tired of them. As often as she saw a new one opening an eye of light in the blind earth, she would clap her hands with gladness, and, unlike some children I know, instead of pulling it, would touch it as tenderly as if it had been a new baby, and, having made its acquaintance, would leave it as happy as she found it. She treated the plants on which they grew like birds' nests; every fresh flower was like a new little bird to her. She would pay a visit to all t…",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-017-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-017-inline-01.txt",
+          "promptSha256": "fe01a18735fe7764de9863c86b98c32b8bcd60e8945e325226940a253c59c0be"
+        }
+      ]
+    },
+    {
+      "id": "chapter-018",
+      "number": 18,
+      "title": "CURDIE'S CLUE",
+      "metrics": {
+        "narrativeWords": 2603,
+        "textBlocks": 38,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-018-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.172685,
+        "minimumInlineSeparation": 0.322897,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "1f2a87741b6f68c9b98130c1766f59ab45cf651573f64e4910b889cea92b98ba",
+        "passageExcerpt": "…One night, after dodging about and listening till he was nearly falling asleep with weariness, he began to roll up his ball, for he had resolved to go home to bed. It was not long, however, before he began to feel bewildered. One after another he passed goblin-houses, caves that is, occupied by goblin families, and at length was sure they were many more than he had passed as he came. He had to use great caution to pass unseen—they lay so close together. Could his string have led him wrong? He still followed winding it, and still it led him into more thickly populated quarters, until he became quite uneasy, and indeed apprehensive; for although he was not afraid of the cobs , he was afraid of not finding his way out. But what could he do? It was of no use to sit down and wait for the morning—the morning made no difference here. It was all dark, and always dark; and if his string failed him he was helpless. He might even arrive within a yard of the mine, and never know it. Seeing he could do nothing better, he would at least find where the end of the string was, and if possible how it had come to play him such a trick. He knew by the size of the ball that he was getting pretty near the last of it, when he began to feel a tugging and pulling at it. What could it mean? Turning a sharp corner, he thought he heard strange sounds. These grew, as he went on, to a scuffling and growling…",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-018-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-018-hero.txt",
+        "promptSha256": "1ec981d5b60f476f204b830a64d58486ac84bdeab469e07415b845f55d1d2471"
+      },
+      "inline": [
+        {
+          "id": "chapter-018-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 16,
+          "anchorSha256": "60a69ddccac2026d45c5a02862605392fc2fa3e908e174ba7f6fd3ab86ee767b",
+          "align": "right",
+          "passageExcerpt": "The councilor, encouraged by this mark of favor, went on. \"It seems to me, your royal Highness, it would greatly endear you to your future people, proving to them that you are not the less one of themselves that you had the misfortune to be born of a sun-mother, if you were to command upon yourself the comparatively slight operation which, in a more extended form, you so wisely meditate with regard to your future princess.\" \"Ha! ha! ha!\" laughed the queen, louder than before, and the king and the minister joined in the laugh. It was anything but a laughing matter to Harelip. He growled, and for a few moments the others continued to express their enjoyment of his discomfiture.",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-018-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-018-inline-01.txt",
+          "promptSha256": "04eafa385fa61065f72cb8f00c5f7a314eed28e841ad2f75f1ab9e7952f68651"
+        }
+      ]
+    },
+    {
+      "id": "chapter-019",
+      "number": 19,
+      "title": "GOBLIN COUNSELS",
+      "metrics": {
+        "narrativeWords": 1449,
+        "textBlocks": 48,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-019-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.119738,
+        "minimumInlineSeparation": 0.361629,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "bfa86fbec4d50f83585dab31c4de8fd71e0355b0c3b1597e69965e6cb00b20e2",
+        "passageExcerpt": "In the universal and constant darkness of their dwelling, they had no reason to prefer the one arrangement to the other; but from aversion to the sun-people, they chose to be busy when there was least chance of their being met either by the miners below, when they were burrowing, or by the people of the mountain above, when they were feeding their sheep or catching their goats. And indeed it was only when the sun was away that the outside of the mountain was sufficiently like their own dismal regions to be endurable to their mole-eyes, so thoroughly had they become disused to any light beyond that of their own fires and torches. Curdie listened, and soon found that they were talking of himself. \"How long will it take?\" asked Harelip.",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-019-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-019-hero.txt",
+        "promptSha256": "8f54ca21a80df80802f60b83deb43a10025dd63f6fc86a4bdb2d951f8d9cad75"
+      },
+      "inline": [
+        {
+          "id": "chapter-019-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 17,
+          "anchorSha256": "bdfb42e035add493ea6763416c729c21cd1aaa62047c8efc72c66dabd0d8e298",
+          "align": "right",
+          "passageExcerpt": "\"Better and better!\" cried the queen and prince together, both of them clapping their hands. And the prince made an ugly noise with his hare-lip, just as if he had intended to be one at the feast. \"But,\" added the queen, bethinking herself, \"he is so troublesome. For as poor creatures as they are, there is something about those sun-people that is very troublesome. I cannot imagine how it is that with such superior strength and skill and understanding as ours, we permit them to exist at all. Why do we not destroy them entirely, and use their cattle and grazing lands at our pleasure? Of course, we don't want to live in their horrid country! It is far too glaring for our quieter and more refined tastes. But we might use it for a sort of outhouse, you know. Even our creatures' eyes might get used to it, and if they did grow blind, that would be of no consequence, provided they grew fat as well. But we might even keep their great cows and other creatures, and then we should have a few more luxuries, such as cream and cheese, which at present we only taste occasionally, when our brave men have succeeded in carrying some off from their farms.\" \"It is worth thinking of,\" said the king; \"and I don't know why you should be the first to suggest it, except that you have a positive genius for conquest. But still, as you say, there is something very troublesome about them; and it would be be…",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-019-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-019-inline-01.txt",
+          "promptSha256": "922e00c02b92db02ff16e9ec87cb83e73319f6431b2e216442562dda5ce5b0fc"
+        }
+      ]
+    },
+    {
+      "id": "chapter-020",
+      "number": 20,
+      "title": "IRENE'S CLUE",
+      "metrics": {
+        "narrativeWords": 1626,
+        "textBlocks": 10,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-020-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.106089,
+        "minimumInlineSeparation": 0.366544,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "cb2759e6902bafd7faa1974e9c5dfbd1fc74ce1be9f43d19a21d5ee58eee98aa",
+        "passageExcerpt": "THAT same morning, early, the princess woke in a terrible fright. There was a hideous noise in her room—of creatures snarling and hissing and racketing about as if they were fighting. The moment she came to herself, she remembered something she had never thought of again—what her grandmother told her to do when she was frightened. She immediately took off her ring and put it under her pillow. As she did so, she fancied she felt a finger and thumb take it gently from under her palm. \"It must be my grandmother!\" she said to herself, and the thought gave her such courage that she stopped to put on her dainty little slippers before running from the room. While doing this, she caught sight of a long cloak of sky-blue, thrown over the back of a chair by her bedside. She had never seen it before, but it was evidently waiting for her. She put it on, and then, feeling with the forefinger of her right hand, soon found her grandmother's thread, which she proceeded at once to follow, expecting it would lead her straight up the old stair. When she reached the door, she found it went down and ran along the floor, so that she had almost to crawl in order to keep a hold of it. Then, to her surprise, and somewhat to her dismay, she found that instead of leading her toward the stair it turned in quite the opposite direction. It led her through certain narrow passages toward the kitchen, turning…",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-020-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-020-hero.txt",
+        "promptSha256": "6e55673985ea833ccd1a93ded692465937ff98bfd6220bebb21591bd39d56099"
+      },
+      "inline": [
+        {
+          "id": "chapter-020-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 4,
+          "anchorSha256": "d30368c0b4802bb520afcfbaa9bf1a9034658c342c1c6e64587b18734f768338",
+          "align": "right",
+          "passageExcerpt": "…After leading her up a good distance, the thread turned to the left, and down the path upon which she and Lootie had met Curdie. But she never thought of that, for now in the morning light, with its far outlook over the country, no path could have been more open and airy and cheerful. She could see the road almost to the horizon, along which she had so often watched her king-papa and his troop come shining, with the bugle-blast cleaving the air before them; and it was like a companion to her. Down and down the path went, then up, and then down, and then up again, getting rugged and more rugged as it went; still along the path went the silvery thread, and still along the thread went Irene's little rosy-tipped forefinger. By and by she came to a little stream that jabbered and prattled down the hill, and up the side of the stream went both path and thread. And still the path grew rougher and steeper, and the mountain grew wilder, till Irene began to think she was going a very long way from home; and when she turned to look back, she saw that the level country had vanished and the rough bare mountain had closed in about her. But still on went the thread, and on went the princess. Everything around her was getting brighter and brighter as the sun came nearer; till at length his first rays all at once alighted on the top of a rock before her, like some golden creature fresh from the…",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-020-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-020-inline-01.txt",
+          "promptSha256": "cc41a5b479e07909c0fdc73d64a18bc17731f0e60095377faaff1506e14c7fde"
+        }
+      ]
+    },
+    {
+      "id": "chapter-021",
+      "number": 21,
+      "title": "THE ESCAPE",
+      "metrics": {
+        "narrativeWords": 3387,
+        "textBlocks": 115,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-021-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.10437,
+        "minimumInlineSeparation": 0.226897,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "fa73ea91c35693817c215bd5dac129ad9eee1dc20d7cad8f3208f4d6894603b9",
+        "passageExcerpt": "…p sloped a good deal, growing of course wider toward its base, she had to throw away a multitude of stones to follow the thread. But this was not all, for she soon found that the thread, after going straight down for a little way, turned first sideways in one direction, then sideways in another, and then shot, at various angles, hither and thither inside the heap, so that she began to be afraid that to clear the thread, she must remove the whole huge gathering. She was dismayed at the very idea, but, losing no time, set to work with a will; and with aching back, and bleeding fingers and hands, she worked on, sustained by the pleasure of seeing the heap slowly diminish, and begin to show itself on the opposite side of the fire. Another thing which helped to keep up her courage was, that as often as she uncovered a turn of the thread, instead of lying loose upon the stones, it tightened up; this made her sure that her grandmother was at the end of it somewhere. She had got about half way down when she started, and nearly fell with fright. Close to her ear as it seemed, a voice broke out singing— Here Curdie stopped, either because he could not find a rhyme to jabber , or because he remembered what he had forgotten when he woke up at the sound of Irene's labors, that his plan was to make the goblins think he was getting weak. But he had uttered enough to let Irene know who he was.",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-021-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-021-hero.txt",
+        "promptSha256": "a450bb196ded5e64585c854209ed2666effdeff264b9177acf4982847a5c74d5"
+      },
+      "inline": [
+        {
+          "id": "chapter-021-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 42,
+          "anchorSha256": "3e6ef5f7f2fd2e70a9021ab72d00ac17621088f03900d4ad398d89d0f7efccbf",
+          "align": "left",
+          "passageExcerpt": "When he looked up, with the lighted torch casting a glare into the great darkness of the huge cavern, he caught sight of Irene disappearing in the hole out of which he had himself just come. \"Where are you going there?\" he cried. \"That's not the way out. That's where I couldn't get out.\" \"I know that,\" whispered Irene. \"But this is the way my thread goes, and I must follow it.\"",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-021-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-021-inline-02.txt",
+          "promptSha256": "f203dfccdb24f55485bf406fd87c9697866bfeb6215e0a79d41ebf97a3f5dce2"
+        },
+        {
+          "id": "thread-escape",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 59,
+          "anchorSha256": "03dca16952dcbcdf6e6e57ed3e4084d6ef3b0ad8394fdf897182fd9078bf660b",
+          "align": "left",
+          "source": "output/imagegen/scenes/the-princess-and-the-goblin/thread-escape.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/the-princess-and-the-goblin/thread-escape.txt",
+          "caption": "Following the silver thread"
+        }
+      ]
+    },
+    {
+      "id": "chapter-022",
+      "number": 22,
+      "title": "THE OLD LADY AND CURDIE",
+      "metrics": {
+        "narrativeWords": 2017,
+        "textBlocks": 69,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-022-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 5,
+        "sourceFraction": 0.099653,
+        "minimumInlineSeparation": 0.393406,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "a818e27362f9d93ed4debc7bc10236b5c957d868db328caebc5927a242e017a5",
+        "passageExcerpt": "\"I've brought Curdie, grandmother. He wouldn't believe what I told him, and so I've brought him.\" \"Yes—I see him. He is a good boy, Curdie, and a brave boy. Aren't you glad you have got him out?\" \"Yes, grandmother. But it wasn't very good of him not to believe me when I was telling him the truth.\"",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-022-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-022-hero.txt",
+        "promptSha256": "812a62e8a8ae6582e9545a7c0a6d10221b5f9381b11e151875fa95d151b98ab1"
+      },
+      "inline": [
+        {
+          "id": "chapter-022-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 38,
+          "anchorSha256": "b4e92f2cf9f79ee0c97ebd5475d6f667827918e896257dd4e56a7f8fa3838595",
+          "align": "right",
+          "passageExcerpt": "\"It means, my love, that I did not mean to show myself. Curdie is not yet able to believe some things. Seeing is not believing—it is only seeing. You remember I told you that if Lootie were to see me, she would rub her eyes, forget the half she saw, and call the other half nonsense.\" \"Yes; but I should have thought Curdie—\" \"You are right. Curdie is much farther on than Lootie, and you will see what will come of it. But in the meantime, you must be content, I say, to be misunderstood for a while. We are all very anxious to be understood, and it is very hard not to be. But there is one thing much more necessary.\"",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-022-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-022-inline-01.txt",
+          "promptSha256": "c22bd654a05b941d445da6452c83479a843a4d8bf6ae2a0a1744894f0fade6c1"
+        }
+      ]
+    },
+    {
+      "id": "chapter-023",
+      "number": 23,
+      "title": "CURDIE AND HIS MOTHER",
+      "metrics": {
+        "narrativeWords": 2920,
+        "textBlocks": 58,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-023-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 6,
+        "sourceFraction": 0.100342,
+        "minimumInlineSeparation": 0.399658,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "a0d9948ae7d611f100325e2cd8dd16056feac044e9aa1627a25a8c214fd39594",
+        "passageExcerpt": "\"What were they?\" asked his father. \"Your mother may be able to throw some light upon them.\" Then Curdie made a clean breast of it, and told them everything. They all sat silent for some time, pondering the strange tale. At last Curdie's mother spoke.",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-023-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-023-hero.txt",
+        "promptSha256": "aeade4f371620895a683cff14d82ed7ed9c30ea2a8224b98234a29184b0bd397"
+      },
+      "inline": [
+        {
+          "id": "chapter-023-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 27,
+          "anchorSha256": "69ec97ccb3b9ae39a624f6462957239ad81c5cad6dad606e6804cf890d6ea2e1",
+          "align": "right",
+          "passageExcerpt": "\"It's exactly as your mother told it to me the very next morning,\" said his father. \"You don't think I'm doubting my own mother!\" cried Curdie. \"There are other people in the world quite as well worth believing as your own mother,\" said his mother. \"I don't know that she's so much the fitter to be believed that she happens to be your mother, Mr. Curdie. There are mothers far more likely to tell lies than that little girl I saw talking to the primroses a few weeks ago. If she were to lie I should begin to doubt my own word.\"",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-023-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-023-inline-01.txt",
+          "promptSha256": "d76663d010517e1cc563cb2bd6459642cd5f1eec6e9318d92d33c3ba1f96bfd3"
+        }
+      ]
+    },
+    {
+      "id": "chapter-024",
+      "number": 24,
+      "title": "IRENE BEHAVES LIKE A PRINCESS",
+      "metrics": {
+        "narrativeWords": 733,
+        "textBlocks": 26,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-024-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.093452,
+        "minimumInlineSeparation": 0.396317,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "85aa3724691694d328557c8125befac0e88289041f1370546d1ad9ca44e279ca",
+        "passageExcerpt": "WHEN the princess awoke from the sweetest of sleeps, she found her nurse bending above her, the housekeeper looking over the nurse's shoulder, and the laundry-maid looking over the housekeeper's. The room was full of women-servants; and the gentlemen-at-arms, with a long column of men-servants behind them, were peeping, or trying to peep in at the door of the nursery. \"Are those horrid creatures gone?\" asked the princess, remembering first what had terrified her in the morning. \"You naughty little princess!\" cried Lootie.",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-024-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-024-hero.txt",
+        "promptSha256": "99c5e956ffaebdc2624fa50bc717f0f7e94cbe6dece14ed4f244ffd34fbd2adb"
+      },
+      "inline": [
+        {
+          "id": "chapter-024-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 15,
+          "anchorSha256": "fbe526da9e090b79c996869eb1cf241fc53aecfc8c84f1848d8f32b530bfe749",
+          "align": "right",
+          "passageExcerpt": "\"You are so rude, Lootie, that I will not speak to you again till you are sorry. Why should I, when I know you will not believe me?\" returned the princess. For she did know perfectly well that if she were to tell Lootie what she had been about, the more she went on to tell her, the less would she believe her. \"You are the most provoking child!\" cried her nurse. \"You deserve to be well punished for your wicked behavior.\"",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-024-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-024-inline-01.txt",
+          "promptSha256": "7f00fe670fbec8ddc8791d0efdd68cd7e46c4e1e67380a0a35dcff9d2d5c381c"
+        }
+      ]
+    },
+    {
+      "id": "chapter-025",
+      "number": 25,
+      "title": "CURDIE COMES TO GRIEF",
+      "metrics": {
+        "narrativeWords": 1550,
+        "textBlocks": 25,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-025-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.134194,
+        "minimumInlineSeparation": 0.376129,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "8b242e58035f1e35be13e7ac78af047a2c57346dee0bb95cda7858809370c320",
+        "passageExcerpt": "…one they saw nothing to cause alarm. Curdie kept watching in the mountain, and the goblins kept burrowing deeper into the earth. As long as they went deeper, there was, Curdie judged, no immediate danger. To Irene, the summer was as full of pleasure as ever, and for a long time, although she often thought of her grandmother during the day, and often dreamed about her at night, she did not see her. The kids and the flowers were as much her delight as ever, and she made as much friendship with the miners' children she met on the mountain as Lootie would permit; but Lootie had very foolish notions concerning the dignity of a princess, not understanding that the truest princess is just the one who loves all her brothers and sisters best, and who is most able to do them good by being humble toward them. At the same time she was considerably altered for the better in her behavior to the princess. She could not help seeing that she was no longer a mere child, but wiser than her age would account for. She kept foolishly whispering to the servants, however—sometimes that the princess was not right in her mind, sometimes that she was too good to live, and other nonsense of the same sort. All this time, Curdie had to be sorry, without a chance of confessing, that he had behaved so unkindly to the princess. This perhaps made him the more diligent in his endeavors to serve her. His mother a…",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-025-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-025-hero.txt",
+        "promptSha256": "6a8d1de204ba65419dec636c4a91c471f00c32e1618a5f6a6b2bb6b1d2fee6fb"
+      },
+      "inline": [
+        {
+          "id": "chapter-025-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 5,
+          "anchorSha256": "67489672c68ba170d0dfa6c91dbeb04a31bf596fda1c411e997c8e9c65cf6e15",
+          "align": "right",
+          "passageExcerpt": "…nees from one spot to the other, and lying at full length with his ear to the ground, listening. But he heard nothing except the tread of the men-at-arms as they marched about, whose observation, as the night was cloudy and there was no moon, he had little difficulty in avoiding. For several following nights, he continued to haunt the garden and listen, but with no success. At length, early one evening, whether it was that he had got careless of his own safety, or that the growing moon had become strong enough to expose him, his watching came to a sudden end. He was creeping from behind the rock where the stream ran out, for he had been listening all round it in the hope it might convey to his ear some indication of the whereabouts of the goblin miners, when just as he came into the moonlight on the lawn, a whizz in his ear and a blow upon his leg startled him. He instantly squatted in the hope of eluding further notice. But when he heard the sound of running feet, he jumped up to take the chance of escape by flight. He fell, however, with a keen shoot of pain, for the bolt of a cross-bow had wounded his leg, and the blood was now streaming from it. He was instantly laid hold of by two or three of the men-at-arms. It was useless to struggle, and he submitted in silence. \"It's a boy!\" cried several of them together, in a tone of amazement. \"I thought it was one of those demons.\"",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-025-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-025-inline-01.txt",
+          "promptSha256": "00a0a599e0382f6b9a1b10a7f26e8cf450135db1d6e4a3fe3cc3d74de93cc941"
+        }
+      ]
+    },
+    {
+      "id": "chapter-026",
+      "number": 26,
+      "title": "THE GOBLIN MINERS",
+      "metrics": {
+        "narrativeWords": 765,
+        "textBlocks": 11,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-026-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.106536,
+        "minimumInlineSeparation": 0.4,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "51b2d5ede4a62c7523537c2b88681613d739c787fd51a44c558b2b12f480800d",
+        "passageExcerpt": "\"I've heard it the last two nights,\" said the cook. \"If there were any about the place, I should have taken it for rats, but my Tom keeps them far enough.\" \"I've heard though,\" said the scullery-maid, \"that rats move about in great companies sometimes. There may be an army of them invading us. I heard the noises yesterday and to-day too.\" \"It'll be grand fun then for my Tom and Mrs. Housekeeper's Bob,\" said the cook. \"They'll be friends for once in their lives, and fight on the same side. I'll engage Tom and Bob together will put to flight any number of rats.\"",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-026-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-026-hero.txt",
+        "promptSha256": "cd7f52aae5363e631012d88c91055e45b0707f1bd853a78dc543e179d7f05e30"
+      },
+      "inline": [
+        {
+          "id": "chapter-026-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 7,
+          "anchorSha256": "ec62b8af30b3cbb5375caa04cc02829d8d3a4e108b80de342f7f1f00065e4ae8",
+          "align": "right",
+          "passageExcerpt": "…As he spoke there came a great rolling rumble beneath them, and the house quivered. They all started up in affright, and rushing to the hall found the gentlemen-at-arms in consternation also. They had sent to wake their captain, who said from their description that it must have been an earthquake, an occurrence which, although very rare in that country, had taken place almost within the century; and then went to bed again, strange to say, and fell fast asleep without once thinking of Curdie, or associating the noises they had heard with what he had told them. He had not believed Curdie. If he had, he would at once have thought of what he had said, and would have taken precautions. As they heard nothing more, they concluded that Sir Walter was right, and that the danger was over for perhaps another hundred years. The fact, as discovered afterward, was that the goblins had, in working up a second sloping face of stone, arrived at a huge block which lay under the cellars of the house, within the line of the foundations. It was so round that when they succeeded, after hard work, in dislodging it without blasting, it rolled thundering down the slope with a bounding, jarring roll, which shook the foundations of the house. The goblins were themselves dismayed at the noise, for they knew, by careful spying and measuring, that they must now be very near, if not under, the king's house,…",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-026-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-026-inline-01.txt",
+          "promptSha256": "a50de8f7649ceb8cb7719d5b99488073aa2ec6fb93f574b7b918c7a52e78d342"
+        }
+      ]
+    },
+    {
+      "id": "chapter-027",
+      "number": 27,
+      "title": "THE GOBLINS IN THE KING'S HOUSE",
+      "metrics": {
+        "narrativeWords": 1735,
+        "textBlocks": 20,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-027-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.098559,
+        "minimumInlineSeparation": 0.284726,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "6d0a32934f114b99eeca5d0e8156218a4e16b25f3bec772690e8c581a2d40397",
+        "passageExcerpt": "He jumped up, as he thought, and began to dress, but, to his dismay, found that he was still lying in bed. \"Now then I will!\" he said. \"Here goes! I am up now!\" But yet again he found himself snug in bed. Twenty times he tried, and twenty times he failed; for in fact he was not awake, only dreaming that he was. At length in an agony of despair, fancying he heard the goblins all over the house, he gave a great cry. Then there came, as he thought, a hand upon the lock of the door. It opened, and, looking up, he saw a lady with white hair, carrying a silver box in her hand, enter the room. She came to his bed, he thought, stroked his head and face with cool, soft hands, took the dressing from his leg, rubbed it with something that smelled like roses, and then waved her hands over him three times. At the last wave of her hands everything vanished, he felt himself sinking into the profoundest slumber, and remembered nothing more until he awoke in earnest.",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-027-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-027-hero.txt",
+        "promptSha256": "595b56b344bda9bcd30c6ae5500c8750729f8301b7adb2fd33789e909e4ab988"
+      },
+      "inline": [
+        {
+          "id": "goblin-invasion",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 10,
+          "anchorSha256": "124c888f1198940714bc34657b1e292a45e2e0349e47112a3d25513190d83986",
+          "align": "right",
+          "source": "output/imagegen/scenes/the-princess-and-the-goblin/goblin-invasion.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/the-princess-and-the-goblin/goblin-invasion.txt",
+          "caption": "The Goblin Queen's charge"
+        }
+      ]
+    },
+    {
+      "id": "chapter-028",
+      "number": 28,
+      "title": "CURDIE'S GUIDE",
+      "metrics": {
+        "narrativeWords": 1193,
+        "textBlocks": 45,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-028-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.112322,
+        "minimumInlineSeparation": 0.398994,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "83a73472c228a929dcae163ad4550f10fa1676474f9457a3f611eba17d194057",
+        "passageExcerpt": "JUST as the consolation of this resolve dawned upon his mind, and he was turning away for the cellar to follow the goblins into their hole, something touched his hand. It was the slightest touch, and when he looked he could see nothing. Feeling and peering about in the gray of the dawn, his fingers came upon a tight thread. He looked again, and narrowly, but still could see nothing. It flashed upon him that this must be the princess's thread. Without saying a word, for he knew no one would believe him any more than he had believed the princess, he followed the thread with his finger, contrived to give Lootie the slip, and was soon out of the house, and on the mountain-side—surprised that, if the thread were indeed her grandmother's messenger, it should have led the princess, as he supposed it must, into the mountain, where she would be certain to meet the goblins rushing back enraged from their defeat. But he hurried on in the hope of overtaking her first. When he arrived however at the place where the path turned off for the mine, he found that the thread did not turn with it, but went straight up the mountain. Could it be that the thread was leading him home to his mother's cottage? Could the princess be there? He bounded up the mountain like one of its own goats, and before the sun was up, the thread had brought him indeed to his mother's door. There it vanished from his fin…",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-028-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-028-hero.txt",
+        "promptSha256": "d5a2333afacd74c36275ff0044c878d8b3ff1e579fd7f79f4b10d2977f3cfe59"
+      },
+      "inline": [
+        {
+          "id": "chapter-028-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 17,
+          "anchorSha256": "40dcb19fc3633a6b9979c394265a94c1f0b16ad23a0c477c9cbfa3914ef568b2",
+          "align": "right",
+          "passageExcerpt": "\"And I never knew it!—Then perhaps you can tell me why my grandmother has brought me here? I can't think. Something woke me—I didn't know what, but I was frightened, and I felt for the thread, and there it was! I was more frightened still when it brought me out on the mountain, for I thought it was going to take me into it again, and I like the outside of it best. I supposed you were in trouble again, and I had to get you out, but it brought me here instead; and, oh, Curdie! your mother has been so kind to me—just like my own grandmother!\" Here Curdie's mother gave the princess a hug, and the princess turned and gave her a sweet smile, and held up her mouth to kiss her. \"Then you didn't see the cobs?\" asked Curdie.",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-028-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-028-inline-01.txt",
+          "promptSha256": "d6bfbdf1d312b8a267e76cd2001cede0d159809b518a3cb92bc17c248e8e76c7"
+        }
+      ]
+    },
+    {
+      "id": "chapter-029",
+      "number": 29,
+      "title": "MASON-WORK",
+      "metrics": {
+        "narrativeWords": 781,
+        "textBlocks": 13,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-029-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.158771,
+        "minimumInlineSeparation": 0.339949,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "c76c8cc953c252cb6dd5830b3b39750a46d9f87a59129d381e6ebbe972f6d366",
+        "passageExcerpt": "HE had all at once remembered the resolution of the goblins to carry out their second plan upon the failure of the first. No doubt they were already busy, and the mine was therefore in the greatest danger of being flooded and rendered useless—not to speak of the lives of the miners. When he reached the mouth of the mine, after rousing all the miners within reach, he found his father and a good many more just entering. They all hurried to the gang by which he had found a way into the goblin country. There the foresight of Peter had already collected a great many blocks of stone, with cement, ready for building up the weak place—well enough known to the goblins. Although there was not room for more than two to be actually building at once, they managed, by setting all the rest to work in preparing the cement, and passing the stones, to finish in the course of the day a huge buttress filling the whole gang, and supported everywhere by the live rock. Before the hour when they usually dropped work, they were satisfied that the mine was secure. They had heard goblin hammers and pickaxes busy all the time, and at length fancied they heard sounds of water they had never heard before. But that was otherwise accounted for when they left the mine; for they stepped out into a tremendous storm which was raging all over the mountain. The thunder was bellowing, and the lightning lancing out o…",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-029-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-029-hero.txt",
+        "promptSha256": "9026f02d1496715d511efef8a4f74fb7237d0d84d0014a4cbe1c17c775636b2b"
+      },
+      "inline": [
+        {
+          "id": "chapter-029-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 3,
+          "anchorSha256": "0a9d7e5d08339afe373a22d3cba72b8f37bd71f26605e457c85116c8fac6139a",
+          "align": "right",
+          "passageExcerpt": "…unted for when they left the mine; for they stepped out into a tremendous storm which was raging all over the mountain. The thunder was bellowing, and the lightning lancing out of a huge black cloud which lay above it, and hung down its edges of thick mist over its sides. The lightning was breaking out of the mountain, too, and flashing up into the cloud. From the state of the brooks, now swollen into raging torrents, it was evident that the storm had been storming all day. The wind was blowing as if it would blow him off the mountain, but, anxious about his mother and the princess, Curdie darted up through the thick of the tempest. Even if they had not set out before the storm came on, he did not judge them safe, for, in such a storm even their poor little house was in danger. Indeed he soon found that but for a huge rock against which it was built, and which protected it both from the blasts and the waters, it must have been swept if it was not blown away; for the two torrents into which this rock parted the rush of water behind it united again in front of the cottage—two roaring and dangerous streams, which his mother and the princess could not possibly have passed. It was with great difficulty that he forced his way through one of them, and up to the door. The moment his hand fell on the latch, through all the uproar of winds and waters came the joyous cry of the princess:—",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-029-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-029-inline-01.txt",
+          "promptSha256": "762912ed3dd74a3859c0f1f9aa58b6f40cdc035b563875923c949d00ff8274f3"
+        }
+      ]
+    },
+    {
+      "id": "chapter-030",
+      "number": 30,
+      "title": "THE KING AND THE KISS",
+      "metrics": {
+        "narrativeWords": 937,
+        "textBlocks": 18,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-030-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.069904,
+        "minimumInlineSeparation": 0.429562,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "2224b5f0a12e8db363b942d7529669740dc8ad46900cdb12ad67434c1b69df49",
+        "passageExcerpt": "THE next morning the sun rose so bright that Irene said the rain had washed his face and let the light out clean. The torrents were still roaring down the side of the mountain, but they were so much smaller as not to be dangerous in the daylight. After an early breakfast, Peter went to his work, and Curdie and his mother set out to take the princess home. They had difficulty in getting her dry across the streams, and Curdie had again and again to carry her, but at last they got safe on the broader part of the road, and walked gently down toward the king's house. And what should they see as they turned the last corner, but the last of the king's troop riding through the gate! \"Oh, Curdie!\" cried Irene, clapping her hands right joyfully, \"my king-papa is come.\"",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-030-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-030-hero.txt",
+        "promptSha256": "b294522bd6020eadf8408ab57c19b2ac75e9b3e5421b03045143ceb6c551db1d"
+      },
+      "inline": [
+        {
+          "id": "chapter-030-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 7,
+          "anchorSha256": "87b1835b3d50a6565d023ff70ec9435daa4f94874c3831a922610c129e511e42",
+          "align": "right",
+          "passageExcerpt": "When Curdie ran in at the gate with the princess in his arms, they were all so absorbed in their own misery and awed by the king's presence and grief, that no one observed his arrival. He went straight up to the king, where he sat on his horse. \"Papa! papa!\" the princess cried, stretching out her arms to him; \"here I am!\" The king started. The color rushed to his face. He gave an inarticulate cry. Curdie held up the princess, and the king bent down and took her from his arms. As he clasped her to his bosom, the big tears went dropping down his cheeks and his beard. And such a shout arose from all the bystanders, that the startled horses pranced and capered, and the armor rang and clattered, and the rocks of the mountain echoed back the noises. The princess greeted them all as she nestled in her father's bosom, and the king did not set her down until she had told them all the story. But she had more to tell about Curdie than about herself, and what she did tell about herself none of them could understand except the king and Curdie, who stood by the king's knee stroking the neck of the great white horse. And still as she told what Curdie had done, Sir Walter and others added to what she told, even Lootie joining in the praises of his courage and energy.",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-030-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-030-inline-01.txt",
+          "promptSha256": "0730d164b4a5d120c8a3355f9720a1f18a5d5d991dee58e0a551202c9c4bc882"
+        }
+      ]
+    },
+    {
+      "id": "chapter-031",
+      "number": 31,
+      "title": "THE SUBTERRANEAN WATERS",
+      "metrics": {
+        "narrativeWords": 1533,
+        "textBlocks": 50,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-031-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.104044,
+        "minimumInlineSeparation": 0.395629,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "33bbb05e1826589d1c2f63b3eba96e76d215aa0407538685ff74ac3680ee2282",
+        "passageExcerpt": "\"Listen,\" she said, holding up her forefinger. The king listened, and a great stillness fell upon the company. Each man, seeing that the king listened, listened also, and the harper sat with his harp between his arms, and his fingers silent upon the strings. \"I do hear a noise,\" said the king at length—\"a noise as of distant thunder. It is coming nearer and nearer. What can it be?\"",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-031-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-031-hero.txt",
+        "promptSha256": "33272b1a28004558e0877e616ea3bedd263126b6e890994682554e6b3b2773f5"
+      },
+      "inline": [
+        {
+          "id": "chapter-031-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 21,
+          "anchorSha256": "947a803823ed87076f087b0e1f5f10bd77660bed8596f9f18f551238822bb35c",
+          "align": "right",
+          "passageExcerpt": "\"Shall I see if we can manage that?\" said Curdie. \"Do,\" said the king. Curdie gathered the men-at-arms, and took them over the garden wall, and so to the stables. They found their horses in terror; the water was rising fast around them, and it was quite time they were got out. But there was no way to get them out, except by riding them through the stream, which was now pouring from the lower windows as well as the door. As one horse was quite enough for any man to manage through such a torrent, Curdie got on the king's white charger, and leading the way, brought them all in safety to the rising ground.",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-031-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-031-inline-01.txt",
+          "promptSha256": "79897320e6804a700b98d4c9edc85b8c246593000c9eabacea9dfb3238978ac0"
+        }
+      ]
+    },
+    {
+      "id": "chapter-032",
+      "number": 32,
+      "title": "THE LAST CHAPTER",
+      "metrics": {
+        "narrativeWords": 480,
+        "textBlocks": 10,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-032-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 0,
+        "sourceFraction": 0.060417,
+        "minimumInlineSeparation": 0.505208,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "78b511007a121220bd48eadbad2f7061a2431fc5de7efc740c599239ffb8cf78",
+        "passageExcerpt": "ALL the rest went up the mountain, and separated in groups to the homes of the miners. Curdie and his father and mother took Lootie with them. And the whole way, a light, of which all but Lootie understood the origin, shone upon their path. But when they looked round they could see nothing of the silvery globe. For days and days the water continued to rush from the doors and windows of the king's house, and a few goblin bodies were swept out into the road.",
+        "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+        "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/heroes/chapter-032-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-032-hero.txt",
+        "promptSha256": "18dca19b1c5a1bdb92de4a8e725d941a9e7a66ed4113053c74a657dbff04d6cd"
+      },
+      "inline": [
+        {
+          "id": "chapter-032-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 3,
+          "anchorSha256": "9ce061c0812dbf490f90c2683311566fce7c80f976b3e165051530899dd4268e",
+          "align": "right",
+          "passageExcerpt": "…nd the rest of the miners, and they at once proceeded to make another outlet for the waters. By setting all hands to the work, tunneling here and building there, they soon succeeded; and having also made a little tunnel to drain the water away from under the king's house, they were soon able to get into the wine cellar, where they found a multitude of dead goblins—among the rest the queen, with the skin-shoe gone, and the stone one fast to her ankle—for the water had swept away the barricade which prevented the men-at-arms from following the goblins, and had greatly widened the passage. They built it securely up, and then went back to their labors in the mine. A good many of the goblins with their creatures escaped from the inundation out upon the mountain. But most of them soon left that part of the country, and most of those who remained grew milder in character, and indeed became very much like the Scotch Brownies. Their skulls became softer as well as their hearts, and their feet grew harder, and by degrees they became friendly with the inhabitants of the mountain and even with the miners. But the latter were merciless to any of the cobs' creatures that came their way, until at length they all but disappeared. Still— \"But, Mr. Author, we would rather hear more about the Princess and Curdie. We don't care about the goblins and their nasty creatures. They frighten us—rather.\"",
+          "referenceImage": "output/imagegen/references/the-princess-and-the-goblin.webp",
+          "output": "output/imagegen/chapter-scenes/the-princess-and-the-goblin/inline/chapter-032-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/the-princess-and-the-goblin/chapter-032-inline-01.txt",
+          "promptSha256": "2844bba59ff43408d36c9fd587172cb19ebe821c9ecc94feab6e6b3136ad4d5a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1705 @@
+{
+  "schemaVersion": 1,
+  "storySlug": "treasure-island",
+  "title": "Treasure Island",
+  "author": "Robert Louis Stevenson",
+  "generation": {
+    "provider": "OpenAI",
+    "model": "gpt-image-2",
+    "quality": "low",
+    "format": "webp"
+  },
+  "artDirection": {
+    "style": "Weathered nautical etching over opaque gouache; rope-fiber lines and salt-stained texture; navy, parchment, oxidized green and sparing blood red; readable rigging and tense lantern light.",
+    "referenceImage": "output/imagegen/references/treasure-island.webp",
+    "referenceStatus": "planned"
+  },
+  "quota": {
+    "unit": "inline-illustrations-per-chapter",
+    "formula": "min(4, max(1, ceil(narrativeWords / 3000), ceil(textBlocks / 100)))",
+    "narrativeBlockTypes": [
+      "paragraph",
+      "verse"
+    ],
+    "heroesAreAdditionalToInlineQuota": true
+  },
+  "referenceJob": {
+    "id": "treasure-island-reference-sheet",
+    "role": "reference-sheet",
+    "operation": "image-edit",
+    "width": 816,
+    "height": 816,
+    "sourceImage": "output/imagegen/singles/treasure-island/scene.webp",
+    "output": "output/imagegen/references/treasure-island.webp",
+    "prompt": "output/imagegen/chapter-prompts/treasure-island/treasure-island-reference-sheet.txt",
+    "promptSha256": "6ec10c9bbe3e9e3b2325537934f6f53c27dc7be29cf6ed1ca50646faea8ef322"
+  },
+  "summary": {
+    "chapters": 34,
+    "desiredInline": 34,
+    "retainedInline": 1,
+    "plannedInline": 33,
+    "plannedHeroes": 34
+  },
+  "chapters": [
+    {
+      "id": "chapter-001",
+      "number": 1,
+      "title": "The Old Sea-dog at the “Admiral Benbow”",
+      "metrics": {
+        "narrativeWords": 2208,
+        "textBlocks": 23,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-001-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.105299,
+        "minimumInlineSeparation": 0.373188,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "4dd6529c7889ec7d527ebb754a7464d0b2943625af54403ea6972bdf5b10ab89",
+        "passageExcerpt": "“Fifteen men on the dead man’s chest— Yo-ho-ho, and a bottle of rum!” in the high, old tottering voice that seemed to have been tuned and broken at the capstan bars. Then he rapped on the door with a bit of stick like a handspike that he carried, and when my father appeared, called roughly for a glass of rum. This, when it was brought to him, he drank slowly, like a connoisseur, lingering on the taste and still looking about him at the cliffs and up at our signboard. “This is a handy cove,” says he at length; “and a pleasant sittyated grog-shop. Much company, mate?”",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-001-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-001-hero.txt",
+        "promptSha256": "d94d2ffd248c45b5ae0b555ebbe415630bf25150a44ff8d34de71e0c0283f3b1"
+      },
+      "inline": [
+        {
+          "id": "chapter-001-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 10,
+          "anchorSha256": "48f635e117720d0e8ee1e44aceb5da2dfac2cef2a3633a9c681ea0ef30bf07cf",
+          "align": "right",
+          "passageExcerpt": "…run and pursue me over hedge and ditch was the worst of nightmares. And altogether I paid pretty dear for my monthly fourpenny piece, in the shape of these abominable fancies. But though I was so terrified by the idea of the seafaring man with one leg, I was far less afraid of the captain himself than anybody else who knew him. There were nights when he took a deal more rum and water than his head would carry; and then he would sometimes sit and sing his wicked, old, wild sea-songs, minding nobody; but sometimes he would call for glasses round and force all the trembling company to listen to his stories or bear a chorus to his singing. Often I have heard the house shaking with “Yo-ho-ho, and a bottle of rum,” all the neighbours joining in for dear life, with the fear of death upon them, and each singing louder than the other to avoid remark. For in these fits he was the most overriding companion ever known; he would slap his hand on the table for silence all round; he would fly up in a passion of anger at a question, or sometimes because none was put, and so he judged the company was not following his story. Nor would he allow anyone to leave the inn till he had drunk himself sleepy and reeled off to bed. His stories were what frightened people worst of all. Dreadful stories they were—about hanging, and walking the plank, and storms at sea, and the Dry Tortugas, and wild deeds…",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-001-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-001-inline-01.txt",
+          "promptSha256": "e0703f096f7a9b9dffe06a45335f3c2fd18a0c4696ce0c1696dbffa27ca61342"
+        }
+      ]
+    },
+    {
+      "id": "chapter-002",
+      "number": 2,
+      "title": "Black Dog Appears and Disappears",
+      "metrics": {
+        "narrativeWords": 2256,
+        "textBlocks": 49,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-002-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.115913,
+        "minimumInlineSeparation": 0.380098,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "addda2f463e0e513c570e43a0c1e5f97dc6e1fc59380acd70f0b636f8b6027a0",
+        "passageExcerpt": "It was one January morning, very early—a pinching, frosty morning—the cove all grey with hoar-frost, the ripple lapping softly on the stones, the sun still low and only touching the hilltops and shining far to seaward. The captain had risen earlier than usual and set out down the beach, his cutlass swinging under the broad skirts of the old blue coat, his brass telescope under his arm, his hat tilted back upon his head. I remember his breath hanging like smoke in his wake as he strode off, and the last sound I heard of him as he turned the big rock was a loud snort of indignation, as though his mind was still running upon Dr. Livesey. Well, mother was upstairs with father and I was laying the breakfast-table against the captain’s return when the parlour door opened and a man stepped in on whom I had never set my eyes before. He was a pale, tallowy creature, wanting two fingers of the left hand, and though he wore a cutlass, he did not look much like a fighter. I had always my eye open for seafaring men, with one leg or two, and I remember this one puzzled me. He was not sailorly, and yet he had a smack of the sea about him too. I asked him what was for his service, and he said he would take rum; but as I was going out of the room to fetch it, he sat down upon a table and motioned me to draw near. I paused where I was, with my napkin in my hand.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-002-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-002-hero.txt",
+        "promptSha256": "4b3558848634a381c4577ce526344a9f6e40f2e711777474031185640b18cf9b"
+      },
+      "inline": [
+        {
+          "id": "chapter-002-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 22,
+          "anchorSha256": "7cb568db1a54f93e29a4bf699909c5ddd41b0a40442546f220e2324721de43a3",
+          "align": "right",
+          "passageExcerpt": "“And who else?” returned the other, getting more at his ease. “Black Dog as ever was, come for to see his old shipmate Billy, at the Admiral Benbow inn. Ah, Bill, Bill, we have seen a sight of times, us two, since I lost them two talons,” holding up his mutilated hand. “Now, look here,” said the captain; “you’ve run me down; here I am; well, then, speak up; what is it?” “That’s you, Bill,” returned Black Dog, “you’re in the right of it, Billy. I’ll have a glass of rum from this dear child here, as I’ve took such a liking to; and we’ll sit down, if you please, and talk square, like old shipmates.”",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-002-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-002-inline-01.txt",
+          "promptSha256": "b02b367d223c00cd433e6b8db96c8f29f7dc79ea44b7dfea5217a7833b4a007d"
+        }
+      ]
+    },
+    {
+      "id": "chapter-003",
+      "number": 3,
+      "title": "The Black Spot",
+      "metrics": {
+        "narrativeWords": 2162,
+        "textBlocks": 38,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-003-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.096901,
+        "minimumInlineSeparation": 0.440796,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "326fd30ab2568adbdcaed1613319a8a862eed4efbe72609400512dc8b4e9303d",
+        "passageExcerpt": "“The doctor—” I began. But he broke in cursing the doctor, in a feeble voice but heartily. “Doctors is all swabs,” he said; “and that doctor there, why, what do he know about seafaring men? I been in places hot as pitch, and mates dropping round with Yellow Jack, and the blessed land a-heaving like the sea with earthquakes—what do the doctor know of lands like that?—and I lived on rum, I tell you. It’s been meat and drink, and man and wife, to me; and if I’m not to have my rum now I’m a poor old hulk on a lee shore, my blood’ll be on you, Jim, and that doctor swab”; and he ran on again for a while with curses. “Look, Jim, how my fingers fidges,” he continued in the pleading tone. “I can’t keep ’em still, not I. I haven’t had a drop this blessed day. That doctor’s a fool, I tell you. If I don’t have a dram o’ rum, Jim, I’ll have the horrors; I seen some on ’em already. I seen old Flint in the corner there, behind you; as plain as print, I seen him; and if I get the horrors, I’m a man that has lived rough, and I’ll raise Cain. Your doctor hisself said one glass wouldn’t hurt me. I’ll give you a golden guinea for a noggin, Jim.” He was growing more and more excited, and this alarmed me for my father, who was very low that day and needed quiet; besides, I was reassured by the doctor’s words, now quoted to me, and rather offended by the offer of a bribe.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-003-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-003-hero.txt",
+        "promptSha256": "ed62a91df9b9f6877d291cf46a675587fb33c9bd5a8b2ef277606b92a6aa10ed"
+      },
+      "inline": [
+        {
+          "id": "chapter-003-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 20,
+          "anchorSha256": "21b9f26244479bed17454f6b1f913e0e28c167afbd8862b4cce39dd26e9c056f",
+          "align": "right",
+          "passageExcerpt": "…He got downstairs next morning, to be sure, and had his meals as usual, though he ate little and had more, I am afraid, than his usual supply of rum, for he helped himself out of the bar, scowling and blowing through his nose, and no one dared to cross him. On the night before the funeral he was as drunk as ever; and it was shocking, in that house of mourning, to hear him singing away at his ugly old sea-song; but weak as he was, we were all in the fear of death for him, and the doctor was suddenly taken up with a case many miles away and was never near the house after my father’s death. I have said the captain was weak, and indeed he seemed rather to grow weaker than regain his strength. He clambered up and down stairs, and went from the parlour to the bar and back again, and sometimes put his nose out of doors to smell the sea, holding on to the walls as he went for support and breathing hard and fast like a man on a steep mountain. He never particularly addressed me, and it is my belief he had as good as forgotten his confidences; but his temper was more flighty, and allowing for his bodily weakness, more violent than ever. He had an alarming way now when he was drunk of drawing his cutlass and laying it bare before him on the table. But with all that, he minded people less and seemed shut up in his own thoughts and rather wandering. Once, for instance, to our extreme wonder…",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-003-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-003-inline-01.txt",
+          "promptSha256": "9f41db6bdc2e493c1feb17b2a6c17673d645ae362b63655b0a33032cbdfd0a7d"
+        }
+      ]
+    },
+    {
+      "id": "chapter-004",
+      "number": 4,
+      "title": "The Sea-chest",
+      "metrics": {
+        "narrativeWords": 2144,
+        "textBlocks": 28,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-004-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.135261,
+        "minimumInlineSeparation": 0.370103,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "aeaa72f5f5c08f0f43df6f893011498c47fb030eca36ca26224c591b1ceb43da",
+        "passageExcerpt": "…ad body of the captain on the parlour floor and the thought of that detestable blind beggar hovering near at hand and ready to return, there were moments when, as the saying goes, I jumped in my skin for terror. Something must speedily be resolved upon, and it occurred to us at last to go forth together and seek help in the neighbouring hamlet. No sooner said than done. Bare-headed as we were, we ran out at once in the gathering evening and the frosty fog. The hamlet lay not many hundred yards away, though out of view, on the other side of the next cove; and what greatly encouraged me, it was in an opposite direction from that whence the blind man had made his appearance and whither he had presumably returned. We were not many minutes on the road, though we sometimes stopped to lay hold of each other and hearken. But there was no unusual sound—nothing but the low wash of the ripple and the croaking of the inmates of the wood. It was already candle-light when we reached the hamlet, and I shall never forget how much I was cheered to see the yellow shine in doors and windows; but that, as it proved, was the best of the help we were likely to get in that quarter. For—you would have thought men would have been ashamed of themselves—no soul would consent to return with us to the Admiral Benbow. The more we told of our troubles, the more—man, woman, and child—they clung to the shelter…",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-004-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-004-hero.txt",
+        "promptSha256": "0cbd60d6b72115797eb1dd5ab56a1f19bc226da7fd7b8ae82b6f78d59720fa7f"
+      },
+      "inline": [
+        {
+          "id": "chapter-004-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 12,
+          "anchorSha256": "8c5b9b9bcf2a41cf40a1eda6d27b29faeb90890bfc1203dbfc55b9c1665e3524",
+          "align": "right",
+          "passageExcerpt": "“Now, Jim,” she said, “that key.” I felt in his pockets, one after another. A few small coins, a thimble, and some thread and big needles, a piece of pigtail tobacco bitten away at the end, his gully with the crooked handle, a pocket compass, and a tinder box were all that they contained, and I began to despair. “Perhaps it’s round his neck,” suggested my mother.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-004-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-004-inline-01.txt",
+          "promptSha256": "83815b7a58d8e3854edaf7ef5c484a73998c640561df5c6a5c138fa025dc865e"
+        }
+      ]
+    },
+    {
+      "id": "chapter-005",
+      "number": 5,
+      "title": "The Last of the Blind Man",
+      "metrics": {
+        "narrativeWords": 1856,
+        "textBlocks": 43,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-005-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.107489,
+        "minimumInlineSeparation": 0.37931,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "1524c5a45781e0600927f7507a44dcc0301e4ba39d786f7f6393195542df0e5e",
+        "passageExcerpt": "“Aye, aye, sir!” answered two or three; and a rush was made upon the Admiral Benbow, the lantern-bearer following; and then I could see them pause, and hear speeches passed in a lower key, as if they were surprised to find the door open. But the pause was brief, for the blind man again issued his commands. His voice sounded louder and higher, as if he were afire with eagerness and rage. “In, in, in!” he shouted, and cursed them for their delay. Four or five of them obeyed at once, two remaining on the road with the formidable beggar. There was a pause, then a cry of surprise, and then a voice shouting from the house, “Bill’s dead.”",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-005-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-005-hero.txt",
+        "promptSha256": "c04f3eb315be7d067ee0d3a28957a318c20da5764b7fb15d413ac46277b44a7a"
+      },
+      "inline": [
+        {
+          "id": "chapter-005-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 28,
+          "anchorSha256": "78c1999adda1c4803dc9360a3b645038bb62136f1d191fa3529899cebd652e80",
+          "align": "right",
+          "passageExcerpt": "Squalling was the word for it; Pew’s anger rose so high at these objections till at last, his passion completely taking the upper hand, he struck at them right and left in his blindness and his stick sounded heavily on more than one. These, in their turn, cursed back at the blind miscreant, threatened him in horrid terms, and tried in vain to catch the stick and wrest it from his grasp. This quarrel was the saving of us, for while it was still raging, another sound came from the top of the hill on the side of the hamlet—the tramp of horses galloping. Almost at the same time a pistol-shot, flash and report, came from the hedge side. And that was plainly the last signal of danger, for the buccaneers turned at once and ran, separating in every direction, one seaward along the cove, one slant across the hill, and so on, so that in half a minute not a sign of them remained but Pew. Him they had deserted, whether in sheer panic or out of revenge for his ill words and blows I know not; but there he remained behind, tapping up and down the road in a frenzy, and groping and calling for his comrades. Finally he took a wrong turn and ran a few steps past me, towards the hamlet, crying, “Johnny, Black Dog, Dirk,” and other names, “you won’t leave old Pew, mates—not old Pew!”",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-005-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-005-inline-01.txt",
+          "promptSha256": "f45fc5dceb05a4d90993dd9d806eccc4c0a1eb981d599aaa51b5bf920fc9c885"
+        }
+      ]
+    },
+    {
+      "id": "chapter-006",
+      "number": 6,
+      "title": "The Captain’s Papers",
+      "metrics": {
+        "narrativeWords": 1969,
+        "textBlocks": 55,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-006-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 7,
+        "sourceFraction": 0.088878,
+        "minimumInlineSeparation": 0.396648,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "e68bf14709f7c57929b3d4f2ecdff84ffa32d40dc2f5c0ac0794deb92cf5fb00",
+        "passageExcerpt": "This time, as the distance was short, I did not mount, but ran with Dogger’s stirrup-leather to the lodge gates and up the long, leafless, moonlit avenue to where the white line of the hall buildings looked on either hand on great old gardens. Here Mr. Dance dismounted, and taking me along with him, was admitted at a word into the house. The servant led us down a matted passage and showed us at the end into a great library, all lined with bookcases and busts upon the top of them, where the squire and Dr. Livesey sat, pipe in hand, on either side of a bright fire. I had never seen the squire so near at hand. He was a tall man, over six feet high, and broad in proportion, and he had a bluff, rough-and-ready face, all roughened and reddened and lined in his long travels. His eyebrows were very black, and moved readily, and this gave him a look of some temper, not bad, you would say, but quick and high.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-006-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-006-hero.txt",
+        "promptSha256": "4c144d53e2242d9c2af9bbce79c045bc107a108468a806c43b028e5c4aa5df84"
+      },
+      "inline": [
+        {
+          "id": "chapter-006-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 30,
+          "anchorSha256": "c68ee7fcf1570c9b3ef6e9140ddce8b5d34637aa3f093fdde4c1222126837d4c",
+          "align": "right",
+          "passageExcerpt": "The bundle was sewn together, and the doctor had to get out his instrument case and cut the stitches with his medical scissors. It contained two things—a book and a sealed paper. “First of all we’ll try the book,” observed the doctor. The squire and I were both peering over his shoulder as he opened it, for Dr. Livesey had kindly motioned me to come round from the side-table, where I had been eating, to enjoy the sport of the search. On the first page there were only some scraps of writing, such as a man with a pen in his hand might make for idleness or practice. One was the same as the tattoo mark, “Billy Bones his fancy”; then there was “Mr. W. Bones, mate,” “No more rum,” “Off Palm Key he got itt,” and some other snatches, mostly single words and unintelligible. I could not help wondering who it was that had “got itt,” and what “itt” was that he got. A knife in his back as like as not.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-006-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-006-inline-01.txt",
+          "promptSha256": "6ce62243ebae35b64d94e3905cf7d0308dbe8e6fa1f47bd202bb9cbf7d3b3e8d"
+        }
+      ]
+    },
+    {
+      "id": "chapter-007",
+      "number": 7,
+      "title": "I Go to Bristol",
+      "metrics": {
+        "narrativeWords": 1840,
+        "textBlocks": 37,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-007-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.122283,
+        "minimumInlineSeparation": 0.387228,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "2d38773d2e1bbefb370693e70cbeb9465e0bc4a0790cdf69a5c1d6edaf747513",
+        "passageExcerpt": "…ere ready for the sea, and none of our first plans—not even Dr. Livesey’s, of keeping me beside him—could be carried out as we intended. The doctor had to go to London for a physician to take charge of his practice; the squire was hard at work at Bristol; and I lived on at the hall under the charge of old Redruth, the gamekeeper, almost a prisoner, but full of sea-dreams and the most charming anticipations of strange islands and adventures. I brooded by the hour together over the map, all the details of which I well remembered. Sitting by the fire in the housekeeper’s room, I approached that island in my fancy from every possible direction; I explored every acre of its surface; I climbed a thousand times to that tall hill they call the Spy-glass, and from the top enjoyed the most wonderful and changing prospects. Sometimes the isle was thick with savages, with whom we fought, sometimes full of dangerous animals that hunted us, but in all my fancies nothing occurred to me so strange and tragic as our actual adventures. So the weeks passed on, till one fine day there came a letter addressed to Dr. Livesey, with this addition, “To be opened, in the case of his absence, by Tom Redruth or young Hawkins.” Obeying this order, we found, or rather I found—for the gamekeeper was a poor hand at reading anything but print—the following important news: Old Anchor Inn, Bristol, March 1, 17—.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-007-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-007-hero.txt",
+        "promptSha256": "9abf81112734474d147d5012a75f2f1d26eb45402156c719062de41f79e047fb"
+      },
+      "inline": [
+        {
+          "id": "chapter-007-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 19,
+          "anchorSha256": "507cde595b80afb8ae32f35327f404db8ae75cb5d97fe3a1429830a8172aa1c8",
+          "align": "right",
+          "passageExcerpt": "John Trelawney Postscript. —I did not tell you that Blandly, who, by the way, is to send a consort after us if we don’t turn up by the end of August, had found an admirable fellow for sailing master—a stiff man, which I regret, but in all other respects a treasure. Long John Silver unearthed a very competent man for a mate, a man named Arrow. I have a boatswain who pipes, Livesey; so things shall go man-o’-war fashion on board the good ship Hispaniola . I forgot to tell you that Silver is a man of substance; I know of my own knowledge that he has a banker’s account, which has never been overdrawn. He leaves his wife to manage the inn; and as she is a woman of colour, a pair of old bachelors like you and I may be excused for guessing that it is the wife, quite as much as the health, that sends him back to roving.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-007-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-007-inline-01.txt",
+          "promptSha256": "6addd74eb61d1f3fed34a83ed212efd7a8cb597dc63345a06dc708fef5b4a858"
+        }
+      ]
+    },
+    {
+      "id": "chapter-008",
+      "number": 8,
+      "title": "At the Sign of the Spy-glass",
+      "metrics": {
+        "narrativeWords": 1776,
+        "textBlocks": 47,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-008-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.092624,
+        "minimumInlineSeparation": 0.405124,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "2d408f67d60b5127f0727340c4f4ec16afbe743d35c5a6be4e056f3be781577e",
+        "passageExcerpt": "It was a bright enough little place of entertainment. The sign was newly painted; the windows had neat red curtains; the floor was cleanly sanded. There was a street on each side and an open door on both, which made the large, low room pretty clear to see in, in spite of clouds of tobacco smoke. The customers were mostly seafaring men, and they talked so loudly that I hung at the door, almost afraid to enter. As I was waiting, a man came out of a side room, and at a glance I was sure he must be Long John. His left leg was cut off close by the hip, and under the left shoulder he carried a crutch, which he managed with wonderful dexterity, hopping about upon it like a bird. He was very tall and strong, with a face as big as a ham—plain and pale, but intelligent and smiling. Indeed, he seemed in the most cheerful spirits, whistling as he moved about among the tables, with a merry word or a slap on the shoulder for the more favoured of his guests.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-008-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-008-hero.txt",
+        "promptSha256": "ca4d877c14dff0b9bff581247ce420419b0311eaa0cb0969165624ca885e5aa6"
+      },
+      "inline": [
+        {
+          "id": "chapter-008-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 28,
+          "anchorSha256": "fb237da851e26a7bae5345bae68ec4e2c4430cee1c21e23c78b06ea96177710a",
+          "align": "right",
+          "passageExcerpt": "“Keel-hauling, was you? And a mighty suitable thing, too, and you may lay to that. Get back to your place for a lubber, Tom.” And then, as Morgan rolled back to his seat, Silver added to me in a confidential whisper that was very flattering, as I thought, “He’s quite an honest man, Tom Morgan, on’y stupid. And now,” he ran on again, aloud, “let’s see—Black Dog? No, I don’t know the name, not I. Yet I kind of think I’ve—yes, I’ve seen the swab. He used to come here with a blind beggar, he used.” “That he did, you may be sure,” said I. “I knew that blind man too. His name was Pew.”",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-008-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-008-inline-01.txt",
+          "promptSha256": "e8d669ded1a6fe2cb9d008275919fa3a0bf65da404576ddb33cce16c5fc5d092"
+        }
+      ]
+    },
+    {
+      "id": "chapter-009",
+      "number": 9,
+      "title": "Powder and Arms",
+      "metrics": {
+        "narrativeWords": 1718,
+        "textBlocks": 58,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-009-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 5,
+        "sourceFraction": 0.100116,
+        "minimumInlineSeparation": 0.39319,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "5cac2cd82201130e9f13fef9f21c6d9cb5f1c7da1b291b6c0d84ad98e9ff9f71",
+        "passageExcerpt": "The captain, who was close behind his messenger, entered at once and shut the door behind him. “Well, Captain Smollett, what have you to say? All well, I hope; all shipshape and seaworthy?” “Well, sir,” said the captain, “better speak plain, I believe, even at the risk of offence. I don’t like this cruise; I don’t like the men; and I don’t like my officer. That’s short and sweet.”",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-009-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-009-hero.txt",
+        "promptSha256": "c06ae15f9751fd5e6f6e534dacd134d3fb9064732417fd4e61cf7f257758de7e"
+      },
+      "inline": [
+        {
+          "id": "chapter-009-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 33,
+          "anchorSha256": "b263e65ceabf08946f7840a80698847bd5fe0d6528f168e91fb4e5f7362bc7c2",
+          "align": "right",
+          "passageExcerpt": "“The hands know it, sir,” returned the captain. “Livesey, that must have been you or Hawkins,” cried the squire. “It doesn’t much matter who it was,” replied the doctor. And I could see that neither he nor the captain paid much regard to Mr. Trelawney’s protestations. Neither did I, to be sure, he was so loose a talker; yet in this case I believe he was really right and that nobody had told the situation of the island.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-009-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-009-inline-01.txt",
+          "promptSha256": "ff2a389c3ecd0a30c2be6abb2e332f22ae1b9758216e2edacfd7790543c6cebf"
+        }
+      ]
+    },
+    {
+      "id": "chapter-010",
+      "number": 10,
+      "title": "The Voyage",
+      "metrics": {
+        "narrativeWords": 1944,
+        "textBlocks": 34,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-010-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 7,
+        "sourceFraction": 0.097994,
+        "minimumInlineSeparation": 0.865741,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "595a13c149a2678d000aa591a94f78d502800c833d80485a274e92ee5d400496",
+        "passageExcerpt": "“Yo-ho-ho, and a bottle of rum!” And at the third “Ho!” drove the bars before them with a will. Even at that exciting moment it carried me back to the old Admiral Benbow in a second, and I seemed to hear the voice of the captain piping in the chorus. But soon the anchor was short up; soon it was hanging dripping at the bows; soon the sails began to draw, and the land and shipping to flit by on either side; and before I could lie down to snatch an hour of slumber the Hispaniola had begun her voyage to the Isle of Treasure.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-010-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-010-hero.txt",
+        "promptSha256": "afd0f6685b4a86172f5ef3906b50295661e7d328761a7ac4af5cbde4550e54c3"
+      },
+      "inline": [
+        {
+          "id": "apple-barrel",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 34,
+          "anchorSha256": "4aebce0dcdd18f1937492a1e57e0ad1585cf0312b1dc9d9312c305859e56f917",
+          "align": "right",
+          "source": "output/imagegen/singles/treasure-island/scene.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/treasure-island/scene.txt",
+          "caption": "Inside the apple barrel"
+        }
+      ]
+    },
+    {
+      "id": "chapter-011",
+      "number": 11,
+      "title": "What I Heard in the Apple-Barrel",
+      "metrics": {
+        "narrativeWords": 2076,
+        "textBlocks": 39,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-011-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.120183,
+        "minimumInlineSeparation": 0.376445,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "9869e258ac1308ee507e540b386f6de83ecc5bb6066578b493b40b273c6f8f91",
+        "passageExcerpt": "“Ah!” cried another voice, that of the youngest hand on board, and evidently full of admiration. “He was the flower of the flock, was Flint!” “Davis was a man too, by all accounts,” said Silver. “I never sailed along of him; first with England, then with Flint, that’s my story; and now here on my own account, in a manner of speaking. I laid by nine hundred safe, from England, and two thousand after Flint. That ain’t bad for a man before the mast—all safe in bank. ’Tain’t earning now, it’s saving does it, you may lay to that. Where’s all England’s men now? I dunno. Where’s Flint’s? Why, most on ’em aboard here, and glad to get the duff—been begging before that, some on ’em. Old Pew, as had lost his sight, and might have thought shame, spends twelve hundred pound in a year, like a lord in Parliament. Where is he now? Well, he’s dead now and under hatches; but for two year before that, shiver my timbers, the man was starving! He begged, and he stole, and he cut throats, and starved at that, by the powers!” “Well, it ain’t much use, after all,” said the young seaman.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-011-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-011-hero.txt",
+        "promptSha256": "b7897d46d404449adea4878498da368a51dfaba65ae1cae9a0b2462140ee3981"
+      },
+      "inline": [
+        {
+          "id": "chapter-011-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 18,
+          "anchorSha256": "6e3ced8981195d1c6d643c5f2017217bf73d3729cad647b462d7b5b15b52252a",
+          "align": "right",
+          "passageExcerpt": "“Dick’s square,” said Silver. “Oh, I know’d Dick was square,” returned the voice of the coxswain, Israel Hands. “He’s no fool, is Dick.” And he turned his quid and spat. “But look here,” he went on, “here’s what I want to know, Barbecue: how long are we a-going to stand off and on like a blessed bumboat? I’ve had a’most enough o’ Cap’n Smollett; he’s hazed me long enough, by thunder! I want to go into that cabin, I do. I want their pickles and wines, and that.” “Israel,” said Silver, “your head ain’t much account, nor ever was. But you’re able to hear, I reckon; leastways, your ears is big enough. Now, here’s what I say: you’ll berth forward, and you’ll live hard, and you’ll speak soft, and you’ll keep sober till I give the word; and you may lay to that, my son.”",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-011-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-011-inline-01.txt",
+          "promptSha256": "74f4c2a53c7ac4ab60b0f23275dc55140e488bc30f6fc6703248c3fb98a6f433"
+        }
+      ]
+    },
+    {
+      "id": "chapter-012",
+      "number": 12,
+      "title": "Council of War",
+      "metrics": {
+        "narrativeWords": 1849,
+        "textBlocks": 45,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-012-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.106814,
+        "minimumInlineSeparation": 0.391833,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "6d0dd17f0c8f744dac60dae88697e09dfc82fb9fc9bf339b315b4f18c603149c",
+        "passageExcerpt": "So much I saw, almost in a dream, for I had not yet recovered from my horrid fear of a minute or two before. And then I heard the voice of Captain Smollett issuing orders. The Hispaniola was laid a couple of points nearer the wind and now sailed a course that would just clear the island on the east. “And now, men,” said the captain, when all was sheeted home, “has any one of you ever seen that land ahead?” “I have, sir,” said Silver. “I’ve watered there with a trader I was cook in.”",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-012-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-012-hero.txt",
+        "promptSha256": "9a1cf587793b25b72461d407dffbd3758bb27239708aaef7042ad190c972a2b9"
+      },
+      "inline": [
+        {
+          "id": "chapter-012-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 17,
+          "anchorSha256": "258ad9c8933cdd383129c17f8ee1db78b9ca3945e6b87b78d853bec216d49974",
+          "align": "right",
+          "passageExcerpt": "“Thank you, Jim,” said he quite loudly, “that was all I wanted to know,” as if he had asked me a question. And with that he turned on his heel and rejoined the other two. They spoke together for a little, and though none of them started, or raised his voice, or so much as whistled, it was plain enough that Dr. Livesey had communicated my request, for the next thing that I heard was the captain giving an order to Job Anderson, and all hands were piped on deck. “My lads,” said Captain Smollett, “I’ve a word to say to you. This land that we have sighted is the place we have been sailing for. Mr. Trelawney, being a very open-handed gentleman, as we all know, has just asked me a word or two, and as I was able to tell him that every man on board had done his duty, alow and aloft, as I never ask to see it done better, why, he and I and the doctor are going below to the cabin to drink your health and luck, and you’ll have grog served out for you to drink our health and luck. I’ll tell you what I think of this: I think it handsome. And if you think as I do, you’ll give a good sea-cheer for the gentleman that does it.”",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-012-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-012-inline-01.txt",
+          "promptSha256": "d2101348678fb555062e9493941869084bdd0154e6d7855e99b9c142047b5105"
+        }
+      ]
+    },
+    {
+      "id": "chapter-013",
+      "number": 13,
+      "title": "How I Began My Shore Adventure",
+      "metrics": {
+        "narrativeWords": 1796,
+        "textBlocks": 29,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-013-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.116927,
+        "minimumInlineSeparation": 0.368318,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "9d9a5c92a0bfec29b73402da6f148e93da70abf4007cc016292d44f2e6774689",
+        "passageExcerpt": "…ily, out-topping the others—some singly, some in clumps; but the general colouring was uniform and sad. The hills ran up clear above the vegetation in spires of naked rock. All were strangely shaped, and the Spy-glass, which was by three or four hundred feet the tallest on the island, was likewise the strangest in configuration, running up sheer from almost every side and then suddenly cut off at the top like a pedestal to put a statue on. The Hispaniola was rolling scuppers under in the ocean swell. The booms were tearing at the blocks, the rudder was banging to and fro, and the whole ship creaking, groaning, and jumping like a manufactory. I had to cling tight to the backstay, and the world turned giddily before my eyes, for though I was a good enough sailor when there was way on, this standing still and being rolled about like a bottle was a thing I never learned to stand without a qualm or so, above all in the morning, on an empty stomach. Perhaps it was this—perhaps it was the look of the island, with its grey, melancholy woods, and wild stone spires, and the surf that we could both see and hear foaming and thundering on the steep beach—at least, although the sun shone bright and hot, and the shore birds were fishing and crying all around us, and you would have thought anyone would have been glad to get to land after being so long at sea, my heart sank, as the saying is, i…",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-013-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-013-hero.txt",
+        "promptSha256": "6570e1953555cba356594780d3fd8db80e4db143b3a947832c3b6e72c661f153"
+      },
+      "inline": [
+        {
+          "id": "chapter-013-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 13,
+          "anchorSha256": "547e80e3d6eab52944a818a894d6ec34f4e501fa865277a46c615d89818e2e6b",
+          "align": "right",
+          "passageExcerpt": "“I don’t know about treasure,” he said, “but I’ll stake my wig there’s fever here.” If the conduct of the men had been alarming in the boat, it became truly threatening when they had come aboard. They lay about the deck growling together in talk. The slightest order was received with a black look and grudgingly and carelessly obeyed. Even the honest hands must have caught the infection, for there was not one man aboard to mend another. Mutiny, it was plain, hung over us like a thunder-cloud. And it was not only we of the cabin party who perceived the danger. Long John was hard at work going from group to group, spending himself in good advice, and as for example no man could have shown a better. He fairly outstripped himself in willingness and civility; he was all smiles to everyone. If an order were given, John would be on his crutch in an instant, with the cheeriest “Aye, aye, sir!” in the world; and when there was nothing else to do, he kept up one song after another, as if to conceal the discontent of the rest.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-013-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-013-inline-01.txt",
+          "promptSha256": "95719cfeff8e01d5c153a4466ffae39243274633d24344267970313289e72547"
+        }
+      ]
+    },
+    {
+      "id": "chapter-014",
+      "number": 14,
+      "title": "The First Blow",
+      "metrics": {
+        "narrativeWords": 1919,
+        "textBlocks": 31,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-014-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.085461,
+        "minimumInlineSeparation": 0.415842,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "c81a5f26e5edfc32c8e397b54f85b760201b47f7ef1027f3f8f2473c1a560bf9",
+        "passageExcerpt": "I had crossed a marshy tract full of willows, bulrushes, and odd, outlandish, swampy trees; and I had now come out upon the skirts of an open piece of undulating, sandy country, about a mile long, dotted with a few pines and a great number of contorted trees, not unlike the oak in growth, but pale in the foliage, like willows. On the far side of the open stood one of the hills, with two quaint, craggy peaks shining vividly in the sun. I now felt for the first time the joy of exploration. The isle was uninhabited; my shipmates I had left behind, and nothing lived in front of me but dumb brutes and fowls. I turned hither and thither among the trees. Here and there were flowering plants, unknown to me; here and there I saw snakes, and one raised his head from a ledge of rock and hissed at me with a noise not unlike the spinning of a top. Little did I suppose that he was a deadly enemy and that the noise was the famous rattle. Then I came to a long thicket of these oaklike trees—live, or evergreen, oaks, I heard afterwards they should be called—which grew low along the sand like brambles, the boughs curiously twisted, the foliage compact, like thatch. The thicket stretched down from the top of one of the sandy knolls, spreading and growing taller as it went, until it reached the margin of the broad, reedy fen, through which the nearest of the little rivers soaked its way into the a…",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-014-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-014-hero.txt",
+        "promptSha256": "c94a1fcee4026cc53ec9f35c6456757146c6c098a50c87402022232ec4bba059"
+      },
+      "inline": [
+        {
+          "id": "chapter-014-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 14,
+          "anchorSha256": "fcb2fe33136a25a54760b2fa9ad5837f085a3f0beab92683d85f7c14d1335ee9",
+          "align": "right",
+          "passageExcerpt": "“Silver,” said the other man—and I observed he was not only red in the face, but spoke as hoarse as a crow, and his voice shook too, like a taut rope—“Silver,” says he, “you’re old, and you’re honest, or has the name for it; and you’ve money too, which lots of poor sailors hasn’t; and you’re brave, or I’m mistook. And will you tell me you’ll let yourself be led away with that kind of a mess of swabs? Not you! As sure as God sees me, I’d sooner lose my hand. If I turn agin my dooty—” And then all of a sudden he was interrupted by a noise. I had found one of the honest hands—well, here, at that same moment, came news of another. Far away out in the marsh there arose, all of a sudden, a sound like the cry of anger, then another on the back of it; and then one horrid, long-drawn scream. The rocks of the Spy-glass re-echoed it a score of times; the whole troop of marsh-birds rose again, darkening heaven, with a simultaneous whirr; and long after that death yell was still ringing in my brain, silence had re-established its empire, and only the rustle of the redescending birds and the boom of the distant surges disturbed the languor of the afternoon. Tom had leaped at the sound, like a horse at the spur, but Silver had not winked an eye. He stood where he was, resting lightly on his crutch, watching his companion like a snake about to spring.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-014-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-014-inline-01.txt",
+          "promptSha256": "d4bc0501df96c73355dddfdff4361b00d09f266439053f1820bc1070e8c94eb8"
+        }
+      ]
+    },
+    {
+      "id": "chapter-015",
+      "number": 15,
+      "title": "The Man of the Island",
+      "metrics": {
+        "narrativeWords": 2245,
+        "textBlocks": 58,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-015-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.0902,
+        "minimumInlineSeparation": 0.409354,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "f819b7eedb3196a379f14a6cfb29c1547652be38ca04bff845a724911a2738a5",
+        "passageExcerpt": "I was now, it seemed, cut off upon both sides; behind me the murderers, before me this lurking nondescript. And immediately I began to prefer the dangers that I knew to those I knew not. Silver himself appeared less terrible in contrast with this creature of the woods, and I turned on my heel, and looking sharply behind me over my shoulder, began to retrace my steps in the direction of the boats. Instantly the figure reappeared, and making a wide circuit, began to head me off. I was tired, at any rate; but had I been as fresh as when I rose, I could see it was in vain for me to contend in speed with such an adversary. From trunk to trunk the creature flitted like a deer, running manlike on two legs, but unlike any man that I had ever seen, stooping almost double as it ran. Yet a man it was, I could no longer be in doubt about that. I began to recall what I had heard of cannibals. I was within an ace of calling for help. But the mere fact that he was a man, however wild, had somewhat reassured me, and my fear of Silver began to revive in proportion. I stood still, therefore, and cast about for some method of escape; and as I was so thinking, the recollection of my pistol flashed into my mind. As soon as I remembered I was not defenceless, courage glowed again in my heart and I set my face resolutely for this man of the island and walked briskly towards him.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-015-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-015-hero.txt",
+        "promptSha256": "8dbcf3fac0ef7316c0aad9cea8210eee0cd15990c8b36f074de987ebb09e0308"
+      },
+      "inline": [
+        {
+          "id": "chapter-015-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 26,
+          "anchorSha256": "1adf582692be5e511df4b9328729657d7a81e2b2b17aba0305a70f8fe487bc20",
+          "align": "right",
+          "passageExcerpt": "“Now, Jim, you tell me true: that ain’t Flint’s ship?” he asked. At this I had a happy inspiration. I began to believe that I had found an ally, and I answered him at once. “It’s not Flint’s ship, and Flint is dead; but I’ll tell you true, as you ask me—there are some of Flint’s hands aboard; worse luck for the rest of us.”",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-015-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-015-inline-01.txt",
+          "promptSha256": "c19ef8e613f795bd2f883f4a209a0a5e8128e7314e0a6f70c601a12b54dae8df"
+        }
+      ]
+    },
+    {
+      "id": "chapter-016",
+      "number": 16,
+      "title": "Narrative Continued by the Doctor: How the Ship Was Abandoned",
+      "metrics": {
+        "narrativeWords": 1642,
+        "textBlocks": 37,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-016-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.090134,
+        "minimumInlineSeparation": 0.412911,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "3f60117b414dc4c945ef7f0418658efa843ced8787e23ffc5db37dd6b118fbe1",
+        "passageExcerpt": "It was about half past one—three bells in the sea phrase—that the two boats went ashore from the Hispaniola . The captain, the squire, and I were talking matters over in the cabin. Had there been a breath of wind, we should have fallen on the six mutineers who were left aboard with us, slipped our cable, and away to sea. But the wind was wanting; and to complete our helplessness, down came Hunter with the news that Jim Hawkins had slipped into a boat and was gone ashore with the rest. It never occurred to us to doubt Jim Hawkins, but we were alarmed for his safety. With the men in the temper they were in, it seemed an even chance if we should see the lad again. We ran on deck. The pitch was bubbling in the seams; the nasty stench of the place turned me sick; if ever a man smelt fever and dysentery, it was in that abominable anchorage. The six scoundrels were sitting grumbling under a sail in the forecastle; ashore we could see the gigs made fast and a man sitting in each, hard by where the river runs in. One of them was whistling “Lillibullero.” Waiting was a strain, and it was decided that Hunter and I should go ashore with the jolly-boat in quest of information.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-016-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-016-hero.txt",
+        "promptSha256": "575cca55e96a81ce99ca0f1d79f6c4b01751b181b6182c61644c07d86c8c3abc"
+      },
+      "inline": [
+        {
+          "id": "chapter-016-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 14,
+          "anchorSha256": "1c6140d2636fb9cedd988a0069c94f7cdc073039c01d21b41f8ef278a08ce1d4",
+          "align": "right",
+          "passageExcerpt": "I told my plan to the captain, and between us we settled on the details of its accomplishment. We put old Redruth in the gallery between the cabin and the forecastle, with three or four loaded muskets and a mattress for protection. Hunter brought the boat round under the stern-port, and Joyce and I set to work loading her with powder tins, muskets, bags of biscuits, kegs of pork, a cask of cognac, and my invaluable medicine chest. In the meantime, the squire and the captain stayed on deck, and the latter hailed the coxswain, who was the principal man aboard.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-016-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-016-inline-01.txt",
+          "promptSha256": "8b5009b9ecb1b210dad4236068dc6ea15095f2d5885ddcf12f64db80b32d4e93"
+        }
+      ]
+    },
+    {
+      "id": "chapter-017",
+      "number": 17,
+      "title": "Narrative Continued by the Doctor: The Jolly-boat’s Last Trip",
+      "metrics": {
+        "narrativeWords": 1475,
+        "textBlocks": 40,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-017-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.110847,
+        "minimumInlineSeparation": 0.393559,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "b14f0f7c06041e22bcbaf32279b9795f5121804a110ba39aea6bce42c91d138a",
+        "passageExcerpt": "The captain made us trim the boat, and we got her to lie a little more evenly. All the same, we were afraid to breathe. In the second place, the ebb was now making—a strong rippling current running westward through the basin, and then south’ard and seaward down the straits by which we had entered in the morning. Even the ripples were a danger to our overloaded craft, but the worst of it was that we were swept out of our true course and away from our proper landing-place behind the point. If we let the current have its way we should come ashore beside the gigs, where the pirates might appear at any moment. “I cannot keep her head for the stockade, sir,” said I to the captain. I was steering, while he and Redruth, two fresh men, were at the oars. “The tide keeps washing her down. Could you pull a little stronger?”",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-017-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-017-hero.txt",
+        "promptSha256": "b8658b0f9a13dc746fcf0d214dcf1c1e0bbd021205a64504deb1f9c8756437af"
+      },
+      "inline": [
+        {
+          "id": "chapter-017-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 22,
+          "anchorSha256": "c32ea1a51c35f34aed7c30c2c2e287141775f956b46e1cdb25c9504090831c6c",
+          "align": "right",
+          "passageExcerpt": "Trelawney was as cool as steel. He looked to the priming of his gun. “Now,” cried the captain, “easy with that gun, sir, or you’ll swamp the boat. All hands stand by to trim her when he aims.” The squire raised his gun, the rowing ceased, and we leaned over to the other side to keep the balance, and all was so nicely contrived that we did not ship a drop.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-017-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-017-inline-01.txt",
+          "promptSha256": "58ecc8dcd36535bb1aaa15ca774cebe8c0dc8db6944b9c1e0016506d0b334a50"
+        }
+      ]
+    },
+    {
+      "id": "chapter-018",
+      "number": 18,
+      "title": "Narrative Continued by the Doctor: End of the First Day’s Fighting",
+      "metrics": {
+        "narrativeWords": 1476,
+        "textBlocks": 43,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-018-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.088415,
+        "minimumInlineSeparation": 0.42107,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "28c60a0bcd417646dba473de6f32fe09c82f26627fd01f299d01e13bf8a09a9b",
+        "passageExcerpt": "“Captain,” said I, “Trelawney is the dead shot. Give him your gun; his own is useless.” They exchanged guns, and Trelawney, silent and cool as he had been since the beginning of the bustle, hung a moment on his heel to see that all was fit for service. At the same time, observing Gray to be unarmed, I handed him my cutlass. It did all our hearts good to see him spit in his hand, knit his brows, and make the blade sing through the air. It was plain from every line of his body that our new hand was worth his salt. Forty paces farther we came to the edge of the wood and saw the stockade in front of us. We struck the enclosure about the middle of the south side, and almost at the same time, seven mutineers—Job Anderson, the boatswain, at their head—appeared in full cry at the southwestern corner.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-018-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-018-hero.txt",
+        "promptSha256": "319541ab7dbc356c0e0f2f5c663893afd07ba119bb23928da2b5ad3bba7c2a4a"
+      },
+      "inline": [
+        {
+          "id": "chapter-018-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 20,
+          "anchorSha256": "bf74759393187cac84e2404e97d7939d0ddd6407695f4b324dd0307a4ba8183f",
+          "align": "right",
+          "passageExcerpt": "In the meantime the captain, whom I had observed to be wonderfully swollen about the chest and pockets, had turned out a great many various stores—the British colours, a Bible, a coil of stoutish rope, pen, ink, the log-book, and pounds of tobacco. He had found a longish fir-tree lying felled and trimmed in the enclosure, and with the help of Hunter he had set it up at the corner of the log-house where the trunks crossed and made an angle. Then, climbing on the roof, he had with his own hand bent and run up the colours. This seemed mightily to relieve him. He re-entered the log-house and set about counting up the stores as if nothing else existed. But he had an eye on Tom’s passage for all that, and as soon as all was over, came forward with another flag and reverently spread it on the body. “Don’t you take on, sir,” he said, shaking the squire’s hand. “All’s well with him; no fear for a hand that’s been shot down in his duty to captain and owner. It mayn’t be good divinity, but it’s a fact.”",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-018-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-018-inline-01.txt",
+          "promptSha256": "60b305cc0fa48b064bc547b1bdb31c8f31221bec8964a9a60266f76f6bcce556"
+        }
+      ]
+    },
+    {
+      "id": "chapter-019",
+      "number": 19,
+      "title": "Narrative Resumed by Jim Hawkins: The Garrison in the Stockade",
+      "metrics": {
+        "narrativeWords": 2014,
+        "textBlocks": 42,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-019-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 6,
+        "sourceFraction": 0.096822,
+        "minimumInlineSeparation": 0.401936,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "0bd9a67d915752a1bd457466b8b6a8209f3dd5c671040e3edc36bc041c8c0117",
+        "passageExcerpt": "“Well,” said I, “that may be so, and so be it; all the more reason that I should hurry on and join my friends.” “Nay, mate,” returned Ben, “not you. You’re a good boy, or I’m mistook; but you’re on’y a boy, all told. Now, Ben Gunn is fly. Rum wouldn’t bring me there, where you’re going—not rum wouldn’t, till I see your born gen’leman and gets it on his word of honour. And you won’t forget my words; ‘A precious sight (that’s what you’ll say), a precious sight more confidence’—and then nips him.” And he pinched me the third time with the same air of cleverness.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-019-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-019-hero.txt",
+        "promptSha256": "546f93e954ac1be18c73a66b96d430113b204188e8b495257cf4bd8dd99d8c03"
+      },
+      "inline": [
+        {
+          "id": "chapter-019-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 21,
+          "anchorSha256": "c444f263c16969a32df766301cc0681a4708893cc0b2737f254d7d87f8cc9d83",
+          "align": "right",
+          "passageExcerpt": "I had soon told my story and began to look about me. The log-house was made of unsquared trunks of pine—roof, walls, and floor. The latter stood in several places as much as a foot or a foot and a half above the surface of the sand. There was a porch at the door, and under this porch the little spring welled up into an artificial basin of a rather odd kind—no other than a great ship’s kettle of iron, with the bottom knocked out, and sunk “to her bearings,” as the captain said, among the sand. Little had been left besides the framework of the house, but in one corner there was a stone slab laid down by way of hearth and an old rusty iron basket to contain the fire. The slopes of the knoll and all the inside of the stockade had been cleared of timber to build the house, and we could see by the stumps what a fine and lofty grove had been destroyed. Most of the soil had been washed away or buried in drift after the removal of the trees; only where the streamlet ran down from the kettle a thick bed of moss and some ferns and little creeping bushes were still green among the sand. Very close around the stockade—too close for defence, they said—the wood still flourished high and dense, all of fir on the land side, but towards the sea with a large admixture of live-oaks.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-019-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-019-inline-01.txt",
+          "promptSha256": "91afd86b646f912b347622fc147f688133c78a52c603083eef4c7a126dfbcfde"
+        }
+      ]
+    },
+    {
+      "id": "chapter-020",
+      "number": 20,
+      "title": "Silver’s Embassy",
+      "metrics": {
+        "narrativeWords": 1894,
+        "textBlocks": 48,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-020-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 6,
+        "sourceFraction": 0.096093,
+        "minimumInlineSeparation": 0.389388,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "c03830b4c6a199fa1db75623239041e8991f7b99272f3a03cff447ee30235c3e",
+        "passageExcerpt": "“Flag of truce,” cried Silver. The captain was in the porch, keeping himself carefully out of the way of a treacherous shot, should any be intended. He turned and spoke to us, “Doctor’s watch on the lookout. Dr. Livesey take the north side, if you please; Jim, the east; Gray, west. The watch below, all hands to load muskets. Lively, men, and careful.” And then he turned again to the mutineers.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-020-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-020-hero.txt",
+        "promptSha256": "e19885bfc83ada215a9ac3663674d10ec0de246f70e6f70569dfa2847520ebe6"
+      },
+      "inline": [
+        {
+          "id": "chapter-020-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 23,
+          "anchorSha256": "5347a5c7ed6803e6307986416b29b6a8562a5bf2d5aaf00ba5e5361f6a19c0ae",
+          "align": "right",
+          "passageExcerpt": "“If you have anything to say, my man, better say it,” said the captain. “Right you were, Cap’n Smollett,” replied Silver. “Dooty is dooty, to be sure. Well now, you look here, that was a good lay of yours last night. I don’t deny it was a good lay. Some of you pretty handy with a handspike-end. And I’ll not deny neither but what some of my people was shook—maybe all was shook; maybe I was shook myself; maybe that’s why I’m here for terms. But you mark me, Cap’n, it won’t do twice, by thunder! We’ll have to do sentry-go and ease off a point or so on the rum. Maybe you think we were all a sheet in the wind’s eye. But I’ll tell you I was sober; I was on’y dog tired; and if I’d awoke a second sooner, I’d ’a caught you at the act, I would. He wasn’t dead when I got round to him, not he.” “Well?” says Captain Smollett as cool as can be.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-020-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-020-inline-01.txt",
+          "promptSha256": "71acfaad33ed11827e661493c2dd312c40c4ea56e6dfb2e5b1846b7da4ccc7c7"
+        }
+      ]
+    },
+    {
+      "id": "chapter-021",
+      "number": 21,
+      "title": "The Attack",
+      "metrics": {
+        "narrativeWords": 2018,
+        "textBlocks": 52,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-021-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 5,
+        "sourceFraction": 0.092914,
+        "minimumInlineSeparation": 0.414024,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "259da80576610559888062b24e82ad51bdb9fa40f54cf7ef3bb3e9e952b06864",
+        "passageExcerpt": "The captain looked on for a while in silence. Then he spoke. “My lads,” said he, “I’ve given Silver a broadside. I pitched it in red-hot on purpose; and before the hour’s out, as he said, we shall be boarded. We’re outnumbered, I needn’t tell you that, but we fight in shelter; and a minute ago I should have said we fought with discipline. I’ve no manner of doubt that we can drub them, if you choose.” Then he went the rounds and saw, as he said, that all was clear.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-021-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-021-hero.txt",
+        "promptSha256": "8e8a16aa1bae0ecbe26421de3a2c64c911727bb45b2ae001181de3b3be5f0dc9"
+      },
+      "inline": [
+        {
+          "id": "chapter-021-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 28,
+          "anchorSha256": "d0ed6c9fd8ee68cfdbbc5d1fd1e4cdcb239b6b5ebe5f1e5d9f93934b1cb85bda",
+          "align": "right",
+          "passageExcerpt": "But this was not so easily answered. There had come many from the north—seven by the squire’s computation, eight or nine according to Gray. From the east and west only a single shot had been fired. It was plain, therefore, that the attack would be developed from the north and that on the other three sides we were only to be annoyed by a show of hostilities. But Captain Smollett made no change in his arrangements. If the mutineers succeeded in crossing the stockade, he argued, they would take possession of any unprotected loophole and shoot us down like rats in our own stronghold. Nor had we much time left to us for thought. Suddenly, with a loud huzza, a little cloud of pirates leaped from the woods on the north side and ran straight on the stockade. At the same moment, the fire was once more opened from the woods, and a rifle ball sang through the doorway and knocked the doctor’s musket into bits. The boarders swarmed over the fence like monkeys. Squire and Gray fired again and yet again; three men fell, one forwards into the enclosure, two back on the outside. But of these, one was evidently more frightened than hurt, for he was on his feet again in a crack and instantly disappeared among the trees.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-021-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-021-inline-01.txt",
+          "promptSha256": "dbc96c18e0bb4185c20a6e156c494db7a09abf8530a04a0c61b9d9edc9fbfa28"
+        }
+      ]
+    },
+    {
+      "id": "chapter-022",
+      "number": 22,
+      "title": "How I Began My Sea Adventure",
+      "metrics": {
+        "narrativeWords": 2085,
+        "textBlocks": 31,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-022-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.113189,
+        "minimumInlineSeparation": 0.382014,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "1e31faf6eac05295afc8bc050686d264caa3fb4590905382a6b5780aff26970b",
+        "passageExcerpt": "Out of the eight men who had fallen in the action, only three still breathed—that one of the pirates who had been shot at the loophole, Hunter, and Captain Smollett; and of these, the first two were as good as dead; the mutineer indeed died under the doctor’s knife, and Hunter, do what we could, never recovered consciousness in this world. He lingered all day, breathing loudly like the old buccaneer at home in his apoplectic fit, but the bones of his chest had been crushed by the blow and his skull fractured in falling, and some time in the following night, without sign or sound, he went to his Maker. As for the captain, his wounds were grievous indeed, but not dangerous. No organ was fatally injured. Anderson’s ball—for it was Job that shot him first—had broken his shoulder-blade and touched the lung, not badly; the second had only torn and displaced some muscles in the calf. He was sure to recover, the doctor said, but in the meantime, and for weeks to come, he must not walk nor move his arm, nor so much as speak when he could help it. My own accidental cut across the knuckles was a flea-bite. Doctor Livesey patched it up with plaster and pulled my ears for me into the bargain.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-022-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-022-hero.txt",
+        "promptSha256": "ddfdf82e0454ba68136cea55f165d74b608e644c1ab111fa77aa419caa1bf7bc"
+      },
+      "inline": [
+        {
+          "id": "chapter-022-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 17,
+          "anchorSha256": "5cea124c9e484eeccf6568de60e5324a913f29da56a56f494cdd5973f56dd07a",
+          "align": "right",
+          "passageExcerpt": "This was my second folly, far worse than the first, as I left but two sound men to guard the house; but like the first, it was a help towards saving all of us. I took my way straight for the east coast of the island, for I was determined to go down the sea side of the spit to avoid all chance of observation from the anchorage. It was already late in the afternoon, although still warm and sunny. As I continued to thread the tall woods, I could hear from far before me not only the continuous thunder of the surf, but a certain tossing of foliage and grinding of boughs which showed me the sea breeze had set in higher than usual. Soon cool draughts of air began to reach me, and a few steps farther I came forth into the open borders of the grove, and saw the sea lying blue and sunny to the horizon and the surf tumbling and tossing its foam along the beach. I have never seen the sea quiet round Treasure Island. The sun might blaze overhead, the air be without a breath, the surface smooth and blue, but still these great rollers would be running along all the external coast, thundering and thundering by day and night; and I scarce believe there is one spot in the island where a man would be out of earshot of their noise.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-022-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-022-inline-01.txt",
+          "promptSha256": "4f5348fed46a7a53f0972d51b47e1ffe55a3ac29c0af78d826f9e1cf56377313"
+        }
+      ]
+    },
+    {
+      "id": "chapter-023",
+      "number": 23,
+      "title": "The Ebb-tide Runs",
+      "metrics": {
+        "narrativeWords": 1580,
+        "textBlocks": 27,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-023-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.118671,
+        "minimumInlineSeparation": 0.375,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "7f0e6ed81c372aa8f4ae9610b36d7d98ea136011a2aebdfd1ace6075ef7d878f",
+        "passageExcerpt": "Certainly I did not know her way. She turned in every direction but the one I was bound to go; the most part of the time we were broadside on, and I am very sure I never should have made the ship at all but for the tide. By good fortune, paddle as I pleased, the tide was still sweeping me down; and there lay the Hispaniola right in the fairway, hardly to be missed. First she loomed before me like a blot of something yet blacker than darkness, then her spars and hull began to take shape, and the next moment, as it seemed (for, the farther I went, the brisker grew the current of the ebb), I was alongside of her hawser and had laid hold. The hawser was as taut as a bowstring, and the current so strong she pulled upon her anchor. All round the hull, in the blackness, the rippling current bubbled and chattered like a little mountain stream. One cut with my sea-gully and the Hispaniola would go humming down the tide.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-023-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-023-hero.txt",
+        "promptSha256": "6ffb1960a89d6d1e26381bccd155293e40a3b13afa09716ec261d79af023b96f"
+      },
+      "inline": [
+        {
+          "id": "chapter-023-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 13,
+          "anchorSha256": "3809fe908fe67e99962c56d20d1c2914bb8c0d1d20c67fd040ebac9a15b96bdf",
+          "align": "right",
+          "passageExcerpt": "And I thought it was a ditty rather too dolefully appropriate for a company that had met such cruel losses in the morning. But, indeed, from what I saw, all these buccaneers were as callous as the sea they sailed on. At last the breeze came; the schooner sidled and drew nearer in the dark; I felt the hawser slacken once more, and with a good, tough effort, cut the last fibres through. The breeze had but little action on the coracle, and I was almost instantly swept against the bows of the Hispaniola . At the same time, the schooner began to turn upon her heel, spinning slowly, end for end, across the current.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-023-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-023-inline-01.txt",
+          "promptSha256": "22335dd49b0134bbf59ff1ae9743b77fb9ce8371b60385b47a898e7f62c8fc69"
+        }
+      ]
+    },
+    {
+      "id": "chapter-024",
+      "number": 24,
+      "title": "The Cruise of the Coracle",
+      "metrics": {
+        "narrativeWords": 1981,
+        "textBlocks": 29,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-024-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.090863,
+        "minimumInlineSeparation": 0.403332,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "685ee7ce38066f1981357e3f90c5dce1b4f6fe6d89fb1374e4e2666d8fae3b11",
+        "passageExcerpt": "That notion was soon given over. Among the fallen rocks the breakers spouted and bellowed; loud reverberations, heavy sprays flying and falling, succeeded one another from second to second; and I saw myself, if I ventured nearer, dashed to death upon the rough shore or spending my strength in vain to scale the beetling crags. Nor was that all, for crawling together on flat tables of rock or letting themselves drop into the sea with loud reports I beheld huge slimy monsters—soft snails, as it were, of incredible bigness—two or three score of them together, making the rocks to echo with their barkings. I have understood since that they were sea lions, and entirely harmless. But the look of them, added to the difficulty of the shore and the high running of the surf, was more than enough to disgust me of that landing-place. I felt willing rather to starve at sea than to confront such perils.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-024-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-024-hero.txt",
+        "promptSha256": "d504d738bf4f105a65f8cefbb4ccd493dfbceaaf86d1d5aaaa78bde335efbad8"
+      },
+      "inline": [
+        {
+          "id": "chapter-024-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 16,
+          "anchorSha256": "242ef27038c29f5adb4c2f01aa5529fc65574914ffac24207bceb352e4ba2f78",
+          "align": "right",
+          "passageExcerpt": "It was very tiring and slow work, yet I did visibly gain ground; and as we drew near the Cape of the Woods, though I saw I must infallibly miss that point, I had still made some hundred yards of easting. I was, indeed, close in. I could see the cool green tree-tops swaying together in the breeze, and I felt sure I should make the next promontory without fail. It was high time, for I now began to be tortured with thirst. The glow of the sun from above, its thousandfold reflection from the waves, the sea-water that fell and dried upon me, caking my very lips with salt, combined to make my throat burn and my brain ache. The sight of the trees so near at hand had almost made me sick with longing, but the current had soon carried me past the point, and as the next reach of sea opened out, I beheld a sight that changed the nature of my thoughts. Right in front of me, not half a mile away, I beheld the Hispaniola under sail. I made sure, of course, that I should be taken; but I was so distressed for want of water that I scarce knew whether to be glad or sorry at the thought, and long before I had come to a conclusion, surprise had taken entire possession of my mind and I could do nothing but stare and wonder.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-024-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-024-inline-01.txt",
+          "promptSha256": "98db20d9dcb3f0e117d8b0593f7f7b6965a91a908a4906470b5633915381e3e6"
+        }
+      ]
+    },
+    {
+      "id": "chapter-025",
+      "number": 25,
+      "title": "I Strike the Jolly Roger",
+      "metrics": {
+        "narrativeWords": 1707,
+        "textBlocks": 37,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-025-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.098418,
+        "minimumInlineSeparation": 0.410662,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "8dcf636275831538bfc7c28af63f84ff932aae6d5d2b094a6deb2c02336ae9c8",
+        "passageExcerpt": "I was on the lee side of the forecastle, and the mainsail, which was still drawing, concealed from me a certain portion of the after-deck. Not a soul was to be seen. The planks, which had not been swabbed since the mutiny, bore the print of many feet, and an empty bottle, broken by the neck, tumbled to and fro like a live thing in the scuppers. Suddenly the Hispaniola came right into the wind. The jibs behind me cracked aloud, the rudder slammed to, the whole ship gave a sickening heave and shudder, and at the same moment the main-boom swung inboard, the sheet groaning in the blocks, and showed me the lee after-deck. There were the two watchmen, sure enough: red-cap on his back, as stiff as a handspike, with his arms stretched out like those of a crucifix and his teeth showing through his open lips; Israel Hands propped against the bulwarks, his chin on his chest, his hands lying open before him on the deck, his face as white, under its tan, as a tallow candle.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-025-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-025-hero.txt",
+        "promptSha256": "cf76bf93a8485fd9b4672ee87b083347f6397e66dd7010d1ec2169808f585bde"
+      },
+      "inline": [
+        {
+          "id": "chapter-025-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 16,
+          "anchorSha256": "bd1bc659a8d75cdb143ee8247d7620865d8a9538f99b44ea42c8cf2c9b463934",
+          "align": "right",
+          "passageExcerpt": "Foraging about, I found a bottle with some brandy left, for Hands; and for myself I routed out some biscuit, some pickled fruits, a great bunch of raisins, and a piece of cheese. With these I came on deck, put down my own stock behind the rudder head and well out of the coxswain’s reach, went forward to the water-breaker, and had a good deep drink of water, and then, and not till then, gave Hands the brandy. He must have drunk a gill before he took the bottle from his mouth. “Aye,” said he, “by thunder, but I wanted some o’ that!”",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-025-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-025-inline-01.txt",
+          "promptSha256": "fac38fd865ee81f19dd6d6d9f4dcb35cb4ab8828afd36dcf5161b3409cbf5308"
+        }
+      ]
+    },
+    {
+      "id": "chapter-026",
+      "number": 26,
+      "title": "Israel Hands",
+      "metrics": {
+        "narrativeWords": 2953,
+        "textBlocks": 42,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-026-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 6,
+        "sourceFraction": 0.106841,
+        "minimumInlineSeparation": 0.391297,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ee834b62ea1c69619bb579b9f0fbe9a3077e2208c5fef3b0ef2ac6af9b7ad359",
+        "passageExcerpt": "“You can kill the body, Mr. Hands, but not the spirit; you must know that already,” I replied. “O’Brien there is in another world, and may be watching us.” “Ah!” says he. “Well, that’s unfort’nate—appears as if killing parties was a waste of time. Howsomever, sperrits don’t reckon for much, by what I’ve seen. I’ll chance it with the sperrits, Jim. And now, you’ve spoke up free, and I’ll take it kind if you’d step down into that there cabin and get me a—well, a—shiver my timbers! I can’t hit the name on ’t; well, you get me a bottle of wine, Jim—this here brandy’s too strong for my head.” Now, the coxswain’s hesitation seemed to be unnatural, and as for the notion of his preferring wine to brandy, I entirely disbelieved it. The whole story was a pretext. He wanted me to leave the deck—so much was plain; but with what purpose I could in no way imagine. His eyes never met mine; they kept wandering to and fro, up and down, now with a look to the sky, now with a flitting glance upon the dead O’Brien. All the time he kept smiling and putting his tongue out in the most guilty, embarrassed manner, so that a child could have told that he was bent on some deception. I was prompt with my answer, however, for I saw where my advantage lay and that with a fellow so densely stupid I could easily conceal my suspicions to the end.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-026-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-026-hero.txt",
+        "promptSha256": "6909de4120f26b280b61f9a5ddc423e6c5968644cf766c1f166dae6ab951f5ef"
+      },
+      "inline": [
+        {
+          "id": "chapter-026-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 24,
+          "anchorSha256": "b07653de6fb68f11184fa70f870825dd8d8fd4ba834123c0ad858f720ce5c770",
+          "align": "right",
+          "passageExcerpt": "All told, we had scarce two miles to run; but the navigation was delicate, the entrance to this northern anchorage was not only narrow and shoal, but lay east and west, so that the schooner must be nicely handled to be got in. I think I was a good, prompt subaltern, and I am very sure that Hands was an excellent pilot, for we went about and about and dodged in, shaving the banks, with a certainty and a neatness that were a pleasure to behold. Scarcely had we passed the heads before the land closed around us. The shores of North Inlet were as thickly wooded as those of the southern anchorage, but the space was longer and narrower and more like, what in truth it was, the estuary of a river. Right before us, at the southern end, we saw the wreck of a ship in the last stages of dilapidation. It had been a great vessel of three masts but had lain so long exposed to the injuries of the weather that it was hung about with great webs of dripping seaweed, and on the deck of it shore bushes had taken root and now flourished thick with flowers. It was a sad sight, but it showed us that the anchorage was calm. “Now,” said Hands, “look there; there’s a pet bit for to beach a ship in. Fine flat sand, never a cat’s paw, trees all around of it, and flowers a-blowing like a garding on that old ship.”",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-026-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-026-inline-01.txt",
+          "promptSha256": "b711d5e8ecc29eef5f4f417621dda205d4544656b0c4e2366f198d12a8e76350"
+        }
+      ]
+    },
+    {
+      "id": "chapter-027",
+      "number": 27,
+      "title": "“Pieces of Eight”",
+      "metrics": {
+        "narrativeWords": 2164,
+        "textBlocks": 35,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-027-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.091728,
+        "minimumInlineSeparation": 0.402033,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "8e178d9bdeb0a895ff7f728bdedb84bbb308cfa334b2e7a3fda05e4c5e1afc2c",
+        "passageExcerpt": "…out over the water, and from my perch on the cross-trees I had nothing below me but the surface of the bay. Hands, who was not so far up, was in consequence nearer to the ship and fell between me and the bulwarks. He rose once to the surface in a lather of foam and blood and then sank again for good. As the water settled, I could see him lying huddled together on the clean, bright sand in the shadow of the vessel’s sides. A fish or two whipped past his body. Sometimes, by the quivering of the water, he appeared to move a little, as if he were trying to rise. But he was dead enough, for all that, being both shot and drowned, and was food for fish in the very place where he had designed my slaughter. I was no sooner certain of this than I began to feel sick, faint, and terrified. The hot blood was running over my back and chest. The dirk, where it had pinned my shoulder to the mast, seemed to burn like a hot iron; yet it was not so much these real sufferings that distressed me, for these, it seemed to me, I could bear without a murmur; it was the horror I had upon my mind of falling from the cross-trees into that still green water, beside the body of the coxswain. I clung with both hands till my nails ached, and I shut my eyes as if to cover up the peril. Gradually my mind came back again, my pulses quieted down to a more natural time, and I was once more in possession of myself.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-027-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-027-hero.txt",
+        "promptSha256": "dbeaa0bdec6c75d0f4aeab6b12b093ca666f3c2b4ad4b345356e8c5738dbd491"
+      },
+      "inline": [
+        {
+          "id": "chapter-027-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 11,
+          "anchorSha256": "6c83c59b94db7ec31b79bf70ee753a6e1e1a5497de45e9afcccccebdbe29053a",
+          "align": "right",
+          "passageExcerpt": "…d over. It seemed shallow enough, and holding the cut hawser in both hands for a last security, I let myself drop softly overboard. The water scarcely reached my waist; the sand was firm and covered with ripple marks, and I waded ashore in great spirits, leaving the Hispaniola on her side, with her main-sail trailing wide upon the surface of the bay. About the same time, the sun went fairly down and the breeze whistled low in the dusk among the tossing pines. At least, and at last, I was off the sea, nor had I returned thence empty-handed. There lay the schooner, clear at last from buccaneers and ready for our own men to board and get to sea again. I had nothing nearer my fancy than to get home to the stockade and boast of my achievements. Possibly I might be blamed a bit for my truantry, but the recapture of the Hispaniola was a clenching answer, and I hoped that even Captain Smollett would confess I had not lost my time. So thinking, and in famous spirits, I began to set my face homeward for the block house and my companions. I remembered that the most easterly of the rivers which drain into Captain Kidd’s anchorage ran from the two-peaked hill upon my left, and I bent my course in that direction that I might pass the stream while it was small. The wood was pretty open, and keeping along the lower spurs, I had soon turned the corner of that hill, and not long after waded to t…",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-027-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-027-inline-01.txt",
+          "promptSha256": "fd292841e56b2a7e8ff2ddd4c8fe0c8823afb64bfaeadccf9ddf53265050d968"
+        }
+      ]
+    },
+    {
+      "id": "chapter-028",
+      "number": 28,
+      "title": "In the Enemy’s Camp",
+      "metrics": {
+        "narrativeWords": 2746,
+        "textBlocks": 55,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-028-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.093773,
+        "minimumInlineSeparation": 0.416606,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "837ec2519752ded8f9fff420f7ff888735cabc960914a6207775251ef8a81ec8",
+        "passageExcerpt": "“So,” said he, “here’s Jim Hawkins, shiver my timbers! Dropped in, like, eh? Well, come, I take that friendly.” And thereupon he sat down across the brandy cask and began to fill a pipe. “Give me a loan of the link, Dick,” said he; and then, when he had a good light, “That’ll do, lad,” he added; “stick the glim in the wood heap; and you, gentlemen, bring yourselves to! You needn’t stand up for Mr. Hawkins; he’ll excuse you, you may lay to that. And so, Jim”—stopping the tobacco—“here you were, and quite a pleasant surprise for poor old John. I see you were smart when first I set my eyes on you, but this here gets away from me clean, it do.”",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-028-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-028-hero.txt",
+        "promptSha256": "6ec0e2579acd0ae289d7fbc2a4c87b5708b8eb195f5825944adb3485c83452b5"
+      },
+      "inline": [
+        {
+          "id": "chapter-028-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 23,
+          "anchorSha256": "0996b11c4a84b43f30d10e510e71492c89500dc650f80603e67177d61497ad52",
+          "align": "right",
+          "passageExcerpt": "Inside the stockade by lantern light, Jim Hawkins stands boldly before Long John Silver and the seated pirates, having just revealed that he outwitted them and moved the schooner beyond their reach. The pirates stare at him in stunned silence while Silver studies him with ambiguous respect. Emphasize the tense verbal standoff and Jim’s courage; show no raised weapons, injury, or graphic content.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-028-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-028-inline-01.txt",
+          "promptSha256": "67e89a3c1de155dc2707daca2d4046a6aa304bc74f25cda7d66f913830c0a68c"
+        }
+      ]
+    },
+    {
+      "id": "chapter-029",
+      "number": 29,
+      "title": "The Black Spot Again",
+      "metrics": {
+        "narrativeWords": 2127,
+        "textBlocks": 43,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-029-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.110719,
+        "minimumInlineSeparation": 0.384344,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "2502c09dadd49f949e4c269c5a661428f30c386014dca73b59bc94a4dc26cc83",
+        "passageExcerpt": "I turned to the loophole nearest me and looked out. The embers of the great fire had so far burned themselves out and now glowed so low and duskily that I understood why these conspirators desired a torch. About half-way down the slope to the stockade, they were collected in a group; one held the light, another was on his knees in their midst, and I saw the blade of an open knife shine in his hand with varying colours in the moon and torchlight. The rest were all somewhat stooping, as though watching the manoeuvres of this last. I could just make out that he had a book as well as a knife in his hand, and was still wondering how anything so incongruous had come in their possession when the kneeling figure rose once more to his feet and the whole party began to move together towards the house. “Here they come,” said I; and I returned to my former position, for it seemed beneath my dignity that they should find me watching them. “Well, let ’em come, lad—let ’em come,” said Silver cheerily. “I’ve still a shot in my locker.”",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-029-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-029-hero.txt",
+        "promptSha256": "b980312a4d9fca678b28b020657a802318549683d5fe8b4616bde13c062f564d"
+      },
+      "inline": [
+        {
+          "id": "chapter-029-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 25,
+          "anchorSha256": "781d1053d92880466a71a569773b533d7ba0eea9370c3d6bca443b773778b891",
+          "align": "right",
+          "passageExcerpt": "Silver paused, and I could see by the faces of George and his late comrades that these words had not been said in vain. “That’s for number one,” cried the accused, wiping the sweat from his brow, for he had been talking with a vehemence that shook the house. “Why, I give you my word, I’m sick to speak to you. You’ve neither sense nor memory, and I leave it to fancy where your mothers was that let you come to sea. Sea! Gentlemen o’ fortune! I reckon tailors is your trade.” “Go on, John,” said Morgan. “Speak up to the others.”",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-029-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-029-inline-01.txt",
+          "promptSha256": "385bbc869e40e6834ab97c907a576bec1d6b1f1880b9afc25371e2ed639001f8"
+        }
+      ]
+    },
+    {
+      "id": "chapter-030",
+      "number": 30,
+      "title": "On Parole",
+      "metrics": {
+        "narrativeWords": 2333,
+        "textBlocks": 53,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-030-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 6,
+        "sourceFraction": 0.093871,
+        "minimumInlineSeparation": 0.4027,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "693cf8c77f0eacbbdc7906ff6eb846ed2bbb1827fc7fcc5bba487ef7e5dd18ca",
+        "passageExcerpt": "“You, doctor! Top o’ the morning to you, sir!” cried Silver, broad awake and beaming with good nature in a moment. “Bright and early, to be sure; and it’s the early bird, as the saying goes, that gets the rations. George, shake up your timbers, son, and help Dr. Livesey over the ship’s side. All a-doin’ well, your patients was—all well and merry.” So he pattered on, standing on the hilltop with his crutch under his elbow and one hand upon the side of the log-house—quite the old John in voice, manner, and expression. “We’ve quite a surprise for you too, sir,” he continued. “We’ve a little stranger here—he! he! A noo boarder and lodger, sir, and looking fit and taut as a fiddle; slep’ like a supercargo, he did, right alongside of John—stem to stem we was, all night.”",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-030-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-030-hero.txt",
+        "promptSha256": "dd44ecdc9dde5e3ae79ecd83b89c75980542ee588733352f7da53b5e1c3c6cbd"
+      },
+      "inline": [
+        {
+          "id": "chapter-030-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 29,
+          "anchorSha256": "74a289bbac3b439132ba393487bcffbd876bcd7e5b1536238dc338ff1218a86c",
+          "align": "right",
+          "passageExcerpt": "The explosion of disapproval, which nothing but Silver’s black looks had restrained, broke out immediately the doctor had left the house. Silver was roundly accused of playing double—of trying to make a separate peace for himself, of sacrificing the interests of his accomplices and victims, and, in one word, of the identical, exact thing that he was doing. It seemed to me so obvious, in this case, that I could not imagine how he was to turn their anger. But he was twice the man the rest were, and his last night’s victory had given him a huge preponderance on their minds. He called them all the fools and dolts you can imagine, said it was necessary I should talk to the doctor, fluttered the chart in their faces, asked them if they could afford to break the treaty the very day they were bound a-treasure-hunting. “No, by thunder!” he cried. “It’s us must break the treaty when the time comes; and till then I’ll gammon that doctor, if I have to ile his boots with brandy.” And then he bade them get the fire lit, and stalked out upon his crutch, with his hand on my shoulder, leaving them in a disarray, and silenced by his volubility rather than convinced.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-030-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-030-inline-01.txt",
+          "promptSha256": "b93bfd51d130896027d7ebe83b89c88dfcb4b0ac009c2f0d99e0adc47aaec9b8"
+        }
+      ]
+    },
+    {
+      "id": "chapter-031",
+      "number": 31,
+      "title": "The Treasure-hunt—Flint’s Pointer",
+      "metrics": {
+        "narrativeWords": 2274,
+        "textBlocks": 40,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-031-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.085092,
+        "minimumInlineSeparation": 0.413588,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "b2bd4099bcbce8e26870c2f147cbb33232a1105860e1a368714e8c2ae2e0a6e5",
+        "passageExcerpt": "…you say no, as plain as hearing. Jim, that’s one to you. This is the first glint of hope I had since the attack failed, and I owe it you. And now, Jim, we’re to go in for this here treasure-hunting, with sealed orders too, and I don’t like it; and you and me must stick close, back to back like, and we’ll save our necks in spite o’ fate and fortune.” Just then a man hailed us from the fire that breakfast was ready, and we were soon seated here and there about the sand over biscuit and fried junk. They had lit a fire fit to roast an ox, and it was now grown so hot that they could only approach it from the windward, and even there not without precaution. In the same wasteful spirit, they had cooked, I suppose, three times more than we could eat; and one of them, with an empty laugh, threw what was left into the fire, which blazed and roared again over this unusual fuel. I never in my life saw men so careless of the morrow; hand to mouth is the only word that can describe their way of doing; and what with wasted food and sleeping sentries, though they were bold enough for a brush and be done with it, I could see their entire unfitness for anything like a prolonged campaign. Even Silver, eating away, with Captain Flint upon his shoulder, had not a word of blame for their recklessness. And this the more surprised me, for I thought he had never shown himself so cunning as he did then.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-031-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-031-hero.txt",
+        "promptSha256": "f0e4272bdc05a4d7d678a412ed7bac0a10bdbdfe616c6391d459d4cf77e988a7"
+      },
+      "inline": [
+        {
+          "id": "chapter-031-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 16,
+          "anchorSha256": "d04a5e826f9d377f9d5b2ce6808d2feb946582131b24af7ccf8b3602d1353667",
+          "align": "right",
+          "passageExcerpt": "Skeleton Island E.S.E. and by E. Ten feet. A tall tree was thus the principal mark. Now, right before us the anchorage was bounded by a plateau from two to three hundred feet high, adjoining on the north the sloping southern shoulder of the Spy-glass and rising again towards the south into the rough, cliffy eminence called the Mizzenmast Hill. The top of the plateau was dotted thickly with pine-trees of varying height. Every here and there, one of a different species rose forty or fifty feet clear above its neighbours, and which of these was the particular “tall tree” of Captain Flint could only be decided on the spot, and by the readings of the compass.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-031-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-031-inline-01.txt",
+          "promptSha256": "6f77369ebfa14b4abf2a1554c6496e367ce04f7fa36fe9607ee31765a2ed2a8c"
+        }
+      ]
+    },
+    {
+      "id": "chapter-032",
+      "number": 32,
+      "title": "The Treasure-hunt—The Voice Among the Trees",
+      "metrics": {
+        "narrativeWords": 1958,
+        "textBlocks": 47,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-032-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.096016,
+        "minimumInlineSeparation": 0.406027,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "311be41f01f8e6766683a2f4320b3ef60ede3b22fbcc549abe9148ece7335f1c",
+        "passageExcerpt": "Silver, as he sat, took certain bearings with his compass. “There are three ‘tall trees,’” said he, “about in the right line from Skeleton Island. ‘Spy-glass shoulder,’ I take it, means that lower p’int there. It’s child’s play to find the stuff now. I’ve half a mind to dine first.” “I don’t feel sharp,” growled Morgan. “Thinkin’ o’ Flint—I think it were—as done me.”",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-032-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-032-hero.txt",
+        "promptSha256": "deca4a626cccf02c02997aca5232ff9ece4a10d72c656aa763e3c5b083fff746"
+      },
+      "inline": [
+        {
+          "id": "chapter-032-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 28,
+          "anchorSha256": "20672032f11b2ba6d0eee338e859c8aff7c1a5a8266edc573039e68e9f3e1e99",
+          "align": "right",
+          "passageExcerpt": "This argument seemed weak enough to me. But you can never tell what will affect the superstitious, and to my wonder, George Merry was greatly relieved. “Well, that’s so,” he said. “You’ve a head upon your shoulders, John, and no mistake. ’Bout ship, mates! This here crew is on a wrong tack, I do believe. And come to think on it, it was like Flint’s voice, I grant you, but not just so clear-away like it, after all. It was liker somebody else’s voice now—it was liker—” “By the powers, Ben Gunn!” roared Silver.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-032-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-032-inline-01.txt",
+          "promptSha256": "132d842edc31000306e78e1931294a45b1b5343111c5a8ce8eeab44424815a33"
+        }
+      ]
+    },
+    {
+      "id": "chapter-033",
+      "number": 33,
+      "title": "The Fall of a Chieftain",
+      "metrics": {
+        "narrativeWords": 1994,
+        "textBlocks": 44,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-033-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 5,
+        "sourceFraction": 0.102558,
+        "minimumInlineSeparation": 0.381896,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "2cb6f5689e4aa43c53c35bd6adb1cf41bac0ec961c25ede5c280ecb485a8fb62",
+        "passageExcerpt": "At the same time, he began quietly moving northward, and in a few steps had put the hollow between us two and the other five. Then he looked at me and nodded, as much as to say, “Here is a narrow corner,” as, indeed, I thought it was. His looks were not quite friendly, and I was so revolted at these constant changes that I could not forbear whispering, “So you’ve changed sides again.” There was no time left for him to answer in. The buccaneers, with oaths and cries, began to leap, one after another, into the pit and to dig with their fingers, throwing the boards aside as they did so. Morgan found a piece of gold. He held it up with a perfect spout of oaths. It was a two-guinea piece, and it went from hand to hand among them for a quarter of a minute. “Two guineas!” roared Merry, shaking it at Silver. “That’s your seven hundred thousand pounds, is it? You’re the man for bargains, ain’t you? You’re him that never bungled nothing, you wooden-headed lubber!”",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-033-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-033-hero.txt",
+        "promptSha256": "b3a2a5103643704132c3fa3ea3a86484381d72589777bb4321f74b30ba84a91a"
+      },
+      "inline": [
+        {
+          "id": "chapter-033-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 26,
+          "anchorSha256": "a6103b64ace1997a9981ebf3f9365ac008502415699d5ae2dbbf1e47c7c6498b",
+          "align": "right",
+          "passageExcerpt": "The doctor sent back Gray for one of the pick-axes deserted, in their flight, by the mutineers, and then as we proceeded leisurely downhill to where the boats were lying, related in a few words what had taken place. It was a story that profoundly interested Silver; and Ben Gunn, the half-idiot maroon, was the hero from beginning to end. Ben, in his long, lonely wanderings about the island, had found the skeleton—it was he that had rifled it; he had found the treasure; he had dug it up (it was the haft of his pick-axe that lay broken in the excavation); he had carried it on his back, in many weary journeys, from the foot of the tall pine to a cave he had on the two-pointed hill at the north-east angle of the island, and there it had lain stored in safety since two months before the arrival of the Hispaniola . When the doctor had wormed this secret from him on the afternoon of the attack, and when next morning he saw the anchorage deserted, he had gone to Silver, given him the chart, which was now useless—given him the stores, for Ben Gunn’s cave was well supplied with goats’ meat salted by himself—given anything and everything to get a chance of moving in safety from the stockade to the two-pointed hill, there to be clear of malaria and keep a guard upon the money.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-033-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-033-inline-01.txt",
+          "promptSha256": "1be7fe973312304f74f506984f6b0d30354a872b16b349e113e265180083731e"
+        }
+      ]
+    },
+    {
+      "id": "chapter-034",
+      "number": 34,
+      "title": "And Last",
+      "metrics": {
+        "narrativeWords": 1901,
+        "textBlocks": 27,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-034-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.12546,
+        "minimumInlineSeparation": 0.392425,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "110959fdc0fa9aca44f3bbd6424b4338825d076f53d265f0c4ba124429b15899",
+        "passageExcerpt": "Therefore the work was pushed on briskly. Gray and Ben Gunn came and went with the boat, while the rest during their absences piled treasure on the beach. Two of the bars, slung in a rope’s end, made a good load for a grown man—one that he was glad to walk slowly with. For my part, as I was not much use at carrying, I was kept busy all day in the cave packing the minted money into bread-bags. It was a strange collection, like Billy Bones’s hoard for the diversity of coinage, but so much larger and so much more varied that I think I never had more pleasure than in sorting them. English, French, Spanish, Portuguese, Georges, and Louises, doubloons and double guineas and moidores and sequins, the pictures of all the kings of Europe for the last hundred years, strange Oriental pieces stamped with what looked like wisps of string or bits of spider’s web, round pieces and square pieces, and pieces bored through the middle, as if to wear them round your neck—nearly every variety of money in the world must, I think, have found a place in that collection; and for number, I am sure they were like autumn leaves, so that my back ached with stooping and my fingers with sorting them out. Day after day this work went on; by every evening a fortune had been stowed aboard, but there was another fortune waiting for the morrow; and all this time we heard nothing of the three surviving mutineers.",
+        "referenceImage": "output/imagegen/references/treasure-island.webp",
+        "output": "output/imagegen/chapter-scenes/treasure-island/heroes/chapter-034-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-034-hero.txt",
+        "promptSha256": "113096c1ce02848e92f20537c597dfa807f9bb5c7535aa8999a996e914785761"
+      },
+      "inline": [
+        {
+          "id": "chapter-034-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 16,
+          "anchorSha256": "aa703ee80c41d707b7891adc176251d6aec564def6fd93a4512b42dc632d3f73",
+          "align": "right",
+          "passageExcerpt": "That was about our last doing on the island. Before that, we had got the treasure stowed and had shipped enough water and the remainder of the goat meat in case of any distress; and at last, one fine morning, we weighed anchor, which was about all that we could manage, and stood out of North Inlet, the same colours flying that the captain had flown and fought under at the palisade. The three fellows must have been watching us closer than we thought for, as we soon had proved. For coming through the narrows, we had to lie very near the southern point, and there we saw all three of them kneeling together on a spit of sand, with their arms raised in supplication. It went to all our hearts, I think, to leave them in that wretched state; but we could not risk another mutiny; and to take them home for the gibbet would have been a cruel sort of kindness. The doctor hailed them and told them of the stores we had left, and where they were to find them. But they continued to call us by name and appeal to us, for God’s sake, to be merciful and not leave them to die in such a place. At last, seeing the ship still bore on her course and was now swiftly drawing out of earshot, one of them—I know not which it was—leapt to his feet with a hoarse cry, whipped his musket to his shoulder, and sent a shot whistling over Silver’s head and through the main-sail.",
+          "referenceImage": "output/imagegen/references/treasure-island.webp",
+          "output": "output/imagegen/chapter-scenes/treasure-island/inline/chapter-034-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/treasure-island/chapter-034-inline-01.txt",
+          "promptSha256": "46d5e043f79ce0ede9b5314004616476cfe02a6e2fade73c6d6acc7bb211b59d"
+        }
+      ]
+    }
+  ]
+}

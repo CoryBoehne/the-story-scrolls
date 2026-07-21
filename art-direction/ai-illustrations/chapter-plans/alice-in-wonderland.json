@@ -1,0 +1,645 @@
+{
+  "schemaVersion": 1,
+  "storySlug": "alice-in-wonderland",
+  "title": "Alice's Adventures in Wonderland",
+  "author": "Lewis Carroll",
+  "generation": {
+    "provider": "OpenAI",
+    "model": "gpt-image-2",
+    "quality": "low",
+    "format": "webp"
+  },
+  "artDirection": {
+    "style": "Airy Victorian pen and ink with flat transparent watercolor; elastic scale, crisp eccentric silhouettes, playful negative space and dream-logic perspective.",
+    "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+    "referenceStatus": "planned"
+  },
+  "quota": {
+    "unit": "inline-illustrations-per-chapter",
+    "formula": "min(4, max(1, ceil(narrativeWords / 3000), ceil(textBlocks / 100)))",
+    "narrativeBlockTypes": [
+      "paragraph",
+      "verse"
+    ],
+    "heroesAreAdditionalToInlineQuota": true
+  },
+  "referenceJob": {
+    "id": "alice-in-wonderland-reference-sheet",
+    "role": "reference-sheet",
+    "operation": "image-edit",
+    "width": 816,
+    "height": 816,
+    "sourceImage": "output/imagegen/singles/alice-in-wonderland/scene.webp",
+    "output": "output/imagegen/references/alice-in-wonderland.webp",
+    "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/alice-in-wonderland-reference-sheet.txt",
+    "promptSha256": "2ed306f70f451dd182a92386bc72aa43b9ebf735424dc7b5905800394e62f56c"
+  },
+  "summary": {
+    "chapters": 12,
+    "desiredInline": 13,
+    "retainedInline": 1,
+    "plannedInline": 12,
+    "plannedHeroes": 12
+  },
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "number": 1,
+      "title": "Down the Rabbit-Hole",
+      "metrics": {
+        "narrativeWords": 2143,
+        "textBlocks": 24,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-01-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 24,
+        "sourceFraction": 0.889874,
+        "minimumInlineSeparation": 0.766916,
+        "selection": "closing-90-percent",
+        "sourceAnchorSha256": "6ba05db20d1defe0236c59c4c5930d91c1b8e650dcbf1fd224b6220c91f135bd",
+        "passageExcerpt": "…got to the door, she found she had forgotten the little golden key, and when she went back to the table for it, she found she could not possibly reach it: she could see it quite plainly through the glass, and she tried her best to climb up one of the legs of the table, but it was too slippery; and when she had tired herself out with trying, the poor little thing sat down and cried. “Come, there’s no use in crying like that!” said Alice to herself, rather sharply; “I advise you to leave off this minute!” She generally gave herself very good advice, (though she very seldom followed it), and sometimes she scolded herself so severely as to bring tears into her eyes; and once she remembered trying to box her own ears for having cheated herself in a game of croquet she was playing against herself, for this curious child was very fond of pretending to be two people. “But it’s no use now,” thought poor Alice, “to pretend to be two people! Why, there’s hardly enough of me left to make one respectable person!” Soon her eye fell on a little glass box that was lying under the table: she opened it, and found in it a very small cake, on which the words “EAT ME” were beautifully marked in currants. “Well, I’ll eat it,” said Alice, “and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door; so either way I’ll get into the garden, and I don…",
+        "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+        "output": "output/imagegen/chapter-scenes/alice-in-wonderland/heroes/chapter-01-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-01-hero.txt",
+        "promptSha256": "5825892f13b71a07fcddd36b95ac6459d7f5b0bee76b089ebc5862a6faea8b03"
+      },
+      "inline": [
+        {
+          "id": "down-the-rabbit-hole",
+          "role": "inline",
+          "status": "approved-existing",
+          "afterBlockIndex": 3,
+          "anchorSha256": "0cef5146da6e79d12faf970f1f3ce9a55c2b8594ec6488aae6881e781f3f1519",
+          "align": "left",
+          "source": "output/imagegen/singles/alice-in-wonderland/scene.webp",
+          "prompt": "art-direction/ai-illustrations/scene-prompts/alice-in-wonderland/scene.txt",
+          "caption": "Down the rabbit hole"
+        }
+      ]
+    },
+    {
+      "id": "chapter-02",
+      "number": 2,
+      "title": "The Pool of Tears",
+      "metrics": {
+        "narrativeWords": 2111,
+        "textBlocks": 25,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-02-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.099953,
+        "minimumInlineSeparation": 0.385362,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "f04676cdbd15259d641a2ed9fcc7d8b0ded01603cbdf6ae15fc0d6232e7634af",
+        "passageExcerpt": "Oh dear, what nonsense I’m talking!” Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, and she at once took up the little golden key and hurried off to the garden door. Poor Alice! It was as much as she could do, lying down on one side, to look through into the garden with one eye; but to get through was more hopeless than ever: she sat down and began to cry again.",
+        "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+        "output": "output/imagegen/chapter-scenes/alice-in-wonderland/heroes/chapter-02-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-02-hero.txt",
+        "promptSha256": "1b8ee5c49a251f3c8d3bcbb90633b95ca223a68e50142e22482fbcb5f95c3cae"
+      },
+      "inline": [
+        {
+          "id": "chapter-02-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 13,
+          "anchorSha256": "e4f535ca25db1b116568d5f22c0640c44ad8164831b3a5af139f70976b64fb0d",
+          "align": "right",
+          "passageExcerpt": "…el, I’ll stay down here! It’ll be no use their putting their heads down and saying ‘Come up again, dear!’ I shall only look up and say ‘Who am I then? Tell me that first, and then, if I like being that person, I’ll come up: if not, I’ll stay down here till I’m somebody else’—but, oh dear!” cried Alice, with a sudden burst of tears, “I do wish they would put their heads down! I am so very tired of being all alone here!” As she said this she looked down at her hands, and was surprised to see that she had put on one of the Rabbit’s little white kid gloves while she was talking. “How can I have done that?” she thought. “I must be growing small again.” She got up and went to the table to measure herself by it, and found that, as nearly as she could guess, she was now about two feet high, and was going on shrinking rapidly: she soon found out that the cause of this was the fan she was holding, and she dropped it hastily, just in time to avoid shrinking away altogether. “That was a narrow escape!” said Alice, a good deal frightened at the sudden change, but very glad to find herself still in existence; “and now for the garden!” and she ran with all speed back to the little door: but, alas! the little door was shut again, and the little golden key was lying on the glass table as before, “and things are worse than ever,” thought the poor child, “for I never was so small as this before,…",
+          "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+          "output": "output/imagegen/chapter-scenes/alice-in-wonderland/inline/chapter-02-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-02-inline-01.txt",
+          "promptSha256": "788b36d2816bb7e6ab3f6a3fb8ae79175fc35811bdcfe49521f0f8b2f2fb7eab"
+        }
+      ]
+    },
+    {
+      "id": "chapter-03",
+      "number": 3,
+      "title": "A Caucus-Race and a Long Tale",
+      "metrics": {
+        "narrativeWords": 1697,
+        "textBlocks": 48,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-03-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.099882,
+        "minimumInlineSeparation": 0.398055,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "24533d7ee0ee6e2c1d7b15cf97084d09e8fd3f14f532216ecd771475377327de",
+        "passageExcerpt": "The first question of course was, how to get dry again: they had a consultation about this, and after a few minutes it seemed quite natural to Alice to find herself talking familiarly with them, as if she had known them all her life. Indeed, she had quite a long argument with the Lory, who at last turned sulky, and would only say, “I am older than you, and must know better;” and this Alice would not allow without knowing how old it was, and, as the Lory positively refused to tell its age, there was no more to be said. At last the Mouse, who seemed to be a person of authority among them, called out, “Sit down, all of you, and listen to me! I’ll soon make you dry enough!” They all sat down at once, in a large ring, with the Mouse in the middle. Alice kept her eyes anxiously fixed on it, for she felt sure she would catch a bad cold if she did not get dry very soon. “Ahem!” said the Mouse with an important air, “are you all ready? This is the driest thing I know. Silence all round, if you please! ‘William the Conqueror, whose cause was favoured by the pope, was soon submitted to by the English, who wanted leaders, and had been of late much accustomed to usurpation and conquest. Edwin and Morcar, the earls of Mercia and Northumbria—’”",
+        "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+        "output": "output/imagegen/chapter-scenes/alice-in-wonderland/heroes/chapter-03-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-03-hero.txt",
+        "promptSha256": "4abf1ae07bd55f3f91e9fb4d81bdccd62f985948505c76c4331ce27a98ee56e3"
+      },
+      "inline": [
+        {
+          "id": "chapter-03-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 23,
+          "anchorSha256": "5cf55a755ec7d1df2872f4aca065dff84b5ca228966ade3faf1afd2b1eb4c888",
+          "align": "right",
+          "passageExcerpt": "“Why, she, of course,” said the Dodo, pointing to Alice with one finger; and the whole party at once crowded round her, calling out in a confused way, “Prizes! Prizes!” Alice had no idea what to do, and in despair she put her hand in her pocket, and pulled out a box of comfits, (luckily the salt water had not got into it), and handed them round as prizes. There was exactly one a-piece, all round. “But she must have a prize herself, you know,” said the Mouse.",
+          "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+          "output": "output/imagegen/chapter-scenes/alice-in-wonderland/inline/chapter-03-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-03-inline-01.txt",
+          "promptSha256": "07e7b99dceac6f2600a0dfe318907d5af028de9db960a1b1aa34a39e9e269d4b"
+        }
+      ]
+    },
+    {
+      "id": "chapter-04",
+      "number": 4,
+      "title": "The Rabbit Sends in a Little Bill",
+      "metrics": {
+        "narrativeWords": 2648,
+        "textBlocks": 42,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-04-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 2,
+        "sourceFraction": 0.092334,
+        "minimumInlineSeparation": 0.404456,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "9f024a47c0d4834b17e563929eb7d60036dc215c9a6802bdef3d4e41de445548",
+        "passageExcerpt": "Very soon the Rabbit noticed Alice, as she went hunting about, and called out to her in an angry tone, “Why, Mary Ann, what are you doing out here? Run home this moment, and fetch me a pair of gloves and a fan! Quick, now!” And Alice was so much frightened that she ran off at once in the direction it pointed to, without trying to explain the mistake it had made. “He took me for his housemaid,” she said to herself as she ran. “How surprised he’ll be when he finds out who I am! But I’d better take him his fan and gloves—that is, if I can find them.” As she said this, she came upon a neat little house, on the door of which was a bright brass plate with the name “W. RABBIT,” engraved upon it. She went in without knocking, and hurried upstairs, in great fear lest she should meet the real Mary Ann, and be turned out of the house before she had found the fan and gloves. “How queer it seems,” Alice said to herself, “to be going messages for a rabbit! I suppose Dinah’ll be sending me on messages next!” And she began fancying the sort of thing that would happen: “‘Miss Alice! Come here directly, and get ready for your walk!’ ‘Coming in a minute, nurse! But I’ve got to see that the mouse doesn’t get out.’ Only I don’t think,” Alice went on, “that they’d let Dinah stop in the house if it began ordering people about like that!”",
+        "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+        "output": "output/imagegen/chapter-scenes/alice-in-wonderland/heroes/chapter-04-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-04-hero.txt",
+        "promptSha256": "17e9a6ed187398a35b98d50f3b2022f4324d26bccb8f0ec5eeb3cf7bf63a7dfc"
+      },
+      "inline": [
+        {
+          "id": "chapter-04-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 24,
+          "anchorSha256": "2e115f926609da15b619b997b595ae7b11dc0bbf4889bb1c0da40d1f9f5f8b4b",
+          "align": "right",
+          "passageExcerpt": "“Well, it’s got no business there, at any rate: go and take it away!” There was a long silence after this, and Alice could only hear whispers now and then; such as, “Sure, I don’t like it, yer honour, at all, at all!” “Do as I tell you, you coward!” and at last she spread out her hand again, and made another snatch in the air. This time there were two little shrieks, and more sounds of broken glass. “What a number of cucumber-frames there must be!” thought Alice. “I wonder what they’ll do next! As for pulling me out of the window, I only wish they could! I’m sure I don’t want to stay in here any longer!” She waited for some time without hearing anything more: at last came a rumbling of little cartwheels, and the sound of a good many voices all talking together: she made out the words: “Where’s the other ladder?—Why, I hadn’t to bring but one; Bill’s got the other—Bill! fetch it here, lad!—Here, put ’em up at this corner—No, tie ’em together first—they don’t reach half high enough yet—Oh! they’ll do well enough; don’t be particular—Here, Bill! catch hold of this rope—Will the roof bear?—Mind that loose slate—Oh, it’s coming down! Heads below!” (a loud crash)—“Now, who did that?—It was Bill, I fancy—Who’s to go down the chimney?—Nay, I shan’t! You do it!—That I won’t, then!—Bill’s to go down—Here, Bill! the master says you’re to go down the chimney!”",
+          "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+          "output": "output/imagegen/chapter-scenes/alice-in-wonderland/inline/chapter-04-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-04-inline-01.txt",
+          "promptSha256": "9036b6b23f836a337fe3ad03f03dea600ebcf6cce99f723fd34766f027559f1a"
+        }
+      ]
+    },
+    {
+      "id": "chapter-05",
+      "number": 5,
+      "title": "Advice from a Caterpillar",
+      "metrics": {
+        "narrativeWords": 2169,
+        "textBlocks": 68,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-05-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 10,
+        "sourceFraction": 0.098663,
+        "minimumInlineSeparation": 0.408944,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "1d93822784a326b0361134cebdf0b4c70575225f433820ac2c3ead79eeef803a",
+        "passageExcerpt": "“Not a bit,” said the Caterpillar. “Well, perhaps your feelings may be different,” said Alice; “all I know is, it would feel very queer to me.” “You!” said the Caterpillar contemptuously. “Who are you?”",
+        "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+        "output": "output/imagegen/chapter-scenes/alice-in-wonderland/heroes/chapter-05-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-05-hero.txt",
+        "promptSha256": "4d69e23c82f338c819df3797a6f94e22fcbac9e217e036d88d57144b94b67553"
+      },
+      "inline": [
+        {
+          "id": "chapter-05-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 46,
+          "anchorSha256": "185f8ce362c9af3e63a446b1e85ae25ed71c6d261816879992aacf714d191b03",
+          "align": "right",
+          "passageExcerpt": "“Of the mushroom,” said the Caterpillar, just as if she had asked it aloud; and in another moment it was out of sight. Alice remained looking thoughtfully at the mushroom for a minute, trying to make out which were the two sides of it; and as it was perfectly round, she found this a very difficult question. However, at last she stretched her arms round it as far as they would go, and broke off a bit of the edge with each hand. “And now which is which?” she said to herself, and nibbled a little of the right-hand bit to try the effect: the next moment she felt a violent blow underneath her chin: it had struck her foot!",
+          "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+          "output": "output/imagegen/chapter-scenes/alice-in-wonderland/inline/chapter-05-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-05-inline-01.txt",
+          "promptSha256": "67423c2fc4d4da3bd8ae36314c9b8530b8946a11b40e712a87ffd862612e90e9"
+        }
+      ]
+    },
+    {
+      "id": "chapter-06",
+      "number": 6,
+      "title": "Pig and Pepper",
+      "metrics": {
+        "narrativeWords": 2594,
+        "textBlocks": 80,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-06-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 4,
+        "sourceFraction": 0.096184,
+        "minimumInlineSeparation": 0.403045,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ea740592fcfbc003cbf157b221c7eb1e933b2fe0eeeb9de1193317f6b35b08b3",
+        "passageExcerpt": "Alice laughed so much at this, that she had to run back into the wood for fear of their hearing her; and when she next peeped out the Fish-Footman was gone, and the other was sitting on the ground near the door, staring stupidly up into the sky. Alice went timidly up to the door, and knocked. “There’s no sort of use in knocking,” said the Footman, “and that for two reasons. First, because I’m on the same side of the door as you are; secondly, because they’re making such a noise inside, no one could possibly hear you.” And certainly there was a most extraordinary noise going on within—a constant howling and sneezing, and every now and then a great crash, as if a dish or kettle had been broken to pieces.",
+        "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+        "output": "output/imagegen/chapter-scenes/alice-in-wonderland/heroes/chapter-06-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-06-hero.txt",
+        "promptSha256": "8396259d1eb4751e698f8d69cd1ae35fd152f9a3911401bed77a324861267ac5"
+      },
+      "inline": [
+        {
+          "id": "chapter-06-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 41,
+          "anchorSha256": "0f9e94f15e104dc3f699020ca8336b1b3ca299fee7dfcd4ad0730878b7133f52",
+          "align": "right",
+          "passageExcerpt": "While the Duchess sang the second verse of the song, she kept tossing the baby violently up and down, and the poor little thing howled so, that Alice could hardly hear the words:— “I speak severely to my boy, I beat him when he sneezes; For he can thoroughly enjoy The pepper when he pleases!” CHORUS.",
+          "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+          "output": "output/imagegen/chapter-scenes/alice-in-wonderland/inline/chapter-06-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-06-inline-01.txt",
+          "promptSha256": "9f93e99160255a4befe81a38a980534025cd1409f0afd4024b3329a0ad5d44a7"
+        }
+      ]
+    },
+    {
+      "id": "chapter-07",
+      "number": 7,
+      "title": "A Mad Tea-Party",
+      "metrics": {
+        "narrativeWords": 2293,
+        "textBlocks": 105,
+        "inlineQuota": 2
+      },
+      "hero": {
+        "id": "chapter-07-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 8,
+        "sourceFraction": 0.095726,
+        "minimumInlineSeparation": 0.240951,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "3a2cbda6a18ad9f5a2702946525c2c67e45101cd4f7360515849158830b08e43",
+        "passageExcerpt": "“I didn’t know it was your table,” said Alice; “it’s laid for a great many more than three.” “Your hair wants cutting,” said the Hatter. He had been looking at Alice for some time with great curiosity, and this was his first speech. “You should learn not to make personal remarks,” Alice said with some severity; “it’s very rude.”",
+        "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+        "output": "output/imagegen/chapter-scenes/alice-in-wonderland/heroes/chapter-07-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-07-hero.txt",
+        "promptSha256": "8f87434367b446a00eeb3e90fb355cf715c1ed5d6ef15c39f78c83ecec7157d1"
+      },
+      "inline": [
+        {
+          "id": "chapter-07-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.333333,
+          "afterBlockIndex": 32,
+          "anchorSha256": "983244b61ce93f59804101506f9408da57d4a57e2a45bf3cd452cb2f30391cb2",
+          "align": "right",
+          "passageExcerpt": "“The Dormouse is asleep again,” said the Hatter, and he poured a little hot tea upon its nose. The Dormouse shook its head impatiently, and said, without opening its eyes, “Of course, of course; just what I was going to remark myself.” “Have you guessed the riddle yet?” the Hatter said, turning to Alice again.",
+          "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+          "output": "output/imagegen/chapter-scenes/alice-in-wonderland/inline/chapter-07-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-07-inline-01.txt",
+          "promptSha256": "d05792d7b58d187016e605bc497181cf311f24d7b63b5181371a5f5ad20e7c60"
+        },
+        {
+          "id": "chapter-07-inline-02",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 2,
+          "targetFraction": 0.666667,
+          "afterBlockIndex": 77,
+          "anchorSha256": "af5f8bfd71abdf3b5dac825b4a6682e4a840e1788514a7106cda4e102183d81d",
+          "align": "left",
+          "passageExcerpt": "Alice tried to fancy to herself what such an extraordinary way of living would be like, but it puzzled her too much, so she went on: “But why did they live at the bottom of a well?” “Take some more tea,” the March Hare said to Alice, very earnestly. “I’ve had nothing yet,” Alice replied in an offended tone, “so I can’t take more.”",
+          "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+          "output": "output/imagegen/chapter-scenes/alice-in-wonderland/inline/chapter-07-inline-02.webp",
+          "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-07-inline-02.txt",
+          "promptSha256": "be9593a9631268c6cdd9825acd2011d2b46d0d2fee7b540326a72fe36a542660"
+        }
+      ]
+    },
+    {
+      "id": "chapter-08",
+      "number": 8,
+      "title": "The Queen's Croquet-Ground",
+      "metrics": {
+        "narrativeWords": 2488,
+        "textBlocks": 71,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-08-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 9,
+        "sourceFraction": 0.108923,
+        "minimumInlineSeparation": 0.36877,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "95d17983b08c168f2b95949f1804e1166502da9b3e551d73b6622edccba9d747",
+        "passageExcerpt": "“Would you tell me,” said Alice, a little timidly, “why you are painting those roses?” Five and Seven said nothing, but looked at Two. Two began in a low voice, “Why the fact is, you see, Miss, this here ought to have been a red rose-tree, and we put a white one in by mistake; and if the Queen was to find it out, we should all have our heads cut off, you know. So you see, Miss, we’re doing our best, afore she comes, to—” At this moment Five, who had been anxiously looking across the garden, called out “The Queen! The Queen!” and the three gardeners instantly threw themselves flat upon their faces. There was a sound of many footsteps, and Alice looked round, eager to see the Queen. First came ten soldiers carrying clubs; these were all shaped like the three gardeners, oblong and flat, with their hands and feet at the corners: next the ten courtiers; these were ornamented all over with diamonds, and walked two and two, as the soldiers did. After these came the royal children; there were ten of them, and the little dears came jumping merrily along hand in hand, in couples: they were all ornamented with hearts. Next came the guests, mostly Kings and Queens, and among them Alice recognised the White Rabbit: it was talking in a hurried nervous manner, smiling at everything that was said, and went by without noticing her. Then followed the Knave of Hearts, carrying the King’s crown on…",
+        "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+        "output": "output/imagegen/chapter-scenes/alice-in-wonderland/heroes/chapter-08-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-08-hero.txt",
+        "promptSha256": "46f75e06cec9b1b91b4d50e4a1c8b2b248028f6703205983fac823d705feaa02"
+      },
+      "inline": [
+        {
+          "id": "chapter-08-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 42,
+          "anchorSha256": "e03c205d1b9c99016d66d0c8ca88f60d9d433cc678172d05e4b9e49c505b3009",
+          "align": "right",
+          "passageExcerpt": "“She boxed the Queen’s ears—” the Rabbit began. Alice gave a little scream of laughter. “Oh, hush!” the Rabbit whispered in a frightened tone. “The Queen will hear you! You see, she came rather late, and the Queen said—” “Get to your places!” shouted the Queen in a voice of thunder, and people began running about in all directions, tumbling up against each other; however, they got settled down in a minute or two, and the game began. Alice thought she had never seen such a curious croquet-ground in her life; it was all ridges and furrows; the balls were live hedgehogs, the mallets live flamingoes, and the soldiers had to double themselves up and to stand on their hands and feet, to make the arches. The chief difficulty Alice found at first was in managing her flamingo: she succeeded in getting its body tucked away, comfortably enough, under her arm, with its legs hanging down, but generally, just as she had got its neck nicely straightened out, and was going to give the hedgehog a blow with its head, it would twist itself round and look up in her face, with such a puzzled expression that she could not help bursting out laughing: and when she had got its head down, and was going to begin again, it was very provoking to find that the hedgehog had unrolled itself, and was in the act of crawling away: besides all this, there was generally a ridge or furrow in the way wherever she wa…",
+          "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+          "output": "output/imagegen/chapter-scenes/alice-in-wonderland/inline/chapter-08-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-08-inline-01.txt",
+          "promptSha256": "9cd71f6135e763cf9958a801e4cae29b29a57ba5c6b51e5b8a0c56dd7f31e00b"
+        }
+      ]
+    },
+    {
+      "id": "chapter-09",
+      "number": 9,
+      "title": "The Mock Turtle's Story",
+      "metrics": {
+        "narrativeWords": 2286,
+        "textBlocks": 92,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-09-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 5,
+        "sourceFraction": 0.1028,
+        "minimumInlineSeparation": 0.4007,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "f9cb16559afa9088c1404a885dfb8f699bdc1dfbe09e63022d3a424d2b9c493d",
+        "passageExcerpt": "“Perhaps it hasn’t one,” Alice ventured to remark. “Tut, tut, child!” said the Duchess. “Everything’s got a moral, if only you can find it.” And she squeezed herself up closer to Alice’s side as she spoke. Alice did not much like keeping so close to her: first, because the Duchess was very ugly; and secondly, because she was exactly the right height to rest her chin upon Alice’s shoulder, and it was an uncomfortably sharp chin. However, she did not like to be rude, so she bore it as well as she could.",
+        "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+        "output": "output/imagegen/chapter-scenes/alice-in-wonderland/heroes/chapter-09-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-09-hero.txt",
+        "promptSha256": "62754cc7e8f59b1fea43c3daf66e2435997de64965c1080bba085e0942002146"
+      },
+      "inline": [
+        {
+          "id": "chapter-09-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 42,
+          "anchorSha256": "7ae7fc5d8e695439fd23fe3dbbebb87038f9749addc8ffe8e479d41047c60758",
+          "align": "right",
+          "passageExcerpt": "“Come on, then,” said the Queen, “and he shall tell you his history.” As they walked off together, Alice heard the King say in a low voice, to the company generally, “You are all pardoned.” “Come, that’s a good thing!” she said to herself, for she had felt quite unhappy at the number of executions the Queen had ordered. They very soon came upon a Gryphon, lying fast asleep in the sun. (If you don’t know what a Gryphon is, look at the picture.) “Up, lazy thing!” said the Queen, “and take this young lady to see the Mock Turtle, and to hear his history. I must go back and see after some executions I have ordered;” and she walked off, leaving Alice alone with the Gryphon. Alice did not quite like the look of the creature, but on the whole she thought it would be quite as safe to stay with it as to go after that savage Queen: so she waited.",
+          "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+          "output": "output/imagegen/chapter-scenes/alice-in-wonderland/inline/chapter-09-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-09-inline-01.txt",
+          "promptSha256": "d5621ad72ad2a4610cdc97894c7a066f387f6d2c3b4457f60f7c4abc464fbee6"
+        }
+      ]
+    },
+    {
+      "id": "chapter-10",
+      "number": 10,
+      "title": "The Lobster Quadrille",
+      "metrics": {
+        "narrativeWords": 2049,
+        "textBlocks": 76,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-10-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 8,
+        "sourceFraction": 0.099317,
+        "minimumInlineSeparation": 0.399463,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "102aab41cf020306525d028add60b724a6e4f626655376995eaba8b523e896ec",
+        "passageExcerpt": "“Each with a lobster as a partner!” cried the Gryphon. “Of course,” the Mock Turtle said: “advance twice, set to partners—” “—change lobsters, and retire in same order,” continued the Gryphon.",
+        "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+        "output": "output/imagegen/chapter-scenes/alice-in-wonderland/heroes/chapter-10-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-10-hero.txt",
+        "promptSha256": "a08ebc1c6d741ad8fee1937a8004a78b93010e55659ca6b77ecd8ba43f6b7362"
+      },
+      "inline": [
+        {
+          "id": "chapter-10-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 42,
+          "anchorSha256": "72d70cac271266674cd8221a13b2e569146375e6e0127a15b3efaceaaa448434",
+          "align": "right",
+          "passageExcerpt": "“Soles and eels, of course,” the Gryphon replied rather impatiently: “any shrimp could have told you that.” “If I’d been the whiting,” said Alice, whose thoughts were still running on the song, “I’d have said to the porpoise, ‘Keep back, please: we don’t want you with us!’” “They were obliged to have him with them,” the Mock Turtle said: “no wise fish would go anywhere without a porpoise.”",
+          "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+          "output": "output/imagegen/chapter-scenes/alice-in-wonderland/inline/chapter-10-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-10-inline-01.txt",
+          "promptSha256": "d7632efb2dd8c34b0d5d13b0268cb51e5872adfc85216164531b32b6766f5694"
+        }
+      ]
+    },
+    {
+      "id": "chapter-11",
+      "number": 11,
+      "title": "Who Stole the Tarts?",
+      "metrics": {
+        "narrativeWords": 1878,
+        "textBlocks": 74,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-11-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 1,
+        "sourceFraction": 0.088392,
+        "minimumInlineSeparation": 0.42066,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "ccf7557d210c8f81a1e10887061242739b8a46e0cbe8b8cb73236a5d6a1dce1f",
+        "passageExcerpt": "The King and Queen of Hearts were seated on their throne when they arrived, with a great crowd assembled about them—all sorts of little birds and beasts, as well as the whole pack of cards: the Knave was standing before them, in chains, with a soldier on each side to guard him; and near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other. In the very middle of the court was a table, with a large dish of tarts upon it: they looked so good, that it made Alice quite hungry to look at them—“I wish they’d get the trial done,” she thought, “and hand round the refreshments!” But there seemed to be no chance of this, so she began looking at everything about her, to pass away the time. Alice had never been in a court of justice before, but she had read about them in books, and she was quite pleased to find that she knew the name of nearly everything there. “That’s the judge,” she said to herself, “because of his great wig.” The judge, by the way, was the King; and as he wore his crown over the wig, (look at the frontispiece if you want to see how he did it,) he did not look at all comfortable, and it was certainly not becoming.",
+        "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+        "output": "output/imagegen/chapter-scenes/alice-in-wonderland/heroes/chapter-11-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-11-hero.txt",
+        "promptSha256": "49f0add2e6e08e2edfcbbb314fc15958a055fd0e0284f37503d6b929884e7bd9"
+      },
+      "inline": [
+        {
+          "id": "chapter-11-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 29,
+          "anchorSha256": "c5bfdf11dea3556598d314c1f4fc113c808737cff4890514bf7eb5f926522f86",
+          "align": "right",
+          "passageExcerpt": "This did not seem to encourage the witness at all: he kept shifting from one foot to the other, looking uneasily at the Queen, and in his confusion he bit a large piece out of his teacup instead of the bread-and-butter. Just at this moment Alice felt a very curious sensation, which puzzled her a good deal until she made out what it was: she was beginning to grow larger again, and she thought at first she would get up and leave the court; but on second thoughts she decided to remain where she was as long as there was room for her. “I wish you wouldn’t squeeze so,” said the Dormouse, who was sitting next to her. “I can hardly breathe.”",
+          "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+          "output": "output/imagegen/chapter-scenes/alice-in-wonderland/inline/chapter-11-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-11-inline-01.txt",
+          "promptSha256": "c2e79a609573fa2585d5b73077dbf23e3eb97675d26632454357544517da400b"
+        }
+      ]
+    },
+    {
+      "id": "chapter-12",
+      "number": 12,
+      "title": "Alice's Evidence",
+      "metrics": {
+        "narrativeWords": 2117,
+        "textBlocks": 66,
+        "inlineQuota": 1
+      },
+      "hero": {
+        "id": "chapter-12-hero",
+        "role": "chapter-hero",
+        "status": "planned",
+        "operation": "image-edit",
+        "width": 1344,
+        "height": 576,
+        "aspectRatio": "21:9",
+        "sourceBlockIndex": 3,
+        "sourceFraction": 0.098725,
+        "minimumInlineSeparation": 0.395607,
+        "selection": "establishing-10-percent",
+        "sourceAnchorSha256": "1d02e7183faf78b41fb50091ebea22e8f1d1ccaf4c5160ebf278542530e2cae7",
+        "passageExcerpt": "“The trial cannot proceed,” said the King in a very grave voice, “until all the jurymen are back in their proper places—all,” he repeated with great emphasis, looking hard at Alice as he said so. Alice looked at the jury-box, and saw that, in her haste, she had put the Lizard in head downwards, and the poor little thing was waving its tail about in a melancholy way, being quite unable to move. She soon got it out again, and put it right; “not that it signifies much,” she said to herself; “I should think it would be quite as much use in the trial one way up as the other.” As soon as the jury had a little recovered from the shock of being upset, and their slates and pencils had been found and handed back to them, they set to work very diligently to write out a history of the accident, all except the Lizard, who seemed too much overcome to do anything but sit with its mouth open, gazing up into the roof of the court.",
+        "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+        "output": "output/imagegen/chapter-scenes/alice-in-wonderland/heroes/chapter-12-hero.webp",
+        "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-12-hero.txt",
+        "promptSha256": "9398aca6f012b50c4c8df0b03eab7ae4c646259cb69b7c598edf7af98730cd0a"
+      },
+      "inline": [
+        {
+          "id": "chapter-12-inline-01",
+          "role": "inline",
+          "status": "planned",
+          "operation": "image-edit",
+          "width": 1024,
+          "height": 640,
+          "targetSlot": 1,
+          "targetFraction": 0.5,
+          "afterBlockIndex": 43,
+          "anchorSha256": "1cfc66e79be2a4a1ec13c6d6d4db5fb290dd5d596ac3c91c0391f4628d1b264e",
+          "align": "right",
+          "passageExcerpt": "“They told me you had been to her, And mentioned me to him: She gave me a good character, But said I could not swim. He sent them word I had not gone (We know it to be true): If she should push the matter on, What would become of you? I gave her one, they gave him two, You gave us three or more; They all returned from him to you, Though they were mine before. If I or she should chance to be Involved in this affair, He trusts to you to set them free, Exactly as we were. My notion was that you had been (Before she had this fit) An obstacle that came between Him, and ourselves, and it. Don’t let him know she liked them best, For this must ever be A secret, kept from all the rest, Between yourself and me.” “That’s the most important piece of evidence we’ve heard yet,” said the King, rubbing his hands; “so now let the jury—” “If any one of them can explain it,” said Alice, (she had grown so large in the last few minutes that she wasn’t a bit afraid of interrupting him), “I’ll give him sixpence. I don’t believe there’s an atom of meaning in it.”",
+          "referenceImage": "output/imagegen/references/alice-in-wonderland.webp",
+          "output": "output/imagegen/chapter-scenes/alice-in-wonderland/inline/chapter-12-inline-01.webp",
+          "prompt": "output/imagegen/chapter-prompts/alice-in-wonderland/chapter-12-inline-01.txt",
+          "promptSha256": "96a579a819d0af47d1707a69b3a5a34d4d1066f2a755bc740a6e5a41a6ca4035"
+        }
+      ]
+    }
+  ]
+}

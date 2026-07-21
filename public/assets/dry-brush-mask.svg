@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" preserveAspectRatio="none">
+  <filter id="dry-brush" x="-12%" y="-12%" width="124%" height="124%" color-interpolation-filters="sRGB">
+    <feTurbulence type="fractalNoise" baseFrequency="0.018 0.16" numOctaves="5" seed="23" result="fibres"/>
+    <feDisplacementMap in="SourceGraphic" in2="fibres" scale="72" xChannelSelector="R" yChannelSelector="B"/>
+  </filter>
+  <rect x="52" y="46" width="896" height="908" rx="5" fill="white" filter="url(#dry-brush)"/>
+  <g filter="url(#dry-brush)" opacity="0.86">
+    <path d="M64 61 C176 31 304 68 434 48 C567 27 703 67 839 46 C891 38 928 48 948 67 L936 110 C816 87 692 107 572 91 C421 72 278 105 96 92 Z" fill="white"/>
+    <path d="M55 916 C175 938 313 902 438 926 C573 951 690 908 833 930 C893 939 927 931 949 918 L934 960 C781 972 656 952 527 968 C388 985 232 950 72 970 Z" fill="white"/>
+    <path d="M50 103 C72 248 38 386 62 530 C84 665 51 793 73 934 L112 947 C95 797 128 658 103 514 C82 386 111 222 95 70 Z" fill="white"/>
+    <path d="M903 59 C932 201 889 334 920 480 C951 622 904 777 929 932 L969 918 C943 754 990 620 961 472 C933 329 970 190 945 72 Z" fill="white"/>
+  </g>
+</svg>

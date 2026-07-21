@@ -1,0 +1,9 @@
+Use case: illustration-story
+Asset type: interior book illustration, not a cover
+Primary request: Ebenezer Scrooge recoils on the dark doorstep of his London house as the ordinary brass door knocker has become the ghostly face of Jacob Marley. Marley has wide motionless eyes, ghostly spectacles pushed onto his forehead, stirred hair, and a sorrowful livid glow; the apparition is uncanny rather than snarling. Scrooge is a thin elderly Victorian miser in a dark greatcoat and top hat, clutching his candle and key.
+Scene/backdrop: a narrow, soot-darkened London entry at night in the 1840s, fog behind Scrooge, worn stone, heavy wooden door, tiny pool of candlelight.
+Style/medium: original Victorian wood-engraving linework enriched with translucent jewel-toned gouache, tactile paper grain, intricate crosshatching, expressive but grounded illustration.
+Composition/framing: vertical three-quarter scene; the knocker and Marley face are the startling focal point, with Scrooge's reaction clearly readable; one continuous scene, no decorative frame.
+Lighting/mood: cold spectral green-gray light from the knocker against warm amber candlelight; intimate, eerie, compassionate Gothic mood.
+Color palette: soot black, old brass, amber, muted garnet, spectral blue-green.
+Constraints: faithful to A Christmas Carol and period-accurate; original character interpretation; no text, letters, caption, border, logo, watermark, or signature; no modern objects; no resemblance to a film, television, animation, stage, or merchandise adaptation; natural hands and anatomy.

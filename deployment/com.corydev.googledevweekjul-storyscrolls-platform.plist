@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.corydev.googledevweekjul-storyscrolls-platform</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/coryboehne/Server Hosting/sites/storyscrolls-googledevweekjul-frozen/deployment/run-googledevweekjul-platform.zsh</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/coryboehne/Server Hosting/sites/storyscrolls-googledevweekjul-frozen</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>NODE_ENV</key>
+    <string>production</string>
+    <key>HOST</key>
+    <string>127.0.0.1</string>
+    <key>PORT</key>
+    <string>4309</string>
+    <key>STORYSCROLLS_DATA_DIR</key>
+    <string>/Users/coryboehne/Server Hosting/_data/storyscrolls-googledevweekjul-frozen</string>
+    <key>STORYSCROLLS_PUBLIC_ORIGIN</key>
+    <string>https://googledevweekjul.corydev.com</string>
+    <key>STORYSCROLLS_ALLOWED_ORIGINS</key>
+    <string>https://googledevweekjul.corydev.com</string>
+    <key>STORYSCROLLS_REQUIRE_AUTH</key>
+    <string>false</string>
+  </dict>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>Umask</key>
+  <integer>63</integer>
+  <key>ThrottleInterval</key>
+  <integer>5</integer>
+  <key>StandardOutPath</key>
+  <string>/usr/local/var/log/corydev-googledevweekjul-storyscrolls-platform.log</string>
+  <key>StandardErrorPath</key>
+  <string>/usr/local/var/log/corydev-googledevweekjul-storyscrolls-platform.log</string>
+</dict>
+</plist>

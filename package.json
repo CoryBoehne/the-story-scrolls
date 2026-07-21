@@ -1,0 +1,66 @@
+{
+  "name": "the-story-scrolls",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext dev",
+    "prebuild": "npm run initials:materialize && npm run sitemap:build",
+    "build": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build",
+    "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "db:generate": "drizzle-kit generate",
+    "library:intro:frames": "node scripts/build-library-intro-frames.mjs",
+    "scroll:entry:frames": "node scripts/build-scroll-entry-frames.mjs",
+    "library:covers": "node scripts/build-library-covers.mjs",
+    "brand:assets": "node scripts/build-brand-assets.mjs && node scripts/build-platform-social-card.mjs",
+    "sitemap:build": "node scripts/build-sitemap.mjs",
+    "curated:legacy:build": "python3 scripts/ingest-curated-books.py && node scripts/optimize-curated-assets.mjs --skip-illuminated",
+    "curated:library:build": "python3 scripts/ingest-curated-library.py && node scripts/optimize-curated-library.mjs --skip-illuminated",
+    "curated:build": "npm run curated:legacy:build && npm run curated:library:build && npm run initials:materialize",
+    "platform:start": "node server/platform-server.mjs",
+    "community:admin": "node scripts/story-admin.mjs",
+    "community:backup": "node scripts/backup-community.mjs",
+    "illuminated:sync": "node scripts/sync-illuminated-catalog.mjs",
+    "illuminated:agent:check": "node scripts/install-illuminated-catalog-agent.mjs",
+    "illuminated:agent:install": "node scripts/install-illuminated-catalog-agent.mjs --install",
+    "initials:materialize": "node scripts/materialize-curated-initials.mjs",
+    "ai-illustrations:package": "node scripts/package-ai-illustrations.mjs"
+  },
+  "dependencies": {
+    "busboy": "1.6.0",
+    "drizzle-orm": "0.45.2",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "sharp": "0.34.5"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "drizzle-kit": "0.31.10",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "react-server-dom-webpack": "19.2.6",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "0.0.50",
+    "vite": "8.0.13",
+    "wrangler": "4.92.0"
+  },
+  "type": "module",
+  "overrides": {
+    "postcss": "8.5.14"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^11.10.0"
+  }
+}
