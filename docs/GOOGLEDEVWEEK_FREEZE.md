@@ -2,8 +2,17 @@
 
 Target: `https://googledevweekjul.corydev.com`
 
-Status: prepared only. Do not commit, tag, clone, start a service, copy production
-data, or change Caddy routing until the explicit freeze instruction is given.
+Status: **live, isolated, and externally verified on July 21, 2026**.
+
+Submission release:
+
+- Public repository: `https://github.com/CoryBoehne/the-story-scrolls`
+- Final annotated tag: `googledevweekjul-submission-20260721-1950`
+- Frozen local checkout:
+  `/Users/coryboehne/Server Hosting/sites/storyscrolls-googledevweekjul-frozen`
+- Frozen runtime data:
+  `/Users/coryboehne/Server Hosting/_data/storyscrolls-googledevweekjul-frozen`
+- Service: `com.corydev.googledevweekjul-storyscrolls-platform`, port `4309`
 
 ## Isolation contract
 
@@ -26,7 +35,7 @@ The judging deployment must remain unaffected by later work in
   `deployment/googledevweekjul.caddy`, not from the active project.
 - Do not use symlinks from the frozen checkout or data directory to production.
 
-## Freeze sequence
+## Completed freeze sequence
 
 1. Stop feature edits long enough to run the full test suite and production
    build once against the exact candidate.
@@ -65,10 +74,15 @@ The judging deployment must remain unaffected by later work in
 - No API key, OAuth secret, session secret, cloud token, `.env` file, build
   cache, dependency directory, or Playwright artifact is tracked by Git.
 
-## Prepared files
+## Deployment files
 
 - `deployment/run-googledevweekjul-platform.zsh`
 - `deployment/com.corydev.googledevweekjul-storyscrolls-platform.plist`
 - `deployment/googledevweekjul.caddy`
 
-These files are inert until the freeze sequence installs or imports them.
+The launch agent is installed from the frozen checkout, and the Caddy snippet is
+imported by the host Caddyfile. External acceptance verified the homepage,
+Community, Create, About, a curated story, both generated proof scrolls, the
+health endpoint, a real `404`, and all 24 generated media assets. Source,
+dependencies, and `dist/client` are write-locked after deployment; only the
+separate runtime-data directory remains writable.
