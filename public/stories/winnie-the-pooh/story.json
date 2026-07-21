@@ -21,20 +21,20 @@
     "id": "foxglove-in-rainstone",
     "accent": "#a56a25",
     "illuminatedGlyphs": {
-      "e": "/assets/story-initials/41fd95c877674e3d43fc4b61c2c0cc96/bae4ee79230f23312cb419cb9c92356e0bfa457f.webp",
-      "h": "/assets/story-initials/41fd95c877674e3d43fc4b61c2c0cc96/dbe682d33b27f60e6f170ad275334fafb84b134b.webp",
-      "i": "/assets/story-initials/41fd95c877674e3d43fc4b61c2c0cc96/1dbc75ecdc5b6f9296284f22809bf2eff16d78f2.webp",
-      "n": "/assets/story-initials/41fd95c877674e3d43fc4b61c2c0cc96/30c4c416c049391737862c5a54afeaee4029f5b8.webp",
-      "o": "/assets/story-initials/41fd95c877674e3d43fc4b61c2c0cc96/af1c1842279dbb6b01bb0ddd033bd614c9a9c1e7.webp",
-      "t": "/assets/story-initials/41fd95c877674e3d43fc4b61c2c0cc96/5e188b4b2c01de68a7433e6d84ca868dc2251e27.webp"
+      "e": "/assets/story-initials/41fd95c877674e3d43fc4b61c2c0cc96/2f5e1f161d8ea9e334715e58244d546092d71705.webp",
+      "h": "/assets/story-initials/41fd95c877674e3d43fc4b61c2c0cc96/a151719131ab371804a34f76e6bc993a63c6ebb8.webp",
+      "i": "/assets/story-initials/41fd95c877674e3d43fc4b61c2c0cc96/fee37adbbf5285c7eb6a785891a103fe51234ce2.webp",
+      "n": "/assets/story-initials/41fd95c877674e3d43fc4b61c2c0cc96/de37b838220871797325f4358f7adeee79e64460.webp",
+      "o": "/assets/story-initials/41fd95c877674e3d43fc4b61c2c0cc96/11d08f5f1c94810418c2c3c3daead3deb27538b8.webp",
+      "t": "/assets/story-initials/41fd95c877674e3d43fc4b61c2c0cc96/c55aeaed6f9b14be83d7a068c56fc5eaf1ce452a.webp"
     },
-    "illuminatedSetId": "illuminatedletters:foxglove-in-rainstone",
-    "illuminatedSetName": "Foxglove in Rainstone",
+    "illuminatedSetId": "illuminatedletters:mosswood-menagerie",
+    "illuminatedSetName": "Mosswood Menagerie",
     "illuminatedSetVersion": 2,
     "illuminatedCatalogVersion": "de8bfedaeeb6a45c7cfee39626cb16ecd6122bbb5e113bcd0b71b1338ffeb315",
-    "illuminatedGlyphsSha256": "78cd1694c4c55956f892f54e35f4f61f8e0244006d5b2d8c9b351f26baf7f5c9",
+    "illuminatedGlyphsSha256": "dad340c0a7b33afc7e034948602dc93cfa1c39d13cdd46417945a41c7a0a44e7",
     "illuminatedAttribution": "Illuminated Letters",
-    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/foxglove-in-rainstone/",
+    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/mosswood-menagerie/",
     "illuminatedDerivativePolicy": "used-initials-only-384px-opaque-paths"
   },
   "source": {

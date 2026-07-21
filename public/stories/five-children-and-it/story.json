@@ -21,21 +21,21 @@
     "id": "fleur-de-lis-garden-gold",
     "accent": "#a06d33",
     "illuminatedGlyphs": {
-      "a": "/assets/story-initials/8c12719a83eede10958150b510284947/7b5f896e42314bd3b4054ea1c2eadb9d03548b9a.webp",
-      "c": "/assets/story-initials/8c12719a83eede10958150b510284947/33bea4193a28b7adfbb07c67c607d9b28cf705d1.webp",
-      "l": "/assets/story-initials/8c12719a83eede10958150b510284947/afa6cb76817eeb3045a922429d3844167ac69b1a.webp",
-      "o": "/assets/story-initials/8c12719a83eede10958150b510284947/155794e7aefb26d944501d101b9b80c5a886f81b.webp",
-      "p": "/assets/story-initials/8c12719a83eede10958150b510284947/1933912acfbcd6b5d6cb953aab928f14beedaf3d.webp",
-      "t": "/assets/story-initials/8c12719a83eede10958150b510284947/89245e631c8959de883819cc1adb896f3eb9cb06.webp",
-      "w": "/assets/story-initials/8c12719a83eede10958150b510284947/eff94de66efd93f55eb2d7c9dfb6982b75d843d9.webp"
+      "a": "/assets/story-initials/8c12719a83eede10958150b510284947/6834f53ccaa29119e66dfccbaf834c5d4aca2d4c.webp",
+      "c": "/assets/story-initials/8c12719a83eede10958150b510284947/e423f8f9c162215a582872cb4eb5a8f89b189836.webp",
+      "l": "/assets/story-initials/8c12719a83eede10958150b510284947/db4fcee8e230909e8dfb7fd8f1872417208a5d1f.webp",
+      "o": "/assets/story-initials/8c12719a83eede10958150b510284947/6380a57f12229b27d59fd2b0404a009fa1e251e5.webp",
+      "p": "/assets/story-initials/8c12719a83eede10958150b510284947/096eb4c5e2d39f06bfb8a29294a99afd0aa9c7bb.webp",
+      "t": "/assets/story-initials/8c12719a83eede10958150b510284947/58c0fb023f9fedd3c066021bf3feea1e4b77dda4.webp",
+      "w": "/assets/story-initials/8c12719a83eede10958150b510284947/3204308785304da91f1bcc1e0349380e3d05b3de.webp"
     },
-    "illuminatedSetId": "illuminatedletters:fleur-de-lis-garden-gold",
-    "illuminatedSetName": "Fleur-de-lis Garden Gold",
-    "illuminatedSetVersion": 1,
+    "illuminatedSetId": "illuminatedletters:ultramarine-revels",
+    "illuminatedSetName": "Ultramarine Revels",
+    "illuminatedSetVersion": 2,
     "illuminatedCatalogVersion": "de8bfedaeeb6a45c7cfee39626cb16ecd6122bbb5e113bcd0b71b1338ffeb315",
-    "illuminatedGlyphsSha256": "4a65dfb456421c1fc92403659130bc37937383dab2ee991e732ed046f9cb6bfa",
+    "illuminatedGlyphsSha256": "b6fd53f363f5202b9e692c76099253ac7c81d3c0a3f501ef5a97836adc984c7f",
     "illuminatedAttribution": "Illuminated Letters",
-    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/fleur-de-lis-garden-gold/",
+    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/ultramarine-revels/",
     "illuminatedDerivativePolicy": "used-initials-only-384px-opaque-paths"
   },
   "source": {

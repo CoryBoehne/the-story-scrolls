@@ -21,19 +21,19 @@
     "id": "seven-stone-reliquary-gold",
     "accent": "#8d2f32",
     "illuminatedGlyphs": {
-      "a": "/assets/story-initials/613dd53d832f519525d108db45b86989/01f37e46ef060391976c5d8eff32dfb114337e04.webp",
-      "m": "/assets/story-initials/613dd53d832f519525d108db45b86989/acc371da5a1046332a158c7311945ecf74158bd5.webp",
-      "t": "/assets/story-initials/613dd53d832f519525d108db45b86989/994572004d8a2698ea655bae9607386bd27e5361.webp",
-      "w": "/assets/story-initials/613dd53d832f519525d108db45b86989/b980779bd06570a5a2cdedaa481cf2aa42abe33a.webp",
-      "y": "/assets/story-initials/613dd53d832f519525d108db45b86989/56c9bc0ce9ec1ff1c66b486fc992610296972f56.webp"
+      "a": "/assets/story-initials/613dd53d832f519525d108db45b86989/efaead11291f85ba3794f5fc9f10eb377eb05f5e.webp",
+      "m": "/assets/story-initials/613dd53d832f519525d108db45b86989/706aaeab4dfe9c255baf32bbd5e78103966eb06e.webp",
+      "t": "/assets/story-initials/613dd53d832f519525d108db45b86989/3e4499ab7f58be6c6dcbe82cbf160d1be6f010e8.webp",
+      "w": "/assets/story-initials/613dd53d832f519525d108db45b86989/6d3676bf850c8aba1140642707821342135684c8.webp",
+      "y": "/assets/story-initials/613dd53d832f519525d108db45b86989/7ab016b062e08e9ffcea6bd528f4fb29b949e6dc.webp"
     },
-    "illuminatedSetId": "illuminatedletters:seven-stone-reliquary-gold",
-    "illuminatedSetName": "Seven-Stone Reliquary Gold",
-    "illuminatedSetVersion": 1,
+    "illuminatedSetId": "illuminatedletters:gaslight-ribbons-and-frost",
+    "illuminatedSetName": "Gaslight Ribbons & Frost",
+    "illuminatedSetVersion": 2,
     "illuminatedCatalogVersion": "de8bfedaeeb6a45c7cfee39626cb16ecd6122bbb5e113bcd0b71b1338ffeb315",
-    "illuminatedGlyphsSha256": "66fa132f0d03f904e9dd732c69f7ca926e89545d228036e81b9cf8b0d3d38c04",
+    "illuminatedGlyphsSha256": "3b4c2c1d962e3cf624735d115213c0699eead94b826af5d95c81aa1a0282935c",
     "illuminatedAttribution": "Illuminated Letters",
-    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/seven-stone-reliquary-gold/",
+    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/gaslight-ribbons-and-frost/",
     "illuminatedDerivativePolicy": "used-initials-only-384px-opaque-paths"
   },
   "source": {

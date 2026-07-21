@@ -424,7 +424,7 @@ def build_alice(text_path: Path, art_index_path: Path) -> dict[str, Any]:
         "theme": {
             "id": "manuscript-flowers",
             "accent": "#7b2638",
-            "illuminatedSetId": "illuminatedletters:fleur-de-lis-garden-gold",
+            "illuminatedSetId": "illuminatedletters:the-raucous-margins",
         },
         "source": {
             "textEbookId": 11,
@@ -596,7 +596,7 @@ def build_oz(text_path: Path) -> dict[str, Any]:
         "theme": {
             "id": "seven-stone-reliquary-gold",
             "accent": "#167c5a",
-            "illuminatedSetId": "illuminatedletters:seven-stone-reliquary-gold",
+            "illuminatedSetId": "illuminatedletters:the-lapidary-rainbow",
         },
         "source": {
             "textEbookId": 43936,

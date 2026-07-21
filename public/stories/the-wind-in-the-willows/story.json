@@ -21,18 +21,18 @@
     "id": "foxglove-in-rainstone",
     "accent": "#55773f",
     "illuminatedGlyphs": {
-      "i": "/assets/story-initials/7b2380217def17e362deba673a6d25d1/ad2a346733bc0fc385e1188d9fd44b9c73f72549.webp",
-      "r": "/assets/story-initials/7b2380217def17e362deba673a6d25d1/aecbb616234eb6f500bf0cd01bb1b5122fa3e89b.webp",
-      "t": "/assets/story-initials/7b2380217def17e362deba673a6d25d1/e5feaaa0e98fb0ef745e13030c65fc269eaf611a.webp",
-      "w": "/assets/story-initials/7b2380217def17e362deba673a6d25d1/dabf8c06e3bf39d74c6b7e8fce0ff751aaa0ec31.webp"
+      "i": "/assets/story-initials/7b2380217def17e362deba673a6d25d1/da80f5cf84e7e61c7aee983313a12268646b2f45.webp",
+      "r": "/assets/story-initials/7b2380217def17e362deba673a6d25d1/24f7f7754807e3b181e7e216778d3ed348c2e746.webp",
+      "t": "/assets/story-initials/7b2380217def17e362deba673a6d25d1/dadd9fba4e21bd1c7f7d71f5e585b0da90881637.webp",
+      "w": "/assets/story-initials/7b2380217def17e362deba673a6d25d1/5ffa50bd9e0357b2000fc0f698a4b9fa3bcad18d.webp"
     },
-    "illuminatedSetId": "illuminatedletters:foxglove-in-rainstone",
-    "illuminatedSetName": "Foxglove in Rainstone",
+    "illuminatedSetId": "illuminatedletters:woodland-bestiary",
+    "illuminatedSetName": "Woodland Bestiary",
     "illuminatedSetVersion": 2,
     "illuminatedCatalogVersion": "de8bfedaeeb6a45c7cfee39626cb16ecd6122bbb5e113bcd0b71b1338ffeb315",
-    "illuminatedGlyphsSha256": "78cd1694c4c55956f892f54e35f4f61f8e0244006d5b2d8c9b351f26baf7f5c9",
+    "illuminatedGlyphsSha256": "57925e88ac19f83c0299f5b0cfbc335fbdd2d61173f8e6a126e609cbf360706b",
     "illuminatedAttribution": "Illuminated Letters",
-    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/foxglove-in-rainstone/",
+    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/woodland-bestiary/",
     "illuminatedDerivativePolicy": "used-initials-only-384px-opaque-paths"
   },
   "source": {

@@ -21,20 +21,20 @@
     "id": "seven-stone-reliquary-gold",
     "accent": "#8e6728",
     "illuminatedGlyphs": {
-      "a": "/assets/story-initials/7691651ab77af15482082ea58777f057/f054fcafd134da333a8331e3cf1eff3ed3a21063.webp",
-      "h": "/assets/story-initials/7691651ab77af15482082ea58777f057/c63e98f0136ea7e810b362c135d976b13dd95f64.webp",
-      "i": "/assets/story-initials/7691651ab77af15482082ea58777f057/9e89e8b1c41d4f21276544a261185f88c541ae5d.webp",
-      "n": "/assets/story-initials/7691651ab77af15482082ea58777f057/227acb4ef8bb45d16c41f9ef27fe2fa9db40a7da.webp",
-      "s": "/assets/story-initials/7691651ab77af15482082ea58777f057/862ddc7e62a5371785db69d3f952ae125bee7333.webp",
-      "u": "/assets/story-initials/7691651ab77af15482082ea58777f057/ac33ee36169a23515632f2bbae294d04897bd018.webp"
+      "a": "/assets/story-initials/7691651ab77af15482082ea58777f057/3ba94db2b63c44348d7b13de646857120e9cc1ba.webp",
+      "h": "/assets/story-initials/7691651ab77af15482082ea58777f057/8e304e3b71717b177e7912c47ee119b053960bcb.webp",
+      "i": "/assets/story-initials/7691651ab77af15482082ea58777f057/632b37e0e6b4343fb043561e44171398393f6fc0.webp",
+      "n": "/assets/story-initials/7691651ab77af15482082ea58777f057/0532dd52c7195f4f36584d5de699c00232f86608.webp",
+      "s": "/assets/story-initials/7691651ab77af15482082ea58777f057/b204a4da92d7958a04934530069ba4ad964f834c.webp",
+      "u": "/assets/story-initials/7691651ab77af15482082ea58777f057/dcfb02e18332069d3132597b3f2c2182df65efa4.webp"
     },
-    "illuminatedSetId": "illuminatedletters:seven-stone-reliquary-gold",
-    "illuminatedSetName": "Seven-Stone Reliquary Gold",
-    "illuminatedSetVersion": 1,
+    "illuminatedSetId": "illuminatedletters:riders-beyond-the-gilded-page",
+    "illuminatedSetName": "Riders Beyond the Gilded Page",
+    "illuminatedSetVersion": 2,
     "illuminatedCatalogVersion": "de8bfedaeeb6a45c7cfee39626cb16ecd6122bbb5e113bcd0b71b1338ffeb315",
-    "illuminatedGlyphsSha256": "66fa132f0d03f904e9dd732c69f7ca926e89545d228036e81b9cf8b0d3d38c04",
+    "illuminatedGlyphsSha256": "01c4e32bc872742430b01b31ed069be246a654d841b23f725b2ff4c19070af78",
     "illuminatedAttribution": "Illuminated Letters",
-    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/seven-stone-reliquary-gold/",
+    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/riders-beyond-the-gilded-page/",
     "illuminatedDerivativePolicy": "used-initials-only-384px-opaque-paths"
   },
   "source": {

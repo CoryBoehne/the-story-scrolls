@@ -16,7 +16,7 @@
     "restoredInitials": ["S", "I", "A", "I", "M", "W", "I", "W", "T", "A", "N", "T", "T", "I", "F", "I", "T", "W", "A", "S", "A", "T", "T", "I", "I", "T", "O", "T", "T", "I", "J", "P", "T", "T"],
     "maxImages": 64,
     "accent": "#8a4d2f",
-    "illuminatedSet": "red-and-black-courtwork",
+    "illuminatedSet": "corsair-charts-and-rope",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "The underlying text and Louis Rhead illustrations are public domain in the United States and clear under a typical life-plus-70 term."
   },
@@ -36,7 +36,7 @@
     "titleMode": "next-heading",
     "maxImages": 18,
     "accent": "#4d703d",
-    "illuminatedSet": "foxglove-in-rainstone",
+    "illuminatedSet": "the-rose-key-garden",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "The 1911 text and Maria Louise Kirk plates are public domain in the United States and clear under a typical life-plus-70 term."
   },
@@ -56,7 +56,7 @@
     "titleMode": "label-only",
     "maxImages": 70,
     "accent": "#476c68",
-    "illuminatedSet": "irish-rainstone-and-vine",
+    "illuminatedSet": "riverboat-commerce-intaglio",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "Mark Twain's text and E. W. Kemble's original illustrations are public domain.",
     "contentWarnings": ["Historic racist language and stereotyped imagery", "Violence and child abuse"]
@@ -77,7 +77,7 @@
     "titleMode": "inline",
     "maxImages": 20,
     "accent": "#8c4f57",
-    "illuminatedSet": "fleur-de-lis-garden-gold",
+    "illuminatedSet": "petals-berries-and-first-snow",
     "rightsScope": "united-states-only",
     "rightsNote": "The 1908 edition is public domain in the United States. Some May Austin Claus illustrations remain protected in life-plus-70 countries through 2046."
   },
@@ -97,7 +97,7 @@
     "titleMode": "next-heading",
     "maxImages": 64,
     "accent": "#a56a25",
-    "illuminatedSet": "foxglove-in-rainstone",
+    "illuminatedSet": "mosswood-menagerie",
     "rightsScope": "united-states-only",
     "rightsNote": "The exact 1926 text and Shepard illustrations are public domain in the United States only. Milne's text enters a typical life-plus-70 public domain in 2027; Shepard's art in 2047. This edition uses no Disney material."
   },
@@ -119,7 +119,7 @@
     "titleMode": "inline",
     "maxImages": 42,
     "accent": "#5c4438",
-    "illuminatedSet": "red-and-black-courtwork",
+    "illuminatedSet": "midnight-reins",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "Anna Sewell's text and the historic edition artwork used here are public domain. The art source is separate from the complete text source and is identified per image."
   },
@@ -140,7 +140,7 @@
     "endMarkerRegex": "^CHRISTMAS PRESENTS AND GIFT-BOOKS",
     "maxImages": 18,
     "accent": "#376f62",
-    "illuminatedSet": "irish-rainstone-and-vine",
+    "illuminatedSet": "castaway-naturalists-workshop",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "This Montolieu-derived English adaptation and John Gilbert's illustrations are public domain. Its 57 chapters, conclusion, and postscript are kept together as a single documented edition."
   },
@@ -160,7 +160,7 @@
     "titleMode": "next-heading",
     "maxImages": 28,
     "accent": "#55773f",
-    "illuminatedSet": "foxglove-in-rainstone",
+    "illuminatedSet": "woodland-bestiary",
     "rightsScope": "united-states-only",
     "rightsNote": "The text and 1913 Paul Bransom illustrations are public domain in the United States. Bransom's art remains protected in typical life-plus-70 countries through 2049."
   },
@@ -181,7 +181,7 @@
     "titleSelector": ".chaptertitle",
     "maxImages": 18,
     "accent": "#6f4b83",
-    "illuminatedSet": "cathedral-ruby-vine",
+    "illuminatedSet": "fairy-court-in-the-rosehips",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "George MacDonald's text and Jessie Willcox Smith's 1920 plates are public domain in the United States and clear under a typical life-plus-70 term."
   },
@@ -202,7 +202,7 @@
     "titleSelector": "p.c",
     "maxImages": 58,
     "accent": "#8e6728",
-    "illuminatedSet": "seven-stone-reliquary-gold",
+    "illuminatedSet": "riders-beyond-the-gilded-page",
     "assetTransforms": [
       {
         "sourceUrl": "https://www.gutenberg.org/cache/epub/60184/images/ill_bow.jpg",
@@ -234,7 +234,7 @@
     "titleMode": "inline",
     "maxImages": 46,
     "accent": "#a06d33",
-    "illuminatedSet": "fleur-de-lis-garden-gold",
+    "illuminatedSet": "ultramarine-revels",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "E. Nesbit's text and H. R. Millar's illustrations are public domain in the United States and clear under a typical life-plus-70 term."
   },
@@ -254,7 +254,7 @@
     "titleMode": "next-heading",
     "maxImages": 32,
     "accent": "#8d2f32",
-    "illuminatedSet": "seven-stone-reliquary-gold",
+    "illuminatedSet": "gaslight-ribbons-and-frost",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "Charles Dickens's text and Arthur Rackham's 1915 illustrations are public domain in the United States and clear under a typical life-plus-70 term."
   },
@@ -274,7 +274,7 @@
     "titleMode": "label-only",
     "maxImages": 70,
     "accent": "#7c4c66",
-    "illuminatedSet": "fleur-de-lis-garden-gold",
+    "illuminatedSet": "loose-ribbons-and-rosewood-letters",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "Jane Austen's text and Hugh Thomson's 1894 illustrations are public domain. George Saintsbury's preface is omitted from the reading stream."
   },
@@ -294,7 +294,7 @@
     "titleMode": "inline",
     "maxImages": 30,
     "accent": "#495b63",
-    "illuminatedSet": "red-and-black-courtwork",
+    "illuminatedSet": "after-curfew-reading-room",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "Arthur Conan Doyle's stories and the Harper edition artwork are public domain. The embedded Harper plates are not misattributed to Sidney Paget."
   },
@@ -315,7 +315,7 @@
     "commonsCategory": "Powers of Darkness",
     "maxImages": 12,
     "accent": "#7c2226",
-    "illuminatedSet": "cathedral-ruby-vine",
+    "illuminatedSet": "moon-gate-ravens",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "Bram Stoker's 1897 text is public domain. This first release uses only the sparse historic art embedded in the documented source edition.",
     "contentWarnings": ["Blood, death, and horror", "Historic attitudes toward mental illness and sexuality"]
@@ -336,7 +336,7 @@
     "titleMode": "label-only",
     "maxImages": 12,
     "accent": "#4e5960",
-    "illuminatedSet": "cathedral-ruby-vine",
+    "illuminatedSet": "stormlight-coils-and-glass",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "Mary Shelley's 1831 revision and Theodor von Holst's frontispiece are public domain. This edition is labeled separately from the materially different 1818 text.",
     "contentWarnings": ["Death, violence, grief, and body horror"]
@@ -358,7 +358,7 @@
     "endMarkerRegex": "^FOOTNOTES:?$",
     "maxImages": 90,
     "accent": "#315d67",
-    "illuminatedSet": "seven-stone-reliquary-gold",
+    "illuminatedSet": "the-chart-in-the-rigging",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "This is the traditional anonymous Victorian English translation, not a modern copyrighted translation. The source's Routledge illustrations are public domain and individually credited where identified."
   },
@@ -379,7 +379,7 @@
     "commonsCategory": "The call of the wild (1903)",
     "maxImages": 16,
     "accent": "#35566b",
-    "illuminatedSet": "irish-rainstone-and-vine",
+    "illuminatedSet": "birch-bark-fracture",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "Jack London's text is public domain. The initial release uses the public-domain cover embedded in the documented source; additional historic plates will retain file-level attribution.",
     "contentWarnings": ["Animal cruelty and violence"]
@@ -401,7 +401,7 @@
     "commonsCategory": "The Lost World",
     "maxImages": 12,
     "accent": "#557343",
-    "illuminatedSet": "foxglove-in-rainstone",
+    "illuminatedSet": "beyond-the-plateau-map",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "Arthur Conan Doyle's 1912 text is public domain. The initial release uses only art with recorded public-domain provenance."
   },
@@ -423,7 +423,7 @@
     "commonsFileRegex": "^File:'Journey to the Center of the Earth' by Édouard Riou \\d{2}\\.jpg$",
     "maxImages": 48,
     "accent": "#75512f",
-    "illuminatedSet": "seven-stone-reliquary-gold",
+    "illuminatedSet": "across-the-fossil-bed",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "Jules Verne's novel, F. A. Malleson's 1877 translation, and Édouard Riou's original illustrations are public domain in the United States and clear under a typical life-plus-70 term."
   },
@@ -448,7 +448,7 @@
     "commonsFileRegex": "^File:White Fang - .+\\.jpg$",
     "maxImages": 14,
     "accent": "#456575",
-    "illuminatedSet": "irish-rainstone-and-vine",
+    "illuminatedSet": "fox-run-under-the-aurora",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "Jack London's 1906 text and Charles Livingston Bull's historic illustrations are public domain in the United States and clear under a typical life-plus-70 term.",
     "contentWarnings": ["Animal cruelty, dog fighting, and violence"]
@@ -476,7 +476,7 @@
     "skipArtHeadingImages": true,
     "maxImages": 30,
     "accent": "#35677d",
-    "illuminatedSet": "cathedral-ruby-vine",
+    "illuminatedSet": "copper-engine-with-ruby-bearings",
     "rightsScope": "life-plus-70-clear",
     "rightsNote": "H. G. Wells's 1898 text and Henrique Alvim Corrêa's 1906 illustrations are public domain in the United States and clear under a typical life-plus-70 term.",
     "contentWarnings": ["Mass death, wartime violence, and disaster"]

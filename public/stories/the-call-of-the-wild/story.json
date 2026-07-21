@@ -21,18 +21,18 @@
     "id": "irish-rainstone-and-vine",
     "accent": "#35566b",
     "illuminatedGlyphs": {
-      "b": "/assets/story-initials/6abf6bd6d4f733f5b4388eca82e9d36a/7119926190591ea84adc5f56824b5cdfe2b73c2e.webp",
-      "e": "/assets/story-initials/6abf6bd6d4f733f5b4388eca82e9d36a/a9e9c18a0794ea175f8734d7fd6a46dbc8d8f650.webp",
-      "t": "/assets/story-initials/6abf6bd6d4f733f5b4388eca82e9d36a/c197d14a145b859cafb2751c6f42f638a7debf64.webp",
-      "w": "/assets/story-initials/6abf6bd6d4f733f5b4388eca82e9d36a/e77e9a32675418674cc7d796d8dc020c6079f815.webp"
+      "b": "/assets/story-initials/6abf6bd6d4f733f5b4388eca82e9d36a/f3b5aec201c2ae1e61ca7435a981a156804af551.webp",
+      "e": "/assets/story-initials/6abf6bd6d4f733f5b4388eca82e9d36a/c3993f6c31324ffa9a6dd402896b18a23188b56f.webp",
+      "t": "/assets/story-initials/6abf6bd6d4f733f5b4388eca82e9d36a/53283b177957a74716d9908591369b4268b0af1e.webp",
+      "w": "/assets/story-initials/6abf6bd6d4f733f5b4388eca82e9d36a/31fea77f091041486269889142922497a3242998.webp"
     },
-    "illuminatedSetId": "illuminatedletters:irish-rainstone-and-vine",
-    "illuminatedSetName": "Irish Rainstone & Vine",
-    "illuminatedSetVersion": 1,
+    "illuminatedSetId": "illuminatedletters:birch-bark-fracture",
+    "illuminatedSetName": "Birch Bark Fracture",
+    "illuminatedSetVersion": 2,
     "illuminatedCatalogVersion": "de8bfedaeeb6a45c7cfee39626cb16ecd6122bbb5e113bcd0b71b1338ffeb315",
-    "illuminatedGlyphsSha256": "634e74dbddc5c273ad0f3ed7ca14864f78292879890de9a549cf796867debaa9",
+    "illuminatedGlyphsSha256": "848e9b5d541f2177cf5086f318ac9de02b2115f5187816c03001f2b8928a5ceb",
     "illuminatedAttribution": "Illuminated Letters",
-    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/irish-rainstone-and-vine/",
+    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/birch-bark-fracture/",
     "illuminatedDerivativePolicy": "used-initials-only-384px-opaque-paths"
   },
   "source": {

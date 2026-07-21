@@ -22,21 +22,21 @@
     "id": "manuscript-flowers",
     "accent": "#7b2638",
     "illuminatedGlyphs": {
-      "a": "/assets/story-initials/e8ebb83c7228c8def20781d6089bb8b2/4cf6ea41ac41cc27b30ea43ac271dc592f260d64.webp",
-      "c": "/assets/story-initials/e8ebb83c7228c8def20781d6089bb8b2/8bba51b708e9c0761407ac170930f3b392cdaa26.webp",
-      "f": "/assets/story-initials/e8ebb83c7228c8def20781d6089bb8b2/b81a3ba15830b567b9ce65b48948e556e62be148.webp",
-      "h": "/assets/story-initials/e8ebb83c7228c8def20781d6089bb8b2/19f2a78e928a3e280e8ce654a1175d8bf6e26d59.webp",
-      "i": "/assets/story-initials/e8ebb83c7228c8def20781d6089bb8b2/2a1789f9f8febe227083b1bcac4c159ec142e2fb.webp",
-      "t": "/assets/story-initials/e8ebb83c7228c8def20781d6089bb8b2/15e4af61891c82ab7fb3658c27566f575b4d1859.webp",
-      "y": "/assets/story-initials/e8ebb83c7228c8def20781d6089bb8b2/cc05349a29bc5f7abc40bd3632ee2fa961ab3af8.webp"
+      "a": "/assets/story-initials/e8ebb83c7228c8def20781d6089bb8b2/aeeeaf510872b6e1957dda4a9e11da5e2f046bb6.webp",
+      "c": "/assets/story-initials/e8ebb83c7228c8def20781d6089bb8b2/aa5cf188ea6ed846c2e78a0da52781c75d45c5a0.webp",
+      "f": "/assets/story-initials/e8ebb83c7228c8def20781d6089bb8b2/c7f852dbae4e02c952693ea321688de24a725a26.webp",
+      "h": "/assets/story-initials/e8ebb83c7228c8def20781d6089bb8b2/ba129d462f67a8730f5fe884d597c4580c29fb27.webp",
+      "i": "/assets/story-initials/e8ebb83c7228c8def20781d6089bb8b2/486212aa335a99698faabe8fb68ca51cb16ab964.webp",
+      "t": "/assets/story-initials/e8ebb83c7228c8def20781d6089bb8b2/9882d3b6fe8cb22794cb99666d6b17b432aa884e.webp",
+      "y": "/assets/story-initials/e8ebb83c7228c8def20781d6089bb8b2/23ff826061072b2d9b7d7438b08033ac7ee3420a.webp"
     },
-    "illuminatedSetId": "illuminatedletters:fleur-de-lis-garden-gold",
-    "illuminatedSetName": "Fleur-de-lis Garden Gold",
-    "illuminatedSetVersion": 1,
+    "illuminatedSetId": "illuminatedletters:the-raucous-margins",
+    "illuminatedSetName": "The Raucous Margins",
+    "illuminatedSetVersion": 2,
     "illuminatedCatalogVersion": "de8bfedaeeb6a45c7cfee39626cb16ecd6122bbb5e113bcd0b71b1338ffeb315",
-    "illuminatedGlyphsSha256": "4a65dfb456421c1fc92403659130bc37937383dab2ee991e732ed046f9cb6bfa",
+    "illuminatedGlyphsSha256": "cf737b5792303d9965eda805dd060d33b8c2e9e5e9503cc2c787c5af582159e3",
     "illuminatedAttribution": "Illuminated Letters",
-    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/fleur-de-lis-garden-gold/",
+    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/the-raucous-margins/",
     "illuminatedDerivativePolicy": "used-initials-only-384px-opaque-paths"
   },
   "source": {

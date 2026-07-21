@@ -21,20 +21,20 @@
     "id": "red-and-black-courtwork",
     "accent": "#495b63",
     "illuminatedGlyphs": {
-      "h": "/assets/story-initials/007bd340c6531e1842a94dcd2f774ee1/ab2c1a3f20317ff03423ad03e750ba001efc87e6.webp",
-      "i": "/assets/story-initials/007bd340c6531e1842a94dcd2f774ee1/6ef76348983368caa2e23fb27a8cadc3f45da180.webp",
-      "m": "/assets/story-initials/007bd340c6531e1842a94dcd2f774ee1/35cd0caaa1a8b7cd4abe356a6f9f8640a70c23e7.webp",
-      "o": "/assets/story-initials/007bd340c6531e1842a94dcd2f774ee1/5ff120673e5fbce35165ad7403fb8971db59fa28.webp",
-      "t": "/assets/story-initials/007bd340c6531e1842a94dcd2f774ee1/7b3b172aa5ec14f704ec3e63ae4d8af47a2fcc72.webp",
-      "w": "/assets/story-initials/007bd340c6531e1842a94dcd2f774ee1/88f2e830895c0cd8c6ad8ef7bf1ceaa4f0d7c0a6.webp"
+      "h": "/assets/story-initials/007bd340c6531e1842a94dcd2f774ee1/32c4bb8a9fd1ca6448147ca3f0ab25030777ad0b.webp",
+      "i": "/assets/story-initials/007bd340c6531e1842a94dcd2f774ee1/895ad9bc3f8ff3893262a292a8ccb0429c911bb0.webp",
+      "m": "/assets/story-initials/007bd340c6531e1842a94dcd2f774ee1/b63db44166c51b35f4cd0f57d0ed8cd3dbd2cd6a.webp",
+      "o": "/assets/story-initials/007bd340c6531e1842a94dcd2f774ee1/a77bfcf456d6e3446ae386c9a3a497423977d3b5.webp",
+      "t": "/assets/story-initials/007bd340c6531e1842a94dcd2f774ee1/145eda4d8071408720fed2baf0b3d8a4a3c84470.webp",
+      "w": "/assets/story-initials/007bd340c6531e1842a94dcd2f774ee1/2e2339ceae9e8847d59cf2fd1f592ae5dbffe3da.webp"
     },
-    "illuminatedSetId": "illuminatedletters:red-and-black-courtwork",
-    "illuminatedSetName": "Red & Black Courtwork",
+    "illuminatedSetId": "illuminatedletters:after-curfew-reading-room",
+    "illuminatedSetName": "After-Curfew Reading Room",
     "illuminatedSetVersion": 2,
     "illuminatedCatalogVersion": "de8bfedaeeb6a45c7cfee39626cb16ecd6122bbb5e113bcd0b71b1338ffeb315",
-    "illuminatedGlyphsSha256": "ac3189807030b5fa20e28f7b06b1e51935099250f0b00db3eb780c52ed6f26d3",
+    "illuminatedGlyphsSha256": "7ce27eb7f2d07092114720f8667247bef5c27cbf41cba0dd8bbe2c2270be42f7",
     "illuminatedAttribution": "Illuminated Letters",
-    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/red-and-black-courtwork/",
+    "illuminatedTermsUrl": "https://illuminatedletters.corydev.com/after-curfew-reading-room/",
     "illuminatedDerivativePolicy": "used-initials-only-384px-opaque-paths"
   },
   "source": {
