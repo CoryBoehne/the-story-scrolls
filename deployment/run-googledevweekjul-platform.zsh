@@ -7,7 +7,7 @@ readonly PROJECT_DIR="/Users/coryboehne/Server Hosting/sites/storyscrolls-google
 
 export STORYSCROLLS_SESSION_SECRET="$(
   /usr/bin/security find-generic-password \
-    -a "$USER" \
+    -a "coryboehne" \
     -s com.corydev.googledevweekjul-storyscrolls.session-secret \
     -w
 )"
