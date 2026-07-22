@@ -3079,15 +3079,15 @@ test("uploaded artwork is normalized, moderated, placed by filename, and stored 
       inline: 1,
     });
     assert.equal(mock.imageCalls, 0);
-    assert.equal(mock.calls.filter(({ url }) => url.endsWith("/moderations")).length, 3);
+    assert.equal(mock.calls.filter(({ url }) => url.endsWith("/moderations")).length, 4);
     const uploadImageModeration = mock.calls.filter(
       ({ url, body }) =>
         url.endsWith("/moderations")
         && Array.isArray(body.input)
         && body.input.some((item) => item?.type === "image_url"),
     );
-    assert.ok(uploadImageModeration.length >= 1);
-    assert.ok(uploadImageModeration.every(({ body }) => body.input.length <= 8));
+    assert.equal(uploadImageModeration.length, 2);
+    assert.ok(uploadImageModeration.every(({ body }) => body.input.length === 1));
     const firstModeration = mock.calls.find(({ url }) => url.endsWith("/moderations"));
     assert.match(firstModeration.body.input.join("\n"), /Test Illustrator/);
     assert.match(firstModeration.body.input.join("\n"), /A lantern in the rain/);

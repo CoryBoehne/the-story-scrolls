@@ -3,11 +3,11 @@ set -eu
 umask 077
 
 readonly NODE_BIN="/Users/coryboehne/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node"
-readonly PROJECT_DIR="/Users/coryboehne/Server Hosting/sites/storyscrolls-next"
+readonly PROJECT_DIR="/Users/coryboehne/Server Hosting/sites/thestoryscrolls-workspace"
 
 export STORYSCROLLS_SESSION_SECRET="$(
   /usr/bin/security find-generic-password \
-    -a "$USER" \
+    -a "coryboehne" \
     -s com.corydev.thestoryscrolls.session-secret \
     -w
 )"

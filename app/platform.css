@@ -6344,6 +6344,10 @@ html.ss-instant-scroll {
 }
 
 @media (max-width: 620px) {
+  .ss-story-title-page {
+    padding-top: clamp(4.75rem, 10svh, 6rem);
+  }
+
   .ss-brand__wordmark {
     display: grid;
     gap: 0.05rem;

@@ -7,10 +7,10 @@
   <key>ProgramArguments</key>
   <array>
     <string>/Users/coryboehne/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node</string>
-    <string>/Users/coryboehne/Server Hosting/sites/storyscrolls-next/scripts/sync-illuminated-catalog.mjs</string>
+    <string>/Users/coryboehne/Server Hosting/sites/thestoryscrolls-workspace/scripts/sync-illuminated-catalog.mjs</string>
   </array>
   <key>WorkingDirectory</key>
-  <string>/Users/coryboehne/Server Hosting/sites/storyscrolls-next</string>
+  <string>/Users/coryboehne/Server Hosting/sites/thestoryscrolls-workspace</string>
   <key>EnvironmentVariables</key>
   <dict>
     <key>NODE_ENV</key>

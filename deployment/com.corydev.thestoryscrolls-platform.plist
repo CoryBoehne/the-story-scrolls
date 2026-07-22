@@ -3,14 +3,13 @@
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>com.corydev.thestoryscrolls-platform-proof-lock</string>
+  <string>com.corydev.thestoryscrolls-platform</string>
   <key>ProgramArguments</key>
   <array>
-    <string>/usr/bin/sleep</string>
-    <string>3600</string>
+    <string>/Users/coryboehne/Server Hosting/sites/thestoryscrolls-workspace/deployment/run-platform.zsh</string>
   </array>
   <key>WorkingDirectory</key>
-  <string>/Users/coryboehne/Server Hosting/sites/storyscrolls-next</string>
+  <string>/Users/coryboehne/Server Hosting/sites/thestoryscrolls-workspace</string>
   <key>EnvironmentVariables</key>
   <dict>
     <key>NODE_ENV</key>
@@ -25,6 +24,12 @@
     <string>https://thestoryscrolls.com</string>
     <key>STORYSCROLLS_ALLOWED_ORIGINS</key>
     <string>https://thestoryscrolls.com</string>
+    <key>STORYSCROLLS_REQUIRE_AUTH</key>
+    <string>true</string>
+    <key>STORYSCROLLS_ADMIN_EMAILS</key>
+    <string>coryboehne@gmail.com</string>
+    <key>GOOGLE_OAUTH_REDIRECT_URI</key>
+    <string>https://thestoryscrolls.com/api/v2/auth/google/callback</string>
   </dict>
   <key>RunAtLoad</key>
   <true/>

@@ -21,6 +21,7 @@ import {
 const execFile = promisify(execFileCallback);
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = path.resolve(HERE, "../..");
+const PLATFORM_NODE_BIN = "/Users/coryboehne/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node";
 const KEYCHAIN_SERVICE = "com.corydev.thestoryscrolls.openai-api-key";
 const KEYCHAIN_ACCOUNT = "coryboehne";
 const LEDGER_FILE = path.join(HERE, "live-proof-budget-ledger.json");
@@ -824,7 +825,7 @@ async function requireApprovedReferences(ledger) {
 
 async function approvePublicStory(slug) {
   const { stdout } = await execFile(
-    process.execPath,
+    PLATFORM_NODE_BIN,
     [path.join(PROJECT_ROOT, "scripts/story-admin.mjs"), "approve", slug],
     {
       cwd: PROJECT_ROOT,

@@ -951,7 +951,9 @@ const StoryTitlePage = forwardRef<HTMLElement, StoryTitlePageProps>(function Sto
         </p>
         <FittedTitle as="h1" id="story-title">{story.title}</FittedTitle>
         {story.subtitle ? <p className="ss-story-title-page__subtitle">{story.subtitle}</p> : null}
-        {story.author ? <p className="ss-story-title-page__author">by {story.author}</p> : null}
+        {story.author ? (
+          <p className="ss-story-title-page__author">by {readerFacingAuthorName(story.author)}</p>
+        ) : null}
       </div>
 
       {artwork ? (
@@ -1295,7 +1297,7 @@ function StoryColophon({
         {story.author ? (
           <div>
             <dt>{story.source?.originalAuthor ? "Original author" : "Author"}</dt>
-            <dd>{story.author}</dd>
+            <dd>{readerFacingAuthorName(story.author)}</dd>
           </div>
         ) : null}
         {story.source?.sourceTitle ? (
@@ -1983,6 +1985,14 @@ function readerFacingSourceText(value: string): string {
     .replace(/\bProject Gutenberg\b/gi, "the public-domain source library")
     .replace(/\s{2,}/g, " ")
     .trim();
+}
+
+function readerFacingAuthorName(value: string): string {
+  const cleaned = readerFacingSourceText(value);
+  const catalogOrder = /^([^,]+),\s*([^,]+)$/.exec(cleaned);
+  return catalogOrder
+    ? `${catalogOrder[2].trim()} ${catalogOrder[1].trim()}`
+    : cleaned;
 }
 
 function isSourceLibraryUrl(value: string): boolean {
