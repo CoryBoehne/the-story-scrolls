@@ -46,9 +46,19 @@ await Promise.all([
   fsp.rm(`${databaseBackup}-shm`, { force: true }),
 ]);
 
-const mediaSource = path.join(dataRoot, "media");
-if (fs.existsSync(mediaSource)) {
-  await fsp.cp(mediaSource, path.join(destination, "media"), {
+// These directories are application-owned mutable state. Deliberately exclude
+// `.staging` (transient work) and `illuminated-catalog` (separately managed
+// private source material) from community backups.
+const persistentDirectories = [
+  "media",
+  "character-references",
+  ".source-cache",
+  ".orphaned-media",
+];
+for (const directory of persistentDirectories) {
+  const sourceDirectory = path.join(dataRoot, directory);
+  if (!fs.existsSync(sourceDirectory)) continue;
+  await fsp.cp(sourceDirectory, path.join(destination, directory), {
     recursive: true,
     preserveTimestamps: true,
     errorOnExist: true,
